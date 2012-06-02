@@ -1,0 +1,44 @@
+#!/usr/bin/python
+#Copyright 2006 Jerry Stratton
+#Released under the Gnu General Public License version 2
+#note that SVGdraw.py is not copyright Jerry Stratton and is thus not released under the GPL
+import commandline, gridmaps
+
+gridMap = gridmaps.grid()
+
+options = {}
+options['o'] = {'valText':'<output filename>', 'valRequired':True, 'longArg':'output'}
+options['m'] = {'valText':'<margin size>', 'valRequired':True, 'longArg':'margins', 'action':gridMap.setMargins }
+options['top'] = {'valText':'<margin size>', 'valRequired':True, 'longArg':'topMargin', 'action':gridMap.setTopMargin }
+options['u'] = {'valText':'<in or cm>', 'valRequired':True, 'longArg':'units', 'action':gridMap.setUnits}
+options['s'] = {'valText':'<grid size>', 'valRequired':True, 'longArg':'size', 'help': 'size of grid, right to left and top to bottom', 'action':gridMap.setGrid}
+options['t'] = {'valText':'<box or hex>', 'valRequired':True, 'longArg':'gridType', 'help': 'kind of grid', 'action':gridMap.setType}
+options['p'] = {'valText':'<pen width>', 'valRequired':True, 'longArg':'pen', 'help': 'width of pen', 'action':gridMap.setPen}
+options['c'] = {'valText':'<pen color>', 'valRequired':True, 'longArg':'color', 'help': 'color of pen', 'action':gridMap.setPenColor}
+options['f'] = {'valText':'<fill color>', 'valRequired':True, 'longArg':'fill', 'help': 'color of inside of grids', 'action':gridMap.setFillColor}
+options['G'] = {'valText':'<grid count>', 'valRequired':True, 'longArg':'bigGrid', 'help': 'number of small grids that make a big grid', 'action':gridMap.setBigGrid}
+options['P'] = {'valText':'<big grid pen width>', 'valRequired':True, 'longArg':'bigPen', 'help': 'width of pen for big grid', 'action':gridMap.setBigPen}
+options['C'] = {'valText':'<big pen color>', 'valRequired':True, 'longArg':'bigColor', 'help': 'color of pen for big grids', 'action':gridMap.setBigPenColor}
+options['w'] = {'valText':'<map width>', 'valRequired':True, 'longArg':'width', 'help': 'document width', 'action':gridMap.setWidth}
+options['h'] = {'valText':'<map height>', 'valRequired':True, 'longArg':'height', 'help': 'document height', 'action':gridMap.setHeight}
+options['r'] = {'valText':'<resolution>', 'valRequired':True, 'longArg':'resolution', 'help': 'polygon resolution', 'action':gridmaps.setPolygonResolution}
+options['?'] = {'longArg':'help'}
+
+clOpts = commandline.arguments(options, 'makeGrid')
+
+if '?' in clOpts.optionDict or clOpts.error:
+	clOpts.myHelp()
+	print "Examples:"
+	print "makeMap -o MyGrid"
+	print "makeMap --size .2 -o MyGrid"
+	print "makeMap --size .2 -o MyGrid.svgz"
+	print "makeMap --size .2 --fill yellow --color green --bigColor red --bigGrid 5 -o MyGrid"
+elif 'o' in clOpts.optionDict:
+	filename = clOpts.optionDict['o']
+	#add .svg if there is no extension already
+	if filename.find('.') == -1:
+		filename += '.svg'
+
+	gridMap.save(filename)
+else:
+	print gridMap.save()
