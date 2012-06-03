@@ -1,0 +1,39 @@
+Bachaga -- flourishing capital, located where Balknut river meets the Gathorian sea.
+
+The kingdom is ruled by the house of Guundak, which became the ruling family after the last devastating war with Ainagians.
+During the peaceful reign people rebuilt Bachaga's former glory, found their ways to new scientific achievements and simply led their lives in a fashion, that many other coutries should be jelous off. But now the house of Guundak has shown an interest in lands laying west of mountain town Zebog. For it is little known, that mages of Guundak sensed some mystical and ancient magic radiating from inland behing the mountains.
+
+Merchants brought home tales and wares from the prosperous kingdom lying west from Ongo, along the shore of Gathorian sea, named by the capital of Gordo. The prosperity of this land raised even more interest in the leading house.
+
+Guundak ordered an expedition to the mountains, behind the mystical kingdom, to find out the source magical power. The first group of explorers were sent to form an outpost in the valey behind the moutain crossing of Zarnull (The one near Zebog).
+Second group of explorers were sent to scout the area around this first encapment, to locate a suitable place for a city.
+Last wave of settlers should head to this location and settle a new city, by the rule of Guundak.
+
+It is up to You how the story continues.
+
+Currently:
+
+First group: Not yet played.
+	Establish a forward base.
+	Should reach these goals:
+		Clear the inhabitable area from any imediate threat.
+		Build fortified outpost.
+		Ensure a supply of food and water.
+		Hold until the second group arives.
+	Time given:
+		Month
+
+Second group: Currently in progress.
+	Scout the area for new city.
+	Should reach these goals:
+		Locate a suitable place for a new city.
+		Scout as much area as possible. Map everything.
+		Report to outpost.
+	Time given:
+		Two months
+
+Third group: Not playable
+	Build a city
+	Time given:
+		Two years
+	
