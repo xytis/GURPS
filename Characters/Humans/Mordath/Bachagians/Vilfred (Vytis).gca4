@@ -1,6 +1,6 @@
 [System]
 version(3)
-lastkey(149)
+lastkey(150)
 dataset(c:\program files\gurps character assistant 4\default.gds)
 datafile(c:\program files\gurps character assistant 4\data files\GURPS Basic Set 4th Ed.--Characters.gdf)
 
@@ -166,20 +166,21 @@ idkey(115)|,name(Dreamer),cost(-1),page(B163),cat(Mental),syslevels(0),bonuslist
 idkey(117)|,name(Horrible Hangovers),cat(Physical),cost(-1),page(B165),syslevels(0),bonuslist(),points(-1.0),baselevel(1),level(1),premodspoints(-1.0),needscheck(-1),taboofailed(0)
 
 [Skills]
+idkey(150)|,name(Armoury),nameext(Melee Weapons),type(IQ/A),cat(_General, Military, Repair/Maintenance),tl(2),page(B178),default(IQ - 5, SK:Armoury - me::default0, "SK:Armoury (Battlesuits)" - 4, "SK:Armoury (Small Arms)" - 4, "SK:Armoury (Heavy Weapons)" - 4, "SK:Armoury (Missile Weapons)" - 4, "SK:Engineer (Melee Weapons)" - 4, "SK:Smith (Copper)" - me::default1, "SK:Smith (Iron)" - me::default2, SK:Machinist - me::default3),default0(@if(me::tl > 4 THEN 100 ELSE 4)),default1(@if(me::tl =1 THEN 3 ELSE 100)),default2(@if(me::tl = 2 then 3 else @if(me::tl = 3 then 3 else @if(me::tl = 4 then 3 else 100)))),default3(@if(me::tl > 4 then 3 else 100)),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(IQ),step(+0),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(2.0),points(2.0),baselevel(13),level(13),multpoints(2.0),apppoints(2.0),premodspoints(2.0),needscheck(-1),taboofailed(0)
 idkey(147)|,name(Armoury),nameext(Missile Weapons),type(IQ/A),cat(_General, Military, Repair/Maintenance),tl(2),page(B178),default(IQ - 5, SK:Armoury - me::default0, "SK:Armoury (Battlesuits)" - 4, "SK:Armoury (Melee Weapons)" - 4, "SK:Armoury (Small Arms)" - 4, "SK:Armoury (Heavy Weapons)" - 4, "SK:Engineer (Missile Weapons)" - 4),default0(@if(me::tl > 4 THEN 100 ELSE 4)),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(IQ),step(+0),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(2.0),points(2.0),baselevel(13),level(13),multpoints(2.0),apppoints(2.0),premodspoints(2.0),needscheck(-1),taboofailed(0)
 idkey(90)|,name(Cartography),type(IQ/A),tl(2),default(IQ - 5, SK:Geography - 2, "SK:Mathematics (Surveying)" - 2, SK:Navigation - 4),page(B183),cat(Outdoor/Exploration, Social Sciences/Humanities),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(IQ),step(+0),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(2.0),points(2.0),baselevel(13),level(13),multpoints(2.0),apppoints(2.0),premodspoints(2.0),needscheck(-1),taboofailed(0)
-idkey(137)|,name(Crossbow),type(DX/E),cat(_General, Combat/Weapons - Ranged Combat, Combat/Weapon),default(DX-4),page(B50),basedon(Crossbow),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(DX),step(+2),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(4.0),points(4.0),baselevel(13),level(13),multpoints(4.0),apppoints(4.0),premodspoints(4.0),needscheck(-1),taboofailed(0)
+idkey(137)|,name(Crossbow),type(DX/E),cat(_General, Combat/Weapons - Ranged Combat, Combat/Weapon),default(DX-4),page(B50),basedon(Crossbow),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(DX),step(+4),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(12.0),points(12.0),baselevel(15),level(15),multpoints(12.0),apppoints(12.0),premodspoints(12.0),needscheck(-1),taboofailed(0)
 idkey(145)|,name(Engineer),nameext(Missile Weapons),type(IQ/H),cat(_General, Design/Invention),tl(2),default("SK:Mechanic (Missile Weapons)" - 6, "SK:Armoury (Missile Weapons)" - 6, SK:Engineer - 4),needs($if(me::tl > 4 THEN "SK:Mathematics (Applied) = 1pts")),page(B190),noresync(yes),basedon(Engineer (%examplelist%)),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(IQ),step(-2),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(1.0),points(1.0),baselevel(11),level(11),multpoints(1.0),apppoints(1.0),premodspoints(1.0),needscheck(-1),taboofailed(0)
 idkey(87)|,name(Metallurgy),type(IQ/H),tl(2),default(SK:Chemistry - 5, SK:Jeweler - 8, SK:Smith - 8),page(B209),cat(Natural Sciences),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(IQ),step(-1),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(2.0),points(2.0),baselevel(12),level(12),multpoints(2.0),apppoints(2.0),premodspoints(2.0),needscheck(-1),taboofailed(0)
 idkey(91)|,name(Prospecting),type(IQ/A),tl(2),default(IQ - 5, SK:Geology - 4),page(B216),cat(Outdoor/Exploration),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(IQ),step(+1),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(4.0),points(4.0),baselevel(14),level(14),multpoints(4.0),apppoints(4.0),premodspoints(4.0),needscheck(-1),taboofailed(0)
-idkey(94)|,name(Smith),nameext(Bronze),type(IQ/A),tl(2),default(IQ - 5, SK:Smith - 4),page(B221),cat(Craft),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(IQ),step(-1),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basedon(Smith (Iron)),basepoints(1.0),points(1.0),baselevel(12),level(12),multpoints(1.0),apppoints(1.0),premodspoints(1.0),needscheck(-1),taboofailed(0)
+idkey(94)|,name(Smith),nameext(Bronze),type(IQ/A),tl(2),default(IQ - 5, SK:Smith - 4),page(B221),cat(Craft),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(IQ),step(+1),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basedon(Smith (Iron)),basepoints(4.0),points(4.0),baselevel(14),level(14),multpoints(4.0),apppoints(4.0),premodspoints(4.0),needscheck(-1),taboofailed(0)
 idkey(89)|,name(Survival),nameext(Mountain),type(Per/A),default(Per - 5, SK:Naturalist - 3, "SK:Survival (Arctic)" - 3, "SK:Survival (Desert)" - 3, "SK:Survival (Island/Beach)" - 3, "SK:Survival (Jungle)" - 3, "SK:Survival (Plains)" - 3, "SK:Survival (Swampland)" - 3, "SK:Survival (Woodlands)" - 3),page(B223),cat(Outdoor/Exploration),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(Per),step(+0),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(2.0),points(2.0),baselevel(13),level(13),multpoints(2.0),apppoints(2.0),premodspoints(2.0),needscheck(-1),taboofailed(0)
-idkey(104)|,name(Traps),type(IQ/A),tl(2),default(IQ - 5, SK:Lockpicking - 3),page(B226),cat(Criminal/Street, Military),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(IQ),step(+0),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(2.0),points(2.0),baselevel(13),level(13),multpoints(2.0),apppoints(2.0),premodspoints(2.0),needscheck(-1),taboofailed(0)
+idkey(104)|,name(Traps),type(IQ/A),tl(2),default(IQ - 5, SK:Lockpicking - 3),page(B226),cat(Criminal/Street, Military),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(IQ),step(+1),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(4.0),points(4.0),baselevel(14),level(14),multpoints(4.0),apppoints(4.0),premodspoints(4.0),needscheck(-1),taboofailed(0)
 
 [Spells]
 
 [Equipment]
-idkey(131)|,name(Crossbow),nameext(ST 11),cat(Muscle-Powered Ranged Weapons),weaponst(11),basecost(150),baseweight(6),damage(@thr(me::weaponst)+4),damtype(imp),lc(4),techlvl(2),acc(4),calcrange(yes),rangehalfdam(me::weaponst*20),rangemax(me::weaponst*25),rof(1),shots(1(4)),minst(7†),bulk(-6),skillused(Crossbow, DX-4),page(B276),mods(Equipment, Bow Quality),count(1),premodscost(150),cost(150),weight(6),bonuslist(),charminst(7†),chardamage(1d+3),dmg(thr),chardamtype(imp),charrangehalfdam(220),charrangemax(275),characc(4),charshots(1(4)),charskillscore(13),charskillused("SK:Crossbow"),charparryscore(),charrof(1),ocount(1),basedon(Crossbow (ST 11)),needscheck(-1),taboofailed(0),description(TL:2 LC:4, Dam:thr+4 imp Acc:4 Range:ST*20/ST*25 RoF:1 Shots:1(4) ST:7† Bulk:-6 Skill:Crossbow Notes: [3] An arrow or bolt for a bow or crossbow is $2. A dart for a blowpipe, or a lead pellet for a prodd or sling, is $0.1. Sling stones are free.),notes([3])
+idkey(131)|,name(Crossbow),nameext(ST 11),cat(Muscle-Powered Ranged Weapons),weaponst(11),basecost(150),baseweight(6),damage(@thr(me::weaponst)+4),damtype(imp),lc(4),techlvl(2),acc(4),calcrange(yes),rangehalfdam(me::weaponst*20),rangemax(me::weaponst*25),rof(1),shots(1(4)),minst(7†),bulk(-6),skillused(Crossbow, DX-4),page(B276),mods(Equipment, Bow Quality),count(1),premodscost(150),cost(150),weight(6),bonuslist(),charminst(7†),chardamage(1d+3),dmg(thr),chardamtype(imp),charrangehalfdam(220),charrangemax(275),characc(4),charshots(1(4)),charskillscore(15),charskillused("SK:Crossbow"),charparryscore(),charrof(1),ocount(1),basedon(Crossbow (ST 11)),needscheck(-1),taboofailed(0),description(TL:2 LC:4, Dam:thr+4 imp Acc:4 Range:ST*20/ST*25 RoF:1 Shots:1(4) ST:7† Bulk:-6 Skill:Crossbow Notes: [3] An arrow or bolt for a bow or crossbow is $2. A dart for a blowpipe, or a lead pellet for a prodd or sling, is $0.1. Sling stones are free.),notes([3])
 idkey(134)|,name(Crossbow Bolt),cat(Muscle-Powered Ranged Weapons),lc(4),techlvl(2),baseweight(0.06),basecost(2),page(B276),mods(Equipment, Crushing/Imp Class Quality, Arrow),count(25),premodscost(50),cost(50),weight(1.5),bonuslist(),ocount(25),needscheck(-1),taboofailed(0)
 idkey(109)|,name(Hip Quiver),techlvl(0),basecost(15),baseweight(1),page(B289),mods(Equipment),cat(Miscellaneous Equipment - Weapon & Combat Accessories),count(1),premodscost(15),cost(15),weight(1),ocount(1),bonuslist(),basedon(Hip Quiver),needscheck(-1),taboofailed(0),description(TL:0 Notes: Holds 20 arrows or bolts.)
 idkey(108)|,name(Pickaxe),techlvl(2),basecost(15),baseweight(8),page(B289),mods(Equipment),cat(Miscellaneous Equipment - Tools),count(1),premodscost(15),cost(15),weight(8),ocount(1),bonuslist(),needscheck(-1),taboofailed(0),description(TL:2 Notes: Improves digging speed.)
@@ -198,16 +199,7 @@ idkey(113),parentkey(112)|,name(You resist on a roll of 12 or less),nameext(quit
 idkey(149),parentkey(148)|,name(Native Language),cost(-6),gives(=+1 to ST:Native Languages),formula(-@if(AD:Language Talent > 0 then 4 else 6)),forceformula(yes),group(Language),page(B23),level(1),premodsvalue(-6),value(-6)
 
 [Description]
-{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}
-\viewkind4\uc1\pard\f0\fs20 Son of a miner from Zebog mines.
-\par From youth he worked with the smith and his father, thus acumulating a sharp knowledge of metals and minerals.
-\par His briliant mind and crafty hands resulted in various inventions, such as ox powered lift to haul ore from deeper mines.
-\par 
-\par Recently many veins were depleted and miners dug deeper to find a source for living. Vilfred's brother due to hard situation their family was living through, went on to dig in a dangerous mine part. Unfortunately the mines caved-in, trapping him inside. Resque party only found his cold remains.
-\par 
-\par Vilfred blames himself for letting his brother go for such risky job.
-\par }
-
+{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}\viewkind4\uc1\pard\f0\fs20 Son of a miner from Zebog mines.\par From youth he worked with the smith and his father, thus acumulating a sharp knowledge of metals and minerals.\par His briliant mind and crafty hands resulted in various inventions, such as ox powered lift to haul ore from deeper mines.\par \par Recently many veins were depleted and miners dug deeper to find a source for living. Vilfred's brother due to hard situation their family was living through, went on to dig in a dangerous mine part. Unfortunately the mines caved-in, trapping him inside. Resque party only found his cold remains.\par \par Vilfred blames himself for letting his brother go for such risky job.\par }
 
 [Notes]
 
@@ -533,11 +525,18 @@ name(Weather),itemtype(spells)
 name(Wildcard!),itemtype(skills)
 
 [Campaign]
-name(),basepoints(85),disadlimit(-50),quirklimit(-3),basetl(3),loggedpoints(0),otherpoints(0),totalpoints(0)
+name(),basepoints(85),disadlimit(-50),quirklimit(-3),basetl(3),loggedpoints(15),otherpoints(0),totalpoints(15)
 
 [LogEntry]
 date(04-06-2012),campaigndate(),charpoints(0),caption(Initial Character Creation)
 Character created using GURPS Character Assistant 4
+
+[LogEntry]
+date(2012.06.04),campaigndate(),charpoints(15),caption(Second session)
+{\rtf1\ansi\deff0{\fonttbl{\f0\fswiss\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\lang1033\f0\fs17 <enter notes here>
+\par }
+
 
 [Bonuses]
 ownerid(12),targetprefix(ST),targetname(Air Move),targetext(),targettag(),targettype(1),bonus(@if( me::score = @int(me::score) then @power(2, me::score) else @power(2, @int(me::score)) * 1.5 ) * ST:Air Move::basescore - ST:Air Move::basescore),affects(level),upto(),value(0),stringvaluetext(),stringvalue(),bonustype(3),notes(),listas(),fullbonustext(=@if( me::score = @int(me::score) then @power(2, me::score) else @power(2, @int(me::score)) * 1.5 ) * ST:Air Move::basescore - ST:Air Move::basescore to ST:Air Move)
