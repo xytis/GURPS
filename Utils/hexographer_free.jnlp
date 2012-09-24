@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <jnlp codebase="http://www.hexographer.com/releases/">
+    <information>
+      <title>Hexographer</title>
+      <vendor>InkwellIdeas</vendor>
+      <icon href="http://www.hexographer.com/releases/logo.png"/>
+    </information>
+    <security>
+      <all-permissions/>
+    </security>
+    <resources>
+      <j2se version="1.6+" max-heap-size="500M"/>
+      <jar href="hexographer.jar"/>
+    </resources>
+  <application-desc main-class="com.inkwellideas.mapgen.Hexographer">
+    <argument>runningweb</argument>
+  </application-desc>
+
+</jnlp>
