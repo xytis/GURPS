@@ -1,6 +1,6 @@
 [System]
 version(3)
-lastkey(140)
+lastkey(152)
 dataset(c:\program files\gurps character assistant 4\default.gds)
 datafile(c:\program files\gurps character assistant 4\data files\GURPS Basic Set 4th Ed.--Characters.gdf)
 
@@ -10,7 +10,7 @@ GURPS Character Assistant
 Program code is copyright © 1995-2007 by Armin D. Sykes. All data files, graphics, and other GURPS-specific content is copyright © 2005 and other years by Steve Jackson Games Incorporated. GURPS and the all-seeing pyramid are registered trademarks of Steve Jackson Games Incorporated. All rights reserved.
 
 [General]
-charname(Gaya)
+charname(Gaya Aarthu)
 playername(Rasa)
 datecreated(04-19-2012)
 portraitfile()
@@ -37,11 +37,11 @@ drhands(2)
 drfeet(2)
 otherdr()
 currentloadout()
-currentload(32)
+currentload(31.91)
 encumbrancelevel(1)
 parryidkey(124)
 parryusing(Shortsword)
-parryscore(7)
+parryscore(9)
 blockidkey(0)
 blockusing()
 blockscore(0)
@@ -77,12 +77,12 @@ name(All),basedb(0),basedr(0),basehp(0),db(0),dr(0),hp(0),group(All),display(0),
 [Stats]
 idkey(1)|,name(Air Move),basevalue(0),maxscore(1000),minscore(0),hide(yes),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
 idkey(2)|,name(Appealing),basevalue(0),display(no),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
-idkey(3)|,name(Basic Lift),basevalue(ST:Lifting ST * ST:Lifting ST / 5),maxscore(1000000),minscore(0),symbol(BL),round(@if(me::score < 10 then 0 else 1)),syslevels(0),basescore(24,2),bonuslist(),score(24.0),needscheck(-1),taboofailed(0)
-idkey(4)|,name(Basic Move),basevalue(ST:Basic Speed),step(1),maxscore(1000),minscore(0),up(5),down(-5),round(-1),display(No),mainwin(10),disadat(-1),syslevels(0),basescore(5,75),bonuslist(),score(5.0),needscheck(-1),taboofailed(0)
-idkey(5)|,name(Basic Speed),basevalue((ST:HT + ST:DX) / 4),step(0.25),maxscore(100),minscore(0),up(5),down(-5),display(No),mainwin(9),disadat(-1),syslevels(0),basescore(5,75),bonuslist(),score(5.75),needscheck(-1),taboofailed(0)
-idkey(6)|,name(Block),basevalue(0),maxscore(1000),minscore(0),display(No),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
-idkey(7)|,name(Damage Base),symbol(DamageBase),basevalue(ST:Striking ST),display(no),syslevels(0),basescore(11),bonuslist(),score(11.0),needscheck(-1),taboofailed(0)
-idkey(8)|,name(Dodge),basevalue(ST:Basic Speed + 3),maxscore(1000),minscore(0),round(-1),display(No),syslevels(0),basescore(8,75),bonuslist(),score(8.0),needscheck(-1),taboofailed(0)
+idkey(3)|,name(Basic Lift),basevalue(ST:Lifting ST * ST:Lifting ST / 5),maxscore(1000000),minscore(0),symbol(BL),round(@if(me::score < 10 then 0 else 1)),syslevels(0),basescore(28.8),bonuslist(),score(29.0),needscheck(-1),taboofailed(0)
+idkey(4)|,name(Basic Move),basevalue(ST:Basic Speed),step(1),maxscore(1000),minscore(0),up(5),down(-5),round(-1),display(No),mainwin(10),disadat(-1),syslevels(0),basescore(5.75),bonuslist(),score(5.0),needscheck(-1),taboofailed(0)
+idkey(5)|,name(Basic Speed),basevalue((ST:HT + ST:DX) / 4),step(0.25),maxscore(100),minscore(0),up(5),down(-5),display(No),mainwin(9),disadat(-1),syslevels(0),basescore(5.75),bonuslist(),score(5.75),needscheck(-1),taboofailed(0)
+idkey(6)|,name(Block),basevalue(0),maxscore(1000),minscore(0),display(No),syslevels(1),basescore(0),bonuslist(+1 from 'Combat Reflexes'),score(1.0),needscheck(-1),taboofailed(0)
+idkey(7)|,name(Damage Base),symbol(DamageBase),basevalue(ST:Striking ST),display(no),syslevels(0),basescore(12),bonuslist(),score(12.0),needscheck(-1),taboofailed(0)
+idkey(8)|,name(Dodge),basevalue(ST:Basic Speed + 3),maxscore(1000),minscore(0),round(-1),display(No),syslevels(1),basescore(8.75),bonuslist(+1 from 'Combat Reflexes'),score(9.0),needscheck(-1),taboofailed(0)
 idkey(9)|,name(DR),symbol(DR),round(-1),display(no),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
 idkey(10)|,name(DX),symbol(DX),basevalue(10),step(1),maxscore(100),minscore(0),up(20),down(-20),mainwin(2),mods(No Fine Manipulators),disadat(-1),display(no),initmods( No Fine Manipulators, -0%, group(No Fine Manipulators Stat), formula(-@if(ST:No Fine Manipulators >0 then 40 else 0)), forceformula(yes) ),syslevels(0),basescore(13),bonuslist(),basepoints(60.0),points(60.0),level(3),score(13.0),premodspoints(60.0),needscheck(-1),taboofailed(0)
 idkey(12)|,name(Enhanced Air Move),basevalue(0),hide(yes),display(no),gives(=@if( me::score = @int(me::score) then @power(2, me::score) else @power(2, @int(me::score)) * 1.5 ) * ST:Air Move::basescore - ST:Air Move::basescore to ST:Air Move ),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
@@ -90,16 +90,16 @@ idkey(13)|,name(Enhanced Ground Move),basevalue(0),hide(yes),display(no),gives(=
 idkey(14)|,name(Enhanced Space Move),basevalue(0),hide(yes),display(no),gives(=@if( me::score = @int(me::score) then @power(2, me::score) else @power(2, @int(me::score)) * 1.5 ) * ST:Space Move::basescore - ST:Space Move::basescore to ST:Space Move ),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
 idkey(15)|,name(Enhanced Water Move),basevalue(0),hide(yes),display(no),gives(=@if( me::score = @int(me::score) then @power(2, me::score) else @power(2, @int(me::score)) * 1.5 ) * ST:Water Move::basescore - ST:Water Move::basescore to ST:Water Move ),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
 idkey(16)|,name(Fatigue Points),basevalue(ST:HT),step(1),maxscore(100),minscore(0),up(3),down(-3),symbol(FP),display(No),mainwin(6),disadat(-1),syslevels(0),basescore(10),bonuslist(),score(10.0),needscheck(-1),taboofailed(0)
-idkey(17)|,name(Fright Check),basevalue(0),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
+idkey(17)|,name(Fright Check),basevalue(0),syslevels(2),basescore(0),bonuslist(+2 from 'Combat Reflexes'),score(2.0),needscheck(-1),taboofailed(0)
 idkey(18)|,name(Ground Move),basevalue(ST:Basic Move),maxscore(1000),minscore(0),syslevels(0),basescore(5),bonuslist(),score(5.0),needscheck(-1),taboofailed(0)
-idkey(19)|,name(Hearing),basevalue(ST:Perception),maxscore(100),minscore(0),syslevels(0),basescore(10),bonuslist(),score(10.0),needscheck(-1),taboofailed(0)
-idkey(20)|,name(Heavy Encumbrance),basevalue(6 * ST:BL),maxscore(10000000),minscore(0),symbol(HEnc),round(-1),display(No),syslevels(0),basescore(144),bonuslist(),score(144.0),needscheck(-1),taboofailed(0)
+idkey(19)|,name(Hearing),basevalue(ST:Perception),maxscore(100),minscore(0),syslevels(0),basescore(11),bonuslist(),score(11.0),needscheck(-1),taboofailed(0)
+idkey(20)|,name(Heavy Encumbrance),basevalue(6 * ST:BL),maxscore(10000000),minscore(0),symbol(HEnc),round(-1),display(No),syslevels(0),basescore(174),bonuslist(),score(174.0),needscheck(-1),taboofailed(0)
 idkey(21)|,name(Heavy Encumbrance Move),basevalue(0.4 * ST:Ground Move),maxscore(1000),minscore(0),symbol(HEncMove),round(-1),display(No),syslevels(0),basescore(2),bonuslist(),score(2.0),needscheck(-1),taboofailed(0)
-idkey(22)|,name(Hit Points),basevalue(ST:ST),step(1),maxscore(1000),minscore(0),up(2),down(-2),symbol(HP),mods(Size),mainwin(5),display(no),disadat(-1),initmods( Size, -0%, group(Size), formula(-@if(ST:Size Modifier > 0 then ST:Size Modifier * 10 else 0)), forceformula(yes) ),syslevels(0),basescore(11),bonuslist(),score(11.0),needscheck(-1),taboofailed(0)
+idkey(22)|,name(Hit Points),basevalue(ST:ST),step(1),maxscore(1000),minscore(0),up(2),down(-2),symbol(HP),mods(Size),mainwin(5),display(no),disadat(-1),initmods( Size, -0%, group(Size), formula(-@if(ST:Size Modifier > 0 then ST:Size Modifier * 10 else 0)), forceformula(yes) ),syslevels(0),basescore(12),bonuslist(),score(12.0),needscheck(-1),taboofailed(0)
 idkey(24)|,name(HT),symbol(HT),basevalue(10),step(1),maxscore(100),minscore(0),up(10),down(-10),mainwin(4),disadat(-1),display(no),syslevels(0),basescore(10),bonuslist(),score(10.0),needscheck(-1),taboofailed(0)
-idkey(25)|,name(IQ),symbol(IQ),basevalue(10),step(1),maxscore(100),minscore(0),up(20),down(-20),mainwin(3),disadat(-1),display(no),syslevels(0),basescore(10),bonuslist(),score(10.0),needscheck(-1),taboofailed(0)
-idkey(26)|,name(Lifting ST),basevalue(ST:ST),step(1),maxscore(1000000),minscore(ST:ST),up(5),down(0),round(-1),display(No),syslevels(0),basescore(11),bonuslist(),score(11.0),needscheck(-1),taboofailed(0)
-idkey(27)|,name(Light Encumbrance),basevalue(2 * ST:BL),maxscore(10000000),minscore(0),symbol(LEnc),round(-1),display(No),syslevels(0),basescore(48),bonuslist(),score(48.0),needscheck(-1),taboofailed(0)
+idkey(25)|,name(IQ),symbol(IQ),basevalue(10),step(1),maxscore(100),minscore(0),up(20),down(-20),mainwin(3),disadat(-1),display(no),syslevels(0),basescore(11),bonuslist(),basepoints(20.0),points(20.0),level(1),score(11.0),premodspoints(20.0),needscheck(-1),taboofailed(0)
+idkey(26)|,name(Lifting ST),basevalue(ST:ST),step(1),maxscore(1000000),minscore(ST:ST),up(5),down(0),round(-1),display(No),syslevels(0),basescore(12),bonuslist(),score(12.0),needscheck(-1),taboofailed(0)
+idkey(27)|,name(Light Encumbrance),basevalue(2 * ST:BL),maxscore(10000000),minscore(0),symbol(LEnc),round(-1),display(No),syslevels(0),basescore(58),bonuslist(),score(58.0),needscheck(-1),taboofailed(0)
 idkey(28)|,name(Light Encumbrance Move),basevalue(0.8 * ST:Ground Move),maxscore(1000),minscore(0),symbol(LEncMove),round(-1),display(No),syslevels(0),basescore(4),bonuslist(),score(4.0),needscheck(-1),taboofailed(0)
 idkey(29)|,name(Magery),basevalue(0),display(no),minscore(0),maxscore(100),hide(yes),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
 idkey(30)|,name(Magery Air),basevalue(ST:Magery),display(no),minscore(0),maxscore(100),hide(yes),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
@@ -118,41 +118,43 @@ idkey(42)|,name(Magery Movement),basevalue(ST:Magery),display(no),minscore(0),ma
 idkey(43)|,name(Magery Necromancy),basevalue(ST:Magery),display(no),minscore(0),maxscore(100),hide(yes),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
 idkey(44)|,name(Magery Protection & Warning),basevalue(ST:Magery),display(no),minscore(0),maxscore(100),hide(yes),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
 idkey(45)|,name(Magery Water),basevalue(ST:Magery),display(no),minscore(0),maxscore(100),hide(yes),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
-idkey(46)|,name(Medium Encumbrance),basevalue(3 * ST:BL),maxscore(10000000),minscore(0),symbol(MEnc),round(-1),display(No),syslevels(0),basescore(72),bonuslist(),score(72.0),needscheck(-1),taboofailed(0)
+idkey(46)|,name(Medium Encumbrance),basevalue(3 * ST:BL),maxscore(10000000),minscore(0),symbol(MEnc),round(-1),display(No),syslevels(0),basescore(87),bonuslist(),score(87.0),needscheck(-1),taboofailed(0)
 idkey(47)|,name(Medium Encumbrance Move),basevalue(0.6 * ST:Ground Move),maxscore(1000),minscore(0),symbol(MEncMove),round(-1),display(No),syslevels(0),basescore(3),bonuslist(),score(3.0),needscheck(-1),taboofailed(0)
-idkey(48)|,name(No Encumbrance),basevalue(ST:BL),maxscore(10000000),minscore(0),symbol(NEnc),round(-1),display(No),syslevels(0),basescore(24),bonuslist(),score(24.0),needscheck(-1),taboofailed(0)
+idkey(48)|,name(No Encumbrance),basevalue(ST:BL),maxscore(10000000),minscore(0),symbol(NEnc),round(-1),display(No),syslevels(0),basescore(29),bonuslist(),score(29.0),needscheck(-1),taboofailed(0)
 idkey(49)|,name(No Encumbrance Move),basevalue(ST:Ground Move),maxscore(10000000),minscore(0),symbol(NEncMove),round(-1),display(No),syslevels(0),basescore(5),bonuslist(),score(5.0),needscheck(-1),taboofailed(0)
 idkey(50)|,name(No Fine Manipulators),basevalue(0),display(no),hide(yes),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
-idkey(51)|,name(Parry),basevalue(0),maxscore(1000),minscore(0),display(No),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
-idkey(52)|,name(Perception),basevalue(ST:IQ),step(1),maxscore(100),minscore(0),up(5),down(-5),symbol(Per),mainwin(8),disadat(-1),syslevels(0),basescore(10),bonuslist(),score(10.0),needscheck(-1),taboofailed(0)
+idkey(51)|,name(Parry),basevalue(0),maxscore(1000),minscore(0),display(No),syslevels(1),basescore(0),bonuslist(+1 from 'Combat Reflexes'),score(1.0),needscheck(-1),taboofailed(0)
+idkey(52)|,name(Perception),basevalue(ST:IQ),step(1),maxscore(100),minscore(0),up(5),down(-5),symbol(Per),mainwin(8),disadat(-1),syslevels(0),basescore(11),bonuslist(),score(11.0),needscheck(-1),taboofailed(0)
 idkey(53)|,name(Reaction),basevalue(0),display(no),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
-idkey(54)|,name(Remaining Funds),basevalue(ST:Starting Wealth - char::equipmentcost),step(0),minscore(0),display(No),round(1),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
+idkey(54)|,name(Remaining Funds),basevalue(ST:Starting Wealth - char::equipmentcost),step(0),minscore(0),display(No),round(1),syslevels(0),basescore(-220),bonuslist(),score(-220.0),needscheck(-1),taboofailed(0)
 idkey(55)|,name(Size Modifier),symbol(SM),basevalue(0),maxscore(100),minscore(-100),round(-1),up(0),down(0),step(1),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
 idkey(56)|,name(Space Move),basevalue(0),step(0),maxscore(1000),minscore(0),hide(yes),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
-idkey(57)|,name(ST),symbol(ST),basevalue(10),step(1),maxscore(1000),minscore(0),up(10),down(-10),mainwin(1),mods(No Fine Manipulators, Size),disadat(-1),display(no),initmods( Size, -0%, group(Size ST), formula(-@if(ST:Size Modifier > 0 & Owner::Score > 10 then ST:Size Modifier * 10 else 0)), forceformula(yes) | No Fine Manipulators, -40%, group(No Fine Manipulators Stat), formula(-@if(ST:No Fine Manipulators >0 then 40 else 0)), forceformula(yes) ),syslevels(0),basescore(11),bonuslist(),basepoints(10.0),points(10.0),level(1),score(11.0),premodspoints(10.0),needscheck(-1),taboofailed(0)
+idkey(57)|,name(ST),symbol(ST),basevalue(10),step(1),maxscore(1000),minscore(0),up(10),down(-10),mainwin(1),mods(No Fine Manipulators, Size),disadat(-1),display(no),initmods( Size, -0%, group(Size ST), formula(-@if(ST:Size Modifier > 0 & Owner::Score > 10 then ST:Size Modifier * 10 else 0)), forceformula(yes) | No Fine Manipulators, -40%, group(No Fine Manipulators Stat), formula(-@if(ST:No Fine Manipulators >0 then 40 else 0)), forceformula(yes) ),syslevels(0),basescore(12),bonuslist(),basepoints(20.0),points(20.0),level(2),score(12.0),premodspoints(20.0),needscheck(-1),taboofailed(0)
 idkey(60)|,name(Starting Wealth),basevalue(ST:Wealth Modifier * @indexedvalue(ST:Tech Level + 1, 25, 50, 75, 100, 200, 500, 1000, 1500, 2000, 3000, 5000, 7500, 10000)),step(1),minscore(0),display(No),round(1),syslevels(0),basescore(500),bonuslist(),score(500.0),needscheck(-1),taboofailed(0)
 idkey(61)|,name(Status),basevalue(0),display(no),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
-idkey(62)|,name(Striking ST),basevalue(ST:ST),step(1),maxscore(1000000),minscore(ST:ST),up(5),down(0),round(-1),display(No),syslevels(0),basescore(11),bonuslist(),score(11.0),needscheck(-1),taboofailed(0)
-idkey(63)|,name(Taste/Smell),basevalue(ST:Perception),maxscore(100),minscore(0),syslevels(0),basescore(10),bonuslist(),score(10.0),needscheck(-1),taboofailed(0)
+idkey(62)|,name(Striking ST),basevalue(ST:ST),step(1),maxscore(1000000),minscore(ST:ST),up(5),down(0),round(-1),display(No),syslevels(0),basescore(12),bonuslist(),score(12.0),needscheck(-1),taboofailed(0)
+idkey(63)|,name(Taste/Smell),basevalue(ST:Perception),maxscore(100),minscore(0),syslevels(0),basescore(11),bonuslist(),score(11.0),needscheck(-1),taboofailed(0)
 idkey(64)|,name(Tech Level),basevalue(1),step(1),maxscore(12),minscore(0),up(5),down(-5),symbol(TL),round(1),mainwin(11),syslevels(0),basescore(1),bonuslist(),score(1.0),needscheck(-1),taboofailed(0)
-idkey(65)|,name(Touch),basevalue(ST:Perception),maxscore(100),minscore(0),syslevels(0),basescore(10),bonuslist(),score(10.0),needscheck(-1),taboofailed(0)
+idkey(65)|,name(Touch),basevalue(ST:Perception),maxscore(100),minscore(0),syslevels(0),basescore(11),bonuslist(),score(11.0),needscheck(-1),taboofailed(0)
 idkey(66)|,name(Tunneling Move),basevalue(0),maxscore(1000),minscore(0),hide(yes),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
 idkey(67)|,name(Unappealing),basevalue(0),display(no),syslevels(0),basescore(0),bonuslist(),needscheck(-1),taboofailed(0)
-idkey(68)|,name(Vision),basevalue(ST:Perception),maxscore(100),minscore(0),syslevels(0),basescore(10),bonuslist(),score(10.0),needscheck(-1),taboofailed(0)
+idkey(68)|,name(Vision),basevalue(ST:Perception),maxscore(100),minscore(0),syslevels(0),basescore(11),bonuslist(),score(11.0),needscheck(-1),taboofailed(0)
 idkey(69)|,name(Water Move),basevalue(ST:Basic Move / 5),step(1),maxscore(1000),minscore(0),up(5),down(5),syslevels(0),basescore(1),bonuslist(),score(1.0),needscheck(-1),taboofailed(0)
 idkey(70)|,name(Wealth Modifier),basevalue(10),step(1),minscore(0),display(No),round(-1),syslevels(0),basescore(10),bonuslist(),score(10.0),needscheck(-1),taboofailed(0)
-idkey(71)|,name(Will),basevalue(ST:IQ),step(1),maxscore(100),minscore(0),up(5),down(-5),mainwin(7),disadat(-1),syslevels(0),basescore(10),bonuslist(),score(10.0),needscheck(-1),taboofailed(0)
-idkey(72)|,name(X-Heavy Encumbrance),basevalue(10 * ST:BL),maxscore(10000000),minscore(0),symbol(XEnc),round(-1),display(No),syslevels(0),basescore(240),bonuslist(),score(240.0),needscheck(-1),taboofailed(0)
+idkey(71)|,name(Will),basevalue(ST:IQ),step(1),maxscore(100),minscore(0),up(5),down(-5),mainwin(7),disadat(-1),syslevels(0),basescore(11),bonuslist(),score(11.0),needscheck(-1),taboofailed(0)
+idkey(72)|,name(X-Heavy Encumbrance),basevalue(10 * ST:BL),maxscore(10000000),minscore(0),symbol(XEnc),round(-1),display(No),syslevels(0),basescore(290),bonuslist(),score(290.0),needscheck(-1),taboofailed(0)
 idkey(73)|,name(X-Heavy Encumbrance Move),basevalue(0.2 * ST:Ground Move),maxscore(1000),minscore(0),symbol(XEncMove),round(-1),display(No),syslevels(0),basescore(1),bonuslist(),score(1.0),needscheck(-1),taboofailed(0)
 
 [Advantages]
 idkey(95)|,name(Acute Taste and Smell),cost(2/4),gives(+1 To ST:Taste/Smell),page(B35),cat(Mundane, Physical, Mundane Physical),syslevels(0),bonuslist(),points(2.0),baselevel(1),level(1),premodspoints(2.0),needscheck(-1),taboofailed(0)
 idkey(100)|,name(Appearance),cost(4/12/16/20),mods(Attractive, Appearance),upto(4),levelnames([Average], Attractive, Beautiful, Very Beautiful, Transcendent),cat(Mundane, Physical, Physical Appearance, Mundane Physical),taboo(DI:Appearance),gives(=@if((@hasmod(Androgynous) | @hasmod(Impressive) | @hasmod(Universal)) & %level >= 2 then @indexedvalue(%level, 0, 3, 4, 5) else @indexedvalue(%level, 1, 2, 2, 2) ) to ST:Unappealing, =@if((@hasmod(Androgynous) | @hasmod(Impressive) | @hasmod(Universal)) & %level >= 2 then @indexedvalue(%level, 0, 3, 4, 5) else @indexedvalue(%level, 1, 4, 6, 8) ) to ST:Appealing ),syslevels(0),bonuslist(),points(16.0),baselevel(3),level(3),premodspoints(16.0),needscheck(-1),taboofailed(0)
 idkey(87)|,name(Charisma),cost(5/10),gives(+1 to ST:Reaction, +1 To GR:Charisma),page(B41),cat(Mundane, Mental, Mundane Mental),syslevels(0),bonuslist(),points(5.0),baselevel(1),level(1),premodspoints(5.0),needscheck(-1),taboofailed(0)
+idkey(151)|,name(Combat Reflexes),cat(Mundane, Mental, Mundane Mental),cost(15),gives(+1 To GR:Combat Reflexes, +2 To Fright Check),page(B43),taboo(DI:Combat Paralysis, AD:Enhanced Time Sense),syslevels(0),bonuslist(),basedon(Combat Reflexes),points(15.0),baselevel(1),level(1),premodspoints(15.0),needscheck(-1),taboofailed(0)
 idkey(96)|,name(Flexibility),cost(5),gives(+3 To GR:Flexibility),page(B56),cat(Mundane, Physical, Mundane Physical),syslevels(0),bonuslist(),points(5.0),baselevel(1),level(1),premodspoints(5.0),needscheck(-1),taboofailed(0)
-idkey(97)|,name(Social Chameleon),cost(5),page(B86),cat(Mundane, Mental, Mundane Mental),syslevels(0),bonuslist(),points(5.0),baselevel(1),level(1),premodspoints(5.0),needscheck(-1),taboofailed(0)
+idkey(141)|,name(Old Ancharian),nameext(Written),cat(Mundane, Social, Language, Language Written, Social Background, Mundane Social),cost(1/2),page(B24),upto(3 LimitingTotal),mods(Language),levelnames([Illiterate], Semi-Literate, Literate, Native),taboo(Native Languages > 1),ndl(@if(ST:Tech Level::basescore <=4 THEN 1 ELSE 0)),basedon(Language (Written)),syslevels(0),bonuslist(),points(1.0),baselevel(1),level(1),premodspoints(1.0),needscheck(-1),taboofailed(0)
 idkey(129)|,name(Wealth),cat(Mundane, Social, Wealth, Mundane Social),cost(10/20/30/50),upto(4),page(B16),levelnames(["None"], "Comfortable, Cash x2", "Wealthy, Cash x5", "Very Wealthy, Cash x20", "Filthy Rich, Cash x100"),gives(=@if(AD:Wealth > 1 then +1) to AD:Status),syslevels(0),bonuslist(),points(10.0),baselevel(1),level(1),premodspoints(10.0),needscheck(-1),taboofailed(0)
 idkey(118)|,name(West Mordathrian),cat(Mundane, Social, Language, Language Spoken, Language Written, Social Background, Mundane Social),cost(2/4),displaycost(0/-2/+),page(B24),upto(3 LimitingTotal),mods(Language),levelnames([None], Broken, Accented, Native),taboo(Native Languages > 1),basedon(Language - Native),syslevels(0),bonuslist(),baselevel(3),level(3),premodspoints(6.0),needscheck(-1),taboofailed(0)
+idkey(142)|,name(West Mordathrian),nameext(Native),cat(Mundane, Social, Cultural Familiarity, Social Background, Mundane Social),cost(0),page(B23),gives(+1 to ST:Native Cultural Familiarities),taboo(Native Cultural Familiarities > 1),basedon(Cultural Familiarity (Native)),syslevels(0),bonuslist(),baselevel(1),level(1),needscheck(-1),taboofailed(0)
 
 [Perks]
 
@@ -168,28 +170,27 @@ idkey(117)|,name(Stubbornness),cost(-5),page(B157),cat(Mundane, Mental, Mundane 
 [Skills]
 idkey(80)|,name(Acrobatics),type(DX/H),default(DX - 6, SK:Aerobatics - 4, SK:Aquabatics - 4),page(B174),cat(Athletic),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(DX),step(+0),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(4.0),points(4.0),baselevel(13),level(13),multpoints(4.0),apppoints(4.0),premodspoints(4.0),needscheck(-1),taboofailed(0)
 idkey(82)|,name(Climbing),type(DX/A),default(DX - 5),page(B183),cat(Athletic, Criminal/Street, Outdoor/Exploration),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(DX),step(+2),levelmult(1),syslevels(3),extralevels(3),bonuslist(+3 from 'Flexibility'),childpoints(0),basepoints(1.0),points(1.0),baselevel(12),level(15),multpoints(1.0),apppoints(1.0),premodspoints(1.0),needscheck(-1),taboofailed(0)
-idkey(126)|,name(Disarming),nameext(Shortsword),type(Tech/H),cat(Combat Techniques),default(SK:Shortsword::level),needs(SK:Shortsword),upto(Prereq + 5),page(B230),sd(1),deffrom(Shortsword),deffromid(124),deflevel(15),pointmult(1),stepoff(def),step(+1),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(2.0),points(2.0),baselevel(16),level(16),multpoints(2.0),apppoints(2.0),premodspoints(2.0),needscheck(-1),taboofailed(0)
+idkey(126)|,name(Disarming),nameext(Shortsword),type(Tech/H),cat(Combat Techniques),default(SK:Shortsword::level),needs(SK:Shortsword),upto(Prereq + 5),page(B230),sd(1),deffrom(Shortsword),deffromid(124),deflevel(16),pointmult(1),stepoff(def),step(+1),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(2.0),points(2.0),baselevel(17),level(17),multpoints(2.0),apppoints(2.0),premodspoints(2.0),needscheck(-1),taboofailed(0)
 idkey(74)|,name(Disarming),nameext(Whip),type(Tech/H),default(SK:Whip::level),needs(SK:Whip),upto(Prereq + 5),page(B230),cat(Combat Techniques),sd(1),pointmult(1),stepoff(def),step(+2),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),deffrom(Whip),deffromid(75),deflevel(14),basepoints(3.0),points(3.0),baselevel(16),level(16),multpoints(3.0),apppoints(3.0),premodspoints(3.0),needscheck(-1),taboofailed(0)
-idkey(84)|,name(Erotic Art),type(DX/A),default(DX - 5, SK:Acrobatics - 5),page(B192),cat(Social),sd(0),deflevel(8),deffrom(DX),deffromid(10),pointmult(1),stepoff(DX),step(-2),levelmult(1),syslevels(3),extralevels(3),bonuslist(+3 from 'Flexibility'),childpoints(0),basedon(Erotic Art),baselevel(8),level(11),needscheck(-1),taboofailed(0)
-idkey(127)|,name(Feint),nameext(Shortsword),type(Tech/H),cat(Combat Techniques),default(SK:Shortsword::level),needs(SK:Shortsword),upto(Prereq + 4),page(B231),sd(1),deffrom(Shortsword),deffromid(124),deflevel(15),pointmult(1),stepoff(def),step(+1),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(2.0),points(2.0),baselevel(16),level(16),multpoints(2.0),apppoints(2.0),premodspoints(2.0),needscheck(-1),taboofailed(0)
+idkey(84)|,name(Erotic Art),type(DX/A),default(DX - 5, SK:Acrobatics - 5),page(B192),cat(Social),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(DX),step(+2),levelmult(1),syslevels(3),extralevels(3),bonuslist(+3 from 'Flexibility'),childpoints(0),basedon(Erotic Art),basepoints(1.0),points(1.0),baselevel(12),level(15),multpoints(1.0),apppoints(1.0),premodspoints(1.0),needscheck(-1),taboofailed(0)
+idkey(127)|,name(Feint),nameext(Shortsword),type(Tech/H),cat(Combat Techniques),default(SK:Shortsword::level),needs(SK:Shortsword),upto(Prereq + 4),page(B231),sd(1),deffrom(Shortsword),deffromid(124),deflevel(16),pointmult(1),stepoff(def),step(+1),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(2.0),points(2.0),baselevel(17),level(17),multpoints(2.0),apppoints(2.0),premodspoints(2.0),needscheck(-1),taboofailed(0)
 idkey(76)|,name(Feint),nameext(Whip),type(Tech/H),default(SK:Whip::level),needs(SK:Whip),upto(Prereq + 4),page(B231),cat(Combat Techniques),sd(1),deffrom(Whip),deffromid(75),deflevel(14),pointmult(1),stepoff(def),step(+1),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(2.0),points(2.0),baselevel(15),level(15),multpoints(2.0),apppoints(2.0),premodspoints(2.0),needscheck(-1),taboofailed(0)
-idkey(85)|,name(Leadership),type(IQ/A),default(IQ - 5),page(B204),cat(Military, Social),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(IQ),step(+2),levelmult(1),syslevels(1),extralevels(1),bonuslist(+1 from 'Charisma'),childpoints(0),basepoints(4.0),points(4.0),baselevel(11),level(12),multpoints(4.0),apppoints(4.0),premodspoints(4.0),needscheck(-1),taboofailed(0)
-idkey(128)|,name(Off-Hand Weapon Training),nameext(Shortsword),type(Tech/H),cat(Combat Techniques),default(SK:Shortsword::level - 4),needs(SK:Shortsword),upto(Prereq),page(B230),sd(1),deffrom(Shortsword),deffromid(124),deflevel(11),pointmult(1),stepoff(def),step(+3),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(4.0),points(4.0),baselevel(14),level(14),multpoints(4.0),apppoints(4.0),premodspoints(4.0),needscheck(-1),taboofailed(0)
-idkey(86)|,name(Sex Appeal),type(HT/A),default(HT - 3),page(B219),cat(Social),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(HT),step(+0),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(2.0),points(2.0),baselevel(10),level(10),multpoints(2.0),apppoints(2.0),premodspoints(2.0),needscheck(-1),taboofailed(0)
-idkey(124)|,name(Shortsword),type(DX/A),cat(_General, Combat/Weapons - Melee Combat, Combat/Weapon),default(DX-5, SK:Broadsword-2, SK:Force Sword-3),page(B52),parryat(%level/2),parrylevel(7,5),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(DX),step(+2),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(8.0),points(8.0),baselevel(15),level(15),multpoints(8.0),apppoints(8.0),premodspoints(8.0),needscheck(-1),taboofailed(0)
-idkey(83)|,name(Survival),nameext(Plains),type(Per/A),default(Per - 5, SK:Naturalist - 3, "SK:Survival (Arctic)" - 3, "SK:Survival (Desert)" - 3, "SK:Survival (Island/Beach)" - 3, "SK:Survival (Jungle)" - 3, "SK:Survival (Mountain)" - 3, "SK:Survival (Swampland)" - 3, "SK:Survival (Woodlands)" - 3),page(B223),cat(Outdoor/Exploration),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(Per),step(-1),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(1.0),points(1.0),baselevel(9),level(9),multpoints(1.0),apppoints(1.0),premodspoints(1.0),needscheck(-1),taboofailed(0)
-idkey(75)|,name(Whip),type(DX/A),default(DX - 5, SK:Force Whip - 3, SK:Kusari - 3, SK:Monowire Whip - 3, SK:Whip Art - 3, SK:Whip Sport - 3),page(B209),parryat(@int(%level/2)+3),cat(Combat/Weapons - Melee Combat),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(DX),step(+1),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),parry(10),parrylevel(10),charparry(10),basepoints(4.0),points(4.0),baselevel(14),level(14),multpoints(4.0),apppoints(4.0),premodspoints(4.0),needscheck(-1),taboofailed(0)
+idkey(128)|,name(Off-Hand Weapon Training),nameext(Shortsword),type(Tech/H),cat(Combat Techniques),default(SK:Shortsword::level - 4),needs(SK:Shortsword),upto(Prereq),page(B230),sd(1),deffrom(Shortsword),deffromid(124),deflevel(12),pointmult(1),stepoff(def),step(+3),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(4.0),points(4.0),baselevel(15),level(15),multpoints(4.0),apppoints(4.0),premodspoints(4.0),needscheck(-1),taboofailed(0)
+idkey(86)|,name(Sex Appeal),type(HT/A),default(HT - 3),page(B219),cat(Social),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(HT),step(+0),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),conditionallist(+1 from 'Leather Corselet (Custom sewn)'),basepoints(2.0),points(2.0),baselevel(10),level(10),multpoints(2.0),apppoints(2.0),premodspoints(2.0),needscheck(-1),taboofailed(0)
+idkey(124)|,name(Shortsword),type(DX/A),cat(_General, Combat/Weapons - Melee Combat, Combat/Weapon),default(DX-5, SK:Broadsword-2, SK:Force Sword-3),page(B52),parryat(%level/2),parrylevel(9),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(DX),step(+3),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),conditionallist(+2 from 'Shortsword (Relur)'),basepoints(12.0),points(12.0),baselevel(16),level(16),multpoints(12.0),apppoints(12.0),premodspoints(12.0),needscheck(-1),taboofailed(0)
+idkey(143)|,name(Streetwise),type(IQ/A),cat(_General, Criminal/Street, Police, Social),default(IQ - 5),page(B223),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(IQ),step(+1),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),basepoints(4.0),points(4.0),baselevel(12),level(12),multpoints(4.0),apppoints(4.0),premodspoints(4.0),needscheck(-1),taboofailed(0)
+idkey(75)|,name(Whip),type(DX/A),default(DX - 5, SK:Force Whip - 3, SK:Kusari - 3, SK:Monowire Whip - 3, SK:Whip Art - 3, SK:Whip Sport - 3),page(B209),parryat(@int(%level/2)+3),cat(Combat/Weapons - Melee Combat),sd(0),deflevel(0),deffrom(),deffromid(),pointmult(1),stepoff(DX),step(+1),levelmult(1),syslevels(0),extralevels(0),bonuslist(),childpoints(0),parry(10),parrylevel(11),charparry(10),basepoints(4.0),points(4.0),baselevel(14),level(14),multpoints(4.0),apppoints(4.0),premodspoints(4.0),needscheck(-1),taboofailed(0)
 
 [Spells]
 
 [Equipment]
-idkey(125)|,name(Baton),cat(Melee Weapons, Ancient/Medieval Hand Weapons),mode(swing|thrust),damtype(cr|cr),damage(sw|thr),reach(1),basecost(20),baseweight(1),minst(7),skillused(Shortsword),count(1),premodscost(20),cost(20),weight(1),bonuslist(),charminst(7),chardamage(1d+1|1d-1),dmg(sw|thr),chardamtype(cr|cr),charreach(1),charskillscore(15),charskillused("SK:Shortsword"),charparryscore(),ocount(1),needscheck(-1),taboofailed(0),notes(A short, well-balanced club.)
 idkey(134)|,name(Boots),cat(Hands & Feet, Armor - Low Tech Gloves & Footwear, Ancient/Medieval Armor),basecost(80),baseweight(3),pd(2),dr(2),areascovered(15-16),count(1),premodscost(80),cost(80),weight(3),bonuslist(),chardr(2),chardb(2),ocount(1),location(feet),aa(1),needscheck(-1),taboofailed(0),description(Heavy leather boots, laced high.)
 idkey(78)|,name(Buff Leather Coat),techlvl(4),location(body, limbs),dr(2*),basecost(210),baseweight(16),lc(4),page(B283),mods(Equipment),cat(Armor - Low Tech Body Armor),count(1),premodscost(210),cost(210),weight(16),ocount(1),bonuslist(),chardr(2*),aa(1),basedon(Buff Leather Coat),needscheck(-1),taboofailed(0),description(TL:4 LC:4 DR:2* Locations: body, limbs)
-idkey(140)|,name(Leather Corselet),nameext(Custom sewn),basecost(60),basedon(_New Armor),baseweight(4),bonuslist(),cat(Armor - Low Tech Body Armor),chardr(2),cost(60),count(1),dr(2),lc(0),location(torso, neck),mods(Equipment),noresync(yes),ocount(1),premodscost(60),techlvl(1),weight(4),aa(1),needscheck(-1),taboofailed(0),notes(Nice looking piece of armor, covering torso and neck, nicely fiting to owners figure.)
+idkey(140)|,name(Leather Corselet),nameext(Custom sewn),basecost(60),basedon(_New Armor),baseweight(4),bonuslist(),cat(Armor - Low Tech Body Armor),chardr(2),cost(300),count(1),dr(2),lc(0),location(torso, neck),mods(Equipment),noresync(yes),ocount(1),premodscost(60),techlvl(1),weight(4),aa(1),needscheck(-1),taboofailed(0),notes(Nice looking piece of armor, covering torso and neck, nicely fiting to owners figure.)
 idkey(132)|,name(Leather gloves),areascovered(7),basecost(30),basedon(Leather gloves),baseweight(0),bonuslist(),cat(Hands & Feet, Armor - Low Tech Gloves & Footwear, Ancient/Medieval Armor),chardb(2),chardr(2),cost(30),count(1),dr(2),location(hands),ocount(1),pd(2),premodscost(30),weight(0),aa(1),needscheck(-1),taboofailed(0),description(Heavy leather with open palm to allow a better weapon grip.)
-idkey(135)|,name(Studded Leather Skirt),cat(Armor - Low Tech Limb Armor),techlvl(1),location(groin, legs),dr(3/2*),basecost(60),baseweight(4),lc(--),page(B283),mods(Equipment),count(1),premodscost(60),cost(60),weight(4),bonuslist(),chardr(3/2*),ocount(1),aa(1),needscheck(-1),taboofailed(0),description(TL:1 LC:-- DR:3/2* Locations: groin, legs Notes: [3] Split DR: use the lower DR against crushing attacks.),notes([3])
-idkey(77)|,name(Whip),nameext(2-yard),techlvl(1),lc(4),basecost(40),baseweight(4),page(B274),mods(Equipment, Melee Quality, Crushing/Imp Class Quality),damage(sw-2),damtype((0.5) cr),reach(1-2*),parry(-2U),minst(7),skillused(Whip),cat(Melee Weapons),count(1),premodscost(40),cost(40),weight(4),chardamage(1d-1),ocount(1),bonuslist(),charminst(7),dmg(sw),chardamtype((0.5) cr),charreach(1-2*),charparry(-2U),charskillscore(14),charskillused("SK:Whip"),charparryscore(8U),needscheck(-1),taboofailed(0),description(TL:1 LC:4, Dam:sw-2(0.5) cr Reach:1-2* Parry:-2U ST:7 Skill:Whip Notes: [12] Specify maximum reach (up to 7 yards) when bought. Cost and weight are per yard. ST is 5, +1 per yard. Many special rules apply; be sure to see Whips (p. B406).),notes([12])
+idkey(144)|,name(Shortsword),nameext(Relur),cat(Melee Weapons),techlvl(2),break(0),lc(4),basecost(400),baseweight(0.91),page(B273),mods(Equipment, Melee Quality, Sword Class Quality),mode(swing|thrust),dmg(sw|thr),damage(sw|thr),damtype(cut|imp),reach(1|1),parry(0|0),minst(8|8),skillused(Sword!, Shortsword, DX-5, Broadsword-2, Force Sword-4, Jitte/Sai-3, Knife-4, Saber-4, Smallsword-4, Tonfa-3|Sword!, Shortsword, DX-5, Broadsword-2, Force Sword-4, Jitte/Sai-3, Knife-4, Saber-4, Smallsword-4, Tonfa-3),count(1),premodscost(400),cost(0),weight(.91),bonuslist(),charminst(8|8),chardamage(1d+4|1d+1),chardamtype(cut|imp),charreach(1|1),charparry(0|0),charskillscore(17|17),charskillused("SK:Shortsword"|"SK:Shortsword"),charparryscore(9.5|9.5),ocount(1),basedon(Shortsword),needscheck(-1),taboofailed(0),description(TL:2 LC:4, [Mode:swing Dam:sw cut Reach:1 Parry:0 ST:8 Skill:Shortsword], [Mode:thrust Dam:thr imp Reach:1 Parry:0 ST:8 Skill:Shortsword])
+idkey(135)|,name(Studded Leather Skirt),cat(Armor - Low Tech Limb Armor),techlvl(1),location(groin, legs),dr(3/2*),basecost(60),baseweight(4),lc(--),page(B283),mods(Equipment),count(1),premodscost(60),cost(60),weight(4),bonuslist(),chardr(3/2*),ocount(1),aa(1),basedon(Studded Leather Skirt),needscheck(-1),taboofailed(0),description(TL:1 LC:-- DR:3/2* Locations: groin, legs Notes: [3] Split DR: use the lower DR against crushing attacks.),notes([3])
+idkey(77)|,name(Whip),nameext(2-yard),techlvl(1),lc(4),basecost(40),baseweight(4),page(B274),mods(Equipment, Melee Quality, Crushing/Imp Class Quality),damage(sw-2),damtype((0.5) cr),reach(1-2*),parry(-2U),minst(7),skillused(Whip),cat(Melee Weapons),count(1),premodscost(40),cost(40),weight(4),chardamage(1d),ocount(1),bonuslist(),charminst(7),dmg(sw),chardamtype((0.5) cr),charreach(1-2*),charparry(-2U),charskillscore(14),charskillused("SK:Whip"),charparryscore(9U),needscheck(-1),taboofailed(0),description(TL:1 LC:4, Dam:sw-2(0.5) cr Reach:1-2* Parry:-2U ST:7 Skill:Whip Notes: [12] Specify maximum reach (up to 7 yards) when bought. Cost and weight are per yard. ST is 5, +1 per yard. Many special rules apply; be sure to see Whips (p. B406).),notes([12])
 
 [Packages]
 
@@ -198,20 +199,20 @@ idkey(104),parentkey(103)|,name(You resist on a roll of 12 or less),nameext(quit
 idkey(11),parentkey(10)|,name(No Fine Manipulators),cost(-0%),group(No Fine Manipulators Stat),formula(-@if(ST:No Fine Manipulators >0 then 40 else 0)),forceformula(yes),level(1),premodsvalue(+0%),value(+0%)
 idkey(107),parentkey(106)|,name(You resist on a roll of 12 or less),nameext(quite often),cost(*1),shortname(12 or less),group(Self-Control),level(1),premodsvalue(*1),value(*1)
 idkey(23),parentkey(22)|,name(Size),cost(-0%),group(Size),formula(-@if(ST:Size Modifier > 0 then ST:Size Modifier * 10 else 0)),forceformula(yes),level(1),premodsvalue(+0%),value(+0%)
+idkey(150),parentkey(140)|,bonus(@indexedvalue(me::level,1,2,@int(owner::techlvl/2))),conditional(=+me::bonus to SK:Sex Appeal),cost(*5/*20/*100),group(Equipment),level(1),levelnames(Good: +1 to skill, Fine: +2 to skill, Best: +TL/2 to skill),mods(Equipment Quality Bonus),name(Equipment Quality),nameext(Sex Appeal),page(B345),premodsvalue(*5),upto(3),value(*5),x()
 idkey(114),parentkey(113)|,name(You resist on a roll of 12 or less),nameext(quite often),cost(*1),shortname(12 or less),group(Self-Control),level(1),premodsvalue(*1),value(*1)
+idkey(145),parentkey(144)|,name(Composition: Iron),nameext(TL2+),cost(*1),page(B275),group(Melee Quality),shortname(Iron),level(1),premodsvalue(*1),value(*1)
+idkey(146),parentkey(144)|,bonus(@indexedvalue(me::level,1,2,@int(owner::techlvl/2))),conditional(=+me::bonus to SK:Shortsword),cost(*5/*20/*100),group(Equipment),level(2),levelnames(Good: +1 to skill, Fine: +2 to skill, Best: +TL/2 to skill),mods(Equipment Quality Bonus),name(Equipment Quality),nameext(Shortsword),page(B345),premodsvalue(*20),upto(3),value(*20),x()
+idkey(147),parentkey(144)|,name(Higher TL Equipment),cost(*2/*4/*8),upto(12 - ST:Tech Level),page(B27),forceformula(yes),formula(2 ^ me::level),group(Equipment),level(1),premodsvalue(*2),value(*2)
+idkey(148),parentkey(144)|,name(Signature Gear),cost(*0),tier(1),page(B85),group(Equipment),level(1),premodsvalue(*0),value(*0),nameext(Relur),basedon(Signature Gear),basedgroup(Equipment)
+idkey(149),parentkey(144)|,name(Weapon Bond),nameext(Perk),cost(0),gives(+1 to owner::skillscore),group(Melee Quality),page(F132),level(1),premodsvalue(+0),value(+0)
+idkey(152),parentkey(144)|,name(Increased Damage),cost(+0/+0),tier(1),group(Melee Quality),gives(+1 to owner::damage, +0 to owner::baseweight),level(2),premodsvalue(+0),value(+0),nameext()
 idkey(58),parentkey(57)|,name(Size),cost(-0%),group(Size ST),formula(-@if(ST:Size Modifier > 0 & Owner::Score > 10 then ST:Size Modifier * 10 else 0)),forceformula(yes),level(1),premodsvalue(+0%),value(+0%)
 idkey(59),parentkey(57)|,name(No Fine Manipulators),cost(-40%),group(No Fine Manipulators Stat),formula(-@if(ST:No Fine Manipulators >0 then 40 else 0)),forceformula(yes),level(1),premodsvalue(+0%),value(+0%)
 idkey(119),parentkey(118)|,name(Native Language),cost(-6),gives(=+1 to ST:Native Languages),formula(-@if(AD:Language Talent > 0 then 4 else 6)),forceformula(yes),group(Language),page(B23),level(1),premodsvalue(-6),value(-6)
 
 [Description]
-{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}
-\viewkind4\uc1\pard\f0\fs20 Coming from a rich and powerfull Bachaga's family Aarthu, she has an inborn disliking of Guundak.
-\par 
-\par Recent developings gave her a chance to raise her family in the chain of power. She is now obsessed with finding that mystical artifact, which may shift the scales of power to her family side.
-\par 
-\par Beeing raised as the only child, she could do anything she wanted, fortunately she found interest in weapons and gracefull combat, making her equaly deadly as the most skilled warriors of her clan.
-\par }
-
+{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}\viewkind4\uc1\pard\f0\fs20 Coming from a rich and powerfull Bachaga's family Aarthu, she has an inborn disliking of Guundak.\par \par Recent developings gave her a chance to raise her family in the chain of power. She is now obsessed with finding that mystical artifact, which may shift the scales of power to her family side.\par \par Beeing raised as the only child, she could do anything she wanted, fortunately she found interest in weapons and gracefull combat, making her equaly deadly as the most skilled warriors of her clan.\par }
 
 [Notes]
 
@@ -548,10 +549,7 @@ Character created using GURPS Character Assistant 4
 
 [LogEntry]
 date(2012.06.04),campaigndate(Spring of 67),charpoints(15),caption(Completed the second part of expedition)
-{\rtf1\ansi\deff0{\fonttbl{\f0\fswiss\fcharset0 MS Sans Serif;}{\f1\fswiss MS Sans Serif;}}
-\viewkind4\uc1\pard\lang1033\f0\fs17 Found an old city.\f1 
-\par }
-
+{\rtf1\ansi\deff0{\fonttbl{\f0\fswiss\fcharset0 MS Sans Serif;}{\f1\fswiss MS Sans Serif;}}\viewkind4\uc1\pard\lang1033\f0\fs17 Found an old city.\f1 \par }
 
 [Bonuses]
 ownerid(12),targetprefix(ST),targetname(Air Move),targetext(),targettag(),targettype(1),bonus(@if( me::score = @int(me::score) then @power(2, me::score) else @power(2, @int(me::score)) * 1.5 ) * ST:Air Move::basescore - ST:Air Move::basescore),affects(level),upto(),value(0),stringvaluetext(),stringvalue(),bonustype(3),notes(),listas(),fullbonustext(=@if( me::score = @int(me::score) then @power(2, me::score) else @power(2, @int(me::score)) * 1.5 ) * ST:Air Move::basescore - ST:Air Move::basescore to ST:Air Move)
@@ -566,8 +564,16 @@ ownerid(100),targetprefix(ST),targetname(Unappealing),targetext(),targettag(),ta
 ownerid(100),targetprefix(ST),targetname(Appealing),targetext(),targettag(),targettype(1),bonus(@if((@hasmod(Androgynous) | @hasmod(Impressive) | @hasmod(Universal)) & %level >= 2 then @indexedvalue(%level, 0, 3, 4, 5) else @indexedvalue(%level, 1, 4, 6, 8) )),affects(level),upto(),value(6),stringvaluetext(),stringvalue(),bonustype(3),notes(),listas(),fullbonustext(=@if((@hasmod(Androgynous) | @hasmod(Impressive) | @hasmod(Universal)) & %level >= 2 then @indexedvalue(%level, 0, 3, 4, 5) else @indexedvalue(%level, 1, 4, 6, 8) ) to ST:Appealing)
 ownerid(119),targetprefix(ST),targetname(native languages),targetext(),targettag(),targettype(1),bonus(+1),affects(level),upto(),value(1),stringvaluetext(),stringvalue(),bonustype(3),notes(),listas(),fullbonustext(=+1 to ST:Native Languages)
 ownerid(129),targetprefix(AD),targetname(status),targetext(),targettag(),targettype(2),bonus(@if(AD:Wealth > 1 then +1)),affects(level),upto(),value(0),stringvaluetext(),stringvalue(),bonustype(3),notes(),listas(),fullbonustext(=@if(AD:Wealth > 1 then +1) to AD:Status)
+ownerid(142),targetprefix(ST),targetname(native cultural familiarities),targetext(),targettag(),targettype(1),bonus(+1),affects(level),upto(),value(1),stringvaluetext(),stringvalue(),bonustype(1),notes(),listas(),fullbonustext(+1 to ST:Native Cultural Familiarities)
+ownerid(151),targetprefix(GR),targetname(combat reflexes),targetext(),targettag(),targettype(0),bonus(+1),affects(level),upto(),value(1),stringvaluetext(),stringvalue(),bonustype(1),notes(),listas(),fullbonustext(+1 To GR:Combat Reflexes)
+ownerid(151),targetprefix(),targetname(fright check),targetext(),targettag(),targettype(1),bonus(+2),affects(level),upto(),value(2),stringvaluetext(),stringvalue(),bonustype(1),notes(),listas(),fullbonustext(+2 To Fright Check)
+ownerid(149),targetprefix(),targetname(owner),targetext(),targettag(skillscore),targettype(-1),bonus(+1),affects(other),upto(),value(1),stringvaluetext(),stringvalue(),bonustype(1),notes(),listas(),fullbonustext(+1 to owner::skillscore)
+ownerid(152),targetprefix(),targetname(owner),targetext(),targettag(damage),targettype(-1),bonus(+1),affects(other),upto(),value(2),stringvaluetext(),stringvalue(),bonustype(1),notes(),listas(),fullbonustext(+1 to owner::damage)
+ownerid(152),targetprefix(),targetname(owner),targetext(),targettag(baseweight),targettype(-1),bonus(+0),affects(other),upto(),value(0),stringvaluetext(),stringvalue(),bonustype(1),notes(),listas(),fullbonustext(+0 to owner::baseweight)
 
 [Conditionals]
+ownerid(146),targetprefix(SK),targetname(shortsword),targetext(),targettag(),targettype(6),bonus(+me::bonus),affects(level),upto(),value(2),stringvaluetext(),stringvalue(),bonustype(3),notes(),listas(),fullbonustext(=+me::bonus to SK:Shortsword)
+ownerid(150),targetprefix(SK),targetname(sex appeal),targetext(),targettag(),targettype(6),bonus(+me::bonus),affects(level),upto(),value(1),stringvaluetext(),stringvalue(),bonustype(3),notes(),listas(),fullbonustext(=+me::bonus to SK:Sex Appeal)
 
 [BasicDamageList]
 st(1),thbase(1),thadd(-6),swbase(1),swadd(-5)
