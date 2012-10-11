@@ -1,0 +1,89 @@
+Capital of Gord
+ 
+===============
+ 
+Stats
+---------------
+
+Population: 35,000 (Search +1)
+
+Environment
+--------------
+
+Terrain: Fertile plains
+Appearance: Attractive (+1)     Hygiene: -1 (Nearby river, has severs)
+Low Mana (Rare Enchantment)
+ \\see page B482 for selling of enchanted items
+* Public display of magic is prohibited. It is considered a LC1 action.
+
+Culture and economy
+--------------
+
+Language: West Mordathrian      Literacy: None
+TL: 1
+Wealth: Average (x1)            Status: -2 to 6 (From slaves to Del'rad dynasty)
+Typical pay: 650$
+
+Politics
+--------------
+
+Government: Oligarchy (see B509 and B510)
+Control Rating (CR): 3 (see B506)
+Corruption: -2 (Partly organized crime, influence from foreign countries)
+Military resources: 0.02 (CR3) * 650$ * 35,000 = 455,000$ (Small army)
+* Logistics overhead: 50%
+* Militia: 700 units of Medium Infrantry (Average quality)
+* Militia: Free for 2 months, See CityStats10
+Defence Bonus: +5 (Stone walls and many stone structures)
+
+Notes
+
+--------------
+
+A huge and flourishing city, based on the shore where the Uade river meets the Kiald sea.
+
+Built on old ruins from previous civilization it contains the ziggurat temple in the middle. It is surrounded by two layers of walls. Inner layer encapsulates the main keep, Leading House and some of rich establishments. Outer layer is inhabited by less wealthy citizens, contains the ziggurat and the market place. Local buinesess stick to the streets around the main plaza. Low status inhabitants stay near the walls.
+
+Places of interest
+
+===============
+
+Docs (Posibility to sail to distant lands)
+
+Market place (Events and wares)
+
+Few inn's (Drinks and information)
+
+Brothel (Bitches. Adventurers love bitches.)
+
+Craftshops (smith, tailor, ...)
+
+Leading House
+
+Amphitheatre (Gladiator fights, public executions, fighting competitions)
+
+*Severs (Hard to find) LC3
+
+*Brawling tournaments (Need invitation) LC2
+
+*Underground Magicians (Need magery and invitation) LC1
+
+**Corpse fuckers LC0
+
+
+History
+
+===============
+
+  Rulers
+---------------
+
+?
+De Tier dynasty
+Del'rad (Years of the Demons)
+?
+
+    De Tier dynasty
+---------------
+
+Lasted for more than two hundred years, brought peace and prosperity to the valleys and mountains of Gord. Unfortunately leadership of the last leader -- Augrono De Tier -- was weak and frowned upon by locals. Sure enough competitive families arose. One of those families were Del'rad, using their wealth and influence managed to raise a conflict between De Tier's and Auvae Priest Order. This resulted in bloody conflicts between De Tier's and Del'rad's concerning natural resources and wealth. Naturally such conflicts were frowned upon by Priesthood, but this time they just let that happen. Final conflict was more of a massacre. Del'rad's attacked De Tier household and sloughtered every one resisting soul. Luckily a handful of De Tier's were away at the moment and survived.
