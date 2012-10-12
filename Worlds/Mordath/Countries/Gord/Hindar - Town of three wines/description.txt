@@ -2,6 +2,44 @@ City of Hindar
  
 ===============
 
+Stats
+---------------
+
+Population: 12,000 (Search +1)
+
+Environment
+--------------
+
+Terrain: Fertile hills
+Appearance: Attractive (+1)     Hygiene: -1 (Nearby river, has severs)
+Low Mana (Rare Enchantment)
+ \\see page B482 for selling of enchanted items
+* Public display of magic is prohibited. It is considered a LC1 action.
+
+Culture and economy
+--------------
+
+Language: West Mordathrian      Literacy: None
+TL: 1
+Wealth: Average (x1)            Status: -2 to 5 (From slaves to Leading Family)
+Typical pay: 650$
+
+Politics
+--------------
+
+Government: Oligarchy (see B509 and B510)
+Control Rating (CR): 3 (see B506)
+Corruption: -2 (Partly organized crime, influence from foreign countries)
+Military resources: 0.02 (CR3) * 650$ * 12,000 = 156,000$ (Few squads)
+* Logistics overhead: 50%
+* Militia: 240 units of Medium Infrantry (Average quality)
+* Militia: Free for 2 months, See CityStats10
+Defence Bonus: +6 (Stone walls and many stone structures, on a hill)
+
+Notes
+
+--------------
+
 Third biggest city in Gord county.
 
 Built on old ruins from previous civilization it contains the ziggurat temple in the middle.
