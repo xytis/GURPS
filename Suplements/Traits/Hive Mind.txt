@@ -1,0 +1,32 @@
+Hive Mind Meta
+==============
+
+Hive Mind (advantage) 5pt.
+  Marks that a being is part of a hive society. Allowing a set of skills, advantages and disadvantages. Automaticaly get Hivelink (advantage), Hivelink (disadvantage).
+
+Hivelink (advantage) 30 pt.
+  You are constantly connected to Your hive. You may send and receive telepathic messages, are able to read minds, control or harm your hive members (those who share the same Hive Mind with You).
+  * Conditional: if IQ <= 6, You may only receive messages.
+  * When reading minds treat this advantage as Mind Reading (B69), but substitute Your IQ with diference between your and targets IQ. If value is less than zero -- atempt is not possible.
+  * When trying to control hive members treat this advantage as Mind Control (B68), but substitute Your IQ with diference between your and targets IQ. If value is less than zero -- atempt is not possible.
+  * Messages are sent in known language, images or feelings. If You do not understand the language, You do not understand the message.
+
+Hivelink (disadvantage) -25 pt.
+  When injured You are required to roll against Will to sustain Yourself and not to send a powerful telepathic signal to Your hive members. If injury is bigger than 1/3 HT, you get -1. If injury is extremely painful (torture), You get -1. If You can not stay silent (You shout or scream physicaly) You get -1.
+
+  If a hive member sends out such signal, roll against (20 - IQ) to resist. There is a -1 penalty for every 2 IQ points sender had more than You. There is -5 penalty if You were reading senders mind, and -10 penalty if sender was actively controlled by You (dominated).
+  On success You avoid mental stun. On failure you are mentally stunned and you receive FP damage equal to margin of failure or damage received by the sender, whichever is less. On critical failure all of the above and You must roll against Will not to pass out instantly. (If this takes Your FP below zero You get HP damage. Treat the damage as exaustion from Magic.)
+  * The signals strength weakens by distance. For every mile add +1 to base resist value. However the signal is still "audible" until it reaches senders IQ times 10 miles. (dying Thur'wak is audible in 30 miles radius)
+  * If You are unconcious -- any of the above does not work.
+  * If You pass out before you feel pain -- You don't send the signal.
+
+Hive loyalty (disadvantage) (12 or less) -5 pt.
+  You may not harm Your hive members, you must help them in need. If You have Selfless -- You may risk Your life for them.
+
+Hivelink training (skill) IQ/H
+  You are trained to control Your hivelink. You may replace base values with skill value, when You try to resist mental stun from Hivelink, mind reading from Hivelink or mind control from Hivelink.
+
+Hive control (technique/VH) -- based on Hivelink training
+  You are trained to control hive members by dominating their mind. Subsitute the skill value for base in Hivelink (Control or Read) quick contest. If hive member does not resist -- this is a free action.
+
+
