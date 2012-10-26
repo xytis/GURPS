@@ -57,13 +57,13 @@ Fano's inn:
   Simple pub, located in living district of the city, on the east road from the market plaza, half way to the docks.
 
 Illina's brothel:
-  The most buetifull women are awailable here. But new commers are often welcomed too intensively, thus striping the last copper from them.
+  The most beautiful women can be found here. But newcommers are often welcomed too intensively, thus being striped o the last copper.
 
 High Bartham place:
-  Rich people are comming to eat and see performances there. Located near high house in prestigous district, west from market district.
+  Rich people are comming to eat and see performances here. Located near high house in prestigous district, west from market district.
 
 Trading center:
-  Actualy more of a storage place, which is occupied by wealthy traveling merchants. Facade points directly to market, while back yard is in prestigous district.
+  Actualy more of a storage place, which is occupied by wealthy traveling merchants. Facade points directly to market, while back yard faces to the prestigous district.
 
 Places of interest:
 ==================
@@ -90,5 +90,5 @@ Ancient civilization ruins:
   City is built on top of ancient city. Sometimes history holds secrets.
 
 Crossroad:
-  City is in mid point beetween the capital and fort 'Ardron. Many caravans and travelers come and go.
+  City is in midpoint beetween the capital and fort 'Ardron. Many caravans and travelers come and go.
 

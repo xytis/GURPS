@@ -42,7 +42,7 @@ Notes
 
 A huge and flourishing city, based on the shore where the Uade river meets the Kiald sea.
 
-Built on old ruins from previous civilization it contains the ziggurat temple in the middle. It is surrounded by two layers of walls. Inner layer encapsulates the main keep, Leading House and some of rich establishments. Outer layer is inhabited by less wealthy citizens, contains the ziggurat and the market place. Local buinesess stick to the streets around the main plaza. Low status inhabitants stay near the walls.
+Built on old ruins of previous civilization it contains the ziggurat temple in the middle. It is surrounded by two layers of walls. Inner layer encapsulates the main keep, Leading House and some of rich establishments. Outer layer is inhabited by less wealthy citizens, contains the ziggurat and the market place. Local buinesess stick to the streets around the main plaza. Low status inhabitants stay near the walls.
 
 Places of interest
 
@@ -52,9 +52,13 @@ Docs (Posibility to sail to distant lands)
 
 Market place (Events and wares)
 
-Few inn's (Drinks and information)
+Lots of inn's (Drinks and information)
+ * Green Wise Man (Darkest hole in the lowlife area)
+ * Golden Bowl (Mediocre inn)
+ * Fifth Feather (FF for short, aristocratic place)
+ * Wrath Monger (Near the docks)
 
-Brothel (Bitches. Adventurers love bitches.)
+Brothel (Whores. Adventurers love bitches.)
 
 Craftshops (smith, tailor, ...)
 
@@ -86,4 +90,4 @@ Del'rad (Years of the Demons)
     De Tier dynasty
 ---------------
 
-Lasted for more than two hundred years, brought peace and prosperity to the valleys and mountains of Gord. Unfortunately leadership of the last leader -- Augrono De Tier -- was weak and frowned upon by locals. Sure enough competitive families arose. One of those families were Del'rad, using their wealth and influence managed to raise a conflict between De Tier's and Auvae Priest Order. This resulted in bloody conflicts between De Tier's and Del'rad's concerning natural resources and wealth. Naturally such conflicts were frowned upon by Priesthood, but this time they just let that happen. Final conflict was more of a massacre. Del'rad's attacked De Tier household and sloughtered every one resisting soul. Luckily a handful of De Tier's were away at the moment and survived.
+Lasted for more than two hundred years, brought peace and prosperity to the valleys and mountains of Gord. Unfortunately leadership of the last leader -- Augrono De Tier -- was weak and frowned upon by locals. Sure enough competitive families arose. One of those families were Del'rad, using their wealth and influence managed to raise a conflict between De Tiers' and Auvae Priest Order. This resulted in bloody conflicts between De Tier's and Del'rad's concerning natural resources and wealth. Naturally such conflicts were frowned upon by Priesthood, but this time they just let that happen. Final conflict was more of a massacre. Del'rads' attacked De Tier household and sloughtered every one resisting soul. Luckily a handful of De Tier's were away at the moment and survived.
