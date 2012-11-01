@@ -2,4 +2,7 @@ Planet Raaga
  - The land of two suns
 =========
 
+Explored regions:
+  Bargore tundra
+  Valgart river
 
