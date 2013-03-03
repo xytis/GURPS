@@ -1,21 +1,22 @@
+#!/usr/bin/env ruby
 
-def rolls (match)
-  match =~ /(\d)+d([+-])(\d)*/
+def roll(match)
+  match =~ /(\d+)d(\d*)([\-|\+]\d+)?/ # match _d[sides][+-value]
   dice = $1.to_i
-  sign = $2
-  mod = $3.to_i
-  mod = 0.send sign, mod
-  ans = {}
-  many = 1000000
-  many.times do
-    cur = 0
-    dice.times { cur = cur + rand(5)+1 }
-    cur = cur + mod
-    ans[cur] = 1 + (ans[cur] or 0)
-  end
-  File.open(match, 'w') do |f|
-    ans.each do |key, value|
-      f.puts "#{key} #{value}"
-    end
+  sides = $2.to_i
+  value = $3.to_i
+
+  #if sides are ommited -- set them to 6.
+  sides = 6 if sides == 0
+  
+  dice.times { value = value + rand(sides-1)+1 }
+  value
+end
+
+if __FILE__ == $0
+  if ($1 != nil)
+    print roll $1
+  else
+    print roll "3d"
   end
 end
