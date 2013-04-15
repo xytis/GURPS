@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<character unique_id="hfdrwl03:-1ozyi6e9ozher" version="2">
+	<created_date>Apr 15, 2013</created_date>
+	<modified_date>Apr 15, 2013 10:41 PM</modified_date>
+	<profile>
+		<player_name>dsavickij</player_name>
+		<name>Mal'ruk</name>
+		<age>22</age>
+		<birthday>Spalio 7</birthday>
+		<eyes>Blue</eyes>
+		<hair>Black</hair>
+		<skin>white</skin>
+		<handedness>Right</handedness>
+		<height>5' 8"</height>
+		<weight>137 lb</weight>
+		<SM>0</SM>
+		<gender>Male</gender>
+		<race>Human</race>
+		<tech_level>1</tech_level>
+	</profile>
+	<HP>0</HP>
+	<FP>0</FP>
+	<total_points>110</total_points>
+	<ST>10</ST>
+	<DX>13</DX>
+	<IQ>10</IQ>
+	<HT>8</HT>
+	<will>0</will>
+	<perception>0</perception>
+	<speed>0</speed>
+	<move>0</move>
+	<include_punch>true</include_punch>
+	<include_kick>true</include_kick>
+	<include_kick_with_boots>true</include_kick_with_boots>
+	<advantage_list>
+		<advantage version="2">
+			<name>Ambidexterity</name>
+			<type>Physical</type>
+			<base_points>5</base_points>
+			<reference>B39</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Night Vision</name>
+			<type>Physical</type>
+			<levels>5</levels>
+			<points_per_level>1</points_per_level>
+			<reference>B71</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Code of Honor (Pirate's)</name>
+			<type>Mental</type>
+			<base_points>-5</base_points>
+			<reference>B127</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Kleptomania</name>
+			<type>Mental</type>
+			<base_points>-15</base_points>
+			<cr>12</cr>
+			<reference>B141</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Acrophobia (Heights)</name>
+			<type>Mental</type>
+			<base_points>-10</base_points>
+			<cr>12</cr>
+			<reference>B150</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Hive Mind</name>
+			<type>Mental, Exotic</type>
+			<base_points>30</base_points>
+			<notes>You are constantly connected to Your hive. You may send and receive telepathic messages, are able to read minds, control or harm your hive members (those who share the same Hive Mind with You).
+  * Conditional: if IQ &lt;= 6, You may only receive messages.
+  * When reading minds treat this advantage as Mind Reading (B69), but substitute Your IQ with diference between your and targets IQ. If value is less than zero -- atempt is not possible.
+  * When trying to control hive members treat this advantage as Mind Control (B68), but substitute Your IQ with diference between your and targets IQ. If value is less than zero -- atempt is not possible.
+  * Messages are sent in known language, images or feelings. If You do not understand the language, You do not understand the message.
+</notes>
+		</advantage>
+		<advantage version="2">
+			<name>Infection of Ganna</name>
+			<type>Physical, Supernatural</type>
+			<levels>1</levels>
+			<base_points>15</base_points>
+			<points_per_level>5</points_per_level>
+			<attribute_bonus>
+				<attribute>ht</attribute>
+				<amount per_level="yes">1</amount>
+			</attribute_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Regeneration</name>
+			<type>Physical, Exotic</type>
+			<modifier version="1" enabled="no">
+				<name>Slow</name>
+				<cost type="points">10</cost>
+				<affects>total</affects>
+				<reference>B80</reference>
+				<notes>You recover 1 HP per 12 hours</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Regular</name>
+				<cost type="points">25</cost>
+				<affects>total</affects>
+				<reference>B80</reference>
+				<notes>You recover 1 HP per hour</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Fast</name>
+				<cost type="points">50</cost>
+				<affects>total</affects>
+				<reference>B80</reference>
+				<notes>You recover 1 HP per minute</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Very Fast</name>
+				<cost type="points">100</cost>
+				<affects>total</affects>
+				<reference>B80</reference>
+				<notes>You recover 1 HP per second</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Extreme</name>
+				<cost type="points">150</cost>
+				<affects>total</affects>
+				<reference>B80</reference>
+				<notes>You recover 10 HP per second</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Heals Radiation</name>
+				<cost type="percentage">40</cost>
+				<affects>total</affects>
+				<reference>B80</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Radiation Only</name>
+				<cost type="percentage">-60</cost>
+				<affects>total</affects>
+				<reference>B80</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Fatigue Recovery</name>
+				<cost type="percentage">100</cost>
+				<affects>total</affects>
+				<reference>P70</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Fatigue Only</name>
+				<cost type="percentage">0</cost>
+				<affects>total</affects>
+				<reference>P70</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Limited: @Advantage@ Only</name>
+				<cost type="percentage">-40</cost>
+				<affects>total</affects>
+				<reference>P70</reference>
+			</modifier>
+			<reference>B80</reference>
+			<notes>Acuired from Ganna</notes>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Appearance</name>
+			<type>Physical</type>
+			<modifier version="1" enabled="no">
+				<name>Universal</name>
+				<cost type="percentage">25</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Off-the-Shelf Looks</name>
+				<cost type="percentage">-50</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Androgynous</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Impressive</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Attractive</name>
+				<cost type="points">4</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Average</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Horrific</name>
+				<cost type="points">-24</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Monstrous</name>
+				<cost type="points">-20</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Hideous</name>
+				<cost type="points">-16</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Ugly</name>
+				<cost type="points">-8</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1">
+				<name>Unattractive</name>
+				<cost type="points">-4</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Handsome</name>
+				<cost type="points">12</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Beautiful</name>
+				<cost type="points">12</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Very Handsome</name>
+				<cost type="points">16</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Very Beautiful</name>
+				<cost type="points">16</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Transcendent</name>
+				<cost type="points">20</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1">
+				<name>Affects not all people</name>
+				<cost type="percentage">-50</cost>
+				<affects>total</affects>
+			</modifier>
+			<reference>B21</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Patron</name>
+			<type>Social</type>
+			<modifier version="1" enabled="no">
+				<name>@Who: Individual with 150% of PC's starting points@</name>
+				<cost type="points">10</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Who: Organization with assets of at least 1000 times starting wealth@</name>
+				<cost type="points">10</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Who: Individual with twice the PC's starting points@</name>
+				<cost type="points">10</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Who: Organization with assets of at least 10000 times starting wealth@</name>
+				<cost type="points">15</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Who: An ultra-powerful individual@</name>
+				<cost type="points">20</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Who: Organization with assets of at least 100000 times starting wealth@</name>
+				<cost type="points">20</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Who: Organization with assets of at least 1000000 times starting wealth@</name>
+				<cost type="points">25</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Who: A national government or giant multi-national organization@</name>
+				<cost type="points">30</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Ganna</name>
+				<cost type="points">30</cost>
+				<affects>total</affects>
+				<reference>B72</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears almost all the time</name>
+				<cost type="multiplier">3</cost>
+				<reference>B36</reference>
+				<notes>15-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears quite often</name>
+				<cost type="multiplier">2</cost>
+				<reference>B36</reference>
+				<notes>12-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears fairly often</name>
+				<cost type="multiplier">1</cost>
+				<reference>B36</reference>
+				<notes>9-</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Appears quite rarely</name>
+				<cost type="multiplier">0.5</cost>
+				<reference>B36</reference>
+				<notes>6-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Equipment</name>
+				<cost type="percentage">50</cost>
+				<affects>total</affects>
+				<reference>B73</reference>
+				<notes>@Equipment worth no more than average starting wealth@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Equipment</name>
+				<cost type="percentage">100</cost>
+				<affects>total</affects>
+				<reference>B73</reference>
+				<notes>@Equipment worth more than average starting wealth@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Highly Accessible</name>
+				<cost type="percentage">50</cost>
+				<affects>total</affects>
+				<reference>B73</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Special Abilities</name>
+				<cost type="percentage">50</cost>
+				<affects>total</affects>
+				<reference>B73</reference>
+				<notes>@Extensive social or political power@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Special Abilities</name>
+				<cost type="percentage">100</cost>
+				<affects>total</affects>
+				<reference>B73</reference>
+				<notes>@Magical powers in a non-magical world, higher TL equipment, grants special powers or is supernatural@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Minimal Interventions</name>
+				<cost type="percentage">-50</cost>
+				<affects>total</affects>
+				<reference>B73</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Secret</name>
+				<cost type="percentage">-50</cost>
+				<affects>total</affects>
+				<reference>B73</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Unwilling</name>
+				<cost type="percentage">-50</cost>
+				<affects>total</affects>
+				<reference>B74</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Favor</name>
+				<cost type="multiplier">0.2</cost>
+				<reference>B55</reference>
+			</modifier>
+			<reference>B72</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Hive Link</name>
+			<type>Mental, Exotic</type>
+			<base_points>-25</base_points>
+			<notes>When injured You are required to roll against Will to sustain Yourself and not to send a powerful telepathic signal to Your hive members. If injury is bigger than 1/3 HT, you get -1. If injury is extremely painful (torture), You get -1. If You can not stay silent (You shout or scream physicaly) You get -1.If a hive member sends out such signal, roll against (20 - IQ) to resist. There is a -1 penalty for every 2 IQ points sender had more than You. There is -5 penalty if You were reading senders mind, and -10 penalty if sender was actively controlled by You (dominated).
+  On success You avoid mental stun. On failure you are mentally stunned and you receive FP damage equal to margin of failure or damage received by the sender, whichever is less. On critical failure all of the above and You must roll against Will not to pass out instantly. (If this takes Your FP below zero You get HP damage. Treat the damage as exaustion from Magic.)
+  * The signals strength weakens by distance. For every mile add +1 to base resist value. However the signal is still "audible" until it reaches senders IQ times 10 miles. (dying Thur'wak is audible in 30 miles radius)
+  * If You are unconcious -- any of the above does not work.
+  * If You pass out before you feel pain -- You don't send the signal.</notes>
+		</advantage>
+	</advantage_list>
+	<skill_list>
+		<skill version="2">
+			<name>Brawling</name>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B182</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<weapon_bonus>
+				<name compare="is">Brawling</name>
+				<specialization compare="is anything"></specialization>
+				<level compare="at_least">2</level>
+				<amount per_level="yes">1</amount>
+			</weapon_bonus>
+		</skill>
+		<skill version="2">
+			<name>Knife</name>
+			<difficulty>DX/E</difficulty>
+			<points>8</points>
+			<reference>B208</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Filch</name>
+			<difficulty>DX/A</difficulty>
+			<points>4</points>
+			<reference>B195</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Pickpocket</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Sleight of Hand</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Stealth</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>4</points>
+			<reference>B222</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Escape</name>
+			<difficulty>DX/H</difficulty>
+			<points>1</points>
+			<reference>B192</reference>
+			<categories>
+				<category>Criminal/Street</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Fast-Draw</name>
+			<specialization>Knife</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B194</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+		</skill>
+		<skill version="2">
+			<name>Holdout</name>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B200</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Sleight of Hand</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Pickpocket</name>
+			<difficulty>DX/H</difficulty>
+			<points>4</points>
+			<reference>B213</reference>
+			<categories>
+				<category>Criminal/Street</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Filch</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Sleight of Hand</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Shadowing</name>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B219</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Observation</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Stealth</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Smuggling</name>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B221</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Survival</name>
+			<specialization>Woodlands</specialization>
+			<difficulty>Per/A</difficulty>
+			<points>1</points>
+			<reference>B223</reference>
+			<categories>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Arctic</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Desert</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Island/Beach</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Jungle</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Mountain</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Plains</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Swampland</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Thrown Weapon</name>
+			<specialization>Knife</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B226</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Traps</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B226</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Military</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Lockpicking</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Urban Survival</name>
+			<difficulty>Per/A</difficulty>
+			<points>1</points>
+			<reference>B228</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<technique version="2" limit="0">
+			<name>Dual-Weapon Attack</name>
+			<difficulty>H</difficulty>
+			<points>5</points>
+			<reference>B230, MA83</reference>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
+				<modifier>-4</modifier>
+			</default>
+			<categories>
+				<category>Cinematic Techniques</category>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+		</technique>
+		<skill version="2">
+			<name>Acrobatics</name>
+			<difficulty>DX/H</difficulty>
+			<points>2</points>
+			<reference>B174</reference>
+			<categories>
+				<category>Athletic</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Meditation</name>
+			<difficulty>Will/H</difficulty>
+			<points>1</points>
+			<reference>B207</reference>
+			<categories>
+				<category>Esoteric</category>
+			</categories>
+			<default>
+				<type>Will</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Autohypnosis</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+	</skill_list>
+	<equipment_list>
+		<equipment_container version="3" open="yes" state="equipped">
+			<description>Food bag</description>
+			<legality_class>4</legality_class>
+			<value>2</value>
+			<equipment version="3" state="equipped">
+				<quantity>1</quantity>
+				<description>Cheese Roll</description>
+				<legality_class>4</legality_class>
+				<value>5</value>
+				<weight>2.5 kg</weight>
+			</equipment>
+			<equipment version="3" state="equipped">
+				<quantity>1</quantity>
+				<description>Barrel of wine</description>
+				<legality_class>4</legality_class>
+				<value>25</value>
+				<weight>5 kg</weight>
+			</equipment>
+		</equipment_container>
+		<equipment_container version="3" open="yes" state="equipped">
+			<description>Long Jacket And Leather Armor suit</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>350</value>
+			<weight>19.5 kg</weight>
+			<notes>Jacket has hidden compartments for hiding objects and sheathes for daggers in sleeves</notes>
+			<dr_bonus>
+				<location>full_body_except_eyes</location>
+				<amount>2</amount>
+			</dr_bonus>
+			<skill_bonus>
+				<name compare="is">Holdout</name>
+				<specialization compare="is anything"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<equipment version="3" state="equipped">
+				<quantity>1</quantity>
+				<description>Orcish Dagger</description>
+				<tech_level>3</tech_level>
+				<legality_class>4</legality_class>
+				<value>200</value>
+				<weight>0.25 kg</weight>
+				<reference>B272</reference>
+				<melee_weapon>
+					<damage>thr imp</damage>
+					<strength>7</strength>
+					<usage>Thrust</usage>
+					<reach>C</reach>
+					<parry>-1</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Knife</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Force Sword</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Main-Gauche</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Shortsword</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Sword!</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<ranged_weapon>
+					<damage>thr-1 imp</damage>
+					<strength>5</strength>
+					<usage>Thrown</usage>
+					<accuracy>+0</accuracy>
+					<range>x0.5/x1</range>
+					<rate_of_fire>1</rate_of_fire>
+					<shots>T(1)</shots>
+					<bulk>-1</bulk>
+					<default>
+						<type>DX</type>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Thrown Weapon</name>
+						<specialization>Knife</specialization>
+						<modifier>0</modifier>
+					</default>
+				</ranged_weapon>
+				<notes>Taken from battlefield of Blood Falls. Made from orcish steel, has a large insignia on its blade.</notes>
+				<categories>
+					<category>Melee Weapon</category>
+					<category>Missile Weapon</category>
+				</categories>
+			</equipment>
+			<equipment version="3" state="equipped">
+				<quantity>2</quantity>
+				<description>Dagger</description>
+				<tech_level>1</tech_level>
+				<legality_class>4</legality_class>
+				<value>20</value>
+				<weight>0.25 kg</weight>
+				<reference>B272</reference>
+				<melee_weapon>
+					<damage>thr imp</damage>
+					<strength>5</strength>
+					<usage>Thrust</usage>
+					<reach>C</reach>
+					<parry>-1</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Knife</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Force Sword</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Main-Gauche</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Shortsword</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Sword!</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<ranged_weapon>
+					<damage>thr-1 imp</damage>
+					<strength>5</strength>
+					<usage>Thrown</usage>
+					<accuracy>+0</accuracy>
+					<range>x0.5/x1</range>
+					<rate_of_fire>1</rate_of_fire>
+					<shots>T(1)</shots>
+					<bulk>-1</bulk>
+					<default>
+						<type>DX</type>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Thrown Weapon</name>
+						<specialization>Knife</specialization>
+						<modifier>0</modifier>
+					</default>
+				</ranged_weapon>
+				<categories>
+					<category>Melee Weapon</category>
+					<category>Missile Weapon</category>
+				</categories>
+			</equipment>
+			<equipment version="3" state="equipped">
+				<quantity>1</quantity>
+				<description>Bottle of unknown liquid</description>
+				<legality_class>4</legality_class>
+				<value>0</value>
+			</equipment>
+			<equipment version="3" state="equipped">
+				<quantity>1</quantity>
+				<description>Dagger blunt</description>
+				<tech_level>1</tech_level>
+				<legality_class>4</legality_class>
+				<value>20</value>
+				<weight>0.25 kg</weight>
+				<reference>B272</reference>
+				<melee_weapon>
+					<damage>thr imp</damage>
+					<strength>5</strength>
+					<usage>Thrust</usage>
+					<reach>C</reach>
+					<parry>-1</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Knife</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Force Sword</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Main-Gauche</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Shortsword</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Sword!</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<ranged_weapon>
+					<damage>thr-1 imp</damage>
+					<strength>5</strength>
+					<usage>Thrown</usage>
+					<accuracy>+0</accuracy>
+					<range>x0.5/x1</range>
+					<rate_of_fire>1</rate_of_fire>
+					<shots>T(1)</shots>
+					<bulk>-1</bulk>
+					<default>
+						<type>DX</type>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Thrown Weapon</name>
+						<specialization>Knife</specialization>
+						<modifier>0</modifier>
+					</default>
+				</ranged_weapon>
+				<categories>
+					<category>Melee Weapon</category>
+					<category>Missile Weapon</category>
+				</categories>
+			</equipment>
+			<equipment version="3" state="equipped">
+				<quantity>2</quantity>
+				<description>Dagger Bronze</description>
+				<tech_level>1</tech_level>
+				<legality_class>4</legality_class>
+				<value>20</value>
+				<weight>0.25 kg</weight>
+				<reference>B272</reference>
+				<melee_weapon>
+					<damage>thr+2 imp</damage>
+					<strength>5</strength>
+					<usage>Thrust</usage>
+					<reach>C</reach>
+					<parry>-1</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Knife</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Force Sword</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Main-Gauche</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Shortsword</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Sword!</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<ranged_weapon>
+					<damage>thr-1 imp</damage>
+					<strength>5</strength>
+					<usage>Thrown</usage>
+					<accuracy>+0</accuracy>
+					<range>x0.5/x1</range>
+					<rate_of_fire>1</rate_of_fire>
+					<shots>T(1)</shots>
+					<bulk>-1</bulk>
+					<default>
+						<type>DX</type>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Thrown Weapon</name>
+						<specialization>Knife</specialization>
+						<modifier>0</modifier>
+					</default>
+				</ranged_weapon>
+				<categories>
+					<category>Melee Weapon</category>
+					<category>Missile Weapon</category>
+				</categories>
+			</equipment>
+			<equipment version="3" state="equipped">
+				<quantity>2</quantity>
+				<description>Ointment: Healing</description>
+				<legality_class>4</legality_class>
+				<value>20</value>
+				<reference>M217</reference>
+				<categories>
+					<category>Ointment</category>
+				</categories>
+			</equipment>
+		</equipment_container>
+	</equipment_list>
+	<print_settings units="in">
+		<orientation>Portrait</orientation>
+		<width>8.267716407775879</width>
+		<height>11.692913055419922</height>
+		<top_margin>0.5</top_margin>
+		<left_margin>0.5</left_margin>
+		<bottom_margin>0.5</bottom_margin>
+		<right_margin>0.5</right_margin>
+		<ink_chromaticity>Monochrome</ink_chromaticity>
+		<sides>Single</sides>
+		<quality>Normal</quality>
+	</print_settings>
+</character>
