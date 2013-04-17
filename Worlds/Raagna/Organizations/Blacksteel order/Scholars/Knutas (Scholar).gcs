@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="hfmr3j78:1ejm0rt13aixb" version="2">
-	<created_date>Apr 17, 2013</created_date>
-	<modified_date>Apr 17, 2013 8:28 PM</modified_date>
+	<created_date>2013-04-17</created_date>
+	<modified_date>2013-04-17 20.19</modified_date>
 	<profile>
 		<player_name>xytis</player_name>
 		<name>Royce Kaspar</name>
@@ -17,6 +17,177 @@
 		<gender>Male</gender>
 		<race>Human</race>
 		<tech_level>3</tech_level>
+		<!-- The portrait is a PNG file encoded as Base64. -->
+		<portrait>
+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
+AGRWFQbQ/wNXfnRq1AlADwAAAABJRU5ErkJggg==
+		</portrait>
 	</profile>
 	<HP>0</HP>
 	<FP>0</FP>
@@ -55,6 +226,93 @@
 				<reference>B161</reference>
 			</modifier>
 			<reference>B161</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Trickster</name>
+			<type>Mental</type>
+			<base_points>-15</base_points>
+			<cr>12</cr>
+			<reference>B159</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Skinny</name>
+			<type>Physical</type>
+			<base_points>-5</base_points>
+			<reference>B18</reference>
+			<notes>-2 ST vs. knockback</notes>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+			<skill_bonus>
+				<name compare="is">disguise</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-2</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">shadowing</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-2</amount>
+			</skill_bonus>
+			<prereq_list all="yes">
+				<attribute_prereq has="yes" which="ht" compare="at_most">14</attribute_prereq>
+			</prereq_list>
+		</advantage>
+		<advantage version="2">
+			<name>Sense of Duty</name>
+			<type>Mental</type>
+			<modifier version="1" enabled="no">
+				<name>Friends and Companions</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B153</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Small Group@</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B153</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Individual@</name>
+				<cost type="points">-2</cost>
+				<affects>total</affects>
+				<reference>B153</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Blacksteel</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B153</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Entire Race@</name>
+				<cost type="points">-15</cost>
+				<affects>total</affects>
+				<reference>B153</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Every Living Being</name>
+				<cost type="points">-20</cost>
+				<affects>total</affects>
+				<reference>B153</reference>
+			</modifier>
+			<reference>B153</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Selfish</name>
+			<type>Mental</type>
+			<base_points>-5</base_points>
+			<cr>12</cr>
+			<reference>B153</reference>
 			<categories>
 				<category>Disadvantage</category>
 			</categories>
@@ -203,6 +461,15 @@
 			</categories>
 		</advantage>
 		<advantage version="2">
+			<name>Pacifism: Cannot Harm Innocents</name>
+			<type>Mental</type>
+			<base_points>-10</base_points>
+			<reference>B148</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
 			<name>Magery</name>
 			<type>Mental, Supernatural</type>
 			<levels>2</levels>
@@ -263,6 +530,39 @@
 			</skill_bonus>
 		</advantage>
 		<advantage version="2">
+			<name>Curious</name>
+			<type>Mental</type>
+			<base_points>-5</base_points>
+			<cr>12</cr>
+			<reference>B129</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Rank</name>
+			<type>Physical</type>
+			<levels>1</levels>
+			<points_per_level>5</points_per_level>
+			<modifier version="1" enabled="no">
+				<name>Replaces Status</name>
+				<cost type="points">5</cost>
+				<affects>levels_only</affects>
+				<reference>B29</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Courtesy</name>
+				<cost type="points">-4</cost>
+				<affects>levels_only</affects>
+				<reference>B29</reference>
+			</modifier>
+			<reference>B29</reference>
+			<notes>Blacksteel Rank: Scholar</notes>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
 			<name>Combat Reflexes</name>
 			<type>Mental</type>
 			<base_points>15</base_points>
@@ -292,112 +592,6 @@
 				<attribute>fright_check</attribute>
 				<amount>2</amount>
 			</attribute_bonus>
-		</advantage>
-		<advantage version="2">
-			<name>Curious</name>
-			<type>Mental</type>
-			<base_points>-5</base_points>
-			<cr>12</cr>
-			<reference>B129</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Selfish</name>
-			<type>Mental</type>
-			<base_points>-5</base_points>
-			<cr>12</cr>
-			<reference>B153</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Sense of Duty</name>
-			<type>Mental</type>
-			<modifier version="1" enabled="no">
-				<name>Friends and Companions</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B153</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@Small Group@</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B153</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@Individual@</name>
-				<cost type="points">-2</cost>
-				<affects>total</affects>
-				<reference>B153</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Blacksteel</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B153</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@Entire Race@</name>
-				<cost type="points">-15</cost>
-				<affects>total</affects>
-				<reference>B153</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Every Living Being</name>
-				<cost type="points">-20</cost>
-				<affects>total</affects>
-				<reference>B153</reference>
-			</modifier>
-			<reference>B153</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Pacifism: Cannot Harm Innocents</name>
-			<type>Mental</type>
-			<base_points>-10</base_points>
-			<reference>B148</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Skinny</name>
-			<type>Physical</type>
-			<base_points>-5</base_points>
-			<reference>B18</reference>
-			<notes>-2 ST vs. knockback</notes>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-			<skill_bonus>
-				<name compare="is">disguise</name>
-				<specialization compare="is anything"></specialization>
-				<amount>-2</amount>
-			</skill_bonus>
-			<skill_bonus>
-				<name compare="is">shadowing</name>
-				<specialization compare="is anything"></specialization>
-				<amount>-2</amount>
-			</skill_bonus>
-			<prereq_list all="yes">
-				<attribute_prereq has="yes" which="ht" compare="at_most">14</attribute_prereq>
-			</prereq_list>
-		</advantage>
-		<advantage version="2">
-			<name>Trickster</name>
-			<type>Mental</type>
-			<base_points>-15</base_points>
-			<cr>12</cr>
-			<reference>B159</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
 		</advantage>
 	</advantage_list>
 	<skill_list>
@@ -457,7 +651,7 @@
 			<name>First Aid</name>
 			<tech_level>3</tech_level>
 			<difficulty>IQ/E</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B195</reference>
 			<categories>
 				<category>Everyman</category>
@@ -645,6 +839,86 @@
 			</categories>
 			<default>
 				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Fast-Draw</name>
+			<specialization>Sword</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>2</points>
+			<reference>B194</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+		</skill>
+		<skill version="2">
+			<name>Climbing</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>2</points>
+			<reference>B183</reference>
+			<categories>
+				<category>Athletic</category>
+				<category>Criminal/Street</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Merchant</name>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B209</reference>
+			<categories>
+				<category>Business</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Finance</name>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Market Analysis</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Diagnosis</name>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>2</points>
+			<reference>B187</reference>
+			<categories>
+				<category>Medical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>First Aid</name>
+				<modifier>-8</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physician</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Veterinary</name>
 				<modifier>-5</modifier>
 			</default>
 		</skill>
@@ -1072,7 +1346,7 @@
 			</dr_bonus>
 		</equipment>
 	</equipment_list>
-	<print_settings units="in">
+	<print_settings printer="Canon MG6200 series Printer WS" units="in">
 		<orientation>Portrait</orientation>
 		<width>8.5</width>
 		<height>11</height>
