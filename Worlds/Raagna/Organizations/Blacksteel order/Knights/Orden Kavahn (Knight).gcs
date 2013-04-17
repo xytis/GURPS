@@ -1,84 +1,39 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character unique_id="hflhwxz0:-6viz31fgcgg2" version="2">
-	<created_date>Apr 16, 2013</created_date>
-	<modified_date>Apr 17, 2013 2:03 PM</modified_date>
+<character unique_id="hfmdftsa:1qc6dqmy00jq0" version="2">
+	<created_date>Apr 17, 2013</created_date>
+	<modified_date>Apr 17, 2013 2:08 PM</modified_date>
 	<profile>
 		<player_name>NPC</player_name>
-		<name>Thurman Prestage</name>
-		<title>Blacksteel Squire</title>
-		<age>19</age>
-		<birthday>July 13</birthday>
-		<eyes>Green</eyes>
+		<name>Orden Kavahn</name>
+		<title>Knight</title>
+		<age>22</age>
+		<birthday>April 20</birthday>
+		<eyes>Blue</eyes>
 		<hair>Redhead, Wavy, Medium</hair>
 		<skin>Light Brown</skin>
 		<handedness>Right</handedness>
-		<height>5' 10"</height>
-		<weight>175 lb</weight>
+		<height>5' 9"</height>
+		<weight>126 lb</weight>
 		<SM>0</SM>
 		<gender>Male</gender>
 		<race>Human</race>
-		<tech_level>3</tech_level>
+		<tech_level>4</tech_level>
 	</profile>
-	<HP>8</HP>
+	<HP>0</HP>
 	<FP>0</FP>
-	<total_points>165</total_points>
-	<ST>12</ST>
-	<DX>13</DX>
-	<IQ>10</IQ>
-	<HT>10</HT>
-	<will>0</will>
-	<perception>0</perception>
+	<total_points>250</total_points>
+	<ST>11</ST>
+	<DX>12</DX>
+	<IQ>13</IQ>
+	<HT>11</HT>
+	<will>1</will>
+	<perception>-2</perception>
 	<speed>0</speed>
 	<move>0</move>
 	<include_punch>true</include_punch>
 	<include_kick>true</include_kick>
 	<include_kick_with_boots>true</include_kick_with_boots>
 	<advantage_list>
-		<advantage version="2">
-			<name>Vow (Blacksteel Honor Code)</name>
-			<type>Physical</type>
-			<modifier version="1" enabled="no">
-				<name>Minor</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B161</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Major</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B161</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Great</name>
-				<cost type="points">-15</cost>
-				<affects>total</affects>
-				<reference>B161</reference>
-			</modifier>
-			<reference>B161</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Code of Honor (Chivalry)</name>
-			<type>Mental</type>
-			<base_points>-15</base_points>
-			<reference>B127</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Honesty</name>
-			<type>Mental</type>
-			<base_points>-10</base_points>
-			<cr>6</cr>
-			<reference>B138</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
 		<advantage version="2">
 			<name>Patron</name>
 			<type>Social</type>
@@ -223,10 +178,46 @@
 			</categories>
 		</advantage>
 		<advantage version="2">
+			<name>Vow (Blacksteel Honor Code)</name>
+			<type>Physical</type>
+			<modifier version="1" enabled="no">
+				<name>Minor</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B161</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Major</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B161</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Great</name>
+				<cost type="points">-15</cost>
+				<affects>total</affects>
+				<reference>B161</reference>
+			</modifier>
+			<reference>B161</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
 			<name>Trained by a Master</name>
 			<type>Mental</type>
 			<base_points>30</base_points>
 			<reference>B93</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>High Pain Threshold</name>
+			<type>Physical</type>
+			<base_points>10</base_points>
+			<reference>B59</reference>
+			<notes>Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture</notes>
 			<categories>
 				<category>Advantage</category>
 			</categories>
@@ -265,9 +256,108 @@
 	</advantage_list>
 	<skill_list>
 		<skill version="2">
+			<name>Leadership</name>
+			<difficulty>IQ/A</difficulty>
+			<points>4</points>
+			<reference>B204</reference>
+			<categories>
+				<category>Military</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Strategy</name>
+			<specialization>Land</specialization>
+			<difficulty>IQ/H</difficulty>
+			<points>8</points>
+			<reference>B222</reference>
+			<categories>
+				<category>Military</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Intelligence Analysis</name>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Tactics</name>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Strategy</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Intelligence Analysis</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>8</points>
+			<reference>B201</reference>
+			<categories>
+				<category>Military</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Strategy</name>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Savoir-Faire</name>
+			<specialization>Military</specialization>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B218</reference>
+			<categories>
+				<category>Knowledge</category>
+				<category>Military</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Tactics</name>
+			<difficulty>IQ/H</difficulty>
+			<points>4</points>
+			<reference>B224</reference>
+			<categories>
+				<category>Military</category>
+				<category>Police</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Strategy</name>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Two-Handed Sword</name>
 			<difficulty>DX/A</difficulty>
-			<points>2</points>
+			<points>4</points>
 			<reference>B209</reference>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -288,86 +378,15 @@
 				<modifier>-5</modifier>
 			</default>
 		</skill>
-		<skill version="2">
-			<name>Broadsword</name>
-			<difficulty>DX/A</difficulty>
-			<points>4</points>
-			<reference>B208</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Rapier</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Two-Handed Sword</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<technique version="2" limit="4">
-			<name>Feint</name>
-			<difficulty>H</difficulty>
-			<points>4</points>
-			<reference>B231</reference>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>0</modifier>
-			</default>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-				<category>Technique</category>
-			</categories>
-		</technique>
 		<technique version="2" limit="5">
 			<name>Retain Weapon</name>
 			<difficulty>H</difficulty>
 			<points>2</points>
-			<reference>B232</reference>
+			<reference>B232, MA78</reference>
 			<default>
 				<type>Skill</type>
-				<name>Broadsword</name>
+				<name>Two-Handed Sword</name>
 				<modifier>0</modifier>
-			</default>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-				<category>Technique</category>
-			</categories>
-		</technique>
-		<technique version="2" limit="0">
-			<name>Off-Hand Weapon Training</name>
-			<difficulty>H</difficulty>
-			<points>4</points>
-			<reference>B232</reference>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-4</modifier>
 			</default>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -379,11 +398,33 @@
 			<name>Disarming</name>
 			<difficulty>H</difficulty>
 			<points>2</points>
-			<reference>B230</reference>
+			<reference>B230, MA70</reference>
 			<default>
 				<type>Skill</type>
-				<name>Broadsword</name>
+				<name>Two-Handed Sword</name>
 				<modifier>0</modifier>
+			</default>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Two-Handed Sword</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<technique version="2" limit="0">
+			<name>Sweep</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>B232, MA81</reference>
+			<default>
+				<type>Skill</type>
+				<name>Two-Handed Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -395,7 +436,7 @@
 			<name>Karate</name>
 			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 			<difficulty>DX/H</difficulty>
-			<points>2</points>
+			<points>1</points>
 			<reference>B203</reference>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -414,139 +455,21 @@
 				<amount per_level="yes">1</amount>
 			</weapon_bonus>
 		</skill>
-		<technique version="2" limit="0">
-			<name>Kicking</name>
-			<difficulty>H</difficulty>
-			<points>2</points>
-			<reference>B231, MA75</reference>
-			<default>
-				<type>Skill</type>
-				<name>Karate</name>
-				<modifier>-2</modifier>
-			</default>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-				<category>Technique</category>
-			</categories>
-		</technique>
-		<technique version="2" limit="4">
-			<name>Feint</name>
-			<difficulty>H</difficulty>
-			<points>2</points>
-			<reference>B231</reference>
-			<default>
-				<type>Skill</type>
-				<name>Karate</name>
-				<modifier>0</modifier>
-			</default>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-				<category>Technique</category>
-			</categories>
-		</technique>
-		<technique version="2" limit="0">
-			<name>Ground Fighting</name>
-			<difficulty>H</difficulty>
-			<points>2</points>
-			<reference>B231</reference>
-			<default>
-				<type>Skill</type>
-				<name>Karate</name>
-				<modifier>-4</modifier>
-			</default>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-				<category>Technique</category>
-			</categories>
-		</technique>
-		<technique version="2" limit="5">
-			<name>Disarming</name>
-			<difficulty>H</difficulty>
-			<points>2</points>
-			<reference>B230</reference>
-			<default>
-				<type>Skill</type>
-				<name>Karate</name>
-				<modifier>0</modifier>
-			</default>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-				<category>Technique</category>
-			</categories>
-		</technique>
-		<technique version="2" limit="-4">
-			<name>Eye-Poke</name>
-			<difficulty>H</difficulty>
-			<points>2</points>
-			<reference>MA72</reference>
-			<default>
-				<type>Skill</type>
-				<name>Karate</name>
-				<modifier>-9</modifier>
-			</default>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-				<category>Technique</category>
-			</categories>
-			<prereq_list all="yes">
-				<skill_prereq has="yes">
-					<name compare="is">Karate</name>
-					<specialization compare="is anything"></specialization>
-				</skill_prereq>
-			</prereq_list>
-		</technique>
-		<technique version="2" limit="0">
-			<name>Lethal Kick</name>
-			<difficulty>H</difficulty>
-			<points>2</points>
-			<reference>MA85</reference>
-			<default>
-				<type>Skill</type>
-				<name>Karate</name>
-				<modifier>-4</modifier>
-			</default>
-			<categories>
-				<category>Cinematic Techniques</category>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-		</technique>
-		<technique version="2" limit="0">
-			<name>Sweeping Kick</name>
-			<difficulty>H</difficulty>
-			<points>2</points>
-			<reference>B232, MA81</reference>
-			<default>
-				<type>Skill</type>
-				<name>Karate</name>
-				<modifier>-3</modifier>
-			</default>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-				<category>Technique</category>
-			</categories>
-		</technique>
 	</skill_list>
 	<equipment_list>
 		<equipment version="3" state="equipped">
-			<quantity>2</quantity>
-			<description>Black Broadsword</description>
+			<quantity>1</quantity>
+			<description>Black Greatsword</description>
 			<tech_level>3</tech_level>
 			<legality_class>4</legality_class>
-			<value>1500</value>
-			<weight>3 lb</weight>
-			<reference>B271</reference>
+			<value>800</value>
+			<weight>7 lb</weight>
+			<reference>B274</reference>
 			<melee_weapon>
-				<damage>sw+2 cut</damage>
-				<strength>10</strength>
+				<damage>sw+4 cut</damage>
+				<strength>12&#8224;</strength>
 				<usage>Swung</usage>
-				<reach>1</reach>
+				<reach>1,2</reach>
 				<parry>0</parry>
 				<block>No</block>
 				<default>
@@ -555,32 +478,17 @@
 				</default>
 				<default>
 					<type>Skill</type>
-					<name>Force Sword</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Broadsword</name>
+					<name>Two-Handed Sword</name>
 					<modifier>0</modifier>
 				</default>
 				<default>
 					<type>Skill</type>
-					<name>Rapier</name>
+					<name>Broadsword</name>
 					<modifier>-4</modifier>
 				</default>
 				<default>
 					<type>Skill</type>
-					<name>Saber</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shortsword</name>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Two-Handed Sword</name>
+					<name>Force Sword</name>
 					<modifier>-4</modifier>
 				</default>
 				<default>
@@ -590,10 +498,10 @@
 				</default>
 			</melee_weapon>
 			<melee_weapon>
-				<damage>thr+2 cr</damage>
-				<strength>10</strength>
+				<damage>thr+3 cr</damage>
+				<strength>12&#8224;</strength>
 				<usage>Thrust</usage>
-				<reach>1</reach>
+				<reach>2</reach>
 				<parry>0</parry>
 				<block>No</block>
 				<default>
@@ -602,32 +510,17 @@
 				</default>
 				<default>
 					<type>Skill</type>
-					<name>Force Sword</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Broadsword</name>
+					<name>Two-Handed Sword</name>
 					<modifier>0</modifier>
 				</default>
 				<default>
 					<type>Skill</type>
-					<name>Rapier</name>
+					<name>Broadsword</name>
 					<modifier>-4</modifier>
 				</default>
 				<default>
 					<type>Skill</type>
-					<name>Saber</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shortsword</name>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Two-Handed Sword</name>
+					<name>Force Sword</name>
 					<modifier>-4</modifier>
 				</default>
 				<default>
@@ -636,73 +529,116 @@
 					<modifier>0</modifier>
 				</default>
 			</melee_weapon>
-			<notes>Forged from highest quality blacksteel</notes>
 			<categories>
 				<category>Melee Weapon</category>
 			</categories>
 		</equipment>
 		<equipment version="3" state="equipped">
 			<quantity>1</quantity>
-			<description>Black Steel Breastplate</description>
+			<description>Black Steel Corselet</description>
 			<tech_level>3</tech_level>
 			<legality_class>3</legality_class>
-			<value>500</value>
-			<weight>18 lb</weight>
+			<value>2300</value>
+			<weight>45 lb</weight>
 			<reference>B283</reference>
 			<categories>
 				<category>Body Armor</category>
 			</categories>
 			<dr_bonus>
 				<location>torso</location>
+				<amount>7</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>groin</location>
+				<amount>7</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Black Steel Gauntlets</description>
+			<tech_level>3</tech_level>
+			<legality_class>3</legality_class>
+			<value>250</value>
+			<weight>2.5 lb</weight>
+			<reference>B284</reference>
+			<categories>
+				<category>Gloves</category>
+			</categories>
+			<dr_bonus>
+				<location>hands</location>
 				<amount>5</amount>
 			</dr_bonus>
 		</equipment>
 		<equipment version="3" state="equipped">
 			<quantity>1</quantity>
-			<description>Black Mail Leggings</description>
-			<tech_level>2</tech_level>
+			<description>Black Steel Sollerets</description>
+			<tech_level>3</tech_level>
 			<legality_class>3</legality_class>
-			<value>110</value>
-			<weight>15 lb</weight>
-			<reference>B283</reference>
-			<categories>
-				<category>Limb Armor</category>
-			</categories>
-			<dr_bonus>
-				<location>legs</location>
-				<amount>4</amount>
-			</dr_bonus>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Black Mail Sleeves</description>
-			<tech_level>2</tech_level>
-			<legality_class>3</legality_class>
-			<value>70</value>
-			<weight>9 lb</weight>
-			<reference>B283</reference>
-			<categories>
-				<category>Limb Armor</category>
-			</categories>
-			<dr_bonus>
-				<location>arms</location>
-				<amount>4</amount>
-			</dr_bonus>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Black Leather Boots</description>
-			<tech_level>2</tech_level>
-			<legality_class>-</legality_class>
-			<value>80</value>
-			<weight>3 lb</weight>
+			<value>150</value>
+			<weight>7 lb</weight>
 			<reference>B284</reference>
 			<categories>
 				<category>Footwear</category>
 			</categories>
 			<dr_bonus>
 				<location>feet</location>
-				<amount>2</amount>
+				<amount>4</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Black Plate Legs</description>
+			<tech_level>3</tech_level>
+			<legality_class>3</legality_class>
+			<value>1600</value>
+			<weight>25 lb</weight>
+			<reference>B283</reference>
+			<categories>
+				<category>Limb Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>legs</location>
+				<amount>7</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Black Plate Arms</description>
+			<tech_level>3</tech_level>
+			<legality_class>3</legality_class>
+			<value>1500</value>
+			<weight>20 lb</weight>
+			<reference>B283</reference>
+			<categories>
+				<category>Limb Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>arms</location>
+				<amount>7</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Black Great Helm</description>
+			<tech_level>3</tech_level>
+			<legality_class>3</legality_class>
+			<value>340</value>
+			<weight>10 lb</weight>
+			<reference>B284</reference>
+			<categories>
+				<category>Headgear</category>
+			</categories>
+			<dr_bonus>
+				<location>neck</location>
+				<amount>7</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>face</location>
+				<amount>7</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>skull</location>
+				<amount>7</amount>
 			</dr_bonus>
 		</equipment>
 	</equipment_list>
