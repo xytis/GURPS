@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="hfmr3j78:1ejm0rt13aixb" version="2">
-	<created_date>2013-04-17</created_date>
-	<modified_date>2013-04-17 20.19</modified_date>
+	<created_date>Apr 17, 2013</created_date>
+	<modified_date>Apr 17, 2013 10:19 PM</modified_date>
 	<profile>
-		<player_name>xytis</player_name>
-		<name>Royce Kaspar</name>
+		<player_name>Kasparas</player_name>
+		<name>Knutas Royce</name>
+		<title>Bachelor Apprentice</title>
 		<age>22</age>
 		<birthday>November 5</birthday>
 		<eyes>Brown</eyes>
@@ -1346,7 +1347,7 @@ AGRWFQbQ/wNXfnRq1AlADwAAAABJRU5ErkJggg==
 			</dr_bonus>
 		</equipment>
 	</equipment_list>
-	<print_settings printer="Canon MG6200 series Printer WS" units="in">
+	<print_settings units="in">
 		<orientation>Portrait</orientation>
 		<width>8.5</width>
 		<height>11</height>
