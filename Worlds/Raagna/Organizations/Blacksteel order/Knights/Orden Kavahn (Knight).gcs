@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="hfmdftsa:1qc6dqmy00jq0" version="2">
 	<created_date>Apr 17, 2013</created_date>
-	<modified_date>Apr 17, 2013 2:08 PM</modified_date>
+	<modified_date>Apr 17, 2013 7:55 PM</modified_date>
 	<profile>
 		<player_name>NPC</player_name>
-		<name>Orden Kavahn</name>
+		<name>Orden 'Krraghu' Kavahn</name>
 		<title>Knight</title>
-		<age>22</age>
+		<age>41</age>
 		<birthday>April 20</birthday>
-		<eyes>Blue</eyes>
-		<hair>Redhead, Wavy, Medium</hair>
+		<eyes>Brown</eyes>
+		<hair>Pitchblack, Straight, Medium</hair>
 		<skin>Light Brown</skin>
 		<handedness>Right</handedness>
 		<height>5' 9"</height>
@@ -17,14 +17,15 @@
 		<SM>0</SM>
 		<gender>Male</gender>
 		<race>Human</race>
-		<tech_level>4</tech_level>
+		<tech_level>3</tech_level>
+		<notes>Orden Kavahn served Ironfire for over two decades. During those years he earned quite the reputation among humans and orcs. The latter call him 'Last Sight' for a reason.</notes>
 	</profile>
-	<HP>0</HP>
+	<HP>3</HP>
 	<FP>0</FP>
-	<total_points>250</total_points>
-	<ST>11</ST>
+	<total_points>175</total_points>
+	<ST>14</ST>
 	<DX>12</DX>
-	<IQ>13</IQ>
+	<IQ>12</IQ>
 	<HT>11</HT>
 	<will>1</will>
 	<perception>-2</perception>
@@ -34,6 +35,32 @@
 	<include_kick>true</include_kick>
 	<include_kick_with_boots>true</include_kick_with_boots>
 	<advantage_list>
+		<advantage version="2">
+			<name>Vow (Blacksteel Honor Code)</name>
+			<type>Physical</type>
+			<modifier version="1" enabled="no">
+				<name>Minor</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B161</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Major</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B161</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Great</name>
+				<cost type="points">-15</cost>
+				<affects>total</affects>
+				<reference>B161</reference>
+			</modifier>
+			<reference>B161</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
 		<advantage version="2">
 			<name>Patron</name>
 			<type>Social</type>
@@ -178,38 +205,140 @@
 			</categories>
 		</advantage>
 		<advantage version="2">
-			<name>Vow (Blacksteel Honor Code)</name>
-			<type>Physical</type>
-			<modifier version="1" enabled="no">
-				<name>Minor</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B161</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Major</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B161</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Great</name>
-				<cost type="points">-15</cost>
-				<affects>total</affects>
-				<reference>B161</reference>
-			</modifier>
-			<reference>B161</reference>
+			<name>Code of Honor (Soldier's)</name>
+			<type>Mental</type>
+			<base_points>-10</base_points>
+			<reference>B127</reference>
 			<categories>
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
 		<advantage version="2">
-			<name>Trained by a Master</name>
+			<name>Bloodlust</name>
 			<type>Mental</type>
-			<base_points>30</base_points>
-			<reference>B93</reference>
+			<base_points>-10</base_points>
+			<cr>9</cr>
+			<reference>B125</reference>
 			<categories>
-				<category>Advantage</category>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Enemy (Orcs)</name>
+			<type>Social</type>
+			<modifier version="1" enabled="no">
+				<name>Weak Individual</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+				<notes>50% of your starting points</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Equal Individual</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+				<notes>100% of your starting points</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Powerful Individual</name>
+				<cost type="points">-20</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+				<notes>&gt;150% of your starting points</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Weak Group</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Medium Group</name>
+				<cost type="points">-20</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears almost all the time</name>
+				<cost type="multiplier">3</cost>
+				<reference>B36</reference>
+				<notes>15-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears quite often</name>
+				<cost type="multiplier">2</cost>
+				<reference>B36</reference>
+				<notes>12-</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Appears fairly often</name>
+				<cost type="multiplier">1</cost>
+				<reference>B36</reference>
+				<notes>9-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears quite rarely</name>
+				<cost type="multiplier">0.5</cost>
+				<reference>B36</reference>
+				<notes>6-</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Large/Powerful Group</name>
+				<cost type="points">-30</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Utterly Formidible Group</name>
+				<cost type="points">-40</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Unknown</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Evil Twin</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Evil Twin</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+				<notes>More skilled or extra abilities</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Evil Twin</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+				<notes>More skilled and extra abilities</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Watcher</name>
+				<cost type="multiplier">0.25</cost>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Rival</name>
+				<cost type="multiplier">0.5</cost>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Hunter</name>
+				<cost type="multiplier">1</cost>
+				<reference>B135</reference>
+			</modifier>
+			<reference>B135</reference>
+			<categories>
+				<category>Disadvantage</category>
 			</categories>
 		</advantage>
 		<advantage version="2">
@@ -258,7 +387,7 @@
 		<skill version="2">
 			<name>Leadership</name>
 			<difficulty>IQ/A</difficulty>
-			<points>4</points>
+			<points>8</points>
 			<reference>B204</reference>
 			<categories>
 				<category>Military</category>
@@ -323,7 +452,7 @@
 			<name>Savoir-Faire</name>
 			<specialization>Military</specialization>
 			<difficulty>IQ/E</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B218</reference>
 			<categories>
 				<category>Knowledge</category>
@@ -357,7 +486,7 @@
 		<skill version="2">
 			<name>Two-Handed Sword</name>
 			<difficulty>DX/A</difficulty>
-			<points>4</points>
+			<points>12</points>
 			<reference>B209</reference>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -381,7 +510,7 @@
 		<technique version="2" limit="5">
 			<name>Retain Weapon</name>
 			<difficulty>H</difficulty>
-			<points>2</points>
+			<points>1</points>
 			<reference>B232, MA78</reference>
 			<default>
 				<type>Skill</type>
@@ -397,7 +526,7 @@
 		<technique version="2" limit="5">
 			<name>Disarming</name>
 			<difficulty>H</difficulty>
-			<points>2</points>
+			<points>4</points>
 			<reference>B230, MA70</reference>
 			<default>
 				<type>Skill</type>
@@ -432,29 +561,6 @@
 				<category>Technique</category>
 			</categories>
 		</technique>
-		<skill version="2">
-			<name>Karate</name>
-			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
-			<difficulty>DX/H</difficulty>
-			<points>1</points>
-			<reference>B203</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<weapon_bonus>
-				<name compare="is">Karate</name>
-				<specialization compare="is anything"></specialization>
-				<level compare="at_least">0</level>
-				<amount per_level="yes">1</amount>
-			</weapon_bonus>
-			<weapon_bonus>
-				<name compare="is">Karate</name>
-				<specialization compare="is anything"></specialization>
-				<level compare="at_least">1</level>
-				<amount per_level="yes">1</amount>
-			</weapon_bonus>
-		</skill>
 	</skill_list>
 	<equipment_list>
 		<equipment version="3" state="equipped">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="hflhwxz0:-6viz31fgcgg2" version="2">
 	<created_date>Apr 16, 2013</created_date>
-	<modified_date>Apr 17, 2013 2:03 PM</modified_date>
+	<modified_date>Apr 17, 2013 7:38 PM</modified_date>
 	<profile>
 		<player_name>NPC</player_name>
 		<name>Thurman Prestage</name>
@@ -21,7 +21,7 @@
 	</profile>
 	<HP>8</HP>
 	<FP>0</FP>
-	<total_points>165</total_points>
+	<total_points>125</total_points>
 	<ST>12</ST>
 	<DX>13</DX>
 	<IQ>10</IQ>
@@ -56,25 +56,6 @@
 				<reference>B161</reference>
 			</modifier>
 			<reference>B161</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Code of Honor (Chivalry)</name>
-			<type>Mental</type>
-			<base_points>-15</base_points>
-			<reference>B127</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Honesty</name>
-			<type>Mental</type>
-			<base_points>-10</base_points>
-			<cr>6</cr>
-			<reference>B138</reference>
 			<categories>
 				<category>Disadvantage</category>
 			</categories>
@@ -223,12 +204,22 @@
 			</categories>
 		</advantage>
 		<advantage version="2">
-			<name>Trained by a Master</name>
+			<name>Honesty</name>
 			<type>Mental</type>
-			<base_points>30</base_points>
-			<reference>B93</reference>
+			<base_points>-10</base_points>
+			<cr>6</cr>
+			<reference>B138</reference>
 			<categories>
-				<category>Advantage</category>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Code of Honor (Soldier's)</name>
+			<type>Mental</type>
+			<base_points>-10</base_points>
+			<reference>B127</reference>
+			<categories>
+				<category>Disadvantage</category>
 			</categories>
 		</advantage>
 		<advantage version="2">
@@ -267,7 +258,7 @@
 		<skill version="2">
 			<name>Two-Handed Sword</name>
 			<difficulty>DX/A</difficulty>
-			<points>2</points>
+			<points>1</points>
 			<reference>B209</reference>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -291,7 +282,7 @@
 		<skill version="2">
 			<name>Broadsword</name>
 			<difficulty>DX/A</difficulty>
-			<points>4</points>
+			<points>8</points>
 			<reference>B208</reference>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -346,7 +337,7 @@
 		<technique version="2" limit="5">
 			<name>Retain Weapon</name>
 			<difficulty>H</difficulty>
-			<points>2</points>
+			<points>1</points>
 			<reference>B232</reference>
 			<default>
 				<type>Skill</type>
@@ -378,153 +369,12 @@
 		<technique version="2" limit="5">
 			<name>Disarming</name>
 			<difficulty>H</difficulty>
-			<points>2</points>
+			<points>1</points>
 			<reference>B230</reference>
 			<default>
 				<type>Skill</type>
 				<name>Broadsword</name>
 				<modifier>0</modifier>
-			</default>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-				<category>Technique</category>
-			</categories>
-		</technique>
-		<skill version="2">
-			<name>Karate</name>
-			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
-			<difficulty>DX/H</difficulty>
-			<points>2</points>
-			<reference>B203</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<weapon_bonus>
-				<name compare="is">Karate</name>
-				<specialization compare="is anything"></specialization>
-				<level compare="at_least">0</level>
-				<amount per_level="yes">1</amount>
-			</weapon_bonus>
-			<weapon_bonus>
-				<name compare="is">Karate</name>
-				<specialization compare="is anything"></specialization>
-				<level compare="at_least">1</level>
-				<amount per_level="yes">1</amount>
-			</weapon_bonus>
-		</skill>
-		<technique version="2" limit="0">
-			<name>Kicking</name>
-			<difficulty>H</difficulty>
-			<points>2</points>
-			<reference>B231, MA75</reference>
-			<default>
-				<type>Skill</type>
-				<name>Karate</name>
-				<modifier>-2</modifier>
-			</default>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-				<category>Technique</category>
-			</categories>
-		</technique>
-		<technique version="2" limit="4">
-			<name>Feint</name>
-			<difficulty>H</difficulty>
-			<points>2</points>
-			<reference>B231</reference>
-			<default>
-				<type>Skill</type>
-				<name>Karate</name>
-				<modifier>0</modifier>
-			</default>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-				<category>Technique</category>
-			</categories>
-		</technique>
-		<technique version="2" limit="0">
-			<name>Ground Fighting</name>
-			<difficulty>H</difficulty>
-			<points>2</points>
-			<reference>B231</reference>
-			<default>
-				<type>Skill</type>
-				<name>Karate</name>
-				<modifier>-4</modifier>
-			</default>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-				<category>Technique</category>
-			</categories>
-		</technique>
-		<technique version="2" limit="5">
-			<name>Disarming</name>
-			<difficulty>H</difficulty>
-			<points>2</points>
-			<reference>B230</reference>
-			<default>
-				<type>Skill</type>
-				<name>Karate</name>
-				<modifier>0</modifier>
-			</default>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-				<category>Technique</category>
-			</categories>
-		</technique>
-		<technique version="2" limit="-4">
-			<name>Eye-Poke</name>
-			<difficulty>H</difficulty>
-			<points>2</points>
-			<reference>MA72</reference>
-			<default>
-				<type>Skill</type>
-				<name>Karate</name>
-				<modifier>-9</modifier>
-			</default>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-				<category>Technique</category>
-			</categories>
-			<prereq_list all="yes">
-				<skill_prereq has="yes">
-					<name compare="is">Karate</name>
-					<specialization compare="is anything"></specialization>
-				</skill_prereq>
-			</prereq_list>
-		</technique>
-		<technique version="2" limit="0">
-			<name>Lethal Kick</name>
-			<difficulty>H</difficulty>
-			<points>2</points>
-			<reference>MA85</reference>
-			<default>
-				<type>Skill</type>
-				<name>Karate</name>
-				<modifier>-4</modifier>
-			</default>
-			<categories>
-				<category>Cinematic Techniques</category>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-		</technique>
-		<technique version="2" limit="0">
-			<name>Sweeping Kick</name>
-			<difficulty>H</difficulty>
-			<points>2</points>
-			<reference>B232, MA81</reference>
-			<default>
-				<type>Skill</type>
-				<name>Karate</name>
-				<modifier>-3</modifier>
 			</default>
 			<categories>
 				<category>Combat/Weapon</category>
