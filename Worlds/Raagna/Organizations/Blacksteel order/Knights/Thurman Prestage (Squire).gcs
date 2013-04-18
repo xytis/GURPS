@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="hflhwxz0:-6viz31fgcgg2" version="2">
 	<created_date>Apr 16, 2013</created_date>
-	<modified_date>Apr 17, 2013 7:38 PM</modified_date>
+	<modified_date>Apr 18, 2013 10:17 PM</modified_date>
 	<profile>
 		<player_name>NPC</player_name>
 		<name>Thurman Prestage</name>
@@ -220,6 +220,39 @@
 			<reference>B127</reference>
 			<categories>
 				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Selfless</name>
+			<type>Mental</type>
+			<base_points>-5</base_points>
+			<cr>12</cr>
+			<reference>B153</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Rank</name>
+			<type>Physical</type>
+			<levels>1</levels>
+			<points_per_level>5</points_per_level>
+			<modifier version="1" enabled="no">
+				<name>Replaces Status</name>
+				<cost type="points">5</cost>
+				<affects>levels_only</affects>
+				<reference>B29</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Courtesy</name>
+				<cost type="points">-4</cost>
+				<affects>levels_only</affects>
+				<reference>B29</reference>
+			</modifier>
+			<reference>B29</reference>
+			<notes>Blacksteel Rank: Squire</notes>
+			<categories>
+				<category>Advantage</category>
 			</categories>
 		</advantage>
 		<advantage version="2">
