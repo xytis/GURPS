@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="h7w1tdak:-ibkqbqncu414" version="2">
 	<created_date>2013-04-16</created_date>
-	<modified_date>2013-04-16 11.27</modified_date>
+	<modified_date>2013-04-18 11.05</modified_date>
 	<profile>
 		<player_name>Kristupas</player_name>
 		<name>Riovoolk</name>
@@ -19,6 +19,8 @@
 		<race>Human</race>
 		<tech_level>1</tech_level>
 		<religion>Agnostic</religion>
+		<notes>Comes from a family of five children. Three sisters and a brother. Second elsdest child. Parents deceased (Father -old age, mother - disease). Served as a mercenary soldier in the sovereign army, "Dirt Treader" batallion, "Sleeping Dogs" platoon, Scout section. Duties included patrol and raiding. Awarded "Silver Arrow Tip" for decisive action in the face of clear and present danger. Known among comrades as "Blackheart" for showing no emotion in the face of death and absolute lack of hesitation when dispatching enemies. Ranked as Sergeant Major at the time of discharge. Resorted to solitary living in the woods, vowing not to strive for worldly posessions. Fights for his squad but not the army, professing that people are more important than doctrines. Respects life, but will do what he deems necessary to accomplish a mission. Extremely patient and reserved. Hard to provoke. Living in the woods has taken its toll on his social skills, which were never really good to begin with. Has a direct and matter-of-fact manner of speaking. Rarely jokes, yet his comments are ladden with arid sarcasm and grim humor.
+</notes>
 		<!-- The portrait is a PNG file encoded as Base64. -->
 		<portrait>
 iVBORw0KGgoAAAANSUhEUgAAAJAAAADACAYAAADryOpPAACAAElEQVR42qy9h3ecS34diM455250
