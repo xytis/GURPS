@@ -69343,6 +69343,27 @@ Attributes: DX +1 to +3 (Only for defaults, -80%) [4/level]; IQ +1 to +3 (Only f
 		</equipment>
 		<equipment version="3">
 			<quantity>1</quantity>
+			<description>Cloth Leggings</description>
+			<tech_level>1</tech_level>
+			<legality_class>-</legality_class>
+			<value>30</value>
+			<weight>3 lb</weight>
+			<reference>B283</reference>
+			<categories>
+				<category>Limb Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>legs</location>
+				<amount>1</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment_container version="3" open="yes">
+			<description>Equipment</description>
+			<legality_class>4</legality_class>
+			<value>0</value>
+		</equipment_container>
+		<equipment version="3">
+			<quantity>1</quantity>
 			<description>Heavy Leather Leggings</description>
 			<tech_level>1</tech_level>
 			<legality_class>4</legality_class>
@@ -73917,6 +73938,7 @@ Attributes: DX +1 to +3 (Only for defaults, -80%) [4/level]; IQ +1 to +3 (Only f
 			<weight>0.1 lb</weight>
 			<reference>B276</reference>
 			<categories>
+				<category>Ammunition</category>
 				<category>Missile Weapon</category>
 			</categories>
 		</equipment>
@@ -82020,6 +82042,16 @@ Attributes: DX +1 to +3 (Only for defaults, -80%) [4/level]; IQ +1 to +3 (Only f
 				<category>Ointment</category>
 			</categories>
 		</equipment>
+		<equipment_container version="3" open="yes">
+			<description>Hip Quiver</description>
+			<legality_class>4</legality_class>
+			<value>20</value>
+			<weight>1 lb</weight>
+			<notes>Holds 20 arrows</notes>
+			<prereq_list all="yes">
+				<contained_weight_prereq has="yes" compare="at_most">2 lb</contained_weight_prereq>
+			</prereq_list>
+		</equipment_container>
 		<equipment version="3">
 			<quantity>1</quantity>
 			<description>Ointment: Tranquility</description>
@@ -87737,6 +87769,9 @@ Attributes: DX +1 to +3 (Only for defaults, -80%) [4/level]; IQ +1 to +3 (Only f
 			<value>600</value>
 			<weight>20 lb</weight>
 			<notes>Basic equipment for specialized skill.</notes>
+			<categories>
+				<category>Tools</category>
+			</categories>
 		</equipment>
 		<equipment version="3">
 			<quantity>1</quantity>
@@ -87746,12 +87781,123 @@ Attributes: DX +1 to +3 (Only for defaults, -80%) [4/level]; IQ +1 to +3 (Only f
 			<value>600</value>
 			<weight>20 lb</weight>
 			<notes>Basic equipment for specialized skill.</notes>
+			<categories>
+				<category>Tools</category>
+			</categories>
 		</equipment>
 		<equipment version="3">
 			<quantity>1</quantity>
-			<description>Equipment</description>
+			<description>First Aid Kit</description>
+			<tech_level>3</tech_level>
+			<legality_class>4</legality_class>
+			<value>50</value>
+			<weight>2 lb</weight>
+			<reference>B289</reference>
+			<notes>A complete kit for treating wounds, with bandages, ointments, etc.</notes>
+			<categories>
+				<category>Medical Gear</category>
+			</categories>
+			<skill_bonus>
+				<name compare="is">First Aid</name>
+				<specialization compare="is anything"></specialization>
+				<amount>1</amount>
+			</skill_bonus>
+		</equipment>
+		<equipment_container version="3" open="no">
+			<description>Cloth Armor Set</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
-		</equipment>
+			<categories>
+				<category>Armor Set</category>
+			</categories>
+			<equipment version="3">
+				<quantity>1</quantity>
+				<description>Cloth Armor</description>
+				<tech_level>1</tech_level>
+				<legality_class>-</legality_class>
+				<value>30</value>
+				<weight>6 lb</weight>
+				<reference>B283</reference>
+				<categories>
+					<category>Armor Set</category>
+					<category>Body Armor</category>
+				</categories>
+				<dr_bonus>
+					<location>groin</location>
+					<amount>1</amount>
+				</dr_bonus>
+				<dr_bonus>
+					<location>torso</location>
+					<amount>1</amount>
+				</dr_bonus>
+			</equipment>
+			<equipment version="3">
+				<quantity>1</quantity>
+				<description>Cloth Leggings</description>
+				<tech_level>1</tech_level>
+				<legality_class>-</legality_class>
+				<value>30</value>
+				<weight>3 lb</weight>
+				<reference>B283</reference>
+				<categories>
+					<category>Armor Set</category>
+					<category>Limb Armor</category>
+				</categories>
+				<dr_bonus>
+					<location>legs</location>
+					<amount>1</amount>
+				</dr_bonus>
+			</equipment>
+			<equipment version="3">
+				<quantity>1</quantity>
+				<description>Cloth Sleeves</description>
+				<tech_level>1</tech_level>
+				<legality_class>-</legality_class>
+				<value>20</value>
+				<weight>2 lb</weight>
+				<reference>B283</reference>
+				<categories>
+					<category>Armor Set</category>
+					<category>Limb Armor</category>
+				</categories>
+				<dr_bonus>
+					<location>arms</location>
+					<amount>1</amount>
+				</dr_bonus>
+			</equipment>
+			<equipment version="3">
+				<quantity>1</quantity>
+				<description>Cloth Gloves</description>
+				<tech_level>1</tech_level>
+				<legality_class>-</legality_class>
+				<value>15</value>
+				<reference>B284</reference>
+				<categories>
+					<category>Armor Set</category>
+					<category>Gloves</category>
+				</categories>
+				<dr_bonus>
+					<location>hands</location>
+					<amount>1</amount>
+				</dr_bonus>
+			</equipment>
+			<equipment version="3">
+				<quantity>1</quantity>
+				<description>Boots</description>
+				<tech_level>2</tech_level>
+				<legality_class>-</legality_class>
+				<value>80</value>
+				<weight>3 lb</weight>
+				<reference>B284</reference>
+				<categories>
+					<category>Armor Set</category>
+					<category>Footwear</category>
+				</categories>
+				<dr_bonus>
+					<location>feet</location>
+					<amount>2</amount>
+				</dr_bonus>
+			</equipment>
+		</equipment_container>
 	</equipment_list>
 </gcs_library>

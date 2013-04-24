@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<character unique_id="hfwt9jsi:mk9pjt5tzh1h" version="2">
+	<created_date>Apr 24, 2013</created_date>
+	<modified_date>Apr 24, 2013 10:46 PM</modified_date>
+	<profile>
+		<player_name>NPC</player_name>
+		<name>Garr Rogg</name>
+		<age>16</age>
+		<birthday>January 27</birthday>
+		<eyes>Brown</eyes>
+		<hair>Black, Wavy, Short</hair>
+		<skin>Green</skin>
+		<handedness>Right</handedness>
+		<height>1.6764 m</height>
+		<weight>68.48073 kg</weight>
+		<SM>0</SM>
+		<gender>Male</gender>
+		<race>Ork</race>
+		<tech_level>3</tech_level>
+	</profile>
+	<HP>3</HP>
+	<FP>0</FP>
+	<total_points>100</total_points>
+	<ST>10</ST>
+	<DX>10</DX>
+	<IQ>8</IQ>
+	<HT>13</HT>
+	<will>0</will>
+	<perception>0</perception>
+	<speed>0.75</speed>
+	<move>0</move>
+	<include_punch>true</include_punch>
+	<include_kick>true</include_kick>
+	<include_kick_with_boots>true</include_kick_with_boots>
+	<advantage_list>
+		<advantage version="2">
+			<name>Combat Reflexes</name>
+			<type>Mental</type>
+			<base_points>15</base_points>
+			<reference>B43</reference>
+			<skill_bonus>
+				<name compare="starts with">fast-draw</name>
+				<specialization compare="is anything"></specialization>
+				<amount>1</amount>
+			</skill_bonus>
+			<attribute_bonus>
+				<attribute>dodge</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>parry</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>block</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Acute Taste &amp; Smell</name>
+			<type>Physical</type>
+			<levels>2</levels>
+			<points_per_level>2</points_per_level>
+			<reference>B35</reference>
+			<attribute_bonus>
+				<attribute>taste_smell</attribute>
+				<amount per_level="yes">1</amount>
+			</attribute_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Appearance - Unattractive</name>
+			<type>Physical</type>
+			<base_points>-4</base_points>
+			<reference>B21</reference>
+		</advantage>
+		<advantage version="2">
+			<name>Bad Temper (CR: 12)</name>
+			<type>Mental</type>
+			<base_points>-10</base_points>
+			<reference>B124</reference>
+		</advantage>
+		<advantage version="2">
+			<name>Bowlegged</name>
+			<type>Physical</type>
+			<base_points>-1</base_points>
+			<reference>B165</reference>
+		</advantage>
+		<advantage version="2">
+			<name>Fearlessness</name>
+			<type>Mental</type>
+			<levels>2</levels>
+			<points_per_level>2</points_per_level>
+			<reference>B55</reference>
+		</advantage>
+		<advantage version="2">
+			<name>Impulsiveness (CR: 12)</name>
+			<type>Mental</type>
+			<base_points>-10</base_points>
+			<reference>B139</reference>
+		</advantage>
+		<advantage version="2">
+			<name>Rapid Healing</name>
+			<type>Physical</type>
+			<base_points>5</base_points>
+			<reference>B79</reference>
+			<prereq_list all="yes">
+				<attribute_prereq has="yes" which="ht" compare="at_least">10</attribute_prereq>
+			</prereq_list>
+		</advantage>
+		<advantage version="2">
+			<name>Resistant (Disease +3)</name>
+			<type>Physical</type>
+			<base_points>3</base_points>
+			<reference>B81</reference>
+		</advantage>
+		<advantage version="2">
+			<name>Sadism (CR: 12)</name>
+			<type>Mental</type>
+			<base_points>-15</base_points>
+			<reference>B152</reference>
+		</advantage>
+		<advantage version="2">
+			<name>Unfit (Only by day -20%)</name>
+			<type>Physical</type>
+			<base_points>-4</base_points>
+			<reference>B160</reference>
+		</advantage>
+		<advantage version="2">
+			<name>Acute Hearing</name>
+			<type>Physical</type>
+			<levels>1</levels>
+			<points_per_level>2</points_per_level>
+			<reference>B35</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<attribute_bonus>
+				<attribute>hearing</attribute>
+				<amount per_level="yes">1</amount>
+			</attribute_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Intolerance (Total)</name>
+			<type>Mental</type>
+			<modifier version="1" enabled="no">
+				<name>Scope: Common</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B140</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Scope: Occassional</name>
+				<cost type="points">-2</cost>
+				<affects>total</affects>
+				<reference>B140</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Scope: Rare</name>
+				<cost type="points">-1</cost>
+				<affects>total</affects>
+				<reference>B140</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Scope: Anyone unlike you</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B140</reference>
+			</modifier>
+			<reference>B140</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Social Stigma (Barbarian)</name>
+			<type>Social</type>
+			<base_points>-10</base_points>
+			<reference>BS186</reference>
+			<notes>-2 Reaction from others; +2 Reaction by Barbarians</notes>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Doesn't regard betrayal as wrong</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B163</reference>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Kowtows to stronger people</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B163</reference>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Measures social standing by things 'controlled'</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B163</reference>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+	</advantage_list>
+	<skill_list>
+		<skill version="2">
+			<name>Axe/Mace</name>
+			<difficulty>DX/A</difficulty>
+			<points>12</points>
+			<reference>B208</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Two-Handed Axe/Mace</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Flail</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+	</skill_list>
+	<equipment_list>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Axe</description>
+			<tech_level>0</tech_level>
+			<legality_class>4</legality_class>
+			<value>50</value>
+			<weight>4 lb</weight>
+			<reference>B271</reference>
+			<melee_weapon>
+				<damage>sw+2 cut</damage>
+				<strength>11</strength>
+				<usage>Swung</usage>
+				<reach>1</reach>
+				<parry>0U</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Axe/Mace</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Flail</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Two-Handed Axe/Mace</name>
+					<modifier>-3</modifier>
+				</default>
+			</melee_weapon>
+			<categories>
+				<category>Melee Weapon</category>
+			</categories>
+		</equipment>
+	</equipment_list>
+	<print_settings printer="Photosmart_B109n" units="in">
+		<orientation>Portrait</orientation>
+		<width>8.5</width>
+		<height>11</height>
+		<top_margin>0.5</top_margin>
+		<left_margin>0.5</left_margin>
+		<bottom_margin>0.5</bottom_margin>
+		<right_margin>0.5</right_margin>
+		<ink_chromaticity>Color</ink_chromaticity>
+		<sides>Single</sides>
+		<number_up>1</number_up>
+		<quality>Normal</quality>
+	</print_settings>
+</character>
