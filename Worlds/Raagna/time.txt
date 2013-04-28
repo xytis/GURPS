@@ -5,7 +5,7 @@ Saulėnis: 4 Oktanos
   2. Kritis
   3. Ledys
   4. Badis
-  
+
   5. Tirpis
   6. Plaukis
   7. Džiūvis
