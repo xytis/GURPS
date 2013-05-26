@@ -10,6 +10,7 @@ Population: 18,000 (Search +0)
 Environment
 --------------
 
+|               |               |
 |---------------|:-------------
 | Terrain       | Fertile plains
 | Appearance    | Normal (+0)
@@ -21,6 +22,7 @@ Environment
 Culture and economy
 --------------
 
+|               |               |
 |---------------|:--------------|
 | Language      | Raagnian      |
 | Literacy      | None          |
@@ -32,6 +34,7 @@ Culture and economy
 Politics
 --------------
 
+|               |               |
 |---------------|:-------------
 | Government    | Tribal (see B509 and B510)
 | Control Rating (CR)| 4 (see B506)
