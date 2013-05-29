@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="h7w1tdak:-ibkqbqncu414" version="2">
 	<created_date>2013-04-16</created_date>
-	<modified_date>2013-04-18 11.05</modified_date>
+	<modified_date>2013-05-29 15.21</modified_date>
 	<profile>
 		<player_name>Kristupas</player_name>
 		<name>Riovoolk</name>
@@ -19,7 +19,7 @@
 		<race>Human</race>
 		<tech_level>1</tech_level>
 		<religion>Agnostic</religion>
-		<notes>Comes from a family of five children. Three sisters and a brother. Second elsdest child. Parents deceased (Father -old age, mother - disease). Served as a mercenary soldier in the sovereign army, "Dirt Treader" batallion, "Sleeping Dogs" platoon, Scout section. Duties included patrol and raiding. Awarded "Silver Arrow Tip" for decisive action in the face of clear and present danger. Known among comrades as "Blackheart" for showing no emotion in the face of death and absolute lack of hesitation when dispatching enemies. Ranked as Sergeant Major at the time of discharge. Resorted to solitary living in the woods, vowing not to strive for worldly posessions. Fights for his squad but not the army, professing that people are more important than doctrines. Respects life, but will do what he deems necessary to accomplish a mission. Extremely patient and reserved. Hard to provoke. Living in the woods has taken its toll on his social skills, which were never really good to begin with. Has a direct and matter-of-fact manner of speaking. Rarely jokes, yet his comments are ladden with arid sarcasm and grim humor.
+		<notes>Comes from a family of five children. Three sisters and a brother. Second eldest child. Parents deceased (Father -old age, mother - disease). Served as a mercenary soldier in the sovereign army, "Dirt Treader" batallion, "Sleeping Dogs" platoon, Scout section. Duties included patrol and raiding. Awarded "Silver Arrow Tip" for decisive action in the face of clear and present danger. Known among comrades as "Blackheart" for showing no emotion in the face of death and absolute lack of hesitation when dispatching enemies. Ranked as Sergeant Major at the time of discharge. Resorted to solitary living in the woods, vowing not to strive for worldly posessions. Fights for his squad but not the army, professing that people are more important than doctrines. Respects life, but will do what he deems necessary to accomplish a mission. Extremely patient and reserved. Hard to provoke. Living in the woods has taken its toll on his social skills, which were never really good to begin with. Has a direct and matter-of-fact manner of speaking. Rarely jokes, yet his comments are ladden with arid sarcasm and grim humor.
 </notes>
 		<!-- The portrait is a PNG file encoded as Base64. -->
 		<portrait>
@@ -1827,16 +1827,6 @@ Attributes: DX +1 to +3 (Only for defaults, -80%) [4/level]; IQ +1 to +3 (Only f
 			</categories>
 		</advantage>
 		<advantage version="2">
-			<name>Weapon Bond</name>
-			<type>Mental</type>
-			<base_points>1</base_points>
-			<reference>HT250, MA52</reference>
-			<notes>You own a Weapon that is uniquely suited to you.</notes>
-			<categories>
-				<category>Perk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
 			<name>Patience of Job</name>
 			<type>Mental</type>
 			<base_points>1</base_points>
@@ -2419,6 +2409,7 @@ Attributes: DX +1 to +3 (Only for defaults, -80%) [4/level]; IQ +1 to +3 (Only f
 			<tech_level>1</tech_level>
 			<legality_class>-</legality_class>
 			<value>15</value>
+			<weight>0.1 kg</weight>
 			<reference>B284</reference>
 			<notes>Standard Ironfire troop equipment</notes>
 			<categories>
@@ -2464,51 +2455,11 @@ Attributes: DX +1 to +3 (Only for defaults, -80%) [4/level]; IQ +1 to +3 (Only f
 		</equipment>
 		<equipment version="3" state="equipped">
 			<quantity>1</quantity>
-			<description>Axe</description>
-			<tech_level>0</tech_level>
-			<legality_class>4</legality_class>
-			<value>50</value>
-			<weight>4 lb</weight>
-			<reference>B271</reference>
-			<melee_weapon>
-				<damage>sw+2 cut</damage>
-				<strength>11</strength>
-				<usage>Swung</usage>
-				<reach>1</reach>
-				<parry>0U</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Axe/Mace</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Flail</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Two-Handed Axe/Mace</name>
-					<modifier>-3</modifier>
-				</default>
-			</melee_weapon>
-			<notes>Orc battle axe</notes>
-			<categories>
-				<category>Melee Weapon</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Small Knife</description>
+			<description>Small Skinning Knife</description>
 			<tech_level>0</tech_level>
 			<legality_class>4</legality_class>
 			<value>30</value>
-			<weight>0.25 kg</weight>
+			<weight>0.3 kg</weight>
 			<reference>B272</reference>
 			<melee_weapon>
 				<damage>sw-3 cut</damage>
@@ -2610,7 +2561,7 @@ Attributes: DX +1 to +3 (Only for defaults, -80%) [4/level]; IQ +1 to +3 (Only f
 			</categories>
 		</equipment>
 		<equipment version="3" state="equipped">
-			<quantity>50</quantity>
+			<quantity>30</quantity>
 			<description>Arrow</description>
 			<tech_level>0</tech_level>
 			<legality_class>4</legality_class>
@@ -2638,7 +2589,7 @@ Attributes: DX +1 to +3 (Only for defaults, -80%) [4/level]; IQ +1 to +3 (Only f
 			<tech_level>1</tech_level>
 			<legality_class>4</legality_class>
 			<value>900</value>
-			<weight>4 lb</weight>
+			<weight>1.8 kg</weight>
 			<reference>B275</reference>
 			<ranged_weapon>
 				<damage>thr+3 imp</damage>
@@ -2658,24 +2609,76 @@ Attributes: DX +1 to +3 (Only for defaults, -80%) [4/level]; IQ +1 to +3 (Only f
 					<modifier>0</modifier>
 				</default>
 			</ranged_weapon>
+			<notes>Raagnan Military Standard issue</notes>
 			<categories>
 				<category>Missile Weapon</category>
 			</categories>
 		</equipment>
 		<equipment version="3" state="equipped">
-			<quantity>27</quantity>
-			<description>Rope</description>
-			<legality_class>4</legality_class>
-			<value>0</value>
-			<weight>0.125 kg</weight>
-		</equipment>
-		<equipment version="3" state="equipped">
 			<quantity>1</quantity>
-			<description>Head of Targnuk (Orcish leader-battlemage)</description>
+			<description>Ranger's Balanced Hatchet</description>
+			<tech_level>3</tech_level>
 			<legality_class>4</legality_class>
-			<value>0</value>
-			<weight>2 lb</weight>
-			<notes>Has two visible holes in skull and an arrow in one of the eyes.</notes>
+			<value>40</value>
+			<weight>1.2 kg</weight>
+			<reference>B271</reference>
+			<melee_weapon>
+				<damage>sw cut</damage>
+				<strength>8</strength>
+				<usage>Swung</usage>
+				<reach>1</reach>
+				<parry>0</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Axe/Mace</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Flail</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Two-Handed Axe/Mace</name>
+					<modifier>-3</modifier>
+				</default>
+			</melee_weapon>
+			<ranged_weapon>
+				<damage>sw cut</damage>
+				<strength>8</strength>
+				<usage>Thrown</usage>
+				<accuracy>2</accuracy>
+				<range>x1.5/x2.5</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>T(1)</shots>
+				<bulk>-2</bulk>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Thrown Weapon</name>
+					<specialization>Axe/Mace</specialization>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+			<notes>A weighted hatchet with hollow steel pipe handle. Counter-balance in the shaft and lanyard ring on the bottom of the handle.</notes>
+			<categories>
+				<category>Melee Weapon</category>
+				<category>Missile Weapon</category>
+			</categories>
+			<skill_bonus>
+				<name compare="is">Climbing</name>
+				<specialization compare="is anything"></specialization>
+				<amount>1</amount>
+			</skill_bonus>
 		</equipment>
 	</equipment_list>
 	<print_settings printer="Microsoft XPS Document Writer" units="in">
