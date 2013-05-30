@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="h7w1tdak:-ibkqbqncu414" version="2">
 	<created_date>2013-04-16</created_date>
-	<modified_date>2013-05-29 15.21</modified_date>
+	<modified_date>2013-05-30 20.20</modified_date>
 	<profile>
 		<player_name>Kristupas</player_name>
 		<name>Riovoolk</name>
@@ -2589,7 +2589,6 @@ Attributes: DX +1 to +3 (Only for defaults, -80%) [4/level]; IQ +1 to +3 (Only f
 			<tech_level>1</tech_level>
 			<legality_class>4</legality_class>
 			<value>900</value>
-			<weight>1.8 kg</weight>
 			<reference>B275</reference>
 			<ranged_weapon>
 				<damage>thr+3 imp</damage>
@@ -2609,7 +2608,7 @@ Attributes: DX +1 to +3 (Only for defaults, -80%) [4/level]; IQ +1 to +3 (Only f
 					<modifier>0</modifier>
 				</default>
 			</ranged_weapon>
-			<notes>Raagnan Military Standard issue</notes>
+			<notes>Ironfire Military Standard issue</notes>
 			<categories>
 				<category>Missile Weapon</category>
 			</categories>
