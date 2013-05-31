@@ -36,10 +36,10 @@ Politics
 |               |               |
 |---------------|:-------------
 | Government    | Oligarchy (see B509 and B510)
-| Control Rating (CR)| 2 (see B506)
+| Control Rating (CR)| 3 (see B506)
 | Corruption    | -2 
-| Military resources | 0.01 (CR2) * 650$ * 7,400 = 48,100$ (Small army)
-| Defence Bonus | +7 (Stone walls and river crossing)
+| Military resources | 0.02 (CR3) * 650$ * 7,400 = 96,200$ (Small army)
+| Defence Bonus | +8 (Stone walls and river crossing, inner perimeter is standing on a hill)
 * Militia: 150 units of Medium Infrantry (Average quality)
 * Militia: Free for 2 months, See CityStats10
 
