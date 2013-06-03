@@ -46,24 +46,8 @@ Politics
 
 Description
 --------------
-A town built around the outermost military outpost of state of Ironfire. Surrounded by a double perimeter
-of defensive stone walls. The inner perimeter houses the military outpost, complete with soldiers barracks, 
-main arsenal, Maiden of Hope hospital,
-heavilly fortified keep with reinforced walls, mage district with monolithic obelisk, city governmental 
-buildings, houses for the upper class and government officials, a few parks, a classy brothel, a liquor 
-distillery and store, tea house and chocolaterie and a few high-profile restaurants. Outter perimeter 
-contains the engineer district, namely Mallan's workshop, training grounds, sentry armoury and barracks,
-merchant district with market, craftsmen district, most residential buildings are found here, several 
-breweries, a "Skunk's breath" distillery, pharmacy, Rabbit's house of pleasure (A "classy" place. 
-Definately. Mmmyah. Right next to the pharmacy (how fortunate...)), a few inn's welcome travellers and offer
-them rest and a meal, few pubs and a really bottom-o-the-barrel-grind-your-face-into-the-floor tavern
-known as "The Splinter" which offers attractions to the most boisterous of people. Outter perimeter wall has
-three gates which guard the entrence and exit from the city. South gate is known as the "Rivers gate".
-The road from this gate leads to a forking which splits into two roads, one of which leads to the town of
-Twinkle and the other travels through Blood Fields. The East gate, known as the "Orc gate" opens a road that
-leads to the orc controlled territories. The West gate, known as the "Capital gate", opens the way to 
-Ironfire. The only gate in the inner perimeter wall is the Knights gate, which sepparates the inner and 
-outter perimeter.
+A town built around the outermost military outpost of state of Ironfire. Surrounded by a double perimeter of defensive stone walls. The inner perimeter houses the military outpost, complete with soldiers barracks, main arsenal, Maiden of Hope hospital, heavilly fortified keep with reinforced walls, mage district with monolithic obelisk and a library, city governmental buildings, houses for the upper class and government officials, a few parks, a classy brothel with a full suite of bath huoses nearby, a liquor distillery and store, tea house and chocolaterie and a few high-profile restaurants. Outter perimeter contains the engineer district, namely Mallan's workshop, training grounds, sentry armoury and barracks, merchant district with market, craftsmen district, most residential buildings are found here, several breweries, a "Skunk's breath" distillery, pharmacy, Rabbit's house of pleasure (A "classy" place. Definately. Mmmyah. Right next to the pharmacy (how fortunate...)), a few inn's welcome travellers 
+and offer them rest and a meal, few pubs and a really bottom-o-the-barrel-grind-your-face-into-the-floor tavern known as "The Splinter" which offers attractions to the most boisterous of people. Outter perimeter wall has three gates which guard the entrence and exit from the city. South gate is known as the "Rivers gate". The road from  this gate leads to a forking which splits into two roads, one of which leads to the town of Twinkle and the other travels through Blood Fields. The East gate, known as the "Orc gate" opens a road that leads to the orc controlled territories. The West gate, known as the "Capital gate", opens the way to  Ironfire. The only gate in the inner perimeter wall is the Knights gate, which sepparates the inner and outter perimeter.
 
 
 
