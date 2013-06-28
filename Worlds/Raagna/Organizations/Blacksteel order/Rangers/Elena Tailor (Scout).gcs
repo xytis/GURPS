@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="hflhwxz0:-6viz31fgcgg2" version="2">
 	<created_date>Apr 16, 2013</created_date>
-	<modified_date>Jun 13, 2013 9:43 PM</modified_date>
+	<modified_date>Jun 27, 2013 9:26 PM</modified_date>
 	<profile>
 		<player_name>NPC</player_name>
 		<name>Elena Tailor</name>
@@ -22,10 +22,10 @@
 	<HP>8</HP>
 	<FP>0</FP>
 	<total_points>125</total_points>
-	<ST>11</ST>
-	<DX>13</DX>
-	<IQ>11</IQ>
-	<HT>10</HT>
+	<ST>10</ST>
+	<DX>12</DX>
+	<IQ>10</IQ>
+	<HT>9</HT>
 	<will>0</will>
 	<perception>1</perception>
 	<speed>0</speed>
@@ -244,6 +244,412 @@
 			</attribute_bonus>
 		</advantage>
 	</advantage_list>
+	<skill_list>
+		<skill version="2">
+			<name>Fast-Draw</name>
+			<specialization>Arrow</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>2</points>
+			<reference>B194</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+		</skill>
+		<skill version="2">
+			<name>Bow</name>
+			<difficulty>DX/A</difficulty>
+			<points>4</points>
+			<reference>B182</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Observation</name>
+			<difficulty>Per/A</difficulty>
+			<points>2</points>
+			<reference>B211</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Military</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shadowing</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Stealth</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>2</points>
+			<reference>B222</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Escape</name>
+			<difficulty>DX/H</difficulty>
+			<points>1</points>
+			<reference>B192</reference>
+			<categories>
+				<category>Criminal/Street</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Poisons</name>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>2</points>
+			<reference>B214</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Medical</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Chemistry</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Pharmacy</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physician</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Streetwise</name>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B223</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Lockpicking</name>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B206</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
+				<category>Technical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Knife</name>
+			<difficulty>DX/E</difficulty>
+			<points>2</points>
+			<reference>B208</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<technique version="2" limit="4">
+			<name>Feint</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>B231</reference>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
+				<modifier>0</modifier>
+			</default>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+				<category>Technique</category>
+			</categories>
+		</technique>
+		<skill version="2">
+			<name>Thrown Weapon</name>
+			<specialization>Knife</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B226</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+	</skill_list>
+	<equipment_list>
+		<equipment_container version="3" open="yes" state="equipped">
+			<description>Quiver</description>
+			<legality_class>4</legality_class>
+			<value>20</value>
+			<weight>1 lb</weight>
+			<notes>Holds 20 arrows</notes>
+			<prereq_list all="yes">
+				<contained_weight_prereq has="yes" compare="at_most">2 lb</contained_weight_prereq>
+			</prereq_list>
+			<equipment version="3" state="equipped">
+				<quantity>20</quantity>
+				<description>Arrow</description>
+				<tech_level>0</tech_level>
+				<legality_class>4</legality_class>
+				<value>2</value>
+				<weight>0.1 lb</weight>
+				<reference>B276</reference>
+				<categories>
+					<category>Ammunition</category>
+					<category>Missile Weapon</category>
+				</categories>
+			</equipment>
+		</equipment_container>
+		<equipment_container version="3" open="yes" state="equipped">
+			<description>Pouch, Small</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>10</value>
+			<weight>0.5 lb</weight>
+			<reference>B288</reference>
+			<prereq_list all="yes">
+				<contained_weight_prereq has="yes" compare="at_most">3 lb</contained_weight_prereq>
+			</prereq_list>
+			<equipment version="3" state="equipped">
+				<quantity>1</quantity>
+				<description>Wolfsbane nectar</description>
+				<legality_class>2</legality_class>
+				<value>500</value>
+				<notes>Extracted from wolfsbane leaves, packs a deadly dose in a single drop.</notes>
+				<categories>
+					<category>Poisons</category>
+				</categories>
+			</equipment>
+			<equipment version="3" state="equipped">
+				<quantity>1</quantity>
+				<description>Kudu sap</description>
+				<legality_class>4</legality_class>
+				<value>40</value>
+				<notes>Highly toxic thick liquid, extracted from blosomed five petaled Kudu. Perfect for arrow tips.</notes>
+				<categories>
+					<category>Herbs</category>
+					<category>Poisons</category>
+				</categories>
+			</equipment>
+		</equipment_container>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Light Cloak</description>
+			<tech_level>1</tech_level>
+			<legality_class>-</legality_class>
+			<value>20</value>
+			<weight>2 lb</weight>
+			<reference>B287</reference>
+			<melee_weapon>
+				<damage>-</damage>
+				<strength>-</strength>
+				<reach>-</reach>
+				<parry>No</parry>
+				<block>+0</block>
+				<default>
+					<type>Block</type>
+					<name>Cloak</name>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<ranged_weapon>
+				<damage>Special</damage>
+				<strength>5</strength>
+				<usage>Thrown</usage>
+				<accuracy>+1</accuracy>
+				<range>2</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>T(1)</shots>
+				<bulk>-4</bulk>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Cloak</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Net</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shield</name>
+					<modifier>-4</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Clothing</category>
+			</categories>
+			<attribute_bonus>
+				<attribute>dodge</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>parry</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>block</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Cloth Sleeves</description>
+			<tech_level>1</tech_level>
+			<legality_class>-</legality_class>
+			<value>20</value>
+			<weight>2 lb</weight>
+			<reference>B283</reference>
+			<categories>
+				<category>Limb Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>arms</location>
+				<amount>1</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Cloth Leggings</description>
+			<tech_level>1</tech_level>
+			<legality_class>-</legality_class>
+			<value>30</value>
+			<weight>3 lb</weight>
+			<reference>B283</reference>
+			<categories>
+				<category>Limb Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>legs</location>
+				<amount>1</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Cloth Armor</description>
+			<tech_level>1</tech_level>
+			<legality_class>-</legality_class>
+			<value>30</value>
+			<weight>6 lb</weight>
+			<reference>B283</reference>
+			<categories>
+				<category>Body Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>groin</location>
+				<amount>1</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>torso</location>
+				<amount>1</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Boots</description>
+			<tech_level>2</tech_level>
+			<legality_class>-</legality_class>
+			<value>80</value>
+			<weight>3 lb</weight>
+			<reference>B284</reference>
+			<categories>
+				<category>Armor Set</category>
+				<category>Footwear</category>
+			</categories>
+			<dr_bonus>
+				<location>feet</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment_container version="3" open="yes" state="equipped">
+			<description>Backpack, Small</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>60</value>
+			<weight>3 lb</weight>
+			<reference>B288</reference>
+			<prereq_list all="yes">
+				<contained_weight_prereq has="yes" compare="at_most">40 lb</contained_weight_prereq>
+			</prereq_list>
+		</equipment_container>
+	</equipment_list>
 	<print_settings printer="Photosmart_Wireless_B109n-z" units="in">
 		<orientation>Portrait</orientation>
 		<width>8.5</width>
