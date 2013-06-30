@@ -87964,5 +87964,61 @@ Attributes: DX +1 to +3 (Only for defaults, -80%) [4/level]; IQ +1 to +3 (Only f
 				</skill_prereq>
 			</prereq_list>
 		</equipment>
+		<equipment version="3">
+			<quantity>1</quantity>
+			<description>Hemlock seeds</description>
+			<legality_class>2</legality_class>
+			<value>250</value>
+			<notes>Contains coniine, disturbs neuromuscular junctions, resulting in muscular paralysis beginning from legs and killing when reaching respiratory muscles.</notes>
+			<categories>
+				<category>Herbs</category>
+				<category>Poisons</category>
+			</categories>
+		</equipment>
+		<equipment version="3">
+			<quantity>1</quantity>
+			<description>Cicuta root</description>
+			<legality_class>2</legality_class>
+			<value>350</value>
+			<weight>0.1 kg</weight>
+			<notes>[a.k.a. Poison parsnip, death-of-man] Contains cicutoxin, which is a potent neurotoxin that operates by overstimulating the central nervous system, leading to nausea, abdominal pain, respiratory impairment, kidney failure, irregular heartbeat, tremors, seizures, and death. Ingestion can kill a cattle in as little as 15 minutes.</notes>
+			<categories>
+				<category>Herbs</category>
+				<category>Poisons</category>
+			</categories>
+		</equipment>
+		<equipment version="3">
+			<quantity>1</quantity>
+			<description>Jequirity seeds</description>
+			<legality_class>2</legality_class>
+			<value>400</value>
+			<notes>[a.k.a. Crab's Eye] Contains abrin, which sabotages humans body's functions at the cellular level. One seed is fatal.</notes>
+			<categories>
+				<category>Herbs</category>
+				<category>Poisons</category>
+			</categories>
+		</equipment>
+		<equipment version="3">
+			<quantity>1</quantity>
+			<description>Manchineel fruit</description>
+			<legality_class>2</legality_class>
+			<value>140</value>
+			<weight>0.1 kg</weight>
+			<notes>[a.k.a. Little apple of death] Ingestion is often fatal, contains large amount of physostignmine. Funny thing is the tree it grows on: Standing beneath the tree during a rainstorm will cause any skin that comes in contact with runoff from the tree to blister.</notes>
+			<categories>
+				<category>Herbs</category>
+				<category>Poisons</category>
+			</categories>
+		</equipment>
+		<equipment version="3">
+			<quantity>1</quantity>
+			<description>Suicide Seed</description>
+			<legality_class>2</legality_class>
+			<value>500</value>
+			<notes>Hardly traceable poison, easily disquised by spices when served in food. Can be easily overlooked as a cause of death in autopsies.</notes>
+			<categories>
+				<category>Poisons</category>
+			</categories>
+		</equipment>
 	</equipment_list>
 </gcs_library>
