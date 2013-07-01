@@ -28447,7 +28447,7 @@ Attributes: DX +1 to +3 (Only for defaults, -80%) [4/level]; IQ +1 to +3 (Only f
 			<prereq_list all="yes">
 				<skill_prereq has="yes">
 					<name compare="is">naturalist</name>
-					<specialization compare="is"></specialization>
+					<specialization compare="is anything"></specialization>
 				</skill_prereq>
 			</prereq_list>
 			<default>
@@ -33157,7 +33157,7 @@ Attributes: DX +1 to +3 (Only for defaults, -80%) [4/level]; IQ +1 to +3 (Only f
 			<prereq_list all="yes">
 				<skill_prereq has="yes">
 					<name compare="contains">naturalist</name>
-					<specialization compare="is"></specialization>
+					<specialization compare="is anything"></specialization>
 				</skill_prereq>
 			</prereq_list>
 		</skill>
@@ -58658,31 +58658,6 @@ Attributes: DX +1 to +3 (Only for defaults, -80%) [4/level]; IQ +1 to +3 (Only f
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2" very_hard="yes">
-			<name>Resurrection</name>
-			<college>Healing/Necromancy</college>
-			<power_source>Arcane</power_source>
-			<spell_class>Regular</spell_class>
-			<casting_cost>300</casting_cost>
-			<maintenance_cost>-</maintenance_cost>
-			<casting_time>2 Hours</casting_time>
-			<duration>Permanent</duration>
-			<reference>M94</reference>
-			<categories>
-				<category>Healing</category>
-				<category>Necromancy</category>
-			</categories>
-			<prereq_list all="yes">
-				<spell_prereq has="yes">
-					<name compare="is">instant regeneration</name>
-					<quantity compare="is">1</quantity>
-				</spell_prereq>
-				<spell_prereq has="yes">
-					<name compare="is">summon spirit</name>
-					<quantity compare="is">1</quantity>
-				</spell_prereq>
-			</prereq_list>
-		</spell>
 		<spell version="2">
 			<name>Restist Enchantment</name>
 			<college>Enchantment</college>
@@ -58873,6 +58848,31 @@ Attributes: DX +1 to +3 (Only for defaults, -80%) [4/level]; IQ +1 to +3 (Only f
 				</prereq_list>
 				<spell_prereq has="yes">
 					<name compare="is">minor healing</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2" very_hard="yes">
+			<name>Resurrection</name>
+			<college>Healing/Necromancy</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>300</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>2 Hours</casting_time>
+			<duration>Permanent</duration>
+			<reference>M94</reference>
+			<categories>
+				<category>Healing</category>
+				<category>Necromancy</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">instant regeneration</name>
+					<quantity compare="is">1</quantity>
+				</spell_prereq>
+				<spell_prereq has="yes">
+					<name compare="is">summon spirit</name>
+					<quantity compare="is">1</quantity>
 				</spell_prereq>
 			</prereq_list>
 		</spell>
