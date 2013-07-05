@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="hflhwxz0:-6viz31fgcgg2" version="2">
 	<created_date>Apr 16, 2013</created_date>
-	<modified_date>Jul 1, 2013 9:12 PM</modified_date>
+	<modified_date>Jul 3, 2013 3:09 PM</modified_date>
 	<profile>
 		<player_name>NPC</player_name>
 		<name>Elena Tailor</name>
@@ -245,14 +245,33 @@
 			</categories>
 		</advantage>
 		<advantage version="2">
-			<name>Pyrophobia (Fire)</name>
-			<type>Mental</type>
-			<base_points>-5</base_points>
-			<cr>12</cr>
-			<reference>B150</reference>
+			<name>Killjoy</name>
+			<type>Physical</type>
+			<base_points>-15</base_points>
+			<reference>B140</reference>
 			<categories>
 				<category>Disadvantage</category>
 			</categories>
+			<skill_bonus>
+				<name compare="is">carousing</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="contains">connoisseur</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">erotic art</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">gambling</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-3</amount>
+			</skill_bonus>
 		</advantage>
 	</advantage_list>
 	<skill_list>
@@ -382,6 +401,92 @@
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Acrobatics</name>
+			<difficulty>DX/H</difficulty>
+			<points>1</points>
+			<reference>B174</reference>
+			<categories>
+				<category>Athletic</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Climbing</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B183</reference>
+			<categories>
+				<category>Athletic</category>
+				<category>Criminal/Street</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Pickpocket</name>
+			<difficulty>DX/H</difficulty>
+			<points>1</points>
+			<reference>B213</reference>
+			<categories>
+				<category>Criminal/Street</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Filch</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Sleight of Hand</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Gambling</name>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B197</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Mathematics</name>
+				<specialization>Statistics</specialization>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Urban Survival</name>
+			<difficulty>Per/A</difficulty>
+			<points>1</points>
+			<reference>B228</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Lockpicking</name>
 			<tech_level>3</tech_level>
 			<difficulty>IQ/A</difficulty>
@@ -443,6 +548,21 @@
 				<category>Technique</category>
 			</categories>
 		</technique>
+		<technique version="2">
+			<name>Purse Cutting</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>F136</reference>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
+				<modifier>-5</modifier>
+			</default>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Technique</category>
+			</categories>
+		</technique>
 		<skill version="2">
 			<name>Thrown Weapon</name>
 			<specialization>Knife</specialization>
@@ -487,6 +607,101 @@
 				<type>Skill</type>
 				<name>Physician</name>
 				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Survival</name>
+			<specialization>Woodlands</specialization>
+			<difficulty>Per/A</difficulty>
+			<points>1</points>
+			<reference>B223</reference>
+			<categories>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Arctic</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Desert</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Island/Beach</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Jungle</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Mountain</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Plains</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Swampland</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Camouflage</name>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B183</reference>
+			<categories>
+				<category>Military</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Weather Sense</name>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B209</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
 			</default>
 		</skill>
 	</skill_list>
@@ -560,6 +775,14 @@
 				<category>Melee Weapon</category>
 				<category>Missile Weapon</category>
 			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>10</quantity>
+			<description>Lockpicks</description>
+			<tech_level>3</tech_level>
+			<legality_class>4</legality_class>
+			<value>50</value>
+			<notes>Basic equipment for Lockpicking skill.</notes>
 		</equipment>
 		<equipment version="3" state="equipped">
 			<quantity>1</quantity>
@@ -791,7 +1014,7 @@
 				<contained_weight_prereq has="yes" compare="at_most">40 lb</contained_weight_prereq>
 			</prereq_list>
 			<equipment version="3" state="equipped">
-				<quantity>1</quantity>
+				<quantity>2</quantity>
 				<description>Rope, 3/8", 20 yards</description>
 				<tech_level>0</tech_level>
 				<legality_class>4</legality_class>
@@ -802,7 +1025,7 @@
 			</equipment>
 		</equipment_container>
 	</equipment_list>
-	<print_settings printer="Photosmart_Wireless_B109n-z" units="in">
+	<print_settings units="in">
 		<orientation>Portrait</orientation>
 		<width>8.5</width>
 		<height>11</height>
