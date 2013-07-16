@@ -16,18 +16,19 @@ business. The messenger quickly rang his bell and announced that priests are off
 should be given at the towns square in a moment. Most of the visitors followed the messenger, leaving the inn somewhat deserted.
 The innkeeper took his moment to clean the tables, before they all returned, just as he thought they will. Innkeeper knew that no sane
 man would risk his life traveling the country for some old fagot, when there are plenty of food and jobs here, in the safety of Gord.
-"Those darn demons. Spreading like a curse for this land." -- an old man mumbled in the corner.
-"Maybe it is gods punishment?" -- replied the bartender.
-"Yeah. Punishing us for killing our brothers. I killed no man in the slaughter of de Tiers. Neither did my sons."
-"Some of us just did what we were ordered to do." -- an old veteran spoke -- "No one wanted this massacre."
-Grim silence fell in the pub. Bartender returned behind the counter as first men started returning from the towns square.
-"Pfff, they want a band of idiots to safeguard a living relic to Hindar." -- started one of the returnees.
-"Yeah, and they think they can persuade us to loose our lives for eight golden coins."
-"And a donkey." -- inserted one of them.
-"And a donkey." -- huge woodcutter nearly laughed as he sat at the counter. 
-"You could use the donkey as a bait for the demons."
-"Or you could fuck the donkey, as it would be your last."
--- Chatting went on, as the inn filled --
+
+"Those darn demons. Spreading like a curse for this land." -- an old man mumbled in the corner.   
+"Maybe it is gods punishment?" -- replied the bartender.   
+"Yeah. Punishing us for killing our brothers. I killed no man in the slaughter of de Tiers. Neither did my sons."   
+"Some of us just did what we were ordered to do." -- an old veteran spoke -- "No one wanted this massacre."   
+Grim silence fell in the pub. Bartender returned behind the counter as first men started returning from the towns square.   
+"Pfff, they want a band of idiots to safeguard a living relic to Hindar." -- started one of the returnees.   
+"Yeah, and they think they can persuade us to loose our lives for eight golden coins."   
+"And a donkey." -- inserted one of them.   
+"And a donkey." -- huge woodcutter nearly laughed as he sat at the counter.    
+"You could use the donkey as a bait for the demons."   
+"Or you could fuck the donkey, as it would be your last."   
+-- Chatting went on, as the inn filled --   
 
 Later on a group of adventurers entered, they seemed to be quite content about something. They sat at one table and ordered a round of drinks.
 After several rounds, a staggering beauty entered the inn. Barkeeper knew her too well. Gaya Aarthu. Foreigner from the nearby kingdom of Bachaga.
