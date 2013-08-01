@@ -40,11 +40,7 @@ Geography
 ---------
 
 Currently only one continent is created, so many others may exist.
-Choice of continent names. Add stars to most applicable:
-- Talmir *
-- Aon
-- Reona
-- Morkal
+### Continent of Talmir ###
 
 Created regions:
 -  Bargore tundra -- Lies on Valgart north bank, between Iron mountains and Kagar lake,
