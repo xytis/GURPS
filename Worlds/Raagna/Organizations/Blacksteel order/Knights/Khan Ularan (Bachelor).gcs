@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="hflhwxz0:-6viz31fgcgg2" version="2">
 	<created_date>Apr 16, 2013</created_date>
-	<modified_date>Jun 13, 2013 9:12 PM</modified_date>
+	<modified_date>Oct 16, 2013 11:53 PM</modified_date>
 	<profile>
 		<player_name>NPC</player_name>
 		<name>Khan Ularan</name>
 		<title>Blacksteel Bachelor</title>
-		<age>28</age>
+		<age>21</age>
 		<birthday>July 13</birthday>
 		<eyes>Brown</eyes>
 		<hair>Brown, Wavy, Medium</hair>
 		<skin>Light</skin>
 		<handedness>Right</handedness>
-		<height>5' 10"</height>
-		<weight>175 lb</weight>
+		<height>1.65 m</height>
+		<weight>67 kg</weight>
 		<SM>0</SM>
 		<gender>Male</gender>
 		<race>Human</race>
 		<tech_level>3</tech_level>
+		<notes>Khan is third son of Raniel Ularan.
+Unlike his older brothers and his father, he refused to be a farmer in Skyland and when reached the age of 16 left his home for  the capital of Ironfire. There he found shelter in one of the local gangs, where he proven himself as a fierce and deadly blade wielder. During one of Blacksteel raids against local crime, he was noticed by Orden Kavahn, who appreciated his skills and quickly convinced him to join Blacksteels.
+
+He quickly rose among the ranks and he is one of the youngest Bachelors.
+
+He is quite hot tempered and always prefers action to thinking, yet he is caring about others and proved that many times to his squad members.
+</notes>
 	</profile>
 	<HP>8</HP>
 	<FP>0</FP>
@@ -25,7 +32,7 @@
 	<ST>12</ST>
 	<DX>12</DX>
 	<IQ>10</IQ>
-	<HT>11</HT>
+	<HT>10</HT>
 	<will>0</will>
 	<perception>0</perception>
 	<speed>0</speed>
@@ -123,7 +130,7 @@
 				<reference>B36</reference>
 				<notes>15-</notes>
 			</modifier>
-			<modifier version="1">
+			<modifier version="1" enabled="no">
 				<name>Appears quite often</name>
 				<cost type="multiplier">2</cost>
 				<reference>B36</reference>
@@ -204,35 +211,6 @@
 			</categories>
 		</advantage>
 		<advantage version="2">
-			<name>Honesty</name>
-			<type>Mental</type>
-			<base_points>-10</base_points>
-			<cr>6</cr>
-			<reference>B138</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Code of Honor (Soldier's)</name>
-			<type>Mental</type>
-			<base_points>-10</base_points>
-			<reference>B127</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Selfless</name>
-			<type>Mental</type>
-			<base_points>-5</base_points>
-			<cr>12</cr>
-			<reference>B153</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
 			<name>Rank</name>
 			<type>Physical</type>
 			<levels>2</levels>
@@ -285,6 +263,35 @@
 				<attribute>fright_check</attribute>
 				<amount>2</amount>
 			</attribute_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Daredevil</name>
+			<type>Mental</type>
+			<base_points>15</base_points>
+			<reference>B47</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Impulsiveness</name>
+			<type>Mental</type>
+			<base_points>-10</base_points>
+			<cr>9</cr>
+			<reference>B139</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Selfless</name>
+			<type>Mental</type>
+			<base_points>-5</base_points>
+			<cr>12</cr>
+			<reference>B153</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
 		</advantage>
 	</advantage_list>
 	<skill_list>

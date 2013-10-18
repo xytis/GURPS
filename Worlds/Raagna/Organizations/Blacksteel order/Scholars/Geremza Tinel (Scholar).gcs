@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="hflhwxz0:-6viz31fgcgg2" version="2">
 	<created_date>Apr 16, 2013</created_date>
-	<modified_date>Jul 1, 2013 9:53 PM</modified_date>
+	<modified_date>Oct 18, 2013 7:36 AM</modified_date>
 	<profile>
 		<player_name>NPC</player_name>
 		<name>Geremza Tinel</name>
@@ -22,8 +22,8 @@
 	<HP>8</HP>
 	<FP>3</FP>
 	<total_points>125</total_points>
-	<ST>8</ST>
-	<DX>9</DX>
+	<ST>9</ST>
+	<DX>10</DX>
 	<IQ>13</IQ>
 	<HT>9</HT>
 	<will>0</will>
@@ -183,7 +183,7 @@
 				<reference>B36</reference>
 				<notes>15-</notes>
 			</modifier>
-			<modifier version="1">
+			<modifier version="1" enabled="no">
 				<name>Appears quite often</name>
 				<cost type="multiplier">2</cost>
 				<reference>B36</reference>
@@ -468,7 +468,7 @@
 			<name>First Aid</name>
 			<tech_level>3</tech_level>
 			<difficulty>IQ/E</difficulty>
-			<points>1</points>
+			<points>4</points>
 			<reference>B195</reference>
 			<categories>
 				<category>Everyman</category>
@@ -522,7 +522,7 @@
 			<specialization>Herbal</specialization>
 			<tech_level>3</tech_level>
 			<difficulty>IQ/H</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B213</reference>
 			<categories>
 				<category>Design/Invention</category>
@@ -599,7 +599,7 @@
 			<name>Diagnosis</name>
 			<tech_level>3</tech_level>
 			<difficulty>IQ/H</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B187</reference>
 			<categories>
 				<category>Medical</category>
@@ -1295,14 +1295,15 @@
 	</equipment_list>
 	<print_settings printer="Photosmart_Wireless_B109n-z" units="in">
 		<orientation>Portrait</orientation>
-		<width>8.5</width>
-		<height>11</height>
+		<width>8.267716407775879</width>
+		<height>11.692913055419922</height>
 		<top_margin>0.5</top_margin>
 		<left_margin>0.5</left_margin>
 		<bottom_margin>0.5</bottom_margin>
 		<right_margin>0.5</right_margin>
-		<ink_chromaticity>Monochrome</ink_chromaticity>
+		<ink_chromaticity>Color</ink_chromaticity>
 		<sides>Single</sides>
+		<number_up>1</number_up>
 		<quality>Normal</quality>
 	</print_settings>
 </character>

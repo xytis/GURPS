@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="hflhwxz0:-6viz31fgcgg2" version="2">
 	<created_date>Apr 16, 2013</created_date>
-	<modified_date>Jun 27, 2013 8:54 PM</modified_date>
+	<modified_date>Oct 16, 2013 11:11 PM</modified_date>
 	<profile>
 		<player_name>NPC</player_name>
 		<name>Thurman Prestage</name>
@@ -12,8 +12,8 @@
 		<hair>Redhead, Wavy, Medium</hair>
 		<skin>Light Brown</skin>
 		<handedness>Right</handedness>
-		<height>5' 10"</height>
-		<weight>175 lb</weight>
+		<height>1.78 m</height>
+		<weight>73 lb</weight>
 		<SM>0</SM>
 		<gender>Male</gender>
 		<race>Human</race>
@@ -23,7 +23,7 @@
 	<FP>0</FP>
 	<total_points>120</total_points>
 	<ST>12</ST>
-	<DX>13</DX>
+	<DX>12</DX>
 	<IQ>10</IQ>
 	<HT>10</HT>
 	<will>0</will>
@@ -123,7 +123,7 @@
 				<reference>B36</reference>
 				<notes>15-</notes>
 			</modifier>
-			<modifier version="1">
+			<modifier version="1" enabled="no">
 				<name>Appears quite often</name>
 				<cost type="multiplier">2</cost>
 				<reference>B36</reference>
@@ -201,35 +201,6 @@
 			<reference>B72</reference>
 			<categories>
 				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Honesty</name>
-			<type>Mental</type>
-			<base_points>-10</base_points>
-			<cr>6</cr>
-			<reference>B138</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Code of Honor (Soldier's)</name>
-			<type>Mental</type>
-			<base_points>-10</base_points>
-			<reference>B127</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Selfless</name>
-			<type>Mental</type>
-			<base_points>-5</base_points>
-			<cr>12</cr>
-			<reference>B153</reference>
-			<categories>
-				<category>Disadvantage</category>
 			</categories>
 		</advantage>
 		<advantage version="2">

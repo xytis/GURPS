@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="hflhwxz0:-6viz31fgcgg2" version="2">
 	<created_date>Apr 16, 2013</created_date>
-	<modified_date>Jul 3, 2013 3:09 PM</modified_date>
+	<modified_date>Oct 16, 2013 11:51 PM</modified_date>
 	<profile>
 		<player_name>NPC</player_name>
 		<name>Elena Tailor</name>
@@ -18,6 +18,12 @@
 		<gender>Female</gender>
 		<race>Human</race>
 		<tech_level>3</tech_level>
+		<notes>Born and raised by the Rodes, the darkest and the most dangerous part of Horth.
+She never knew her parents, as many children of the streets, the closest thing to a family she has is Julie, her younger 'sister' from orphanage, _insert name here_, a lonely bartender who runs 'The Spike' for the last ten years and a local fortune teller Lady Om, thanks to who Elena is a skillful poison brewer.
+
+She is a dark and silent type, does not like smalltalk and is extremely skilled in ripping throats and purses. Her 'career' with Blacksteels started when she stole a ring from Grand Knight during his visit in Horth. The very next day she received a visit from Orden Kavahn with an unrefusable proposal.
+
+Since then she is doing everything she did before, just with an order and a clean consciousness (can't say there is anything that could smudge it).</notes>
 	</profile>
 	<HP>8</HP>
 	<FP>0</FP>
@@ -123,7 +129,7 @@
 				<reference>B36</reference>
 				<notes>15-</notes>
 			</modifier>
-			<modifier version="1">
+			<modifier version="1" enabled="no">
 				<name>Appears quite often</name>
 				<cost type="multiplier">2</cost>
 				<reference>B36</reference>
@@ -199,6 +205,29 @@
 				<reference>B55</reference>
 			</modifier>
 			<reference>B72</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Rank</name>
+			<type>Physical</type>
+			<levels>1</levels>
+			<points_per_level>5</points_per_level>
+			<modifier version="1" enabled="no">
+				<name>Replaces Status</name>
+				<cost type="points">5</cost>
+				<affects>levels_only</affects>
+				<reference>B29</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Courtesy</name>
+				<cost type="points">-4</cost>
+				<affects>levels_only</affects>
+				<reference>B29</reference>
+			</modifier>
+			<reference>B29</reference>
+			<notes>Blacksteel Rank: Scout</notes>
 			<categories>
 				<category>Advantage</category>
 			</categories>
@@ -325,7 +354,7 @@
 			<name>Stealth</name>
 			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 			<difficulty>DX/A</difficulty>
-			<points>2</points>
+			<points>4</points>
 			<reference>B222</reference>
 			<categories>
 				<category>Criminal/Street</category>
@@ -344,7 +373,7 @@
 		<skill version="2">
 			<name>Escape</name>
 			<difficulty>DX/H</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B192</reference>
 			<categories>
 				<category>Criminal/Street</category>
@@ -388,7 +417,7 @@
 		<skill version="2">
 			<name>Streetwise</name>
 			<difficulty>IQ/A</difficulty>
-			<points>2</points>
+			<points>4</points>
 			<reference>B223</reference>
 			<categories>
 				<category>Criminal/Street</category>
@@ -403,7 +432,7 @@
 		<skill version="2">
 			<name>Acrobatics</name>
 			<difficulty>DX/H</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B174</reference>
 			<categories>
 				<category>Athletic</category>
@@ -417,7 +446,7 @@
 			<name>Climbing</name>
 			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 			<difficulty>DX/A</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B183</reference>
 			<categories>
 				<category>Athletic</category>
@@ -432,7 +461,7 @@
 		<skill version="2">
 			<name>Pickpocket</name>
 			<difficulty>DX/H</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B213</reference>
 			<categories>
 				<category>Criminal/Street</category>
@@ -475,7 +504,7 @@
 		<skill version="2">
 			<name>Urban Survival</name>
 			<difficulty>Per/A</difficulty>
-			<points>1</points>
+			<points>4</points>
 			<reference>B228</reference>
 			<categories>
 				<category>Criminal/Street</category>
@@ -506,7 +535,7 @@
 		<skill version="2">
 			<name>Knife</name>
 			<difficulty>DX/E</difficulty>
-			<points>2</points>
+			<points>8</points>
 			<reference>B208</reference>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -567,7 +596,7 @@
 			<name>Thrown Weapon</name>
 			<specialization>Knife</specialization>
 			<difficulty>DX/E</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B226</reference>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -576,132 +605,6 @@
 			<default>
 				<type>DX</type>
 				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Poisons</name>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>2</points>
-			<reference>B214</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Medical</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Chemistry</name>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Pharmacy</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Physician</name>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Survival</name>
-			<specialization>Woodlands</specialization>
-			<difficulty>Per/A</difficulty>
-			<points>1</points>
-			<reference>B223</reference>
-			<categories>
-				<category>Outdoor/Exploration</category>
-			</categories>
-			<default>
-				<type>Per</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Naturalist</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Arctic</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Desert</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Island/Beach</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Jungle</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Mountain</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Plains</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Swampland</specialization>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Camouflage</name>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B183</reference>
-			<categories>
-				<category>Military</category>
-				<category>Outdoor/Exploration</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Weather Sense</name>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B209</reference>
-			<categories>
-				<category>Everyman</category>
-				<category>Outdoor/Exploration</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
 			</default>
 		</skill>
 	</skill_list>
@@ -1025,7 +928,7 @@
 			</equipment>
 		</equipment_container>
 	</equipment_list>
-	<print_settings units="in">
+	<print_settings printer="Photosmart_Wireless_B109n-z" units="in">
 		<orientation>Portrait</orientation>
 		<width>8.5</width>
 		<height>11</height>
