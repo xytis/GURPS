@@ -1,11 +1,12 @@
 Blacksteel order
+================
 
 Few things are known about this group, as only legends reach the ears of common
 folk.
 
 The order was instituted during the era before the Great Settlement to protect
 and serve rulers of Ironfire. During that period Ironfire was under constant
-attack from nearby orcs, raiding parties and foreign countries. Mostly because 
+attack from nearby orcs, raiding parties and foreign countries. Mostly because
 Ironfire was protecting the secret of steel and harbored huge amounts of
 treasures attained by trading steel weapons, armor and innovative contraptions
 with distant lands.

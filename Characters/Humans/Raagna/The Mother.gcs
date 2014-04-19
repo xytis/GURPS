@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="hmou59lm:14rnnbpf6ajy9" version="2">
 	<created_date>Oct 12, 2013</created_date>
-	<modified_date>Oct 12, 2013 4:58 PM</modified_date>
+	<modified_date>Apr 19, 2014 8:56 AM</modified_date>
 	<profile>
 		<player_name>NPC</player_name>
-		<name>The Mother</name>
+		<name>The Mother (Sierra)</name>
 		<age>0</age>
 		<birthday>Unknown</birthday>
 		<eyes>Turqoise</eyes>
@@ -33,7 +33,182 @@
 	<include_punch>true</include_punch>
 	<include_kick>true</include_kick>
 	<include_kick_with_boots>true</include_kick_with_boots>
-	<print_settings printer="Photosmart_Wireless_B109n-z" units="in">
+	<advantage_list>
+		<advantage version="2">
+			<name>Empathy</name>
+			<type>Mental</type>
+			<base_points>15</base_points>
+			<modifier version="1" enabled="no">
+				<name>Remote</name>
+				<cost type="percentage">50</cost>
+				<affects>total</affects>
+				<reference>P48</reference>
+			</modifier>
+			<reference>B51</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<skill_bonus>
+				<name compare="is">detect lies</name>
+				<specialization compare="is anything"></specialization>
+				<amount>3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">fortune-telling</name>
+				<specialization compare="is anything"></specialization>
+				<amount>3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">psychology</name>
+				<specialization compare="is anything"></specialization>
+				<amount>3</amount>
+			</skill_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Animal Empathy</name>
+			<type>Mental</type>
+			<base_points>5</base_points>
+			<modifier version="1" enabled="no">
+				<name>Remote</name>
+				<cost type="percentage">50</cost>
+				<affects>total</affects>
+				<reference>P48</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Specialized</name>
+				<cost type="percentage">-40</cost>
+				<affects>total</affects>
+				<reference>B87</reference>
+				<notes>All aquatic animals</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Specialized</name>
+				<cost type="percentage">-40</cost>
+				<affects>total</affects>
+				<reference>B87</reference>
+				<notes>All land animals</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Specialized</name>
+				<cost type="percentage">-50</cost>
+				<affects>total</affects>
+				<reference>B87</reference>
+				<notes>@One class: Mammals, Birds, etc.@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Specialized</name>
+				<cost type="percentage">-60</cost>
+				<affects>total</affects>
+				<reference>B87</reference>
+				<notes>@One family: Felines, Parrots, etc.@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Specialized</name>
+				<cost type="percentage">-80</cost>
+				<affects>total</affects>
+				<reference>B87</reference>
+				<notes>@One species: House Cats, Macaws, etc.@</notes>
+			</modifier>
+			<reference>B40</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Charitable</name>
+			<type>Mental</type>
+			<base_points>-15</base_points>
+			<cr>6</cr>
+			<reference>B125</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Hive Link</name>
+			<type>Mental, Exotic</type>
+			<base_points>-25</base_points>
+			<notes>When injured You are required to roll against Will to sustain Yourself and not to send a powerful telepathic signal to Your hive members. If injury is bigger than 1/3 HT, you get -1. If injury is extremely painful (torture), You get -1. If You can not stay silent (You shout or scream physicaly) You get -1.If a hive member sends out such signal, roll against (20 - IQ) to resist. There is a -1 penalty for every 2 IQ points sender had more than You. There is -5 penalty if You were reading senders mind, and -10 penalty if sender was actively controlled by You (dominated).
+  On success You avoid mental stun. On failure you are mentally stunned and you receive FP damage equal to margin of failure or damage received by the sender, whichever is less. On critical failure all of the above and You must roll against Will not to pass out instantly. (If this takes Your FP below zero You get HP damage. Treat the damage as exaustion from Magic.)
+  * The signals strength weakens by distance. For every mile add +1 to base resist value. However the signal is still "audible" until it reaches senders IQ times 10 miles. (dying Thur'wak is audible in 30 miles radius)
+  * If You are unconcious -- any of the above does not work.
+  * If You pass out before you feel pain -- You don't send the signal.</notes>
+		</advantage>
+		<advantage version="2">
+			<name>Hive Mind</name>
+			<type>Mental, Exotic</type>
+			<base_points>30</base_points>
+			<notes>You are constantly connected to Your hive. You may send and receive telepathic messages, are able to read minds, control or harm your hive members (those who share the same Hive Mind with You).
+  * Conditional: if IQ &lt;= 6, You may only receive messages.
+  * When reading minds treat this advantage as Mind Reading (B69), but substitute Your IQ with diference between your and targets IQ. If value is less than zero -- atempt is not possible.
+  * When trying to control hive members treat this advantage as Mind Control (B68), but substitute Your IQ with diference between your and targets IQ. If value is less than zero -- atempt is not possible.
+  * Messages are sent in known language, images or feelings. If You do not understand the language, You do not understand the message.
+</notes>
+		</advantage>
+	</advantage_list>
+	<equipment_list>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Hatchet</description>
+			<tech_level>0</tech_level>
+			<legality_class>4</legality_class>
+			<value>40</value>
+			<weight>2 lb</weight>
+			<reference>B271</reference>
+			<melee_weapon>
+				<damage>sw cut</damage>
+				<strength>8</strength>
+				<usage>Swung</usage>
+				<reach>1</reach>
+				<parry>0</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Axe/Mace</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Flail</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Two-Handed Axe/Mace</name>
+					<modifier>-3</modifier>
+				</default>
+			</melee_weapon>
+			<ranged_weapon>
+				<damage>sw cut</damage>
+				<strength>8</strength>
+				<usage>Thrown</usage>
+				<accuracy>1</accuracy>
+				<range>x1.5/x2.5</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>T(1)</shots>
+				<bulk>-2</bulk>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Thrown Weapon</name>
+					<specialization>Axe/Mace</specialization>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Melee Weapon</category>
+				<category>Missile Weapon</category>
+			</categories>
+		</equipment>
+	</equipment_list>
+	<print_settings printer="Photosmart Wireless B109n-z [801C71]" units="in">
 		<orientation>Portrait</orientation>
 		<width>8.267716407775879</width>
 		<height>11.692913055419922</height>

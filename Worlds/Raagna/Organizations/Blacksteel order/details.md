@@ -4,7 +4,7 @@ Knights, Scholars, Rangers.
 Each of these pillars are governed by respectively:
 Grand Knight, Eldest Keeper, Master Observer.
 
-The high command of Blacksteel order is held in the hands of these three 
+The high command of Blacksteel order is held in the hands of these three
 individuals, they determine paths and actions of this order.
 
 Blacksteel order formed around the secret of advanced steel metallurgy and later
@@ -26,4 +26,4 @@ exhibition results in history changing events.
 Signature gear obtained from the order is recognised among more enlightened
 people and it is considered to be an honor to carry this gear. Carrying such
 gear does not impose that You are good or evil, order is known to act in its
-own ways to achieve mysterious goals. 
+own ways to achieve mysterious goals.
