@@ -3,6 +3,8 @@
     storyline.
   * There should be at least one player swap, so that teams actually have
     different background knowledge.
+  * To help reward calculation, give away 'parts' of CP. ("You have received
+   2/100 worth of experience")
 
 #Siege of the forgotten:
   In the year 471 of the Great Agreement, some of the Ancients machinery
@@ -23,19 +25,62 @@
 ##Party 1: The Blacksteels
   * Ranger
   * Knight
-  * Any other (mixture on a Scribe)
+  * Any other (mixture or a Scribe)
 
 ##Party 2: Keepers of the gates
   * Member of Az'ir mage tower
   * NPC from the bloodline of Archmage Lev
-  * One totaly random fella
+  * One totally random fella
 
 ##Twinkle: *For the pick and hammer!*
   * Orcs and humans are living and working together. There has been a lot of
   changes since last century. Orks have won their rights among humans. Humans
-  have proven themselves as fierce and _rgtul_ (nobly brutal) warriors among
+  have proven themselves as fierce and _rgthul_ (nobly brutal) warriors among
   orcs.
   * Blacksteel order is no longer human only. Orcish warriors and mages are
   common sight.
-  * Southern gate and shore is covered in remains from last raid. Townsfolk is
-  gathering the remains and piling dead bodies for burning.
+  * Western gate has recently been attacked. Townsfolk are pillaging what is
+  left of Sparkling Cliffs Hamlet. Crow murders are feasting on the dead bodies
+  that are rotting in the soft autumn sun.
+  (Quest 1) Blacksteel barricades on the Twinkle bridge and Valley road seem
+  intact.
+
+##Quests
+###"Hole below"
+####Prerequisites
+ Any of:
+  - Investigation of current situation in Sparkling Cliffs Hamlet
+  - Wandering into the Old Mines
+  - Chopping a way to the Overseer
+
+####Tasks
+  * Mainline
+    1. Clean the Old Mines
+    2. Find the source of the forgotten
+    3. Seal the rupture
+  * Optional
+     - Rescue Blacksteel rangers from the Overseer
+     - Follow the rupture to the Shard of Time
+
+####Rewards
+  * Each kill reward CP
+  * Killing the 'Growling Ogre' at the bottom of the mines yields a bag of gold
+  nuggets (1000 coins worth). It must have ate it :)
+  * Rescuing the Blacksteel rangers rewards with premature knowledge about
+  forgotten camp south from Twinkle and a map which allows to sneak up to the
+  camp. Also karma points :)
+  * Reaching the Shard of Time (and taking it) is a start to another quest.
+
+###"Source of Time"
+####Prerequisites
+  - Obtain a Shard of Time
+
+####Tasks
+  * Mainline
+    1. Bring the shard to a mage with sufficient knowledge
+    2. Seek out 'gate keeper'
+
+####Rewards
+  * Each shard is worth 250 coins
+  * Listen to backstory about shattered 'Time core'
+  * Decide either You try to fix the core or to destroy the shards
