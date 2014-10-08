@@ -71,6 +71,25 @@
   camp. Also karma points :)
   * Reaching the Shard of Time (and taking it) is a start to another quest.
 
+####Twists
+  * Shard of Time upon touch (or any other interaction) transports the heroes to abandoned dwelling of Ancients.
+
+###"Homesick #1"
+####Prerequisites
+  - Shard of Time malfunctions in the vicinity
+
+####Tasks
+  * Mainline
+    1. Stay alive
+    2. Find a way out
+  * Optional
+    1. Explore the dvelling
+    2. Find (and solve) 'door puzzle'
+    3. Find (and survive) 'button puzzle'
+
+####Rewards
+  * Life is it's own reward
+
 ###"Source of Time"
 ####Prerequisites
   - Obtain a Shard of Time
