@@ -82,7 +82,7 @@
   * Mainline
     1. Stay alive
     2. Find a way out
-    3. Collect or destoy the Shard of Time
+    3. Collect or destroy the Shard of Time
   * Optional
     1. Explore the dwelling
     2. Find (and solve) 'door puzzle'
@@ -112,8 +112,9 @@
 ####Rewards
   * Each shard is worth 250 coins
   * Listen to backstory about shattered 'Time core'
-  * Decide either You try to fix the core or to destroy the shards
+  * Decide either You try to fix the core or to try destroy the shards or give the shards to Conscribus
 
+---------------------
 
 ###"Protect the past"
 ####Prerequisites
@@ -121,15 +122,47 @@
 
 ####Tasks
   * Mainline
-    1. Kill the Forgotten Conscribus
-    2. Die
-    3. Create a time surge between two Time Cores
-    4. Get warped beyond time (and space)
-    5. Kill the 7 Incarnations of Conscribus
-    6. Time Elven core shatters in the past, releasing You and the Forgotten onto the realm of Raagna
+    1. Confront the Forgotten Conscribus meaty incarnation
+    2. A time surge between two Time Cores is created
+    3. Get warped beyond time (and space)
+    4. Kill the Incarnations of Conscribus
+    5. Elven Time Core shatters in the past, releasing You and the Forgotten onto the realm of Raagna
+
 ####Rewards
-  * End of this campaign. Time cores are in balance again.
+  * End of campaign. Time core is shaterred. Forgotten beasts are all around. Campaign can be replayed.
 
 ###"Undo the future"
 ####Prerequisites
-  - Elven time core must be merged into Original Core
+  - Elven Time Core must be merged into the Original Core
+
+####Tasks
+  * Mainline
+    1. Forgotten Conscribus assembles itself out of Ancient machinery
+    2. Golem traverses through the realm tearing time wounds (portals which release the Forgotten)
+    3. Conscribus offers a sacrificial mission to get warped beyond time (and space)
+    4. Kill the Incarnations of Conscribus
+    5. Elven Time Core partialy reassembles in the future, releasing You back to uterly corrupted land
+    6. Track down the Golem and remove the final piece from it
+    7. Elven Time Core completes and closes all wounds by shattering Original Core and teleporting it back to the past.
+
+####Rewards
+  * End of campaign. Time cores have swithed places. Campaign can be replayed.
+
+
+###"Rebuild the presend"
+####Prerequisites
+  - Elven Time Core must be destroyed completely
+ 
+####Tasks
+  * Mainline
+    1. Forgotten Conscribus is powerless, yet resists powering down
+    2. Conscribus offers to defuse it from 'the other side'
+    3. Kill the Incarnations of Conscribus
+    4. Time Core powers down, Heroes remain trapped beyond time (and space)
+    5.  -- think of a way to return --
+  * Optional
+    1. Fix the Elven Time Core by replanting the time seed in Forgotten Forrest
+    2. Die and be incarnated by one of the Conscribuses
+
+####Rewards
+  * End of campaign. Time cores are no longer functioning. Heroes become the initial planners for their return to Raagna. Which in turn should reintroduce similar starting conditions for replay.
