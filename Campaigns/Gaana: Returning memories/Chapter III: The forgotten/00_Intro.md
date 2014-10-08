@@ -74,7 +74,7 @@
 ####Twists
   * Shard of Time upon touch (or any other interaction) transports the heroes to abandoned dwelling of Ancients.
 
-###"Homesick #1"
+###"Recurring cleanup"
 ####Prerequisites
   - Shard of Time malfunctions in the vicinity
 
@@ -82,13 +82,19 @@
   * Mainline
     1. Stay alive
     2. Find a way out
+    3. Collect or destoy the Shard of Time
   * Optional
-    1. Explore the dvelling
+    1. Explore the dwelling
     2. Find (and solve) 'door puzzle'
     3. Find (and survive) 'button puzzle'
+    4. Find (and use) 'control room'
 
 ####Rewards
   * Life is it's own reward
+  * Each shard may teleport to different establishment of Ancients, physical reward varies.
+
+####Twists
+  * Teleportation may push the characters forward or backward in time. Depending on the needs of GM.
 
 ###"Source of Time"
 ####Prerequisites
@@ -97,9 +103,33 @@
 ####Tasks
   * Mainline
     1. Bring the shard to a mage with sufficient knowledge
-    2. Seek out 'gate keeper'
+    2. Seek out a living 'gate keeper'
+    3. Meet with Conscribus
+  * Optional
+    1. Gain knowledge about 'The Forgotten'.
+    2. Gain door handle for locked Ancient doors.
 
 ####Rewards
   * Each shard is worth 250 coins
   * Listen to backstory about shattered 'Time core'
   * Decide either You try to fix the core or to destroy the shards
+
+
+###"Protect the past"
+####Prerequisites
+  - Elven time core must be repaired
+
+####Tasks
+  * Mainline
+    1. Kill the Forgotten Conscribus
+    2. Die
+    3. Create a time surge between two Time Cores
+    4. Get warped beyond time (and space)
+    5. Kill the 7 Incarnations of Conscribus
+    6. Time Elven core shatters in the past, releasing You and the Forgotten onto the realm of Raagna
+####Rewards
+  * End of this campaign. Time cores are in balance again.
+
+###"Undo the future"
+####Prerequisites
+  - Elven time core must be merged into Original Core
