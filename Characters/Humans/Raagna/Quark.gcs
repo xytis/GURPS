@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<character unique_id="i1i20tdb:-11pxf8mkfvwax" version="2">
+	<created_date>Oct 20, 2014</created_date>
+	<modified_date>Oct 21, 2014 10:28 PM</modified_date>
+	<profile>
+		<player_name>Roman Ilkevic</player_name>
+		<name>Quark</name>
+		<title>fighter</title>
+		<age>20</age>
+		<birthday>Jun 20</birthday>
+		<eyes>Black</eyes>
+		<hair>Redhead, Straight, Short</hair>
+		<skin>Pale</skin>
+		<handedness>Right</handedness>
+		<height>5' 4"</height>
+		<weight>117 lb</weight>
+		<SM>0</SM>
+		<gender>Male</gender>
+		<race>Orc</race>
+		<tech_level>4</tech_level>
+	</profile>
+	<HP>4</HP>
+	<FP>2</FP>
+	<total_points>145</total_points>
+	<ST>16</ST>
+	<DX>11</DX>
+	<IQ>9</IQ>
+	<HT>15</HT>
+	<will>1</will>
+	<perception>1</perception>
+	<speed>0</speed>
+	<move>0</move>
+	<include_punch>true</include_punch>
+	<include_kick>true</include_kick>
+	<include_kick_with_boots>true</include_kick_with_boots>
+	<advantage_list>
+		<advantage version="2">
+			<name>Combat Reflexes</name>
+			<type>Mental</type>
+			<base_points>15</base_points>
+			<reference>B43</reference>
+			<notes>Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)</notes>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<skill_bonus>
+				<name compare="starts with">fast-draw</name>
+				<specialization compare="is anything"></specialization>
+				<amount>1</amount>
+			</skill_bonus>
+			<attribute_bonus>
+				<attribute>dodge</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>parry</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>block</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>fright_check</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Damage Resistance</name>
+			<type>Physical, Exotic</type>
+			<levels>1</levels>
+			<points_per_level>5</points_per_level>
+			<modifier version="1" enabled="no">
+				<name>Ablative</name>
+				<cost type="percentage">-80</cost>
+				<affects>total</affects>
+				<reference>B47</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Absorbtion</name>
+				<cost type="percentage">80</cost>
+				<affects>total</affects>
+				<reference>B46</reference>
+				<notes>Enhances @Trait@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Absorbtion</name>
+				<cost type="percentage">100</cost>
+				<affects>total</affects>
+				<reference>B46</reference>
+				<notes>Enhances any trait</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Absorbtion</name>
+				<cost type="percentage">80</cost>
+				<affects>total</affects>
+				<reference>B46</reference>
+				<notes>Healing only</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Can't wear armor</name>
+				<cost type="percentage">-40</cost>
+				<affects>total</affects>
+				<reference>B47</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Directional</name>
+				<cost type="percentage">-40</cost>
+				<affects>total</affects>
+				<reference>B47</reference>
+				<notes>@Direction: Back, Right, Left, Top or Underside@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Directional</name>
+				<cost type="percentage">-20</cost>
+				<affects>total</affects>
+				<reference>B47</reference>
+				<notes>Front</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Flexible</name>
+				<cost type="percentage">-20</cost>
+				<affects>total</affects>
+				<reference>B47</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Hardened</name>
+				<cost type="percentage">20</cost>
+				<levels>1</levels>
+				<affects>total</affects>
+				<reference>B47</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Limited</name>
+				<cost type="percentage">-40</cost>
+				<affects>total</affects>
+				<reference>B46</reference>
+				<notes>@Common Attack Form@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Limited</name>
+				<cost type="percentage">-60</cost>
+				<affects>total</affects>
+				<reference>B46</reference>
+				<notes>@Occasional Attack Form@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Limited</name>
+				<cost type="percentage">-80</cost>
+				<affects>total</affects>
+				<reference>B46</reference>
+				<notes>@Rare Attack Form@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Limited</name>
+				<cost type="percentage">-20</cost>
+				<affects>total</affects>
+				<reference>B46</reference>
+				<notes>@Very Common Attack Form@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Reflection</name>
+				<cost type="percentage">100</cost>
+				<affects>total</affects>
+				<reference>B47</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Semi-Ablative</name>
+				<cost type="percentage">-20</cost>
+				<affects>total</affects>
+				<reference>B47</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Force Field</name>
+				<cost type="percentage">20</cost>
+				<affects>total</affects>
+				<reference>B47</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Tough Skin</name>
+				<cost type="percentage">-40</cost>
+				<affects>total</affects>
+				<reference>B47</reference>
+			</modifier>
+			<reference>B47</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<dr_bonus>
+				<location>full_body_except_eyes</location>
+				<amount per_level="yes">1</amount>
+			</dr_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Chronic Depression</name>
+			<type>Mental</type>
+			<base_points>-15</base_points>
+			<cr>15</cr>
+			<reference>B126</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Animal Empathy</name>
+			<type>Mental</type>
+			<base_points>5</base_points>
+			<modifier version="1" enabled="no">
+				<name>Remote</name>
+				<cost type="percentage">50</cost>
+				<affects>total</affects>
+				<reference>P48</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Specialized</name>
+				<cost type="percentage">-40</cost>
+				<affects>total</affects>
+				<reference>B87</reference>
+				<notes>All aquatic animals</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Specialized</name>
+				<cost type="percentage">-40</cost>
+				<affects>total</affects>
+				<reference>B87</reference>
+				<notes>All land animals</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Specialized</name>
+				<cost type="percentage">-50</cost>
+				<affects>total</affects>
+				<reference>B87</reference>
+				<notes>@One class: Mammals, Birds, etc.@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Specialized</name>
+				<cost type="percentage">-60</cost>
+				<affects>total</affects>
+				<reference>B87</reference>
+				<notes>@One family: Felines, Parrots, etc.@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Specialized</name>
+				<cost type="percentage">-80</cost>
+				<affects>total</affects>
+				<reference>B87</reference>
+				<notes>@One species: House Cats, Macaws, etc.@</notes>
+			</modifier>
+			<reference>B40</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Demophobia (Crowds)</name>
+			<type>Mental</type>
+			<base_points>-15</base_points>
+			<cr>12</cr>
+			<reference>B149</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>No Sense of Humor</name>
+			<type>Physical</type>
+			<base_points>-10</base_points>
+			<reference>B146</reference>
+			<notes>-2 Reaction</notes>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Pet (badger)</name>
+			<type>Social</type>
+			<base_points>5</base_points>
+			<reference>PU2:18</reference>
+			<notes>Budger, the kleptomanic companion</notes>
+			<categories>
+				<category>Perk</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Low Empathy</name>
+			<type>Mental</type>
+			<base_points>-20</base_points>
+			<reference>B142</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+			<skill_bonus>
+				<name compare="is">acting</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">carousing</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">criminology</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">detect lies</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">diplomacy</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">enthrallment</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">fast-talk</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">interrogation</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">leadership</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">merchant</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">politics</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="contains">psychology</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="contains">savoir-faire</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">sex appeal</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">sociology</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-3</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">streetwise</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-3</amount>
+			</skill_bonus>
+			<prereq_list all="yes">
+				<advantage_prereq has="no">
+					<name compare="is">oblivious</name>
+					<notes compare="is anything"></notes>
+				</advantage_prereq>
+				<advantage_prereq has="no">
+					<name compare="is">callous</name>
+					<notes compare="is anything"></notes>
+				</advantage_prereq>
+				<advantage_prereq has="no">
+					<name compare="is">empathy</name>
+					<notes compare="is anything"></notes>
+				</advantage_prereq>
+			</prereq_list>
+		</advantage>
+	</advantage_list>
+	<skill_list>
+		<skill version="2">
+			<name>Two-Handed Axe/Mace</name>
+			<difficulty>DX/A</difficulty>
+			<points>12</points>
+			<reference>B208</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Axe/Mace</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Polearm</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Two-Handed Flail</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Axe/Mace</name>
+			<difficulty>DX/A</difficulty>
+			<points>8</points>
+			<reference>B208</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Two-Handed Axe/Mace</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Flail</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<technique version="2" limit="-4">
+			<name>Close Combat</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>MA69</reference>
+			<default>
+				<type>Skill</type>
+				<name>Two-Handed Axe/Mace</name>
+				<modifier>-8</modifier>
+			</default>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Two-Handed Axe/Mace</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<skill version="2">
+			<name>Brawling</name>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B182</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<weapon_bonus>
+				<name compare="is">Brawling</name>
+				<specialization compare="is anything"></specialization>
+				<level compare="at_least">2</level>
+				<amount per_level="yes">1</amount>
+			</weapon_bonus>
+		</skill>
+		<skill version="2">
+			<name>Armoury</name>
+			<specialization>Melee Weapons</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B178</reference>
+			<categories>
+				<category>Military</category>
+				<category>Repair/Maintainance</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>Melee Weapons</specialization>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Survival</name>
+			<specialization>Mountain</specialization>
+			<difficulty>Per/A</difficulty>
+			<points>2</points>
+			<reference>B223</reference>
+			<categories>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Arctic</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Desert</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Island/Beach</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Jungle</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Plains</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Swampland</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Woodlands</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Cooking</name>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B185</reference>
+			<categories>
+				<category>Everyman</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Housekeeping</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Knot-Tying</name>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B203</reference>
+			<categories>
+				<category>Everyman</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Climbing</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Seamanship</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+	</skill_list>
+	<equipment_list>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Black Great Axe (Fine)</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>500</value>
+			<weight>8 lb</weight>
+			<reference>B274</reference>
+			<melee_weapon>
+				<damage>sw+4 cut</damage>
+				<strength>12&#8225;</strength>
+				<usage>Swung</usage>
+				<reach>1,2*</reach>
+				<parry>0U</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Two-Handed Axe/Mace</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Axe/Mace</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Polearm</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Two-Handed Flail</name>
+					<modifier>-4</modifier>
+				</default>
+			</melee_weapon>
+			<categories>
+				<category>Melee Weapon</category>
+			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Black Great Helm</description>
+			<tech_level>3</tech_level>
+			<legality_class>3</legality_class>
+			<value>340</value>
+			<weight>10 lb</weight>
+			<reference>B284</reference>
+			<categories>
+				<category>Headgear</category>
+			</categories>
+			<dr_bonus>
+				<location>neck</location>
+				<amount>7</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>face</location>
+				<amount>7</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>skull</location>
+				<amount>7</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Black Plate Arms</description>
+			<tech_level>3</tech_level>
+			<legality_class>3</legality_class>
+			<value>1500</value>
+			<weight>20 lb</weight>
+			<reference>B283</reference>
+			<categories>
+				<category>Limb Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>arms</location>
+				<amount>7</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Black Plate Legs</description>
+			<tech_level>3</tech_level>
+			<legality_class>3</legality_class>
+			<value>1600</value>
+			<weight>25 lb</weight>
+			<reference>B283</reference>
+			<categories>
+				<category>Limb Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>legs</location>
+				<amount>7</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Black Steel Corselet</description>
+			<tech_level>3</tech_level>
+			<legality_class>3</legality_class>
+			<value>2300</value>
+			<weight>45 lb</weight>
+			<reference>B283</reference>
+			<categories>
+				<category>Body Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>torso</location>
+				<amount>7</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>groin</location>
+				<amount>7</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Black Steel Gauntlets</description>
+			<tech_level>3</tech_level>
+			<legality_class>3</legality_class>
+			<value>250</value>
+			<weight>2.5 lb</weight>
+			<reference>B284</reference>
+			<categories>
+				<category>Gloves</category>
+			</categories>
+			<dr_bonus>
+				<location>hands</location>
+				<amount>5</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Black Steel Sollerets</description>
+			<tech_level>3</tech_level>
+			<legality_class>3</legality_class>
+			<value>150</value>
+			<weight>7 lb</weight>
+			<reference>B284</reference>
+			<categories>
+				<category>Footwear</category>
+			</categories>
+			<dr_bonus>
+				<location>feet</location>
+				<amount>4</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Rope, 3/4", 20 yards</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>50</value>
+			<weight>10 lb</weight>
+			<reference>B288</reference>
+			<notes>Supports 1,100 lbs.</notes>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>3</quantity>
+			<description>Torch</description>
+			<tech_level>0</tech_level>
+			<legality_class>4</legality_class>
+			<value>3</value>
+			<weight>1 lb</weight>
+			<reference>B288</reference>
+			<notes>Burns for 1 hour</notes>
+		</equipment>
+	</equipment_list>
+	<print_settings printer="Photosmart Wireless B109n-z [801C71]" units="in">
+		<orientation>Portrait</orientation>
+		<width>8.5</width>
+		<height>13</height>
+		<top_margin>0.5</top_margin>
+		<left_margin>0.5</left_margin>
+		<bottom_margin>0.5</bottom_margin>
+		<right_margin>0.5</right_margin>
+		<ink_chromaticity>Monochrome</ink_chromaticity>
+		<sides>Single</sides>
+		<quality>Normal</quality>
+	</print_settings>
+</character>
