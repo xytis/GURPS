@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="i1i1ysie:-oprgssh2ve7r" version="2">
 	<created_date>Oct 20, 2014</created_date>
-	<modified_date>Oct 21, 2014 10:31 PM</modified_date>
+	<modified_date>Oct 31, 2014 5:48 PM</modified_date>
 	<profile>
 		<player_name>Nuts</player_name>
 		<name>Tyla Nutela</name>
@@ -444,7 +444,7 @@
 				<category>Missile Weapon</category>
 			</categories>
 		</equipment>
-		<equipment_container version="3" open="no" state="equipped">
+		<equipment_container version="3" open="yes" state="equipped">
 			<description>Cloth Armor Set</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
