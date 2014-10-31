@@ -21,3 +21,7 @@
 
 ####Twists
   * Shard of Time upon touch (or any other interaction) transports the heroes to abandoned dwelling of Ancients.
+
+####Resolution
+  * Cleared the entrance area to the mines. Were too afraid to venture forward.
+

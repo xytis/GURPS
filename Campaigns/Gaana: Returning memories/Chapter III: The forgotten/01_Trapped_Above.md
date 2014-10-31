@@ -23,3 +23,17 @@
 ####Twists
   * An old man creeps out of the cellar, snatches an item from one of the slain
   forgotten and disappears back to the cellar
+
+####Resolution
+  * Blacksteel ranger was terrified and taken hostage. He is unwilling to give
+  any details. Adventurers did not climb up the tower, since the ladder up was
+  demolished.
+  * They stumbled upon the Ancients door, tried to block the cellar entrance
+  with a huge rock, only finding it misplaced to the treetops nearby.
+  * Saw an old man dragging a corpse to the tower and mysteriously disappearing.
+
+####Open ends
+  * Both of the recruits have fled.
+  * Old man has a corpse.
+  * Old man somehow moved a huge rock to the treetops.
+
