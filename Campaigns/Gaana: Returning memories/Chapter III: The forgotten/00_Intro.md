@@ -47,6 +47,8 @@
 
 ##Quests
   * ["Hole Below"](./01_Hole_Below.md)
+  * ["Trapped Above"](./01_Trapped_Above.md)
+  * ["House Cleaning"](./02_House_Cleaning.md)
   * ["Recurring Cleanup"](./02_Recurring_Cleanup.md)
   * ["Source of Time"](./03_Source_of_Time.md)
   * ["Protect the Past"](./90_Protect_the_Past.md)
