@@ -11,7 +11,7 @@
     2. Find the source of the forgotten
     3. Seal the rupture
   * Optional
-     - Follow the rupture to the Shard of Time
+    - Follow the rupture to the Shard of Time
 
 ####Rewards
   * Each kill reward CP

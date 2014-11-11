@@ -9,9 +9,9 @@
     1. Chop Your way through the forgotten to the entrance of the Overseer
     2. Climb up to the top, conversate with fresh recruits
     3. Watch a pack of the forgotten joining others in a camp south-east of
-    Twinkle
+  Twinkle
   * Optional
-     - Stumble upon cellar and a door to Ancients tunnels
+    - Stumble upon cellar and a door to Ancients tunnels
 
 ####Rewards
   * Rescuing the Blacksteel rangers rewards with premature knowledge about
