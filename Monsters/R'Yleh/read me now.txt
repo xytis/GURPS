@@ -1,0 +1,19 @@
+Monsters based on Dominion 4 R'yleh faction. 
+
+Arlantian Meteorite Guard (Elite unit)
+Atlantian Slave Guardian
+Atlantian Slave Trooper
+Lobo Guard (easy monster, claws)
+Crab Hybrid (normal monster, talons)
+Shabler Thrall (elite monster, talons)
+
+not-created
+
+Illithid (attacks: life drain, mind blast)
+Illithid Soldier (attacks: trident, Mind blast)
+
+Comanders (not made):
+
+Illithd Lord  (attacks: trident, Mind blast)
+Star Child  (attacks: dagger, Mind blast)
+Starspawn  (attacks: life drain, mind blast) {elite comander}
