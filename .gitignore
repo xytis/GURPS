@@ -11,3 +11,11 @@
 #No graphical sources.
 *.xcf
 *.png
+
+#No compiled tex files
+*.gz
+*.aux
+*.log
+*.out
+*.ps
+*.pdf

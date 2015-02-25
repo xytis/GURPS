@@ -1,0 +1,13 @@
+\documentclass[14p]{article}
+\usepackage {graphicx}
+\usepackage {hyperref}
+\usepackage{cite}
+\begin{document}
+\title{And he leaves the cave}
+\maketitle
+
+He was born in the kingdom of Epyr. New kingdom founded by refugees only few decades ago. A new faith of Red god was only major religion there. The kingdom was actualy ten big cities in a walley surounded by arid wastlands, inaccesable mountains and scorching deserts. 
+
+He was the third son of his father and therefore no inheritance was his due to the laws of Epyr. The only place for him was military, servitude or priesthud. In fire he heard the calling of Red god and choosen his path. In second years he discovered that he had the Spark inside of him. That opened doors for him to be trained in the arts of magic. After ten years of servitude he was ordained to priests. He demonstated faith and great skills in magic so after few years he was offered to take piligrimage to find some magical artifact. This mission would open him a path to bishops.
+
+And so next morning he packed his stuff and walked towards desert. Few hard months later he found himself on the outskirts of some green land. Since that he was roaming searching for magic, when he set his eyes upon a group on adventurers...
