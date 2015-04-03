@@ -1,11 +1,11 @@
 ###"Gaana the Hospitable"
 ####Prerequisites
   - Wander into Gaana follower
-  - Get into Vilage of Tranquility
+  - Get into Village of Tranquility
 
 ####Tasks
   * Mainline
-    1. Escape from Vilage of Tranquility
+    1. Escape from Village of Tranquility
   * Optional
     1. Obtain the "Favour of Gaana"
       Dissadvantage "Favour of Gaana" (-5, -15, -25, -35)
