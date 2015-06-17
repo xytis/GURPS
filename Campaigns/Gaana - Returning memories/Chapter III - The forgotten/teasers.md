@@ -46,3 +46,34 @@ Generolo veidą perkreipė kraują stingdantis siaubas. Kardas išlydo iš makš
 Generolas tvirčiau suspaudė savo kardo rankeną ir nužvelgė tolumoje juoduojančias mūrines sienas.
 
 ---
+
+Shady gray figure seeped into the tent. Slowly it walked around the mutilated corpse of the General.
+
+"anger... Yes. Anger. Furry. Disappointment. Death. Seek death... Yes. Death will help us." -- shady figure mumbled in several voices.
+
+Figure approached the edge of a crater:
+
+"Footprint. Trail. Scent. Path. Breadcrumbs... We know."
+
+And the figure dissolved into the thin air.
+
+Outside of the half destroyed tent in the light of rising sun Blacksteels and Twinkle militia were slaughtering the remainder of 'The Forgotten Orcish Army'.
+
+---
+
+"Debt must be repaid."
+
+Gray cloak stood still in front of a miniature fortress made from mutilated corpses.
+
+One side of the rotten flesh fortress was covered in mushrooms and blossoming flowers of some sort, while the other side was built from bones and hooves, with sharp spikes menacing to pierce anyone stupid enough to walk by. Sharp laughter echoed from the gateway as a slim figure appeared from the darkness.
+
+"... kill ..." - the shady figure spoke and disappeared, leaving a crack shaped portal on the ground.
+
+"You let me play outside, master? _Can I be naughty again, master?_ **Can I rip their souls apart, master?** _I promise, I will plant a tree in their tiny little grave._ I have missed those green and lush trees. **I missed the way they scream when they burn.** Oooooh, I know. I will make them **cook me their legs.** Oh how long ago have I tasted some fine cooked meat... _Mmm-MMMmmmm._"
+
+Slim figure playfully jumped into the crack and the portal closed with a cracking sound.
+
+_For most authentic experience, read bold in low devilish voice, italics in evil girly voice and normal font in insane man voice._
+
+---
+
