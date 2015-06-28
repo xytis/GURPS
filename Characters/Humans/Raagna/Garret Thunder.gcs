@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="i1i1pn1x:-vr2wjgrzj22x" version="2">
 	<created_date>Oct 21, 2014</created_date>
-	<modified_date>Feb 24, 2015 6:22 PM</modified_date>
+	<modified_date>Jun 28, 2015 3:41 PM</modified_date>
 	<profile>
 		<player_name>Oleg Rumiancev</player_name>
 		<name>Garret Thunder</name>
@@ -84,7 +84,7 @@ Thunder - Katana 2-handed both hands</notes>
 				<amount>1</amount>
 			</attribute_bonus>
 			<attribute_bonus>
-				<attribute>fright_check</attribute>
+				<attribute>fright check</attribute>
 				<amount>2</amount>
 			</attribute_bonus>
 		</advantage>
@@ -363,6 +363,81 @@ Thunder - Katana 2-handed both hands</notes>
 			</categories>
 			<default>
 				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Survival</name>
+			<specialization>Desert</specialization>
+			<difficulty>Per/A</difficulty>
+			<points>0</points>
+			<reference>B223</reference>
+			<categories>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Arctic</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Island/Beach</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Jungle</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Mountain</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Plains</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Swampland</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Woodlands</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Animal Handling</name>
+			<specialization>Desert Sades</specialization>
+			<difficulty>IQ/A</difficulty>
+			<points>0</points>
+			<reference>B175</reference>
+			<categories>
+				<category>Animal</category>
+			</categories>
+			<default>
+				<type>IQ</type>
 				<modifier>-5</modifier>
 			</default>
 		</skill>
@@ -661,15 +736,15 @@ Thunder - Katana 2-handed both hands</notes>
 		</equipment>
 	</equipment_list>
 	<print_settings printer="Photosmart Wireless B109n-z [801C71]" units="in">
-		<orientation>Portrait</orientation>
+		<orientation>portrait</orientation>
 		<width>8.267716407775879</width>
 		<height>11.692913055419922</height>
 		<top_margin>0.5</top_margin>
 		<left_margin>0.5</left_margin>
 		<bottom_margin>0.5</bottom_margin>
 		<right_margin>0.5</right_margin>
-		<ink_chromaticity>Monochrome</ink_chromaticity>
-		<sides>Single</sides>
-		<quality>Normal</quality>
+		<ink_chromaticity>monochrome</ink_chromaticity>
+		<sides>single</sides>
+		<quality>normal</quality>
 	</print_settings>
 </character>
