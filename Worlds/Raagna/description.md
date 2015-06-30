@@ -62,11 +62,12 @@ is built on one of them.
 Valgart gives its waters to the sea.
  * __Nordic/Freezing wastes__ north of Bargore tundra, where climate becomes arid and cold,
 lies unwelcoming wastes, which have brought end to many unwary adventurers.
- * __Death valey__ desert in the south, trapped by mountains in the west and hills in the east,
-with a huge river canyon eroded in red stone.
+ * __Death valey__ lush valey in the south, surrounded by mountains in all directions,
+with a huge circular ash filled scar of mysterious origin.
  * __The Dark (Kagar) woods__ magical forest just around the lake Kagar (both of which were
 named by orcs. Hence 'Dark Lake', 'Dark River', 'Dark Forest', 'Town Near the Dark'. Orcs
 are not the most creative species around...)
+ * __Moarri Desert__ large sand sea south of Ironfire, behind the mountains of Death valey. Inhabited by goblins, giant worms and other desert creatures. Main trade route to Moarri goes through it.
  * ... consult the map for others ...
 
 This continent spans weather from freezing to rainforests, with high mountains
