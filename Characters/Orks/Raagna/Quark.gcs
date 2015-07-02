@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="i1i20tdb:-11pxf8mkfvwax" version="2">
 	<created_date>Oct 20, 2014</created_date>
-	<modified_date>Jun 28, 2015 3:41 PM</modified_date>
+	<modified_date>Jul 1, 2015 9:21 PM</modified_date>
 	<profile>
 		<player_name>Roman Ilkevic</player_name>
 		<name>Quark</name>
@@ -20,11 +20,13 @@
 		<tech_level>4</tech_level>
 	</profile>
 	<HP>4</HP>
+	<current_hp>13</current_hp>
 	<FP>2</FP>
-	<total_points>150</total_points>
+	<current_fp>17</current_fp>
+	<total_points>165</total_points>
 	<ST>16</ST>
 	<DX>11</DX>
-	<IQ>9</IQ>
+	<IQ>10</IQ>
 	<HT>15</HT>
 	<will>0</will>
 	<perception>0</perception>
@@ -398,7 +400,7 @@
 		<skill version="2">
 			<name>Two-Handed Axe/Mace</name>
 			<difficulty>DX/A</difficulty>
-			<points>12</points>
+			<points>13</points>
 			<reference>B208</reference>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -614,7 +616,7 @@
 			<name>Survival</name>
 			<specialization>Desert</specialization>
 			<difficulty>Per/A</difficulty>
-			<points>0</points>
+			<points>1</points>
 			<reference>B223</reference>
 			<categories>
 				<category>Outdoor/Exploration</category>
@@ -675,7 +677,7 @@
 			<name>Animal Handling</name>
 			<specialization>Desert Sades</specialization>
 			<difficulty>IQ/A</difficulty>
-			<points>0</points>
+			<points>1</points>
 			<reference>B175</reference>
 			<categories>
 				<category>Animal</category>
@@ -860,7 +862,7 @@
 			<notes>Burns for 1 hour</notes>
 		</equipment>
 	</equipment_list>
-	<print_settings printer="Photosmart Wireless B109n-z [801C71]" units="in">
+	<print_settings printer="Office printer" units="in">
 		<orientation>portrait</orientation>
 		<width>8.5</width>
 		<height>13</height>

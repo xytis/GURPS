@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="i1i1pn1x:-vr2wjgrzj22x" version="2">
 	<created_date>Oct 21, 2014</created_date>
-	<modified_date>Jun 28, 2015 3:41 PM</modified_date>
+	<modified_date>Jul 1, 2015 9:11 PM</modified_date>
 	<profile>
 		<player_name>Oleg Rumiancev</player_name>
 		<name>Garret Thunder</name>
@@ -24,8 +24,10 @@ Garret - shortswords 1 in each hand
 Thunder - Katana 2-handed both hands</notes>
 	</profile>
 	<HP>1</HP>
+	<current_hp>10</current_hp>
 	<FP>2</FP>
-	<total_points>150</total_points>
+	<current_fp>13</current_fp>
+	<total_points>165</total_points>
 	<ST>12</ST>
 	<DX>14</DX>
 	<IQ>11</IQ>
@@ -99,6 +101,16 @@ Thunder - Katana 2-handed both hands</notes>
 			</categories>
 		</advantage>
 		<advantage version="2">
+			<name>Extra Sleep</name>
+			<type>Physical</type>
+			<levels>1</levels>
+			<points_per_level>-2</points_per_level>
+			<reference>B136</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
 			<name>Split Personality</name>
 			<type>Mental</type>
 			<base_points>-15</base_points>
@@ -110,13 +122,12 @@ Thunder - Katana 2-handed both hands</notes>
 			</categories>
 		</advantage>
 		<advantage version="2">
-			<name>Missing Digit (Finger)</name>
-			<type>Physical</type>
-			<base_points>-2</base_points>
-			<reference>B144</reference>
-			<notes>Middle finger on right hand (Regrows in 16 days)</notes>
+			<name>Danger Sense</name>
+			<type>Mental</type>
+			<base_points>15</base_points>
+			<reference>B47</reference>
 			<categories>
-				<category>Disadvantage</category>
+				<category>Advantage</category>
 			</categories>
 		</advantage>
 		<advantage version="2">
@@ -735,7 +746,7 @@ Thunder - Katana 2-handed both hands</notes>
 			</dr_bonus>
 		</equipment>
 	</equipment_list>
-	<print_settings printer="Photosmart Wireless B109n-z [801C71]" units="in">
+	<print_settings printer="Office printer" units="in">
 		<orientation>portrait</orientation>
 		<width>8.267716407775879</width>
 		<height>11.692913055419922</height>
