@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="i1i1ysie:-oprgssh2ve7r" version="2">
 	<created_date>Oct 20, 2014</created_date>
-	<modified_date>Jul 2, 2015 8:49 AM</modified_date>
+	<modified_date>Jul 8, 2015 9:40 PM</modified_date>
 	<profile>
 		<player_name>Nuts</player_name>
 		<name>Tyla Nutela</name>
@@ -1557,9 +1557,9 @@ RQAAAABJRU5ErkJggg==
 		</portrait>
 	</profile>
 	<HP>3</HP>
-	<current_hp>14</current_hp>
+	<current_hp>8</current_hp>
 	<FP>0</FP>
-	<current_fp>10</current_fp>
+	<current_fp>-3</current_fp>
 	<total_points>165</total_points>
 	<ST>11</ST>
 	<DX>12</DX>

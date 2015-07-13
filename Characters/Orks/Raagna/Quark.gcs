@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="i1i20tdb:-11pxf8mkfvwax" version="2">
 	<created_date>Oct 20, 2014</created_date>
-	<modified_date>Jul 2, 2015 8:51 AM</modified_date>
+	<modified_date>Jul 8, 2015 9:47 PM</modified_date>
 	<profile>
 		<player_name>Roman Ilkevic</player_name>
 		<name>Quark</name>
@@ -800,9 +800,9 @@ wfIn08kaz88z1ns8yi2Q/3Xt6Hie/5HvJdt6OI+qTbbJfMKnAui/30d7kgB73P24HED/BjatPXCq
 		</portrait>
 	</profile>
 	<HP>4</HP>
-	<current_hp>15</current_hp>
+	<current_hp>17</current_hp>
 	<FP>2</FP>
-	<current_fp>17</current_fp>
+	<current_fp>4</current_fp>
 	<total_points>165</total_points>
 	<ST>16</ST>
 	<DX>11</DX>
