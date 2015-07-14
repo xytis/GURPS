@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<character unique_id="ic35tzlg:1ux6pydf3xbdw" version="2">
+	<created_date>Jul 14, 2015</created_date>
+	<modified_date>Jul 14, 2015 9:36 PM</modified_date>
+	<profile>
+		<player_name>romanilkevic</player_name>
+		<name>Suggutr the son of Dorian from stone throne kingdom</name>
+		<age>30</age>
+		<birthday>October 6</birthday>
+		<eyes>Grey</eyes>
+		<hair>Black, Straight, Short</hair>
+		<skin>Tan</skin>
+		<handedness>Right</handedness>
+		<height>5' 11"</height>
+		<weight>171 lb</weight>
+		<SM>0</SM>
+		<gender>Male</gender>
+		<race>Dwarf</race>
+		<tech_level>4</tech_level>
+		<religion>Hel cult</religion>
+	</profile>
+	<HP>0</HP>
+	<FP>0</FP>
+	<total_points>150</total_points>
+	<ST>12</ST>
+	<DX>10</DX>
+	<IQ>12</IQ>
+	<HT>10</HT>
+	<will>0</will>
+	<perception>0</perception>
+	<speed>0</speed>
+	<move>0</move>
+	<include_punch>true</include_punch>
+	<include_kick>true</include_kick>
+	<include_kick_with_boots>true</include_kick_with_boots>
+	<advantage_list>
+		<advantage_container version="2" open="yes" type="race">
+			<name>Dwarf</name>
+			<reference>B261</reference>
+			<advantage version="2">
+				<name>Detect (Gold, Vague)</name>
+				<type>Mental/Physical, Exotic</type>
+				<base_points>3</base_points>
+				<reference>B48</reference>
+			</advantage>
+			<advantage version="2">
+				<name>Extended Lifespan</name>
+				<type>Physical, Exotic</type>
+				<levels>1</levels>
+				<points_per_level>2</points_per_level>
+				<reference>B53</reference>
+			</advantage>
+			<advantage version="2">
+				<name>Increased Health</name>
+				<type>Physical</type>
+				<levels>1</levels>
+				<points_per_level>10</points_per_level>
+				<reference>B15</reference>
+				<attribute_bonus>
+					<attribute>ht</attribute>
+					<amount per_level="yes">1</amount>
+				</attribute_bonus>
+			</advantage>
+			<advantage version="2">
+				<name>Increased Will</name>
+				<type>Physical</type>
+				<levels>1</levels>
+				<points_per_level>5</points_per_level>
+				<reference>B16</reference>
+				<attribute_bonus>
+					<attribute>will</attribute>
+					<amount per_level="yes">1</amount>
+				</attribute_bonus>
+			</advantage>
+			<advantage version="2">
+				<name>Night Vision</name>
+				<type>Physical</type>
+				<levels>5</levels>
+				<points_per_level>1</points_per_level>
+				<reference>B71</reference>
+			</advantage>
+			<advantage version="2">
+				<name>Reduced Size</name>
+				<type>Physical</type>
+				<levels>1</levels>
+				<attribute_bonus>
+					<attribute>sm</attribute>
+					<amount per_level="yes">-1</amount>
+				</attribute_bonus>
+			</advantage>
+			<advantage version="2">
+				<name>Talent (Artificer)</name>
+				<type>Mental</type>
+				<levels>1</levels>
+				<points_per_level>10</points_per_level>
+				<reference>B90</reference>
+				<skill_bonus>
+					<name compare="starts with">armoury</name>
+					<specialization compare="is anything"></specialization>
+					<amount per_level="yes">1</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">carpentry</name>
+					<specialization compare="is anything"></specialization>
+					<amount per_level="yes">1</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">electrician</name>
+					<specialization compare="is anything"></specialization>
+					<amount per_level="yes">1</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="starts with">electronics repair</name>
+					<specialization compare="is anything"></specialization>
+					<amount per_level="yes">1</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="starts with">engineer</name>
+					<specialization compare="is anything"></specialization>
+					<amount per_level="yes">1</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">machinist</name>
+					<specialization compare="is anything"></specialization>
+					<amount per_level="yes">1</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">masonry</name>
+					<specialization compare="is anything"></specialization>
+					<amount per_level="yes">1</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="starts with">mechanic</name>
+					<specialization compare="is anything"></specialization>
+					<amount per_level="yes">1</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="starts with">smith</name>
+					<specialization compare="is anything"></specialization>
+					<amount per_level="yes">1</amount>
+				</skill_bonus>
+			</advantage>
+		</advantage_container>
+		<advantage version="2">
+			<name>Combat Reflexes</name>
+			<type>Mental</type>
+			<base_points>15</base_points>
+			<reference>B43</reference>
+			<notes>Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)</notes>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<skill_bonus>
+				<name compare="starts with">fast-draw</name>
+				<specialization compare="is anything"></specialization>
+				<amount>1</amount>
+			</skill_bonus>
+			<attribute_bonus>
+				<attribute>dodge</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>parry</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>block</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>fright_check</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Danger Sense</name>
+			<type>Mental</type>
+			<base_points>15</base_points>
+			<reference>B47</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Language: Engrish</name>
+			<type>Mental</type>
+			<modifier version="1">
+				<name>Native</name>
+				<cost type="points">-6</cost>
+				<affects>total</affects>
+				<reference>B23</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Spoken</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>None</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Spoken</name>
+				<cost type="points">1</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Broken</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Spoken</name>
+				<cost type="points">2</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Accented</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Spoken</name>
+				<cost type="points">3</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Native</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Written</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>None</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Written</name>
+				<cost type="points">1</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Broken</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Written</name>
+				<cost type="points">2</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Accented</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Written</name>
+				<cost type="points">3</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Native</notes>
+			</modifier>
+			<reference>B24</reference>
+			<categories>
+				<category>Advantage</category>
+				<category>Language</category>
+			</categories>
+			<prereq_list all="yes">
+				<advantage_prereq has="no">
+					<name compare="is">Language Talent</name>
+					<notes compare="is anything"></notes>
+				</advantage_prereq>
+			</prereq_list>
+		</advantage>
+		<advantage version="2">
+			<name>Language: Reo</name>
+			<type>Mental</type>
+			<modifier version="1" enabled="no">
+				<name>Native</name>
+				<cost type="points">-6</cost>
+				<affects>total</affects>
+				<reference>B23</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Spoken</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>None</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Spoken</name>
+				<cost type="points">1</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Broken</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Spoken</name>
+				<cost type="points">2</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Accented</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Spoken</name>
+				<cost type="points">3</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Native</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Written</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>None</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Written</name>
+				<cost type="points">1</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Broken</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Written</name>
+				<cost type="points">2</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Accented</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Written</name>
+				<cost type="points">3</cost>
+				<affects>total</affects>
+				<reference>B24</reference>
+				<notes>Native</notes>
+			</modifier>
+			<reference>B24</reference>
+			<categories>
+				<category>Advantage</category>
+				<category>Language</category>
+			</categories>
+			<prereq_list all="yes">
+				<advantage_prereq has="no">
+					<name compare="is">Language Talent</name>
+					<notes compare="is anything"></notes>
+				</advantage_prereq>
+			</prereq_list>
+		</advantage>
+		<advantage version="2">
+			<name>Alcoholism</name>
+			<type>Physical</type>
+			<base_points>-15</base_points>
+			<modifier version="1" enabled="no">
+				<name>Illegal</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B122</reference>
+			</modifier>
+			<reference>B122</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>One Eye</name>
+			<type>Physical</type>
+			<base_points>-15</base_points>
+			<reference>B147</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Fanaticism (Hel cult)</name>
+			<type>Mental</type>
+			<base_points>-15</base_points>
+			<modifier version="1" enabled="no">
+				<name>Extreme</name>
+				<cost type="percentage">0</cost>
+				<affects>total</affects>
+				<reference>B136</reference>
+			</modifier>
+			<reference>B136</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+	</advantage_list>
+	<skill_list>
+		<skill version="2">
+			<name>Axe/Mace</name>
+			<difficulty>DX/A</difficulty>
+			<points>20</points>
+			<reference>B208</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Two-Handed Axe/Mace</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Flail</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Two-Handed Axe/Mace</name>
+			<difficulty>DX/A</difficulty>
+			<points>8</points>
+			<reference>B208</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Axe/Mace</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Polearm</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Two-Handed Flail</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Survival</name>
+			<specialization>Mountain</specialization>
+			<difficulty>Per/A</difficulty>
+			<points>4</points>
+			<reference>B223</reference>
+			<categories>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Arctic</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Desert</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Island/Beach</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Jungle</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Plains</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Swampland</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Woodlands</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Fast-Talk</name>
+			<difficulty>IQ/A</difficulty>
+			<points>8</points>
+			<reference>B195</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Social</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Acting</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>First Aid</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>12</points>
+			<reference>B195</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Medical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Esoteric Medicine</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physician</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Veterinary</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Surgery</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/VH</difficulty>
+			<points>6</points>
+			<reference>B223</reference>
+			<categories>
+				<category>Medical</category>
+			</categories>
+			<prereq_list all="no">
+				<skill_prereq has="yes">
+					<name compare="is">first aid</name>
+					<specialization compare="is"></specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">physician</name>
+					<specialization compare="is"></specialization>
+				</skill_prereq>
+			</prereq_list>
+			<default>
+				<type>Skill</type>
+				<name>First Aid</name>
+				<modifier>-12</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physician</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physiology</name>
+				<modifier>-8</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Veterinary</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Shield</name>
+			<specialization>Shield</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>8</points>
+			<reference>B220</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Physician</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B213</reference>
+			<categories>
+				<category>Medical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-7</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>First Aid</name>
+				<modifier>-11</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Veterinary</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+	</skill_list>
+	<equipment_list>
+		<equipment version="3" state="equipped">
+			<quantity>0</quantity>
+			<description>Copper Farthing</description>
+			<legality_class>4</legality_class>
+			<value>1</value>
+			<weight>0.008 lb</weight>
+			<reference>B264</reference>
+			<categories>
+				<category>Money: GURPS Standard Medieval Coins</category>
+			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Axe</description>
+			<tech_level>0</tech_level>
+			<legality_class>4</legality_class>
+			<value>50</value>
+			<weight>4 lb</weight>
+			<reference>B271</reference>
+			<melee_weapon>
+				<damage>sw+2 cut</damage>
+				<strength>11</strength>
+				<usage>Swung</usage>
+				<reach>1</reach>
+				<parry>0U</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Axe/Mace</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Flail</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Two-Handed Axe/Mace</name>
+					<modifier>-3</modifier>
+				</default>
+			</melee_weapon>
+			<categories>
+				<category>Melee Weapon</category>
+			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Ballistic Helmet Visor</description>
+			<tech_level>8</tech_level>
+			<legality_class>3</legality_class>
+			<value>100</value>
+			<weight>3 lb</weight>
+			<reference>B285</reference>
+			<categories>
+				<category>Headgear</category>
+			</categories>
+			<dr_bonus>
+				<location>eyes</location>
+				<amount>10</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>face</location>
+				<amount>10</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Frag Vest Plate Inserts</description>
+			<tech_level>7</tech_level>
+			<legality_class>3</legality_class>
+			<value>300</value>
+			<weight>15 lb</weight>
+			<reference>B284</reference>
+			<categories>
+				<category>Body Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>torso</location>
+				<amount>20</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Reinforced Boots</description>
+			<tech_level>7</tech_level>
+			<legality_class>-</legality_class>
+			<value>75</value>
+			<weight>3 lb</weight>
+			<reference>B284</reference>
+			<categories>
+				<category>Footwear</category>
+			</categories>
+			<dr_bonus>
+				<location>feet</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Light Shield</description>
+			<tech_level>-</tech_level>
+			<legality_class>4</legality_class>
+			<value>25</value>
+			<weight>2 lb</weight>
+			<reference>B287</reference>
+			<melee_weapon>
+				<damage>thr cr</damage>
+				<strength>0</strength>
+				<reach>1</reach>
+				<parry>No</parry>
+				<block>+0</block>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shield</name>
+					<specialization>Buckler</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shield</name>
+					<specialization>Force Shield</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shield</name>
+					<specialization>Shield</specialization>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<categories>
+				<category>Shield</category>
+			</categories>
+			<attribute_bonus>
+				<attribute>dodge</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>parry</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>block</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+		</equipment>
+		<equipment_container version="3" open="yes" state="equipped">
+			<description>Backpack, Small</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>60</value>
+			<weight>3 lb</weight>
+			<reference>B288</reference>
+			<categories>
+				<category>Camping and Survival Gear</category>
+			</categories>
+			<prereq_list all="yes">
+				<contained_weight_prereq has="yes" compare="at_most">40 lb</contained_weight_prereq>
+			</prereq_list>
+			<equipment version="3" state="equipped">
+				<quantity>1</quantity>
+				<description>Surgical Instruments</description>
+				<legality_class>4</legality_class>
+				<value>300</value>
+				<weight>15 lb</weight>
+				<reference>B289</reference>
+				<notes>Includes scalpels, forceps, etc. Basic equipment f&#252;r Surgery skill.</notes>
+				<categories>
+					<category>Medical Gear</category>
+				</categories>
+			</equipment>
+			<equipment version="3" state="equipped">
+				<quantity>1</quantity>
+				<description>First Aid Kit</description>
+				<tech_level>3</tech_level>
+				<legality_class>4</legality_class>
+				<value>50</value>
+				<weight>2 lb</weight>
+				<reference>B289</reference>
+				<notes>A complete kit for treating wounds, with bandages, ointments, etc.</notes>
+				<categories>
+					<category>Medical Gear</category>
+				</categories>
+				<skill_bonus>
+					<name compare="is">First Aid</name>
+					<specialization compare="is anything"></specialization>
+					<amount>1</amount>
+				</skill_bonus>
+			</equipment>
+			<equipment version="3" state="equipped">
+				<quantity>1</quantity>
+				<description>Rope, 3/4", 10 yards</description>
+				<tech_level>1</tech_level>
+				<legality_class>4</legality_class>
+				<value>25</value>
+				<weight>5 lb</weight>
+				<reference>B288</reference>
+				<notes>Supports 1,100 lbs.</notes>
+			</equipment>
+		</equipment_container>
+	</equipment_list>
+	<print_settings printer="10.15.54.10" units="in">
+		<orientation>Portrait</orientation>
+		<width>8.5</width>
+		<height>13</height>
+		<top_margin>0.5</top_margin>
+		<left_margin>0.5</left_margin>
+		<bottom_margin>0.5</bottom_margin>
+		<right_margin>0.5</right_margin>
+		<ink_chromaticity>Monochrome</ink_chromaticity>
+		<sides>Single</sides>
+		<quality>Normal</quality>
+	</print_settings>
+</character>
