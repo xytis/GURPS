@@ -28,3 +28,9 @@ Metai: 4 Sezonai:
 - Patvynis
 - Gausara
 - Šlapuo 
+
+##Helpers
+
+[Calendar|dojon.bin.sh/fantasy/calendar]
+
+{"year_len":512,"events":1,"n_months":16,"months":["Bėgis","Kritis","Ledys","Badis","Tirpis","Plaukis","Džiūvis","Sprogis","Grįžis","Rausis","Ėdis","Rinkis","Gausis","Likis","Tamsis","Vėsis"],"month_len":{"Bėgis":32,"Kritis":32,"Ledys":32,"Badis":32,"Tirpis":32,"Plaukis":32,"Džiūvis":32,"Sprogis":32,"Grįžis":32,"Rausis":32,"Ėdis":32,"Rinkis":32,"Gausis":32,"Likis":32,"Tamsis":32,"Vėsis":32},"week_len":8,"weekdays":["Pirmana","Antrana","Trečiana","Ketvirtana","Penktana","Šeštana","Sektana","Oktana"],"n_moons":1,"moons":["Un"],"lunar_cyc":{"Un":32},"lunar_shf":{"Un":0},"year":598,"first_day":0}

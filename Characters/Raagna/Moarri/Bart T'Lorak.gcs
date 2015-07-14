@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="ic2a6tq5:-zw8ygk09yqqc" version="2">
-	<created_date>Jul 13, 2015</created_date>
-	<modified_date>Jul 14, 2015 9:50 AM</modified_date>
+	<created_date>14-Jul-2015</created_date>
+	<modified_date>14-Jul-2015 10:47</modified_date>
 	<profile>
 		<player_name>Oleg</player_name>
 		<name>Bartholomue (Bart) T'Lorak</name>
@@ -17,7 +17,8 @@
 		<gender>Male</gender>
 		<race>Half-Orc</race>
 		<tech_level>3</tech_level>
-		<notes>Trademark (Grain): Must leave a few grains (rice, etc) on the scene of battle</notes>
+		<notes>- Trademark (Grain): Must leave a few grains (rice, etc) on the scene of battle
+- Unarmed combat: Hurting yourself - If hit location has DR 3+, then for each 5 points of damage get 1 point of crushing damage to body part with which you attacked. Your own DR counts towards this damage. </notes>
 		<!-- The portrait is a PNG file encoded as Base64. -->
 		<portrait>
 iVBORw0KGgoAAAANSUhEUgAAAJAAAADACAYAAADryOpPAACAAElEQVR42uydBXxc55n1s91us4Wk
@@ -617,7 +618,7 @@ RK5CYII=
 	<HP>2</HP>
 	<FP>0</FP>
 	<total_points>150</total_points>
-	<ST>10</ST>
+	<ST>11</ST>
 	<DX>12</DX>
 	<IQ>11</IQ>
 	<HT>10</HT>
@@ -641,19 +642,6 @@ RK5CYII=
 			<attribute_bonus>
 				<attribute>hearing</attribute>
 				<amount per_level="yes">1</amount>
-			</attribute_bonus>
-		</advantage>
-		<advantage version="2">
-			<name>Enhanced Dodge</name>
-			<type>Mental</type>
-			<base_points>15</base_points>
-			<reference>B51</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-			<attribute_bonus>
-				<attribute>dodge</attribute>
-				<amount>1</amount>
 			</attribute_bonus>
 		</advantage>
 		<advantage version="2">
@@ -913,22 +901,6 @@ RK5CYII=
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<technique version="2" limit="4">
-			<name>Feint</name>
-			<difficulty>H</difficulty>
-			<points>2</points>
-			<reference>B231</reference>
-			<default>
-				<type>Skill</type>
-				<name>Karate</name>
-				<modifier>0</modifier>
-			</default>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-				<category>Technique</category>
-			</categories>
-		</technique>
 		<skill version="2">
 			<name>Cooking</name>
 			<difficulty>IQ/A</difficulty>
@@ -951,7 +923,37 @@ RK5CYII=
 			<name>Karate</name>
 			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 			<difficulty>DX/H</difficulty>
-			<points>16</points>
+			<points>20</points>
+			<melee_weapon>
+				<damage>thr-2 imp</damage>
+				<usage>Punch (Lethal) | Hurting yourself DR 1+</usage>
+				<reach>C</reach>
+				<default>
+					<type>Skill</type>
+					<name>Karate</name>
+					<modifier>-2</modifier>
+				</default>
+			</melee_weapon>
+			<melee_weapon>
+				<damage>thr-1 imp</damage>
+				<usage>Kick (Lethal) | Hurting yourself DR 1+</usage>
+				<reach>C, 1</reach>
+				<default>
+					<type>Skill</type>
+					<name>Karate</name>
+					<modifier>-2</modifier>
+				</default>
+			</melee_weapon>
+			<melee_weapon>
+				<damage>thr imp</damage>
+				<usage>Kick (Lethal) w/Boots | Hurting yourself DR 1+</usage>
+				<reach>C, 1</reach>
+				<default>
+					<type>Skill</type>
+					<name>Karate</name>
+					<modifier>-2</modifier>
+				</default>
+			</melee_weapon>
 			<reference>B203</reference>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -970,10 +972,52 @@ RK5CYII=
 				<amount per_level="yes">1</amount>
 			</weapon_bonus>
 		</skill>
+		<technique version="2" limit="0">
+			<name>Knee Strike</name>
+			<difficulty>A</difficulty>
+			<points>1</points>
+			<melee_weapon>
+				<damage>thr+2 cr</damage>
+				<usage>Kick</usage>
+				<reach>C</reach>
+				<default>
+					<type>Skill</type>
+					<name>Karate</name>
+					<modifier>-1</modifier>
+				</default>
+			</melee_weapon>
+			<reference>B232</reference>
+			<default>
+				<type>Skill</type>
+				<name>Karate</name>
+				<modifier>-1</modifier>
+			</default>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+				<category>Technique</category>
+			</categories>
+		</technique>
+		<technique version="2" limit="4">
+			<name>Feint</name>
+			<difficulty>H</difficulty>
+			<points>1</points>
+			<reference>B231</reference>
+			<default>
+				<type>Skill</type>
+				<name>Karate</name>
+				<modifier>0</modifier>
+			</default>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+				<category>Technique</category>
+			</categories>
+		</technique>
 		<technique version="2" limit="5">
 			<name>Disarming</name>
 			<difficulty>H</difficulty>
-			<points>3</points>
+			<points>1</points>
 			<reference>B230</reference>
 			<default>
 				<type>Skill</type>
@@ -1075,22 +1119,6 @@ RK5CYII=
 			</categories>
 		</technique>
 		<skill version="2">
-			<name>Climbing</name>
-			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
-			<difficulty>DX/A</difficulty>
-			<points>4</points>
-			<reference>B183</reference>
-			<categories>
-				<category>Athletic</category>
-				<category>Criminal/Street</category>
-				<category>Outdoor/Exploration</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
 			<name>Survival</name>
 			<specialization>Desert</specialization>
 			<difficulty>Per/A</difficulty>
@@ -1152,10 +1180,26 @@ RK5CYII=
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Climbing</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>3</points>
+			<reference>B183</reference>
+			<categories>
+				<category>Athletic</category>
+				<category>Criminal/Street</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Naturalist</name>
 			<specialization>Earthlike</specialization>
 			<difficulty>IQ/H</difficulty>
-			<points>4</points>
+			<points>8</points>
 			<reference>B211</reference>
 			<categories>
 				<category>Animal</category>
@@ -1190,7 +1234,7 @@ RK5CYII=
 			</prereq_list>
 		</skill>
 	</skill_list>
-	<print_settings printer="Office printer" units="in">
+	<print_settings printer="Send To OneNote 2013" units="in">
 		<orientation>portrait</orientation>
 		<width>8.5</width>
 		<height>11</height>
