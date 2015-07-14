@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="ic2b45mr:1a5ssxjhi03sp" version="2">
 	<created_date>Jul 13, 2015</created_date>
-	<modified_date>Jul 14, 2015 7:11 PM</modified_date>
+	<modified_date>Jul 14, 2015 9:46 PM</modified_date>
 	<profile>
 		<player_name>Elena</player_name>
 		<name>Gilraena Arefu</name>
@@ -1284,7 +1284,7 @@ tpZCgSYToPFwZrY9ZDkWCYu10HGYqhLuKhXoVyrPr6IDC+S/QTieEqrmg4wvK9VQzbz2JMQZL0Kd
 	<include_kick>true</include_kick>
 	<include_kick_with_boots>true</include_kick_with_boots>
 	<advantage_list>
-		<advantage_container version="2" open="no">
+		<advantage_container version="2" open="yes">
 			<name>Advantages</name>
 			<advantage version="2">
 				<name>Fit, Very</name>
@@ -2487,7 +2487,7 @@ tpZCgSYToPFwZrY9ZDkWCYu10HGYqhLuKhXoVyrPr6IDC+S/QTieEqrmg4wvK9VQzbz2JMQZL0Kd
 				<category>Melee Weapon</category>
 			</categories>
 		</equipment>
-		<equipment_container version="3" open="no" state="equipped">
+		<equipment_container version="3" open="yes" state="equipped">
 			<description>Clothing</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
@@ -2599,20 +2599,20 @@ tpZCgSYToPFwZrY9ZDkWCYu10HGYqhLuKhXoVyrPr6IDC+S/QTieEqrmg4wvK9VQzbz2JMQZL0Kd
 			</equipment>
 		</equipment_container>
 		<equipment_container version="3" open="yes" state="equipped">
-			<description>Pouch, Small</description>
+			<description>Backpack, Small</description>
 			<tech_level>1</tech_level>
 			<legality_class>4</legality_class>
-			<value>10</value>
-			<weight>0.5 lb</weight>
+			<value>60</value>
+			<weight>3 lb</weight>
 			<reference>B288</reference>
 			<categories>
 				<category>Camping and Survival Gear</category>
 			</categories>
 			<prereq_list all="yes">
-				<contained_weight_prereq has="yes" compare="at most">3 lb</contained_weight_prereq>
+				<contained_weight_prereq has="yes" compare="at most">40 lb</contained_weight_prereq>
 			</prereq_list>
 			<equipment version="3" state="equipped">
-				<quantity>2</quantity>
+				<quantity>3</quantity>
 				<description>Copper Farthing</description>
 				<legality_class>4</legality_class>
 				<value>1</value>
@@ -2623,7 +2623,7 @@ tpZCgSYToPFwZrY9ZDkWCYu10HGYqhLuKhXoVyrPr6IDC+S/QTieEqrmg4wvK9VQzbz2JMQZL0Kd
 				</categories>
 			</equipment>
 			<equipment version="3" state="equipped">
-				<quantity>3</quantity>
+				<quantity>19</quantity>
 				<description>Silver Coin</description>
 				<legality_class>4</legality_class>
 				<value>4</value>
@@ -2634,7 +2634,7 @@ tpZCgSYToPFwZrY9ZDkWCYu10HGYqhLuKhXoVyrPr6IDC+S/QTieEqrmg4wvK9VQzbz2JMQZL0Kd
 				</categories>
 			</equipment>
 			<equipment version="3" state="equipped">
-				<quantity>4</quantity>
+				<quantity>2</quantity>
 				<description>Gold Coin</description>
 				<legality_class>4</legality_class>
 				<value>80</value>
@@ -2642,19 +2642,6 @@ tpZCgSYToPFwZrY9ZDkWCYu10HGYqhLuKhXoVyrPr6IDC+S/QTieEqrmg4wvK9VQzbz2JMQZL0Kd
 				<reference>B264</reference>
 				<categories>
 					<category>Money: GURPS Standard Medieval Coins</category>
-				</categories>
-			</equipment>
-			<equipment version="3" state="equipped">
-				<quantity>1</quantity>
-				<description>Personal Basics</description>
-				<tech_level>0</tech_level>
-				<legality_class>4</legality_class>
-				<value>5</value>
-				<weight>1 lb</weight>
-				<reference>B288</reference>
-				<notes>Minimum gear for camping: -2 to any Survival roll without it. Includes utensils, tinderbox or flint and steel, towel, etc., as TL permits.</notes>
-				<categories>
-					<category>Camping and Survival Gear</category>
 				</categories>
 			</equipment>
 			<equipment version="3" state="equipped">
@@ -2669,6 +2656,23 @@ tpZCgSYToPFwZrY9ZDkWCYu10HGYqhLuKhXoVyrPr6IDC+S/QTieEqrmg4wvK9VQzbz2JMQZL0Kd
 				<categories>
 					<category>Camping and Survival Gear</category>
 				</categories>
+			</equipment>
+			<equipment version="3" state="equipped">
+				<quantity>1</quantity>
+				<description>First Aid Kit</description>
+				<legality_class>4</legality_class>
+				<value>50</value>
+				<weight>2 lb</weight>
+				<reference>B289</reference>
+				<notes>A complete kit for treating wounds, with bandages, ointments, etc.</notes>
+				<categories>
+					<category>Medical Gear</category>
+				</categories>
+				<skill_bonus>
+					<name compare="is">First Aid</name>
+					<specialization compare="is anything"></specialization>
+					<amount>1</amount>
+				</skill_bonus>
 			</equipment>
 		</equipment_container>
 		<equipment_container version="3" open="yes" state="equipped">
@@ -2686,7 +2690,7 @@ tpZCgSYToPFwZrY9ZDkWCYu10HGYqhLuKhXoVyrPr6IDC+S/QTieEqrmg4wvK9VQzbz2JMQZL0Kd
 			</prereq_list>
 		</equipment_container>
 	</equipment_list>
-	<print_settings printer="Send To OneNote 2013" units="in">
+	<print_settings printer="Office printer" units="in">
 		<orientation>portrait</orientation>
 		<width>8.5</width>
 		<height>11</height>
