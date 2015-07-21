@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<equipment_list unique_id="iccfi79b:-1mahpqr0tuohb" version="1">
+	<equipment version="3">
+		<quantity>1</quantity>
+		<description>Cicuta root</description>
+		<legality_class>2</legality_class>
+		<value>350</value>
+		<weight>0.1 kg</weight>
+		<notes>[a.k.a. Poison parsnip, death-of-man] Contains cicutoxin, which is a potent neurotoxin that operates by overstimulating the central nervous system, leading to nausea, abdominal pain, respiratory impairment, kidney failure, irregular heartbeat, tremors, seizures, and death. Ingestion can kill a cattle in as little as 15 minutes.</notes>
+		<categories>
+			<category>Herbs</category>
+			<category>Poisons</category>
+		</categories>
+	</equipment>
+	<equipment version="3">
+		<quantity>1</quantity>
+		<description>Eyes of Sser</description>
+		<legality_class>2</legality_class>
+		<value>175</value>
+		<notes>Red poisonous berries with deceptively sweet smell.</notes>
+		<categories>
+			<category>Herbs</category>
+			<category>Poisons</category>
+		</categories>
+	</equipment>
+	<equipment version="3">
+		<quantity>1</quantity>
+		<description>Goldenseal</description>
+		<legality_class>4</legality_class>
+		<value>150</value>
+		<notes>All round healing plant. Usefull for open wounds, poisonings and fever.</notes>
+		<categories>
+			<category>Herbs</category>
+			<category>Medicine</category>
+		</categories>
+	</equipment>
+	<equipment version="3">
+		<quantity>1</quantity>
+		<description>Hemlock seed oil</description>
+		<legality_class>2</legality_class>
+		<value>250</value>
+		<notes>Paralyzes all muscles, starting from legs. Fatal if paralyzes respiratory muscles.</notes>
+		<categories>
+			<category>Herbs</category>
+			<category>Poisons</category>
+		</categories>
+	</equipment>
+	<equipment version="3">
+		<quantity>1</quantity>
+		<description>Jequirity seeds</description>
+		<legality_class>2</legality_class>
+		<value>400</value>
+		<notes>[a.k.a. Crab's Eye] Contains abrin, which sabotages humans body's functions at the cellular level. One seed is fatal.</notes>
+		<categories>
+			<category>Herbs</category>
+			<category>Poisons</category>
+		</categories>
+	</equipment>
+	<equipment version="3">
+		<quantity>1</quantity>
+		<description>Kudu sap</description>
+		<legality_class>2</legality_class>
+		<value>40</value>
+		<notes>Highly toxic thick liquid, extracted from blosomed five petaled Kudu. Perfect for arrow tips.</notes>
+		<categories>
+			<category>Herbs</category>
+			<category>Poisons</category>
+		</categories>
+	</equipment>
+	<equipment version="3">
+		<quantity>1</quantity>
+		<description>Love of Dittany</description>
+		<legality_class>4</legality_class>
+		<value>150</value>
+		<notes>Can be used as healing plant for flesh wounds, contains afrodisiatic and spiritual properties.</notes>
+		<categories>
+			<category>Herbs</category>
+			<category>Medicine</category>
+		</categories>
+	</equipment>
+	<equipment version="3">
+		<quantity>1</quantity>
+		<description>Manchineel fruit</description>
+		<legality_class>2</legality_class>
+		<value>140</value>
+		<weight>0.1 kg</weight>
+		<notes>[a.k.a. Little apple of death] Ingestion is often fatal, contains large amount of physostignmine. Funny thing is the tree it grows on: Standing beneath the tree during a rainstorm will cause any skin that comes in contact with runoff from the tree to blister.</notes>
+		<categories>
+			<category>Herbs</category>
+			<category>Poisons</category>
+		</categories>
+	</equipment>
+	<equipment version="3">
+		<quantity>1</quantity>
+		<description>Naprose sap</description>
+		<legality_class>3</legality_class>
+		<value>75</value>
+		<notes>Powerfull sedative, single drop can put down a middle sized man.</notes>
+		<categories>
+			<category>Herbs</category>
+			<category>Poisons</category>
+		</categories>
+	</equipment>
+	<equipment version="3">
+		<quantity>1</quantity>
+		<description>Nightshade berries</description>
+		<legality_class>3</legality_class>
+		<value>15</value>
+		<notes>Sweet red berries which can cause memory loss, learning dissability, confusion, hallucinations and blurred vision. Large amounts are fatal.</notes>
+		<categories>
+			<category>Herbs</category>
+			<category>Poisons</category>
+		</categories>
+	</equipment>
+	<equipment version="3">
+		<quantity>1</quantity>
+		<description>Nightshade roots</description>
+		<legality_class>3</legality_class>
+		<value>100</value>
+		<notes>Fatal when ingested, smaller doses may lead to dilated pupils, sensitivity to light, blurred vision, tachycardia, loss of balance, staggering, headache, rash, flushing, dry mouth and throat, slurred speech, urinary retention, constipation, confusion, hallucinations, delirium, and convulsions.</notes>
+		<categories>
+			<category>Herbs</category>
+			<category>Poisons</category>
+		</categories>
+	</equipment>
+	<equipment version="3">
+		<quantity>1</quantity>
+		<description>Wolfsbane leaves</description>
+		<legality_class>2</legality_class>
+		<value>25</value>
+		<notes>Contains alkaloid aconitine, which disables nerves, lowers blood pressure, and can stop the heart. Even casual skin contact should be avoided; symptoms include numbness, tingling, and cardiac irregularity.</notes>
+		<categories>
+			<category>Herbs</category>
+			<category>Poisons</category>
+		</categories>
+	</equipment>
+	<equipment version="3">
+		<quantity>1</quantity>
+		<description>Yellow Monkshood</description>
+		<legality_class>4</legality_class>
+		<value>100</value>
+		<notes>Neutralizes Wolfsbane poison.</notes>
+		<categories>
+			<category>Antidotes</category>
+			<category>Herbs</category>
+		</categories>
+	</equipment>
+</equipment_list>
