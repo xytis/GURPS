@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="ic2a6tq5:-zw8ygk09yqqc" version="2">
 	<created_date>Jul 14, 2015</created_date>
-	<modified_date>Jul 21, 2015 10:25 PM</modified_date>
+	<modified_date>Jul 21, 2015 10:30 PM</modified_date>
 	<profile>
 		<player_name>Oleg</player_name>
 		<name>Bartholomue (Bart) T'Lorak</name>
@@ -1573,19 +1573,6 @@ RK5CYII=
 			<prereq_list all="yes">
 				<contained_weight_prereq has="yes" compare="at most">40 lb</contained_weight_prereq>
 			</prereq_list>
-			<equipment version="3" state="equipped">
-				<quantity>30</quantity>
-				<description>Traveler's Rations</description>
-				<tech_level>0</tech_level>
-				<legality_class>4</legality_class>
-				<value>2</value>
-				<weight>0.5 lb</weight>
-				<reference>B288</reference>
-				<notes>One meal</notes>
-				<categories>
-					<category>Camping and Survival Gear</category>
-				</categories>
-			</equipment>
 		</equipment_container>
 		<equipment_container version="3" open="yes" state="equipped">
 			<description>Pouch, Small</description>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="ic2b45mr:1a5ssxjhi03sp" version="2">
 	<created_date>Jul 13, 2015</created_date>
-	<modified_date>Jul 21, 2015 10:25 PM</modified_date>
+	<modified_date>Jul 21, 2015 10:30 PM</modified_date>
 	<profile>
 		<player_name>Elena</player_name>
 		<name>Gilraena Arefu</name>
@@ -2619,19 +2619,6 @@ tpZCgSYToPFwZrY9ZDkWCYu10HGYqhLuKhXoVyrPr6IDC+S/QTieEqrmg4wvK9VQzbz2JMQZL0Kd
 			<prereq_list all="yes">
 				<contained_weight_prereq has="yes" compare="at most">40 lb</contained_weight_prereq>
 			</prereq_list>
-			<equipment version="3" state="equipped">
-				<quantity>30</quantity>
-				<description>Traveler's Rations</description>
-				<tech_level>0</tech_level>
-				<legality_class>4</legality_class>
-				<value>2</value>
-				<weight>0.5 lb</weight>
-				<reference>B288</reference>
-				<notes>One meal</notes>
-				<categories>
-					<category>Camping and Survival Gear</category>
-				</categories>
-			</equipment>
 			<equipment version="3" state="equipped">
 				<quantity>256</quantity>
 				<description>Copper Farthing</description>
