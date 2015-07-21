@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="ic3jo1uu:-1prdi2ivcltw3" version="2">
 	<created_date>Jul 14, 2015</created_date>
-	<modified_date>Jul 21, 2015 12:58 AM</modified_date>
+	<modified_date>Jul 21, 2015 10:26 PM</modified_date>
 	<profile>
 		<player_name>Nuts</player_name>
 		<name>Asa Judah</name>
@@ -2221,7 +2221,7 @@ ac1BAiv83uXmJY3PMTewpG2RNivTttOb+660JYAcmlfSqoSlHQzz/hFAbNu5Odp9HibSevTlvWP3
 				<contained_weight_prereq has="yes" compare="at most">3 lb</contained_weight_prereq>
 			</prereq_list>
 			<equipment version="3" state="equipped">
-				<quantity>32</quantity>
+				<quantity>245</quantity>
 				<description>Copper Farthing</description>
 				<legality_class>4</legality_class>
 				<value>1</value>
@@ -2232,7 +2232,7 @@ ac1BAiv83uXmJY3PMTewpG2RNivTttOb+660JYAcmlfSqoSlHQzz/hFAbNu5Odp9HibSevTlvWP3
 				</categories>
 			</equipment>
 			<equipment version="3" state="equipped">
-				<quantity>5</quantity>
+				<quantity>0</quantity>
 				<description>Silver Coin</description>
 				<legality_class>4</legality_class>
 				<value>4</value>
@@ -2243,7 +2243,7 @@ ac1BAiv83uXmJY3PMTewpG2RNivTttOb+660JYAcmlfSqoSlHQzz/hFAbNu5Odp9HibSevTlvWP3
 				</categories>
 			</equipment>
 			<equipment version="3" state="equipped">
-				<quantity>1</quantity>
+				<quantity>0</quantity>
 				<description>Gold Coin</description>
 				<legality_class>4</legality_class>
 				<value>80</value>
@@ -2286,7 +2286,7 @@ ac1BAiv83uXmJY3PMTewpG2RNivTttOb+660JYAcmlfSqoSlHQzz/hFAbNu5Odp9HibSevTlvWP3
 				<notes>Supports 300 lbs.</notes>
 			</equipment>
 			<equipment version="3" state="equipped">
-				<quantity>6</quantity>
+				<quantity>30</quantity>
 				<description>Traveler's Rations</description>
 				<tech_level>0</tech_level>
 				<legality_class>4</legality_class>
@@ -2479,7 +2479,7 @@ ac1BAiv83uXmJY3PMTewpG2RNivTttOb+660JYAcmlfSqoSlHQzz/hFAbNu5Odp9HibSevTlvWP3
 				<category>Weapon and Combat Accessories</category>
 			</categories>
 			<equipment version="3" state="equipped">
-				<quantity>12</quantity>
+				<quantity>13</quantity>
 				<description>Arrow</description>
 				<tech_level>0</tech_level>
 				<legality_class>4</legality_class>

@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="ic35tzlg:1ux6pydf3xbdw" version="2">
 	<created_date>Jul 14, 2015</created_date>
-	<modified_date>Jul 14, 2015 9:36 PM</modified_date>
+	<modified_date>Jul 21, 2015 10:25 PM</modified_date>
 	<profile>
 		<player_name>romanilkevic</player_name>
-		<name>Suggutr the son of Dorian from stone throne kingdom</name>
+		<name>Suggutr</name>
+		<title>The son of Dorian from stone throne kingdom</title>
 		<age>30</age>
 		<birthday>October 6</birthday>
 		<eyes>Grey</eyes>
 		<hair>Black, Straight, Short</hair>
 		<skin>Tan</skin>
 		<handedness>Right</handedness>
-		<height>5' 11"</height>
-		<weight>171 lb</weight>
+		<height>1.55 m</height>
+		<weight>80 kg</weight>
 		<SM>0</SM>
 		<gender>Male</gender>
 		<race>Dwarf</race>
@@ -20,7 +21,9 @@
 		<religion>Hel cult</religion>
 	</profile>
 	<HP>0</HP>
+	<current_hp>12</current_hp>
 	<FP>0</FP>
+	<current_fp>11</current_fp>
 	<total_points>150</total_points>
 	<ST>12</ST>
 	<DX>10</DX>
@@ -168,7 +171,7 @@
 				<amount>1</amount>
 			</attribute_bonus>
 			<attribute_bonus>
-				<attribute>fright_check</attribute>
+				<attribute>fright check</attribute>
 				<amount>2</amount>
 			</attribute_bonus>
 		</advantage>
@@ -622,7 +625,7 @@
 	</skill_list>
 	<equipment_list>
 		<equipment version="3" state="equipped">
-			<quantity>0</quantity>
+			<quantity>250</quantity>
 			<description>Copper Farthing</description>
 			<legality_class>4</legality_class>
 			<value>1</value>
@@ -777,6 +780,42 @@
 			</attribute_bonus>
 		</equipment>
 		<equipment_container version="3" open="yes" state="equipped">
+			<description>Pouch, Small</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>10</value>
+			<weight>0.5 lb</weight>
+			<reference>B288</reference>
+			<categories>
+				<category>Camping and Survival Gear</category>
+			</categories>
+			<prereq_list all="yes">
+				<contained_weight_prereq has="yes" compare="at most">3 lb</contained_weight_prereq>
+			</prereq_list>
+		</equipment_container>
+		<equipment_container version="3" open="yes" state="equipped">
+			<description>Small Wineskin</description>
+			<tech_level>0</tech_level>
+			<legality_class>4</legality_class>
+			<value>5</value>
+			<weight>0.25 lb</weight>
+			<reference>B288</reference>
+			<notes>May hold up to 2l of liquid</notes>
+			<categories>
+				<category>Camping and Survival Gear</category>
+			</categories>
+			<prereq_list all="yes">
+				<contained_weight_prereq has="yes" compare="at most">4 lb</contained_weight_prereq>
+			</prereq_list>
+			<equipment version="3" state="equipped">
+				<quantity>2</quantity>
+				<description>Date Wine</description>
+				<legality_class>4</legality_class>
+				<value>4</value>
+				<weight>2 lb</weight>
+			</equipment>
+		</equipment_container>
+		<equipment_container version="3" open="yes" state="equipped">
 			<description>Backpack, Small</description>
 			<tech_level>1</tech_level>
 			<legality_class>4</legality_class>
@@ -787,8 +826,21 @@
 				<category>Camping and Survival Gear</category>
 			</categories>
 			<prereq_list all="yes">
-				<contained_weight_prereq has="yes" compare="at_most">40 lb</contained_weight_prereq>
+				<contained_weight_prereq has="yes" compare="at most">40 lb</contained_weight_prereq>
 			</prereq_list>
+			<equipment version="3" state="equipped">
+				<quantity>30</quantity>
+				<description>Traveler's Rations</description>
+				<tech_level>0</tech_level>
+				<legality_class>4</legality_class>
+				<value>2</value>
+				<weight>0.5 lb</weight>
+				<reference>B288</reference>
+				<notes>One meal</notes>
+				<categories>
+					<category>Camping and Survival Gear</category>
+				</categories>
+			</equipment>
 			<equipment version="3" state="equipped">
 				<quantity>1</quantity>
 				<description>Surgical Instruments</description>
@@ -831,16 +883,16 @@
 			</equipment>
 		</equipment_container>
 	</equipment_list>
-	<print_settings printer="10.15.54.10" units="in">
-		<orientation>Portrait</orientation>
+	<print_settings printer="Office printer" units="in">
+		<orientation>portrait</orientation>
 		<width>8.5</width>
 		<height>13</height>
 		<top_margin>0.5</top_margin>
 		<left_margin>0.5</left_margin>
 		<bottom_margin>0.5</bottom_margin>
 		<right_margin>0.5</right_margin>
-		<ink_chromaticity>Monochrome</ink_chromaticity>
-		<sides>Single</sides>
-		<quality>Normal</quality>
+		<ink_chromaticity>monochrome</ink_chromaticity>
+		<sides>single</sides>
+		<quality>normal</quality>
 	</print_settings>
 </character>

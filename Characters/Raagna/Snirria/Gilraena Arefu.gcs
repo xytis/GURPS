@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="ic2b45mr:1a5ssxjhi03sp" version="2">
 	<created_date>Jul 13, 2015</created_date>
-	<modified_date>Jul 14, 2015 9:46 PM</modified_date>
+	<modified_date>Jul 21, 2015 10:25 PM</modified_date>
 	<profile>
 		<player_name>Elena</player_name>
 		<name>Gilraena Arefu</name>
@@ -1270,7 +1270,9 @@ tpZCgSYToPFwZrY9ZDkWCYu10HGYqhLuKhXoVyrPr6IDC+S/QTieEqrmg4wvK9VQzbz2JMQZL0Kd
 		</portrait>
 	</profile>
 	<HP>0</HP>
+	<current_hp>10</current_hp>
 	<FP>0</FP>
+	<current_fp>10</current_fp>
 	<total_points>150</total_points>
 	<ST>10</ST>
 	<DX>14</DX>
@@ -1471,7 +1473,7 @@ tpZCgSYToPFwZrY9ZDkWCYu10HGYqhLuKhXoVyrPr6IDC+S/QTieEqrmg4wvK9VQzbz2JMQZL0Kd
 				</skill_bonus>
 			</advantage>
 		</advantage_container>
-		<advantage_container version="2" open="no">
+		<advantage_container version="2" open="yes">
 			<name>Languages</name>
 			<advantage version="2">
 				<name>Language: Nomaha</name>
@@ -2487,6 +2489,12 @@ tpZCgSYToPFwZrY9ZDkWCYu10HGYqhLuKhXoVyrPr6IDC+S/QTieEqrmg4wvK9VQzbz2JMQZL0Kd
 				<category>Melee Weapon</category>
 			</categories>
 		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Silver fork</description>
+			<legality_class>2</legality_class>
+			<value>8</value>
+		</equipment>
 		<equipment_container version="3" open="yes" state="equipped">
 			<description>Clothing</description>
 			<legality_class>4</legality_class>
@@ -2612,7 +2620,20 @@ tpZCgSYToPFwZrY9ZDkWCYu10HGYqhLuKhXoVyrPr6IDC+S/QTieEqrmg4wvK9VQzbz2JMQZL0Kd
 				<contained_weight_prereq has="yes" compare="at most">40 lb</contained_weight_prereq>
 			</prereq_list>
 			<equipment version="3" state="equipped">
-				<quantity>3</quantity>
+				<quantity>30</quantity>
+				<description>Traveler's Rations</description>
+				<tech_level>0</tech_level>
+				<legality_class>4</legality_class>
+				<value>2</value>
+				<weight>0.5 lb</weight>
+				<reference>B288</reference>
+				<notes>One meal</notes>
+				<categories>
+					<category>Camping and Survival Gear</category>
+				</categories>
+			</equipment>
+			<equipment version="3" state="equipped">
+				<quantity>256</quantity>
 				<description>Copper Farthing</description>
 				<legality_class>4</legality_class>
 				<value>1</value>
@@ -2623,7 +2644,7 @@ tpZCgSYToPFwZrY9ZDkWCYu10HGYqhLuKhXoVyrPr6IDC+S/QTieEqrmg4wvK9VQzbz2JMQZL0Kd
 				</categories>
 			</equipment>
 			<equipment version="3" state="equipped">
-				<quantity>19</quantity>
+				<quantity>7</quantity>
 				<description>Silver Coin</description>
 				<legality_class>4</legality_class>
 				<value>4</value>
@@ -2642,19 +2663,6 @@ tpZCgSYToPFwZrY9ZDkWCYu10HGYqhLuKhXoVyrPr6IDC+S/QTieEqrmg4wvK9VQzbz2JMQZL0Kd
 				<reference>B264</reference>
 				<categories>
 					<category>Money: GURPS Standard Medieval Coins</category>
-				</categories>
-			</equipment>
-			<equipment version="3" state="equipped">
-				<quantity>3</quantity>
-				<description>Traveler's Rations</description>
-				<tech_level>0</tech_level>
-				<legality_class>4</legality_class>
-				<value>2</value>
-				<weight>0.5 lb</weight>
-				<reference>B288</reference>
-				<notes>One meal</notes>
-				<categories>
-					<category>Camping and Survival Gear</category>
 				</categories>
 			</equipment>
 			<equipment version="3" state="equipped">
