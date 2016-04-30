@@ -9,7 +9,7 @@ There are pathways reaching this building from all sides. Windows are
 emitting cosy light from within and several chimneys are invitingly
 spitting out thick cloudy fumes, which a weary traveler would associate
 with a nice warm mouthwatering stew. Above the door a washed out wooden
-sign reads "Sn ken Egg Inn". You imagine that even without a sign this
+sign reads "Sn ken Ego Inn". You imagine that even without a sign this
 buiding would still remind you of a cosy inn, where you want to rest
 after a long day in the saddle. There is a small stable-like building
 nearby. It could hold at most 3 tuks, but now it is completely occupied
