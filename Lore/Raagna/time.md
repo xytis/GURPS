@@ -27,7 +27,7 @@ Metai: 4 Sezonai:
 - Speiga
 - Patvynis
 - Gausara
-- Šlapuo 
+- Šlapuo
 
 ##Helpers
 
