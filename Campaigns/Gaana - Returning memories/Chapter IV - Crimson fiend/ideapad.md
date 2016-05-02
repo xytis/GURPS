@@ -11,7 +11,7 @@
   * Rupert Redwood - Uncle. He is veteran of numerous wars. He was not in
   Rivermeet for 20 years, but came back 3 years ago. He lost an left eye and
   left palm in battle. Now he works in prison and spends evenings in Shaken
-  Inn drinking on a house.
+  Inn drinking on the house.
   * Mona Redwood - Rupert's wife
   * Martin *Black* Redwood - Rupert's brother. He was soldier also, but he did
   not serve with Rupert. People speak that he served in secret police. He came
@@ -26,20 +26,23 @@
   everybody else in city guard) sees it as punishment. For as long as captain
   is alive, Gary can't hope for promotion.
   * Sunshine - the executioner of Rivermeet. She lives in Shambles, as she was
-  heard saying herself, she prefers to live with her next customers. She
-  weights 160 pound and always wears guard uniform. No one can tell where she
-  got her name, but its definitely not because of her character. Most of
-  inhabitance of Shambles would rather hang then spend an evening drinking
-  beer with her.
+  heard saying herself, she prefers to live next to her customers. She weights
+  160 pound and always wears guard uniform. No one can tell where she got her
+  name, but its definitely not because of her character. Most of inhabitance of
+  Shambles would rather hang then spend an evening drinking beer with her.
   * Two Bolts - a veteran soldier who spends his old days in Shaken Egg Inn. He
-  gets drink and eat for free, for Grandma like him. He does not eat or drink
-  a lot though. He gets small salary from city guard as a stationary guard of
+  gets drink and eat for free, for Grandma likes him. He does not eat or drink
+  a lot though. He gets a small salary from city guard as a stationary guard of
   Shaken Eggs.
 
 ### Some Other folks:
-  * The witch - brews remedies of all sort. And people  say she can brew quite
-  potent poison, but you better try not to get caught by city guard with them.
-  * Aiva - The witch servant girl. Beautiful but nobody heard her speak.
+  * Ulma, the witch - brews remedies of all sorts. People say that she is quite
+  an expert in potent poisons, but you'd rather not get caught by city guard
+  with those.
+  * Aiva, the witch apprentice - stageringly beautiful yet reluctant to talk,
+  she usualy wanders alone around Rivermeet. Rumours fly that people go missing
+  if they try to harm the girl in any way and some say she is mute. Anyhow,
+  most of Shambles quietly ignore her and only newcomers try speaking with her.
   * Suran - A grain distributor
   * Henry - poor fisherman with golden ring
 
