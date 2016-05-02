@@ -1,3 +1,9 @@
+#Scene description
+##Location
+Undefined location with a crossroad. May appear as necessary for the GMs.
+
+##Setup
+
 As you were traveling the road as you reached the crossroad. There was a old,
 rotten sign showing the destinations and the ruins of old guard tower. You got
 accustomed to the sounds of these untamed wilds over the last few weeks spend

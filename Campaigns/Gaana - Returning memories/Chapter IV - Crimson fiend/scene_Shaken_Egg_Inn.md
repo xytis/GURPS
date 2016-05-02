@@ -1,5 +1,6 @@
-#Scene description ##Location The Shaken Egg inn in the Shambles quarter of
-Rivermeet.
+#Scene description
+##Location
+The Shaken Egg inn in the Shambles quarter of Rivermeet.
 
 ##Setup
 

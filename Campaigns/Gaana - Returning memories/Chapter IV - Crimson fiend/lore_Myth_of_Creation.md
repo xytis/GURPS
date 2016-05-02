@@ -1,3 +1,7 @@
+_taken from manuscript of unknown origin_
+
+...
+
 On the fifth week of my journey the spirit stood before me. As It spoke the
 words of power, my knees bended and I collapsed on the ground for this great
 was Its power. It said that It was the End, It is the End and It will be the
@@ -17,3 +21,5 @@ The Prophesy
 - And the fire purifying will be reignited.
 
 The End
+
+...
