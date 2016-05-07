@@ -54,7 +54,7 @@ continued.
 > My name is Skärson, but you can call me 'Scottie, the troll tooth collector'.
 > I am a member of proud Rödberg clan, which is famous for it's troll leather
 > shoes. I've spent last years traveling the world and gathering materials for
-> a totem I shall erect in the name of Mërk!
+> a totem I shall erect in the name of Mörk!
 
 Helena placed a full mug of ale in front of you: "Two coppers each, would you
 like something warm from the kitchen?".
