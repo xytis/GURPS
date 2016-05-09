@@ -3,9 +3,9 @@
 
 My ship anchored in the shallow docs. There was a lot of other ships docked
 around. Most of them were merchant barges, taking various merchandise along the
-Swaymist river. Some where fisherman boats which returned from the river
+Swaymist river. Some were fisherman boats which have returned from the river
 already. I noticed some shallow water military galleys too. As I stepped out
-on the ground, Su was in highest point. It was always fun to visit market of
+on the ground, Su was in the highest point. It was always nice to visit the market of
 Rivermeet. It was lively and full of action, not to mention that it had the
 freshest fruits and lots of fine meat for sale. The fishmongers could not
 compare to the ones in Silder Bay, but nontheless their wares were fresh and
@@ -13,7 +13,7 @@ their barter was fine. Most of the stalls here were used by local farmers,
 though. This particular feat made the market a perfect place for merchants of
 all sorts to test their bartering skills and strike some decent deals before
 sailing downstream. Heh, even I gained my first proper coins by buying apples
-from this area and selling it to orcs in Silder Bay.
+from this area and selling it to orcs in the Silder Bay.
 
 Captured by my memories I zoomed through the market and ended up at the main
 gate to the keep of Rivermeet. The gates are so wide that two wagons may pass
@@ -22,9 +22,9 @@ wondered if the gates that wide would hold against an army, as these gates are
 rarely closed on normal days. Yet once I was in this town when orc raiding
 party was nearby. To my surprise there is a hidden pure metal column, which
 drops from above and acts as a support for large hardened wooden gates which
-slide from the sides. As expected these gates were designed and built by best
-smithies and carpenters of Ironfire itself. When the gates were closed, I could
-not imagine anything that could bash through them. Even the largest ogres
+slide from both sides. As expected these gates were designed and built by the best
+smiths and carpenters of Ironfire itself. When the gates were closed, I could
+not imagine anything that could breach through them. Even the largest ogres
 seemed weak to this construction.
 
 Inside of the keep has it's perks too. For example, after you cross the gates,
@@ -38,12 +38,12 @@ wealth in this town. So no wonder that there are no exits from the tunnel. No
 'wealthy' householder wants people wandering through their property.
 Surprisingly even on hot days, with all the traffic through the tunnel, it
 remains clean and almost stench free. I've heard there are extensive severs
-under the keep and the upper parts of the town, yet never seen them, nor I
+under the keep and the upper parts of the town, yet I have never seen them, nor I
 would like to do that.
 
-I've reached the courtyard, Un has taken Su's place in the heavens. I've
+I've reached the keepyard, Un has taken Su's place in the heavens. I've
 focused on the reason why I am here in the first place. Rumours reached my ears
 about a piece of Madman's siege engine, which presumably was destroyed during
 the last siege of Silder Bay. I expect that someone near the Black Gate should
-know more about the item I wish to acquire.
+know more about this item I wish to acquire.
 
