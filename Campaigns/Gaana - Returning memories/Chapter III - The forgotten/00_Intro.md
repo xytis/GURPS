@@ -1,10 +1,10 @@
 #Campaign rules: 'Two headed mule'
   * Two campaigns run in parallel, with several meeting points through the
-    storyline.
+  storyline.
   * There should be at least one player swap, so that teams actually have
-    different background knowledge.
+  different background knowledge.
   * To help reward calculation, give away 'parts' of CP. ("You have received
-   2/100 worth of experience")
+  2/100 worth of experience")
 
 #Siege of the forgotten:
   In the year 471 of the Great Agreement, some of the Ancients machinery
