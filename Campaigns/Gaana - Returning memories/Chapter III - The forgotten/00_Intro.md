@@ -1,4 +1,4 @@
-#Campaign rules: 'Two headed mule'
+# Campaign rules: 'Two headed mule'
   * Two campaigns run in parallel, with several meeting points through the
   storyline.
   * There should be at least one player swap, so that teams actually have
@@ -6,7 +6,7 @@
   * To help reward calculation, give away 'parts' of CP. ("You have received
   2/100 worth of experience")
 
-#Siege of the forgotten:
+# Siege of the forgotten:
   In the year 471 of the Great Agreement, some of the Ancients machinery
   started malfunctioning. Past exiles from the void started appearing
   throughout the dessert. Hordes of time tortured orcs, trolls, humans
@@ -20,19 +20,19 @@
   in numbers. Bravest souls of Ironfire must step forward, find the root of
   this invasion and stop it at all costs.
 
-#Starting set
+# Starting set
 
-##Party 1: The Blacksteels
+## Party 1: The Blacksteels
   * Ranger
   * Knight
   * Any other (mixture or a Scribe)
 
-##Party 2: Keepers of the gates
+## Party 2: Keepers of the gates
   * Member of Az'ir mage tower
   * NPC from the bloodline of Archmage Lev
   * One totally random fella
 
-##Twinkle: *For the pick and hammer!*
+## Twinkle: *For the pick and hammer!*
   * Orcs and humans are living and working together. There has been a lot of
   changes since last century. Orks have won their rights among humans. Humans
   have proven themselves as fierce and _rgthul_ (nobly brutal) warriors among
@@ -45,7 +45,7 @@
   (Quest 1) Blacksteel barricades on the Twinkle bridge and Valley road seem
   intact.
 
-##Time Cores
+## Time Cores
   * Two time cores coexist on planet Raagna. One was the initial time core built
   and maintained by the Ancients, while another was 'dumped' in this planned
   during The Great Wars between the Ancients.
@@ -60,7 +60,7 @@
   by commanding The Forgotten forces, either plot their own escape, either
   follow their own goals.
 
-##Forgotten generals
+## Forgotten generals
   * During campaign players may encounter high ranking officers from The Great
   Wars. Each of them have their own goals and motives, which may contradict
   existing plot line if required.
@@ -69,7 +69,7 @@
   to stop The Forgotten from rampaging other realms. Other may be struggling
   to escape from the time prison and will be willing to do anything to be free.
 
-##Quests
+## Quests
   * ["Hole Below"](./01_Hole_Below.md)
   * ["Trapped Above"](./01_Trapped_Above.md)
   * ["House Cleaning"](./02_House_Cleaning.md)

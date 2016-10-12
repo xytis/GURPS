@@ -1,8 +1,8 @@
-###"Undo the future"
-####Prerequisites
+### "Undo the future"
+#### Prerequisites
   - Elven Time Core must be merged into the Original Core
 
-####Tasks
+#### Tasks
   * Mainline
     1. Forgotten Conscribus assembles itself out of Ancient machinery
     2. Golem traverses through the realm tearing time wounds (portals which release the Forgotten)
@@ -12,5 +12,5 @@
     6. Track down the Golem and remove the final piece from it
     7. Elven Time Core completes and closes all wounds by shattering Original Core and teleporting it back to the past.
 
-####Rewards
+#### Rewards
   * End of campaign. Time cores have swithed places. Campaign can be replayed.

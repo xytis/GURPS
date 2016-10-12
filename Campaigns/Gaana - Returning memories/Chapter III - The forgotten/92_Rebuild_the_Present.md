@@ -1,8 +1,8 @@
-###"Rebuild the Present"
-####Prerequisites
+### "Rebuild the Present"
+#### Prerequisites
   - Elven Time Core must be destroyed completely
 
-####Tasks
+#### Tasks
   * Mainline
     1. Forgotten Conscribus is powerless, yet resists powering down
     2. Conscribus offers to defuse it from 'the other side'
@@ -13,5 +13,5 @@
     1. Fix the Elven Time Core by replanting the time seed in Forgotten Forrest
     2. Die and be incarnated by one of the Conscribuses
 
-####Rewards
+#### Rewards
   * End of campaign. Time cores are no longer functioning. Heroes become the initial planners for their return to Raagna. Which in turn should reintroduce similar starting conditions for replay.

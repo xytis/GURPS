@@ -1,4 +1,4 @@
-###"Gaana the Curious"
+### "Gaana the Curious"
 
-####Lore
+#### Lore
   After a long time living in isolation, Gaana wants to return to the surface.

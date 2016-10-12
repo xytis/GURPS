@@ -1,9 +1,9 @@
-###"Gaana the Hospitable"
-####Prerequisites
+### "Gaana the Hospitable"
+#### Prerequisites
   - Wander into Gaana follower
   - Get into Village of Tranquility
 
-####Tasks
+#### Tasks
   * Mainline
     1. Escape from Village of Tranquility
   * Optional
@@ -37,8 +37,8 @@
       As a cost, You must take one level of "Favour of Gaana"
       Increases character DX by 1
 
-####Rewards
+#### Rewards
   * Gift of Gaana is it's own reward.
 
-####Twists
+#### Twists
   * Anything can happen in Ancient tunnels...

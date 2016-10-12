@@ -1,8 +1,8 @@
-###"Recurring cleanup"
-####Prerequisites
+### "Recurring cleanup"
+#### Prerequisites
   - Shard of Time malfunctions in the vicinity
 
-####Tasks
+#### Tasks
   * Mainline
     1. Stay alive
     2. Find a way out
@@ -13,11 +13,11 @@
     3. Find (and survive) 'button puzzle'
     4. Find (and use) 'control room'
 
-####Rewards
+#### Rewards
   * Life is it's own reward
   * Each shard may teleport to different establishment of Ancients, physical
   reward varies.
 
-####Twists
+#### Twists
   * Teleportation may push the characters forward or backward in time.
   Depending on the needs of GM.

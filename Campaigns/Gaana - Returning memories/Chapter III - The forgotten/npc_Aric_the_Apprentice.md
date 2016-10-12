@@ -1,4 +1,4 @@
-##Aric, the Apprentice
+## Aric, the Apprentice
 
 > My name is Mikaere Massimiliano Lothar Salazar, but people call me Aric for
 short. I serve my teacher and grandfather Cezar Victor Tadeusz Rogério
@@ -8,11 +8,11 @@ which descended from mortal realm into the VOID and shaped the vast emptyness
 to his own will. We protect and gather information about long forgotten
 relics from previous civilization, which built the Gates.
 
-###Appearance
+### Appearance
 
 Young 13 year old pale boy, with a slim body.
 
-###Stats
+### Stats
 
 <table>
 <tr>
@@ -33,10 +33,10 @@ Young 13 year old pale boy, with a slim body.
 </tr>
 </table>
 
-####Advantages and dissadvantages
+#### Advantages and dissadvantages
 
-####Skills
+#### Skills
 
-####Gear and Equipment
+#### Gear and Equipment
 
-####Notes
+#### Notes
