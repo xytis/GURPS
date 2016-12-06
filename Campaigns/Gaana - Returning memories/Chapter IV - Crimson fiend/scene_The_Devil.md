@@ -58,3 +58,34 @@ Your ear is at his shaking lips:
 > ...treadare...
 
 > ...treadare...
+
+#### Chapter II
+
+You lift the wounded lad and rush to the lit building. As you kick the door open
+you are met with irritated stares from the local customers.
+
+> Help him, he's dying! - you exhale while catching your breath.
+
+Your pledge of help for a moment hung in the air, without anyone reacting.
+
+> El, place him on a table. Ruck, go wake Isabella. Make haste both of you!
+
+A young girl was standing next to the bar and commanding locals around. She then
+quickly took some cloth and water and rushed to bandage the bleeding fella.
+For a brief moment the inn was in complete silence, only the sound of dripping
+blood and heavy breathing filled the void. Soon enough one of the braver locals
+stood up an approached you.
+
+> What business an outsider with a half-dead lad in his hands has in Shambles
+> at this hour?
+
+Local looked at you with an exposed distrust. His hand was resting on his
+weapon.
+
+    An interaction with NPC takes place, while Ruck leads an elderly Isabella
+    into the inn. Isabella with the help of Helena bandage the nameless injured
+    yet both speak grimly regarding survival after such injuries. Lad is placed
+    on one of the beds to rest. Depending on your answers you may be provided
+    with a place to stay overnight. Neutral result - you have to pay for the
+    stay, worst result - you get into a fight with the locals.
+
