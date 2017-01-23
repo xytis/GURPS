@@ -49,3 +49,39 @@
 ### And Some underworld fellas:
   * Verona - the leader of the gang that runs the Shambles.
   * Ricky - next Sunshine's customer.
+
+#Core elements
+##Quosan
+Artificialy derived life form, with one purpose embeded in initial DNA coding:
+_selective extermination_
+
+  ...
+
+    Sky is bleeding, young keeper. Embark to embrace the gift from the gods.
+
+  Young girl bows to the old figure.
+
+    I surrender myself to the gods.
+
+  ...
+
+On landing on Raagna seed of Quosan slumbered until a suitable lifeform
+approached. As a passing critter jumped from the cold rock which kept the seed
+safe through the cosmos, Quosan was already slowly corrupting it from inside.
+Without advanced mental capacities the creature was fully integrated as a host
+in a few hours. In a few days Quosan spread to the whole sand lizzard colony.
+At this point Quosan needed to find more versatile host to travel larger
+distances and to have more resistant shell against volatile outside world.
+First there was a dying stray coyote. Then a pair of griffons. Then something
+strange happened. A humanoid approached the seed container. Quosan took the
+chance and hooked the seed to the humanoid. DNA programing kicked in. Quosan
+expected mental resistance and was prepared to release toxins to bloodstream,
+but nothing like that happened. Instead humanoid mentaly expressed a feeling
+of gratitude. Unfortunately surprise was not an emotion in which Quosan was
+trained. Having decided that this humanoid vessel is sturdy enough to
+withstand all existing seed Quosan pumped the remaining parts of the colony
+into the bloodstream of the girl we will later know as Red Mother.
+
+But this initial encounter left a tiny seed of doubt in Quosan...
+
+
