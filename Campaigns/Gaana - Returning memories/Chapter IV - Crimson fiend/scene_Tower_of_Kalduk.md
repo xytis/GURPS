@@ -168,13 +168,83 @@ moment. Figures on the pedestal closest to the entrance are lit.
   was the cause of this death. Cloak itself is not without flaws. It is
   tattered and completely worn out in places.
 
-An exit is visible with ascending stairs.
+An exit is visible with ascending stairs. Next to it, a descending stairwell is
+visible. Independent on movement direction (up or down) players are
+experiencing the same visual spectacle.
 
-Note: any violent act in this room is met all skeletons coming to life.  Poor
-choices are poor.
+Note: any violent act in this room is met by all skeletons coming to life.
+Poor choices are poor.
 
 #### Third floor
 
-_library of the Lich_
+  _library of the Lich_
+
+This floor has two exits, one directly from the main library room, another
+from personal quarters behind the lich throne.
+
+  _path from 1st floor_
+
+You climb up narrow stairway spinning round the outer wall of the tower. The
+stairs are dimly lit by magical torches on the inner side. After a few hundred
+steps a smell of dust and paper fills the air. You reach a well lit room, with
+towering bookshelves forming narrow passageways to all sides. Widest passageway
+is aiming straight to the center of the room. You notice motion in the right
+and a throne directly in front of you. There is a shaded figure sitting in the
+large white bone throne.
+
+    WHO DISTURBS THE LICH OF KALDUK!?
+
+The voice came from the creature on the chair.
+
+  _players have a stageringly shallow dialog with the lich of Kalduk_
+
+As the party walks into the room they notice a lot of brown cloaked skeletons
+casually moving around the library and doing scribe tasks. Some of them are
+inspecting manuscripts, some are rewriting books, some are ordering shelves,
+some are practicing some sort of magic. Each of the scribes are visibly thin,
+as you would expect from bare bones covered by thick wool cloak. Their hoods
+rest on their backs revealing clean and polished skulls. None of the brown
+cloaked skeletons look dangerous. If not for the white skulls and bare skeletal
+feet steps sinking in the vast arrays of books, you would be unable to
+distinguish this from any other library. Unfortunately the ghastly throne is
+completely destroying this serene atmosphere. Loud black cloaked lich on it
+is not helping either.
+
+  _players are directed towards understanding that the lich sitting on the
+  throne is not the lich kalduk, but rather the lich of kalduk_
+
+A scribe stands up from his desk and walks towards the party. There is
+something off about this scribe. It differs from others, but none of the
+members can point out what.
+
+    So, how may I assist you?
+
+The question is so calm, yet party feels completely disarmed. They realise
+that they are now facing the real Kalduk. The insanely powerful lich whose
+name can make grown men tremble in fear.
+
+    You can call me Bob. I'm way past the "fear my name" stage of lichhood.
+
+  _dialog progresses with lich beeing quite assistive and helpful_
+
+If for any reason players inquire if the lich has changed his ways, this event
+triggers:
+
+  Room sinks to complete darkness. Kalduk eyes begin to glow in hatred and it
+  takes the form of spectre. Terrifying and irrational fear strikes everyone
+  in the room. Spectre emanates immense power. Players feel like twigs standing
+  in the path of a mammoth. Players are forced to take fear checks with heavy
+  penalties. After all checks are rolled, but before results are verbalised,
+  scene continues. The light turns back on, Kalduk calmly stands in front of
+  adventurers. The skull appears to be smiling at the lifelessly scared party.
+  Even though the physical feat of a simple skull may not be 'smiling' in
+  terms of physical action, the feeling of being smirked at is masterfully
+  expressed by this creature. Suddenly an understanding hits -- lich is not
+  thin as other scribes. Robe is floating on an invisible body. Every motion
+  is conveyed by magic carefully moving the robe as it was some sort of canvas
+  for emotions. The lich is even 'breathing'. That makes his skeletal vessel
+  look terrifyingly lifelike.
+
+      Just kidding. You know, its hard to live without having a little fun.
 
 ...
