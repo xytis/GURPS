@@ -192,6 +192,18 @@ is aiming straight to the center of the room. You notice motion in the right
 and a throne directly in front of you. There is a shaded figure sitting in the
 large white bone throne.
 
+  _path through hidden door_
+
+Stairway ends with wooden door. As you open it, smell of dust and paper fills the
+air. You see a small room with a chair and an old heavy table. There are shelves
+with various tomes around the room. Another door is slightly ajar across the room.
+Bright light is shining through the gap.
+
+As you open the door, you see back of a large white bone throne, surrounded by
+towering bookshelves forming a maze of narrow pasageways away from the throne.
+
+  _sync point_
+
     WHO DISTURBS THE LICH OF KALDUK!?
 
 The voice came from the creature on the chair.
