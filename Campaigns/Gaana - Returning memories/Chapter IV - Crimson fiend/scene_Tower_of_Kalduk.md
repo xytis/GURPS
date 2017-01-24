@@ -1,23 +1,27 @@
 # The Dark Tower
 
-#### Surrounding Forest
-
 Legend tells about a powerful lich residing in the dark pine woods northwest
 from Fort Horth, at least a week away from lake Kgar. Many brave (and stupid)
-souls have lost their lives on the vague legends about the riches kept in the
+souls have lost their lives on the vague stories about the riches kept in the
 Dark Tower of the Lich Kalduk.
 
-  _quest for reaching out Lich Kalduk_
+  _players are given a quest for reaching out Lich Kalduk_
 
-Traveling under the old pines adventurers noticed as the surroundings grew
-darker and darker with every step. Undergrowth seemed like it would have been
-scorched by fire. Pitch black trunks stood in dead silence. Cold mist crept
-forward to meet the travelers.
+#### Surrounding Forest
 
-They noticed fresh tracks of a mounted rider. Trail led to a disemboweled
-remains of a horse. Carcass was ice cold, yet it showed no sign of decay.
-Suddenly one of the party members noticed: there are no flies around. Forest
-was breathless. Silence was so thick and intense, that ears started ringing.
+Adventurers had to turn away from traveled roads several days ago and journey
+in uncharted wilderness. Old forest, which kept their company for a while now,
+grew darker and darker with every step. Eventually corruption stripped life from
+once strong trees, leaving the pitch black trunks standing motionless in dead
+silence. Undergrowth became soggy, feet sank into unwelcoming ground. Fallen
+branches were piling on the ground, occasionally grasping adventurers by their
+ankles. Cold mist crept forward to meet the travellers.
+
+They noticed fresh tracks of a mounted rider. Trail ended at disemboweled
+remains of a horse. Carcass was ice cold, yet it showed no sign of decay,
+which suggested that this death was fairly recent. Suddenly one of the party
+members noticed: there are no flies around. Forest was breathless. Silence was
+so thick and intense, that ears started ringing.
 
 Travelers unsheathed their weapons and slowly crept forward. Each step they
 made echoed among the trees like a twisted and cold heartbeat. The rider was
@@ -29,8 +33,8 @@ inaudibly sinking to insatiable forest floor.
 Adrenaline rushed through their veins after the final blow was struck to the
 bone abomination. They felt more and more unease in the stillness of the
 forest. Fearing the fate similar to the unlucky traveler they quickened their
-pace. Flinching to every sound they advanced towards their grim objective -
-the dark tower, ominously rising above trees.
+pace. Flinching to every sound they advanced towards their grim objective - the
+dark tower, ominously rising above trees.
 
 #### The Tower
 
@@ -52,7 +56,7 @@ But complete lack of cover in this clearing dramatically amplified the tension.
 Circling around the tower they noticed an entrance. Large ironclad gate,
 guarded by two fully armored figures. Guards stood completely still, but even
 without motion they raised terror in the souls of incomers. Their armor was
-dark and gritty. With protruding spikes and finely crafted skulls instead of
+dark and menacing. With protruding spikes and finely crafted skulls instead of
 shoulders. Guards had no helms. Snow white skulls were watching the approaching
 party from empty eye sockets.
 
@@ -77,8 +81,8 @@ to the entrance an archway led to ascending stairs.
 
 #### Second floor
 
-_reachable through hidden staircase from first floor or from personal chambers
-in the third floor_
+  _reachable through hidden staircase from first floor or from personal
+  chambers in the third floor_
 
 Stairs lead to another round room. This one is poorly lit, with a well lit
 pedestal in the far center. Three figures are standing on it. Unfortunately
@@ -137,8 +141,8 @@ moment. Figures on the pedestal closest to the entrance are lit.
   Light dims away, leaving two flaming eye sockets visible in the dark.
 
   Fifth display lights up. A larger skeleton is threading after an empty dark
-  cloak. Skeleton is trying to reach the cloak, but seemingly he just can't
-  get it.
+  cloak. Skeleton is trying to reach the cloak, but seemingly he just can't get
+  it.
 
   Light shifts to the right, hiding the threading skeleton and revealing
   another fully grown skeleton standing in a position which mimics the hanging
@@ -179,8 +183,8 @@ Poor choices are poor.
 
   _library of the Lich_
 
-This floor has two exits, one directly from the main library room, another
-from personal quarters behind the lich throne.
+This floor has two exits, one directly from the main library room, another from
+personal quarters behind the lich throne.
 
   _path from 1st floor_
 
@@ -194,10 +198,10 @@ large white bone throne.
 
   _path through hidden door_
 
-Stairway ends with wooden door. As you open it, smell of dust and paper fills the
-air. You see a small room with a chair and an old heavy table. There are shelves
-with various tomes around the room. Another door is slightly ajar across the room.
-Bright light is shining through the gap.
+Stairway ends with wooden door. As you open it, smell of dust and paper fills
+the air. You see a small room with a chair and an old heavy table. There are
+shelves with various tomes around the room. Another door is slightly ajar
+across the room.  Bright light is shining through the gap.
 
 As you open the door, you see back of a large white bone throne, surrounded by
 towering bookshelves forming a maze of narrow pasageways away from the throne.
@@ -219,8 +223,8 @@ rest on their backs revealing clean and polished skulls. None of the brown
 cloaked skeletons look dangerous. If not for the white skulls and bare skeletal
 feet steps sinking in the vast arrays of books, you would be unable to
 distinguish this from any other library. Unfortunately the ghastly throne is
-completely destroying this serene atmosphere. Loud black cloaked lich on it
-is not helping either.
+completely destroying this serene atmosphere. Loud black cloaked lich on it is
+not helping either.
 
   _players are directed towards understanding that the lich sitting on the
   throne is not the lich kalduk, but rather the lich of kalduk_
@@ -231,9 +235,9 @@ members can point out what.
 
     So, how may I assist you?
 
-The question is so calm, yet party feels completely disarmed. They realise
-that they are now facing the real Kalduk. The insanely powerful lich whose
-name can make grown men tremble in fear.
+The question is so calm, yet party feels completely disarmed. They realise that
+they are now facing the real Kalduk. The insanely powerful lich whose name can
+make grown men tremble in fear.
 
     You can call me Bob. I'm way past the "fear my name" stage of lichhood.
 
@@ -243,19 +247,19 @@ If for any reason players inquire if the lich has changed his ways, this event
 triggers:
 
   Room sinks to complete darkness. Kalduk eyes begin to glow in hatred and it
-  takes the form of spectre. Terrifying and irrational fear strikes everyone
-  in the room. Spectre emanates immense power. Players feel like twigs standing
-  in the path of a mammoth. Players are forced to take fear checks with heavy
+  takes the form of spectre. Terrifying and irrational fear strikes everyone in
+  the room. Spectre emanates immense power. Players feel like twigs standing in
+  the path of a mammoth. Players are forced to take fear checks with heavy
   penalties. After all checks are rolled, but before results are verbalised,
   scene continues. The light turns back on, Kalduk calmly stands in front of
   adventurers. The skull appears to be smiling at the lifelessly scared party.
-  Even though the physical feat of a simple skull may not be 'smiling' in
-  terms of physical action, the feeling of being smirked at is masterfully
-  expressed by this creature. Suddenly an understanding hits -- lich is not
-  thin as other scribes. Robe is floating on an invisible body. Every motion
-  is conveyed by magic carefully moving the robe as it was some sort of canvas
-  for emotions. The lich is even 'breathing'. That makes his skeletal vessel
-  look terrifyingly lifelike.
+  Even though the physical feat of a simple skull may not be 'smiling' in terms
+  of physical action, the feeling of being smirked at is masterfully expressed
+  by this creature. Suddenly an understanding hits -- lich is not thin as other
+  scribes. Robe is floating on an invisible body. Every motion is conveyed by
+  magic carefully moving the robe as it was some sort of canvas for emotions.
+  The lich is even 'breathing'. That makes his skeletal vessel look
+  terrifyingly lifelike.
 
       Just kidding. You know, its hard to live without having a little fun.
 
