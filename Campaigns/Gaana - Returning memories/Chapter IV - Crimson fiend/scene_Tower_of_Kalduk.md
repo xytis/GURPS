@@ -36,6 +36,16 @@ forest. Fearing the fate similar to the unlucky traveler they quickened their
 pace. Flinching to every sound they advanced towards their grim objective - the
 dark tower, ominously rising above trees.
 
+  _optional search of the dead body_
+
+  Young man is wearing a robe, with an emblem of some sort (knowledge roll
+  reveals that this man is a member of University of Archipelago). Nearby a
+  short rune encrusted sword is stuck in a trump. Sheathe of the same sword is
+  lying near the fallen horse. On the corpse party will find a satchel of coins
+  (10x2d + 2d) and a closed letter, stamped with red wax (knowledge roll
+  reveals that stamp belongs to Archmage of Archipelago). Horse had some water
+  and food stored for a lengthy journey.
+
 #### The Tower
 
 The forest ended as if it was cut down in precise circle around the tower.
@@ -61,6 +71,18 @@ shoulders. Guards had no helms. Snow white skulls were watching the approaching
 party from empty eye sockets.
 
   _encounter with tower guards_
+
+  The guards are not showing any signs of active aggression. They are simply
+  staring at the party with their empty gazes. If any of the party members
+  show signs of aggression, i.e. a drawn weapon or foul mouths the guards,
+  guards react with open combat. If party decides to talk their way into the
+  tower, guards ask only a single question:
+
+    Tribute, offering or sacrifice?
+
+  Players are forced to chose one of the above options. After the choice is
+  made, the doors to the tower are opened.
+
 
 #### First floor
 
@@ -213,6 +235,12 @@ towering bookshelves forming a maze of narrow pasageways away from the throne.
 The voice came from the creature on the chair.
 
   _players have a stageringly shallow dialog with the lich of Kalduk_
+
+  The dialog might incorporate the requirement of 'tribute, offering or
+  sacrifice', depending on the choice players made at the bottom of the tower.
+  If the skeletons were fought and defeated, lich of Kalduk quickly reveals
+  that 'master gets unhappy when bones are breaking' and continues his shallow
+  responses.
 
 As the party walks into the room they notice a lot of brown cloaked skeletons
 casually moving around the library and doing scribe tasks. Some of them are
