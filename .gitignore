@@ -19,3 +19,8 @@
 *.out
 *.ps
 *.pdf
+
+#NO app
+*.app
+
+Library/tmp/
