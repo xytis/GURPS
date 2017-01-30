@@ -5,13 +5,13 @@ Annoying rain was dripping from the gray sky for the second day when Ares
 finally reached Forth Horth. She dismounted at the stables, grabbed her bag and
 rushed to the administration quarters. Inner gate guards saluted her. "At least
 this time they are expecting me", she thought to herself. Previous visits to
-this military fortification had not been without incidents, as Archipelago has
-little to no power over the Blacksteel order - the current occupants of the
-Fort Horth. "Apparently only a godly punishment unleashed on the land can make
-these arrogant black cans of stolen steel at least somewhat mannered." Ares
-smiled to herself as she rushed through the narrow staircases of the keep.
-"Well lets see if they at least can provide me with some good news regarding
-this mess".
+this military fortification had not been without incidents, as University of
+Archipelago has little to no power over the Blacksteel order - the current
+occupants of the Fort Horth. "Apparently only a godly punishment unleashed on
+the land can make these arrogant black cans of stolen steel at least somewhat
+mannered." Ares smiled to herself as she rushed through the narrow staircases
+of the keep.  "Well lets see if they at least can provide me with some good
+news regarding this mess".
 
 ...
 
