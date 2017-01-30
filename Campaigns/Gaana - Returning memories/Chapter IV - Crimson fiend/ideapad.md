@@ -57,11 +57,11 @@ _selective extermination_
 
   ...
 
-    Sky is bleeding, young keeper. Embark to embrace the gift from the gods.
+  -"Sky is bleeding, young keeper. Embark to embrace the gift from the gods."
 
   Young girl bows to the old figure.
 
-    I surrender myself to the gods.
+  -"I surrender myself to the gods."
 
   ...
 

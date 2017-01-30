@@ -3,13 +3,13 @@
 
 Murrin was cleaning the blood of the foremost table.
 
-> For a bloke that skinny, you would not expect to bleed that much. Heh, if not
-> for Yulye's loving grip, he would have seen his end in this place.
+-"For a bloke that skinny, you would not expect to bleed that much. Heh, if not
+for Yulye's loving grip, he would have seen his end in this place."
 
 He spilled some water from the bucket on the dark floor and froze for a second.
 
-> That bastard will have to clean this whole place when he returns. Nobody
-> bleeds that much and expects me not to be pissed about it.
+-"That bastard will have to clean this whole place when he returns. Nobody
+bleeds that much and expects me not to be pissed about it."
 
 He continued moping grouchily mumbling to his beard.
 
@@ -46,18 +46,18 @@ he felt that a fight will burst out any minute. He quietly turned around to
 fill a mug with ale. When he turned back, two 'locals' were already picking on
 the newcomer. Murrin suddenly remembered Timmy and his blood bath:
 
-> Fellas, would you mind taking this 'talk' outside? I would appreciate
-> clean bloodless floor for a couple more minutes.
+-"Fellas, would you mind taking this 'talk' outside? I would appreciate
+clean bloodless floor for a couple more minutes."
 
 Dark figure seemed not bothered at all by two large men talking to him. He
 carefully placed his bag on the counter.
 
-> Maybe you can warm the milk? It is still a baby.
+-"Maybe you can warm the milk? It is still a baby."
 
 Yulye, who was just standing next to them disappeared into the kitchen. While
 the two locals felt strongly disregarded.
 
-> Are you deaf!? You want to die so badly, huh?
+-"Are you deaf!? You want to die so badly, huh?"
 
 Yet large ork (Murrin figured that out by his large and crude dark hands) was
 completely focused on the bag. With great care he untied it. A small black
@@ -85,7 +85,7 @@ ale, before turning around and uncovering his scarred scalp.
 
 Murrin took his famous hand cannon from under the table:
 
-> Gents, in orderly fashion walk through the door and continue in the street.
-> I ain't cleaning again today.
+-"Gents, in orderly fashion walk through the door and continue in the street.
+I ain't cleaning again today."
 
 ...

@@ -29,49 +29,49 @@ even the brute existence of his nose or lips your mind just slipped away. But
 overall the face felt very familiar. Like it would have belonged to someone you
 knew deeply.
 
-> Your passage was light, but nevermore.
+-"Your passage was light, but nevermore."
 
 These words coming from gray bearded man's lips sounded more like an advice,
 than a threat. For some reason you felt like it is expected from an old man,
 sitting near an abandoned shrine, to start giving life lessons for a youngster
 he just met.
 
-> And you shall too soon be nevermore among us. You are on a perilous quest.
-> You seek greatness. But you forget. Forget that one slip in the path of life,
-> one mistake in judgement or a simple misfortune is all that takes for you to
-> end up in a nameless grave.
+-"And you shall too soon be nevermore among us. You are on a perilous quest.
+You seek greatness. But you forget. Forget that one slip in the path of life,
+one mistake in judgement or a simple misfortune is all that takes for you to
+end up in a nameless grave."
 
 Dark figure mockingly added:
 
-> You should be happy if you get a grave. More likely your flesh will become a
-> feast for vultures and your bones will rot under the soil which soaked
-> remnants of your blood.
+-"You should be happy if you get a grave. More likely your flesh will become a
+feast for vultures and your bones will rot under the soil which soaked
+remnants of your blood."
 
 After a moment of silence old man continued:
 
-> Remember what you see or hear or read. For knowledge will be your only
-> guardian against the inevitable. As the old saying goes: 'The one who forgets
-> is destined to be forgotten as the one who lives by the axe is destined to
-> die from one'.
+-"Remember what you see or hear or read. For knowledge will be your only
+guardian against the inevitable. As the old saying goes: 'The one who forgets
+is destined to be forgotten as the one who lives by the axe is destined to
+die from one'."
 
 Hearing an ancient dweller cite something 'old' made you feel extremely
 inexperienced. Luckily dark figure noticed your discomfort and tried to help:
 
-> Don't take it so hard. Just note that life was given to you. If you screw up,
-> it will be taken back without a doubt nor a consolation prize.
+-"Don't take it so hard. Just note that life was given to you. If you screw up,
+it will be taken back without a doubt nor a consolation prize."
 
 Briefly the figure added:
 
-> Oh, and be careful for there will be traps. At times, when things look easy,
-> I will be looking just over your shoulder. You never know when a deadly trap
-> will spring.
+-"Oh, and be careful for there will be traps. At times, when things look easy,
+I will be looking just over your shoulder. You never know when a deadly trap
+will spring."
 
 Shivers went up your spine as you realised Death just gave you an advice on
 common sense. You turned your eyes to the stairs where you expected to see
 soothing eyes of old Time, yet only a bark from an old tree remained. Voice
 echoed in the clearing:
 
-> Fare thee well, until your life expires.
+-"Fare thee well, until your life expires."
 
 You walked and picked up the bark. There were some words etched into the inner
 side. "I hope you know how to read" - Death mocked you before disappearing.

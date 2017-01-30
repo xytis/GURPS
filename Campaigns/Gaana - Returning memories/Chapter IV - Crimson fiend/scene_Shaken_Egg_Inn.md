@@ -40,21 +40,21 @@ the bar.
 You sit a chair away from a dwarf, who just had a conversation with the little
 girl. Dwarf turns to you and closely inspects your appearance.
 
-> You look like you need a drink! Helena, pour this fella some of your fine
-> ale! Have you heard about the frost dragon from Crystal Peaks?! I heard a
-> rumour that it was seen soaring above the steppes just a few weeks ago!  It
-> would make a truly magnificent trophy! Fortunately for that critter our paths
-> had not yet crossed.
+-"You look like you need a drink! Helena, pour this fella some of your fine
+ale! Have you heard about the frost dragon from Crystal Peaks?! I heard a
+rumour that it was seen soaring above the steppes just a few weeks ago!  It
+would make a truly magnificent trophy! Fortunately for that critter our paths
+had not yet crossed."
 
 As his voice lowered, an ear-splitting burp came out of the short creatures
 mouth. The sound could be easily mistaken with a battle roar, if not for the
 soft almost watery end. After performing this spectacular feat, dwarf
 continued.
 
-> My name is Skärson, but you can call me 'Scottie, the troll tooth collector'.
-> I am a member of proud Rödberg clan, which is famous for it's troll leather
-> shoes. I've spent last years traveling the world and gathering materials for
-> a totem I shall erect in the name of Mörk!
+-"My name is Skärson, but you can call me 'Scottie, the troll tooth collector'.
+I am a member of proud Rödberg clan, which is famous for it's troll leather
+shoes. I've spent last years traveling the world and gathering materials for
+a totem I shall erect in the name of Mörk!"
 
-Helena placed a full mug of ale in front of you: "Two coppers each, would you
+Helena placed a full mug of ale in front of you: -"Two coppers each, would you
 like something warm from the kitchen?".
