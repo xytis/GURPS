@@ -78,7 +78,7 @@ party from empty eye sockets.
   guards react with open combat. If party decides to talk their way into the
   tower, guards ask only a single question:
 
-    Tribute, offering or sacrifice?
+  > Tribute, offering or sacrifice?
 
   Players are forced to chose one of the above options. After the choice is
   made, the doors to the tower are opened.
@@ -230,7 +230,7 @@ towering bookshelves forming a maze of narrow pasageways away from the throne.
 
   _sync point_
 
-    WHO DISTURBS THE LICH OF KALDUK!?
+> WHO DISTURBS THE LICH OF KALDUK!?
 
 The voice came from the creature on the chair.
 
@@ -261,13 +261,13 @@ A scribe stands up from his desk and walks towards the party. There is
 something off about this scribe. It differs from others, but none of the
 members can point out what.
 
-    So, how may I assist you?
+> So, how may I assist you?
 
 The question is so calm, yet party feels completely disarmed. They realise that
 they are now facing the real Kalduk. The insanely powerful lich whose name can
 make grown men tremble in fear.
 
-    You can call me Bob. I'm way past the "fear my name" stage of lichhood.
+> You can call me Bob. I'm way past the "fear my name" stage of lichhood.
 
   _dialog progresses with lich beeing quite assistive and helpful_
 
@@ -289,6 +289,6 @@ triggers:
   The lich is even 'breathing'. That makes his skeletal vessel look
   terrifyingly lifelike.
 
-      Just kidding. You know, its hard to live without having a little fun.
+  > Just kidding. You know, its hard to live without having a little fun.
 
 ...
