@@ -18,7 +18,7 @@ see if they at least can provide me with some good news regarding this mess".
 
 <!-- -->
 > Majester Ares, we had no men to spare. We are spread thin as southern
-> provinces are under constant siege by...
+> provinces are under constant siege by --
 
 <!-- -->
 > WILHELM, FOR FIERY GOBLINS ARSE, I KNOW WHAT IS HAPPENING IN THE SOUTH!!!
@@ -42,7 +42,7 @@ She mumbles in a lower voice:
 Ares looks through the office window into the rain, which drenched her tired
 body for the last few days.
 
-> That leaves me no choice, Wilhelm. Get me a horse and ...
+> That leaves me no choice, Wilhelm. Get me a horse and --
 
 A young soldier, apparently just a squire by his insignia, crashes through
 the office door. He is catching his breath and from the amount of dust on his
