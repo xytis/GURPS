@@ -868,7 +868,7 @@
 			</equipment>
 		</equipment_container>
 		<equipment_container version="4" open="no">
-			<description>Melee Weapon Sets (Heavy)</description>
+			<description>Melee Weapon Sets (Light)</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
 			<equipment_container version="4" open="yes">
