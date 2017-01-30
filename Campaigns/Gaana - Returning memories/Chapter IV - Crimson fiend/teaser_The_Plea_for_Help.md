@@ -16,9 +16,11 @@ see if they at least can provide me with some good news regarding this mess".
 
 > WHAT DO YOU MEAN YOU SENT HIM ALONE???
 
+<!-- -->
 > Majester Ares, we had no men to spare. We are spread thin as southern
 > provinces are under constant siege by...
 
+<!-- -->
 > WILHELM, FOR FIERY GOBLINS ARSE, I KNOW WHAT IS HAPPENING IN THE SOUTH!!!
 
 After this outburst she spent few seconds to collect herself and continued
@@ -79,6 +81,7 @@ Knight silently hoped that she was right about the lich.
 > dispose, I mean, send them to deliver your message. All remaining men will
 > march south.
 
+<!-- -->
 > I expect to see those 'fresh recruits' first thing in the morning.
 
 Ares turned around and left the room in a hurry. The loss of Twinkle is going
