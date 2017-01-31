@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<advantage_list id="460e13ec-e9ec-4264-ad08-1337a279a945" version="1">
+	<advantage version="2">
+		<name>Compulsion Killing</name>
+		<type>Mental</type>
+		<base_points>-15</base_points>
+		<cr>12</cr>
+	</advantage>
+</advantage_list>
