@@ -66,20 +66,19 @@
 			</categories>
 		</advantage>
 		<advantage version="2">
-			<name>High Pain Threshold</name>
-			<type>Physical</type>
-			<base_points>10</base_points>
-			<reference>B59</reference>
-			<notes>Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture</notes>
+			<name>Injury Tolerance (Unliving)</name>
+			<type>Physical, Exotic</type>
+			<base_points>20</base_points>
+			<reference>B61</reference>
 			<categories>
 				<category>Advantage</category>
 			</categories>
 		</advantage>
 		<advantage version="2">
-			<name>Injury Tolerance (Unliving)</name>
-			<type>Physical, Exotic</type>
-			<base_points>20</base_points>
-			<reference>B61</reference>
+			<name>Supernatural Durability</name>
+			<type>Physical, Supernatural</type>
+			<base_points>150</base_points>
+			<reference>B89</reference>
 			<categories>
 				<category>Advantage</category>
 			</categories>

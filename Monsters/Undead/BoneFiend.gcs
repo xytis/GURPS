@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="6de160b1-a402-4614-be31-1962485e74a7" version="3">
 	<created_date>Jan 30, 2017</created_date>
-	<modified_date>Jan 30, 2017 7:26 PM</modified_date>
+	<modified_date>Jan 31, 2017 9:58 PM</modified_date>
 	<profile>
 		<player_name>GM</player_name>
 		<name>Bone Fiend</name>
@@ -18,7 +18,7 @@
 	<HP>6</HP>
 	<FP>0</FP>
 	<total_points>100</total_points>
-	<ST>14</ST>
+	<ST>13</ST>
 	<DX>12</DX>
 	<IQ>4</IQ>
 	<HT>13</HT>
@@ -145,6 +145,39 @@
 			</categories>
 		</advantage>
 		<advantage version="2">
+			<name>Supernatural Durability</name>
+			<type>Physical, Supernatural</type>
+			<base_points>150</base_points>
+			<reference>B89</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Striker, Impaling (Long Tail)</name>
+			<type>Physical, Exotic</type>
+			<base_points>8</base_points>
+			<melee_weapon>
+				<damage>thr:+1 imp</damage>
+				<reach>C,1</reach>
+				<parry>0</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Brawling</name>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<reference>B88</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
 			<name>Fragile (Unnatural)</name>
 			<type>Physical, Exotic</type>
 			<base_points>-50</base_points>
@@ -176,16 +209,6 @@
 			<reference>B91</reference>
 			<categories>
 				<category>Perk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>High Pain Threshold</name>
-			<type>Physical</type>
-			<base_points>10</base_points>
-			<reference>B59</reference>
-			<notes>Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture</notes>
-			<categories>
-				<category>Advantage</category>
 			</categories>
 		</advantage>
 		<advantage version="2">
@@ -417,7 +440,7 @@
 		<skill version="2">
 			<name>Brawling</name>
 			<difficulty>DX/E</difficulty>
-			<points>10</points>
+			<points>6</points>
 			<reference>B182</reference>
 			<categories>
 				<category>Combat/Weapon</category>
