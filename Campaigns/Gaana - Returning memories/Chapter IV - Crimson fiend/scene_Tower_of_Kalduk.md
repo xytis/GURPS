@@ -59,7 +59,7 @@ walls were straight and appeared strong, parapets on each level were decorated
 with various engravings, bartizans on the top level held gargoyles with wings
 widely spread apart (sculptures seemed very much alive, even though everyone
 silently hoped they are firmly set in stone), arrowslits on second and third
-levels flickered with blueish light coming from inside.
+levels flickered with yellowish light coming from inside.
 
 The feeling of being watched kept the company of travelers for quite some time.
 But complete lack of cover in this clearing dramatically amplified the tension.
@@ -88,7 +88,7 @@ party from empty eye sockets.
 
 Gate led to a long archway which ended with a heavy wooden door. Pulling the
 door open adventurers ended up in dimly lit storeroom full of crates and
-barrels. If not for the magical blueish torches by the round wall, this seemed
+barrels. If not for the magical yellowish torches by the round wall, this seemed
 just like any other storeroom in a fortified tower. To the left directly next
 to the entrance an archway led to ascending stairs.
 
@@ -220,13 +220,15 @@ large white bone throne.
 
   _path through hidden door_
 
-Stairway ends with wooden door. As you open it, smell of dust and paper fills
-the air. You see a small room with a chair and an old heavy table. There are
-shelves with various tomes around the room. Another door is slightly ajar
-across the room.  Bright light is shining through the gap.
+Stairway ends with a wooden door. As you open it, smell of dust and paper fills
+the air. You see a small room with a chair and an old heavy table with freshly
+picked flowers arranged in graceful glass vase. Another door is slightly ajar
+across the room. Bright light is shining through the gap. Shelves with various
+tomes cover the walls, thick woolen rug is placed on the floor.
 
-As you open the door, you see back of a large white bone throne, surrounded by
-towering bookshelves forming a maze of narrow pasageways away from the throne.
+As you open the door, you see backside of a large white bone throne, surrounded
+by towering bookshelves forming a maze of narrow passageways away from the
+throne.
 
   _sync point_
 
@@ -249,7 +251,7 @@ some are practicing some sort of magic. Each of the scribes are visibly thin,
 as you would expect from bare bones covered by thick wool cloak. Their hoods
 rest on their backs revealing clean and polished skulls. None of the brown
 cloaked skeletons look dangerous. If not for the white skulls and bare skeletal
-feet steps sinking in the vast arrays of books, you would be unable to
+feet steps sinking into soft rugs layered on the floor, you would be unable to
 distinguish this from any other library. Unfortunately the ghastly throne is
 completely destroying this serene atmosphere. Loud black cloaked lich on it is
 not helping either.
