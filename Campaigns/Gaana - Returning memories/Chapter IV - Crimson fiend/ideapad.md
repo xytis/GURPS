@@ -84,4 +84,24 @@ into the bloodstream of the girl we will later know as Red Mother.
 
 But this initial encounter left a tiny seed of doubt in Quosan...
 
+##The spark of cultists
 
+Cultists are blamed for spreading this mystery plague in Twinkle. PC's are
+given a task to root out any potential cultists in a city which is part of main
+resupply chain for army which is fighting against infected.
+
+Final scene should involve cultists hanging by their necks (successfully
+completed direct order) and Magister Ares retreating with the final broken
+remnants of human armies through the same city (overall situation on the global
+scale is worse).
+
+##Hope from the swamp
+
+In this desperate moment, an orc shaman comes forth with a vision. He tells
+that we must ask help from The Mother to face the Red Plague. A pack of NPC's
+are dispatched together with PC's. While sneaking through enemy territory, some
+or all characters are contracted with Quosan. Internal conflicts burst out, as
+none can be trusted. Expected that many die while traveling. At least one
+infected must reach the safe heaven of Garden. Within that underground city, a
+mental battle takes place. Gaana confronts Quosan. PC's are placed in the same
+mental realm and have power over the final decision.
