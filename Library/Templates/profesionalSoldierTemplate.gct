@@ -40,7 +40,7 @@
 		</advantage>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="yes">
+		<skill_container version="2" open="no">
 			<name>Primary Weapon Skills</name>
 			<skill version="2">
 				<name>Axe/Mace</name>
@@ -63,6 +63,74 @@
 				<default>
 					<type>Skill</type>
 					<name>Flail</name>
+					<modifier>-4</modifier>
+				</default>
+			</skill>
+			<skill version="2">
+				<name>Broadsword</name>
+				<difficulty>DX/A</difficulty>
+				<points>10</points>
+				<reference>B208</reference>
+				<categories>
+					<category>Combat/Weapon</category>
+					<category>Melee Combat</category>
+				</categories>
+				<default>
+					<type>Skill</type>
+					<name>Force Sword</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Rapier</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Saber</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shortsword</name>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Two-Handed Sword</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+			</skill>
+			<skill version="2">
+				<name>Polearm</name>
+				<difficulty>DX/A</difficulty>
+				<points>10</points>
+				<reference>B208</reference>
+				<categories>
+					<category>Combat/Weapon</category>
+					<category>Melee Combat</category>
+				</categories>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Spear</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Staff</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Two-Handed Axe/Mace</name>
 					<modifier>-4</modifier>
 				</default>
 			</skill>
@@ -261,7 +329,63 @@
 				</default>
 			</skill>
 		</skill_container>
-		<skill_container version="2" open="yes">
+		<skill_container version="2" open="no">
+			<name>Ranged Weapons</name>
+			<skill version="2">
+				<name>Bow</name>
+				<difficulty>DX/A</difficulty>
+				<points>10</points>
+				<reference>B182</reference>
+				<categories>
+					<category>Combat/Weapon</category>
+					<category>Ranged Combat</category>
+				</categories>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+			</skill>
+			<skill version="2">
+				<name>Crossbow</name>
+				<difficulty>DX/E</difficulty>
+				<points>10</points>
+				<reference>B186</reference>
+				<categories>
+					<category>Combat/Weapon</category>
+					<category>Ranged Combat</category>
+				</categories>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+			</skill>
+			<skill version="2">
+				<name>Fast-Draw</name>
+				<specialization>Arrow</specialization>
+				<difficulty>DX/E</difficulty>
+				<points>10</points>
+				<reference>B194</reference>
+				<categories>
+					<category>Combat/Weapon</category>
+					<category>Ranged Combat</category>
+				</categories>
+			</skill>
+			<skill version="2">
+				<name>Sling</name>
+				<difficulty>DX/H</difficulty>
+				<points>10</points>
+				<reference>B221</reference>
+				<categories>
+					<category>Combat/Weapon</category>
+					<category>Ranged Combat</category>
+				</categories>
+				<default>
+					<type>DX</type>
+					<modifier>-6</modifier>
+				</default>
+			</skill>
+		</skill_container>
+		<skill_container version="2" open="no">
 			<name>Secondary Weapon skills</name>
 			<skill version="2">
 				<name>Axe/Mace</name>
@@ -284,6 +408,74 @@
 				<default>
 					<type>Skill</type>
 					<name>Flail</name>
+					<modifier>-4</modifier>
+				</default>
+			</skill>
+			<skill version="2">
+				<name>Broadsword</name>
+				<difficulty>DX/A</difficulty>
+				<points>6</points>
+				<reference>B208</reference>
+				<categories>
+					<category>Combat/Weapon</category>
+					<category>Melee Combat</category>
+				</categories>
+				<default>
+					<type>Skill</type>
+					<name>Force Sword</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Rapier</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Saber</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shortsword</name>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Two-Handed Sword</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+			</skill>
+			<skill version="2">
+				<name>Polearm</name>
+				<difficulty>DX/A</difficulty>
+				<points>6</points>
+				<reference>B208</reference>
+				<categories>
+					<category>Combat/Weapon</category>
+					<category>Melee Combat</category>
+				</categories>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Spear</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Staff</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Two-Handed Axe/Mace</name>
 					<modifier>-4</modifier>
 				</default>
 			</skill>
@@ -401,62 +593,6 @@
 			</skill>
 		</skill_container>
 		<skill_container version="2" open="no">
-			<name>Ranged Weapons</name>
-			<skill version="2">
-				<name>Sling</name>
-				<difficulty>DX/H</difficulty>
-				<points>10</points>
-				<reference>B221</reference>
-				<categories>
-					<category>Combat/Weapon</category>
-					<category>Ranged Combat</category>
-				</categories>
-				<default>
-					<type>DX</type>
-					<modifier>-6</modifier>
-				</default>
-			</skill>
-			<skill version="2">
-				<name>Bow</name>
-				<difficulty>DX/A</difficulty>
-				<points>10</points>
-				<reference>B182</reference>
-				<categories>
-					<category>Combat/Weapon</category>
-					<category>Ranged Combat</category>
-				</categories>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-			</skill>
-			<skill version="2">
-				<name>Crossbow</name>
-				<difficulty>DX/E</difficulty>
-				<points>10</points>
-				<reference>B186</reference>
-				<categories>
-					<category>Combat/Weapon</category>
-					<category>Ranged Combat</category>
-				</categories>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-			</skill>
-			<skill version="2">
-				<name>Fast-Draw</name>
-				<specialization>Arrow</specialization>
-				<difficulty>DX/E</difficulty>
-				<points>10</points>
-				<reference>B194</reference>
-				<categories>
-					<category>Combat/Weapon</category>
-					<category>Ranged Combat</category>
-				</categories>
-			</skill>
-		</skill_container>
-		<skill_container version="2" open="yes">
 			<name>Shields</name>
 			<skill version="2">
 				<name>Shield</name>
@@ -514,6 +650,21 @@
 			</skill>
 			<skill version="2">
 				<name>Thrown Weapon</name>
+				<specialization>Knife</specialization>
+				<difficulty>DX/E</difficulty>
+				<points>6</points>
+				<reference>B226</reference>
+				<categories>
+					<category>Combat/Weapon</category>
+					<category>Ranged Combat</category>
+				</categories>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+			</skill>
+			<skill version="2">
+				<name>Thrown Weapon</name>
 				<specialization>Spear</specialization>
 				<difficulty>DX/E</difficulty>
 				<points>6</points>
@@ -538,21 +689,6 @@
 					<modifier>-2</modifier>
 				</default>
 			</skill>
-			<skill version="2">
-				<name>Thrown Weapon</name>
-				<specialization>Knife</specialization>
-				<difficulty>DX/E</difficulty>
-				<points>6</points>
-				<reference>B226</reference>
-				<categories>
-					<category>Combat/Weapon</category>
-					<category>Ranged Combat</category>
-				</categories>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-			</skill>
 		</skill_container>
 	</skill_list>
 	<equipment_list>
@@ -560,7 +696,7 @@
 			<description>Melee Weapon Sets (Heavy)</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
-			<equipment_container version="4" open="yes">
+			<equipment_container version="4" open="no">
 				<description>Heavy Sword And Shield</description>
 				<legality_class>4</legality_class>
 				<value>0</value>
@@ -692,11 +828,11 @@
 				</equipment>
 				<equipment version="4">
 					<quantity>1</quantity>
-					<description>Light Shield</description>
-					<tech_level>-</tech_level>
+					<description>Large Shield</description>
+					<tech_level>1</tech_level>
 					<legality_class>4</legality_class>
-					<value>25</value>
-					<weight>2 lb</weight>
+					<value>90</value>
+					<weight>25 lb</weight>
 					<reference>B287</reference>
 					<melee_weapon>
 						<damage>thr cr</damage>
@@ -733,16 +869,456 @@
 					</categories>
 					<attribute_bonus>
 						<attribute>dodge</attribute>
-						<amount>1</amount>
+						<amount>3</amount>
 					</attribute_bonus>
 					<attribute_bonus>
 						<attribute>parry</attribute>
-						<amount>1</amount>
+						<amount>3</amount>
 					</attribute_bonus>
 					<attribute_bonus>
 						<attribute>block</attribute>
-						<amount>1</amount>
+						<amount>3</amount>
 					</attribute_bonus>
+				</equipment>
+			</equipment_container>
+			<equipment_container version="4" open="no">
+				<description>Heavy Broadsword and Shield</description>
+				<legality_class>4</legality_class>
+				<value>0</value>
+				<equipment version="4">
+					<quantity>1</quantity>
+					<description>Broadsword</description>
+					<tech_level>2</tech_level>
+					<legality_class>4</legality_class>
+					<value>500</value>
+					<weight>3 lb</weight>
+					<reference>B271</reference>
+					<melee_weapon>
+						<damage>sw+1 cut</damage>
+						<strength>10</strength>
+						<usage>Swung</usage>
+						<reach>1</reach>
+						<parry>0</parry>
+						<block>No</block>
+						<default>
+							<type>DX</type>
+							<modifier>-5</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Force Sword</name>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Broadsword</name>
+							<modifier>0</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Rapier</name>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Saber</name>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Shortsword</name>
+							<modifier>-2</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Two-Handed Sword</name>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Sword!</name>
+							<modifier>0</modifier>
+						</default>
+					</melee_weapon>
+					<melee_weapon>
+						<damage>thr+1 cr</damage>
+						<strength>10</strength>
+						<usage>Thrust</usage>
+						<reach>1</reach>
+						<parry>0</parry>
+						<block>No</block>
+						<default>
+							<type>DX</type>
+							<modifier>-5</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Force Sword</name>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Broadsword</name>
+							<modifier>0</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Rapier</name>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Saber</name>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Shortsword</name>
+							<modifier>-2</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Two-Handed Sword</name>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Sword!</name>
+							<modifier>0</modifier>
+						</default>
+					</melee_weapon>
+					<categories>
+						<category>Melee Weapon</category>
+					</categories>
+				</equipment>
+				<equipment version="4">
+					<quantity>1</quantity>
+					<description>Large Shield</description>
+					<tech_level>1</tech_level>
+					<legality_class>4</legality_class>
+					<value>90</value>
+					<weight>25 lb</weight>
+					<reference>B287</reference>
+					<melee_weapon>
+						<damage>thr cr</damage>
+						<strength>0</strength>
+						<usage>Shield Bash</usage>
+						<reach>1</reach>
+						<parry>No</parry>
+						<block>+0</block>
+						<default>
+							<type>DX</type>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Shield</name>
+							<specialization>Buckler</specialization>
+							<modifier>-2</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Shield</name>
+							<specialization>Force Shield</specialization>
+							<modifier>-2</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Shield</name>
+							<specialization>Shield</specialization>
+							<modifier>0</modifier>
+						</default>
+					</melee_weapon>
+					<categories>
+						<category>Shield</category>
+					</categories>
+					<attribute_bonus>
+						<attribute>dodge</attribute>
+						<amount>3</amount>
+					</attribute_bonus>
+					<attribute_bonus>
+						<attribute>parry</attribute>
+						<amount>3</amount>
+					</attribute_bonus>
+					<attribute_bonus>
+						<attribute>block</attribute>
+						<amount>3</amount>
+					</attribute_bonus>
+				</equipment>
+			</equipment_container>
+			<equipment_container version="4" open="no">
+				<description>Heavy Spear and Shield</description>
+				<legality_class>4</legality_class>
+				<value>0</value>
+				<equipment version="4">
+					<quantity>1</quantity>
+					<description>Large Shield</description>
+					<tech_level>1</tech_level>
+					<legality_class>4</legality_class>
+					<value>90</value>
+					<weight>25 lb</weight>
+					<reference>B287</reference>
+					<melee_weapon>
+						<damage>thr cr</damage>
+						<strength>0</strength>
+						<usage>Shield Bash</usage>
+						<reach>1</reach>
+						<parry>No</parry>
+						<block>+0</block>
+						<default>
+							<type>DX</type>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Shield</name>
+							<specialization>Buckler</specialization>
+							<modifier>-2</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Shield</name>
+							<specialization>Force Shield</specialization>
+							<modifier>-2</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Shield</name>
+							<specialization>Shield</specialization>
+							<modifier>0</modifier>
+						</default>
+					</melee_weapon>
+					<categories>
+						<category>Shield</category>
+					</categories>
+					<attribute_bonus>
+						<attribute>dodge</attribute>
+						<amount>3</amount>
+					</attribute_bonus>
+					<attribute_bonus>
+						<attribute>parry</attribute>
+						<amount>3</amount>
+					</attribute_bonus>
+					<attribute_bonus>
+						<attribute>block</attribute>
+						<amount>3</amount>
+					</attribute_bonus>
+				</equipment>
+				<equipment version="4">
+					<quantity>1</quantity>
+					<description>Spear</description>
+					<tech_level>0</tech_level>
+					<legality_class>4</legality_class>
+					<value>40</value>
+					<weight>4 lb</weight>
+					<reference>B273</reference>
+					<melee_weapon>
+						<damage>thr+2 imp</damage>
+						<strength>9</strength>
+						<usage>Thrust</usage>
+						<reach>1*</reach>
+						<parry>0</parry>
+						<block>No</block>
+						<default>
+							<type>DX</type>
+							<modifier>-5</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Spear</name>
+							<modifier>0</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Polearm</name>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Staff</name>
+							<modifier>-2</modifier>
+						</default>
+					</melee_weapon>
+					<melee_weapon>
+						<damage>thr+3 imp</damage>
+						<strength>9&#8224;</strength>
+						<usage>Thrust</usage>
+						<reach>1,2*</reach>
+						<parry>0</parry>
+						<block>No</block>
+						<default>
+							<type>DX</type>
+							<modifier>-5</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Spear</name>
+							<modifier>0</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Polearm</name>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Staff</name>
+							<modifier>-2</modifier>
+						</default>
+					</melee_weapon>
+					<ranged_weapon>
+						<damage>thr+3 imp</damage>
+						<strength>9</strength>
+						<usage>Thrown</usage>
+						<accuracy>+2</accuracy>
+						<range>x1/x1.5</range>
+						<rate_of_fire>1</rate_of_fire>
+						<shots>T(1)</shots>
+						<bulk>-6</bulk>
+						<default>
+							<type>DX</type>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Thrown Weapon</name>
+							<specialization>Spear</specialization>
+							<modifier>0</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Spear Thrower</name>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Thrown Weapon</name>
+							<specialization>Harpoon</specialization>
+							<modifier>-2</modifier>
+						</default>
+					</ranged_weapon>
+					<categories>
+						<category>Melee Weapon</category>
+						<category>Missile Weapon</category>
+					</categories>
+				</equipment>
+			</equipment_container>
+			<equipment_container version="4" open="no">
+				<description>Heavy Mace and Shield</description>
+				<legality_class>4</legality_class>
+				<value>0</value>
+				<equipment version="4">
+					<quantity>1</quantity>
+					<description>Large Shield</description>
+					<tech_level>1</tech_level>
+					<legality_class>4</legality_class>
+					<value>90</value>
+					<weight>25 lb</weight>
+					<reference>B287</reference>
+					<melee_weapon>
+						<damage>thr cr</damage>
+						<strength>0</strength>
+						<usage>Shield Bash</usage>
+						<reach>1</reach>
+						<parry>No</parry>
+						<block>+0</block>
+						<default>
+							<type>DX</type>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Shield</name>
+							<specialization>Buckler</specialization>
+							<modifier>-2</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Shield</name>
+							<specialization>Force Shield</specialization>
+							<modifier>-2</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Shield</name>
+							<specialization>Shield</specialization>
+							<modifier>0</modifier>
+						</default>
+					</melee_weapon>
+					<categories>
+						<category>Shield</category>
+					</categories>
+					<attribute_bonus>
+						<attribute>dodge</attribute>
+						<amount>3</amount>
+					</attribute_bonus>
+					<attribute_bonus>
+						<attribute>parry</attribute>
+						<amount>3</amount>
+					</attribute_bonus>
+					<attribute_bonus>
+						<attribute>block</attribute>
+						<amount>3</amount>
+					</attribute_bonus>
+				</equipment>
+				<equipment version="4">
+					<quantity>1</quantity>
+					<description>Mace</description>
+					<tech_level>2</tech_level>
+					<legality_class>4</legality_class>
+					<value>50</value>
+					<weight>5 lb</weight>
+					<reference>B271</reference>
+					<melee_weapon>
+						<damage>sw+3 cr</damage>
+						<strength>12</strength>
+						<usage>Swung</usage>
+						<reach>1</reach>
+						<parry>0U</parry>
+						<block>No</block>
+						<default>
+							<type>DX</type>
+							<modifier>-5</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Axe/Mace</name>
+							<modifier>0</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Flail</name>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Two-Handed Axe/Mace</name>
+							<modifier>-3</modifier>
+						</default>
+					</melee_weapon>
+					<ranged_weapon>
+						<damage>sw+3 cr</damage>
+						<strength>12</strength>
+						<accuracy>1</accuracy>
+						<range>x0.5/x1</range>
+						<rate_of_fire>1</rate_of_fire>
+						<shots>T(1)</shots>
+						<bulk>-4</bulk>
+						<default>
+							<type>DX</type>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Thrown Weapon</name>
+							<specialization>Axe/Mace</specialization>
+							<modifier>0</modifier>
+						</default>
+					</ranged_weapon>
+					<categories>
+						<category>Melee Weapon</category>
+						<category>Missile Weapon</category>
+					</categories>
 				</equipment>
 			</equipment_container>
 		</equipment_container>
@@ -1076,7 +1652,7 @@
 			</equipment>
 		</equipment_container>
 		<equipment_container version="4" open="no">
-			<description>Bows Weapons</description>
+			<description>Ranged Weapons</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
 			<equipment_container version="4" open="no">
@@ -1245,6 +1821,392 @@
 				</ranged_weapon>
 				<categories>
 					<category>Missile Weapon</category>
+				</categories>
+			</equipment>
+		</equipment_container>
+		<equipment_container version="4" open="no">
+			<description>Two-handed</description>
+			<legality_class>4</legality_class>
+			<value>0</value>
+			<equipment version="4">
+				<quantity>1</quantity>
+				<description>Bastard Sword</description>
+				<tech_level>3</tech_level>
+				<legality_class>4</legality_class>
+				<value>650</value>
+				<weight>5 lb</weight>
+				<reference>B274</reference>
+				<melee_weapon>
+					<damage>sw+2 cut</damage>
+					<strength>10&#8224;</strength>
+					<usage>Swung</usage>
+					<reach>1,2</reach>
+					<parry>0</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Two-Handed Sword</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Broadsword</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Force Sword</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Sword!</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<melee_weapon>
+					<damage>thr+2 cr</damage>
+					<strength>10&#8224;</strength>
+					<usage>Thrust</usage>
+					<reach>2</reach>
+					<parry>0</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Two-Handed Sword</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Broadsword</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Force Sword</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Sword!</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<notes>Using Two-Handed Sword skill</notes>
+				<categories>
+					<category>Melee Weapon</category>
+				</categories>
+			</equipment>
+			<equipment version="4">
+				<quantity>1</quantity>
+				<description>Greatsword</description>
+				<tech_level>3</tech_level>
+				<legality_class>4</legality_class>
+				<value>800</value>
+				<weight>7 lb</weight>
+				<reference>B274</reference>
+				<melee_weapon>
+					<damage>sw+3 cut</damage>
+					<strength>12&#8224;</strength>
+					<usage>Swung</usage>
+					<reach>1,2</reach>
+					<parry>0</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Two-Handed Sword</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Broadsword</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Force Sword</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Sword!</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<melee_weapon>
+					<damage>thr+2 cr</damage>
+					<strength>12&#8224;</strength>
+					<usage>Thrust</usage>
+					<reach>2</reach>
+					<parry>0</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Two-Handed Sword</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Broadsword</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Force Sword</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Sword!</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<categories>
+					<category>Melee Weapon</category>
+				</categories>
+			</equipment>
+			<equipment version="4">
+				<quantity>1</quantity>
+				<description>Great Axe</description>
+				<tech_level>1</tech_level>
+				<legality_class>4</legality_class>
+				<value>100</value>
+				<weight>8 lb</weight>
+				<reference>B274</reference>
+				<melee_weapon>
+					<damage>sw+3 cut</damage>
+					<strength>12&#8225;</strength>
+					<usage>Swung</usage>
+					<reach>1,2*</reach>
+					<parry>0U</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Two-Handed Axe/Mace</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Axe/Mace</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Polearm</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Two-Handed Flail</name>
+						<modifier>-4</modifier>
+					</default>
+				</melee_weapon>
+				<categories>
+					<category>Melee Weapon</category>
+				</categories>
+			</equipment>
+			<equipment version="4">
+				<quantity>1</quantity>
+				<description>Glaive</description>
+				<tech_level>1</tech_level>
+				<legality_class>4</legality_class>
+				<value>100</value>
+				<weight>8 lb</weight>
+				<reference>B272</reference>
+				<melee_weapon>
+					<damage>sw+3 cut</damage>
+					<strength>11&#8225;</strength>
+					<usage>Swung</usage>
+					<reach>2,3*</reach>
+					<parry>0U</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Polearm</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Spear</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Staff</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Two-Handed Axe/Mace</name>
+						<modifier>-4</modifier>
+					</default>
+				</melee_weapon>
+				<melee_weapon>
+					<damage>thr+3 imp</damage>
+					<strength>11&#8224;</strength>
+					<usage>Thrust</usage>
+					<reach>1-3*</reach>
+					<parry>0U</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Polearm</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Spear</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Staff</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Two-Handed Axe/Mace</name>
+						<modifier>-4</modifier>
+					</default>
+				</melee_weapon>
+				<categories>
+					<category>Melee Weapon</category>
+				</categories>
+			</equipment>
+			<equipment version="4">
+				<quantity>1</quantity>
+				<description>Halberd</description>
+				<tech_level>3</tech_level>
+				<legality_class>4</legality_class>
+				<value>150</value>
+				<weight>12 lb</weight>
+				<reference>B272</reference>
+				<melee_weapon>
+					<damage>sw+5 cut</damage>
+					<strength>13&#8225;</strength>
+					<usage>Swung</usage>
+					<reach>2,3*</reach>
+					<parry>0U</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Polearm</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Spear</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Staff</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Two-Handed Axe/Mace</name>
+						<modifier>-4</modifier>
+					</default>
+				</melee_weapon>
+				<melee_weapon>
+					<damage>sw+4 imp (may stick)</damage>
+					<strength>13&#8225;</strength>
+					<usage>Swung Hook</usage>
+					<reach>2,3*</reach>
+					<parry>0U</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Polearm</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Spear</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Staff</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Two-Handed Axe/Mace</name>
+						<modifier>-4</modifier>
+					</default>
+				</melee_weapon>
+				<melee_weapon>
+					<damage>thr+3 imp</damage>
+					<strength>12&#8224;</strength>
+					<usage>Thrust</usage>
+					<reach>1-3*</reach>
+					<parry>0U</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Polearm</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Spear</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Staff</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Two-Handed Axe/Mace</name>
+						<modifier>-4</modifier>
+					</default>
+				</melee_weapon>
+				<categories>
+					<category>Melee Weapon</category>
 				</categories>
 			</equipment>
 		</equipment_container>
