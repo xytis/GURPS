@@ -1,7 +1,7 @@
 # The Dark Tower
 
 Legend tells about a powerful lich residing in the dark pine woods northwest
-from Fort Horth, at least a week away from lake Kgar. Many brave (and stupid)
+from Fort Horth, at least a week away from lake Kagar. Many brave (and stupid)
 souls have lost their lives on the vague stories about the riches kept in the
 Dark Tower of the Lich Kalduk.
 
