@@ -29,4 +29,116 @@
 			<amount>1</amount>
 		</dr_bonus>
 	</equipment>
+	<equipment_container version="4" open="yes">
+		<description>Artifacts</description>
+		<legality_class>4</legality_class>
+		<value>0</value>
+		<equipment version="4">
+			<quantity>1</quantity>
+			<description>Kol'Baraz</description>
+			<tech_level>2</tech_level>
+			<legality_class>4</legality_class>
+			<value>4500</value>
+			<weight>3 lb</weight>
+			<reference>B271/M63</reference>
+			<melee_weapon>
+				<damage>sw+2 cut</damage>
+				<strength>10</strength>
+				<usage>Swung</usage>
+				<reach>1</reach>
+				<parry>0</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Force Sword</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Broadsword</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Rapier</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Saber</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shortsword</name>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Two-Handed Sword</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Sword!</name>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<melee_weapon>
+				<damage>thr+2 imp</damage>
+				<strength>10</strength>
+				<usage>Thrust</usage>
+				<reach>1</reach>
+				<parry>0</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Force Sword</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Broadsword</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Rapier</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Saber</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shortsword</name>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Two-Handed Sword</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Sword!</name>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<notes>Enchented Black Steel Sword. Enchantment - Graceful Weapon</notes>
+			<categories>
+				<category>Melee Weapon</category>
+			</categories>
+		</equipment>
+	</equipment_container>
 </equipment_list>
