@@ -11,8 +11,8 @@ in human brawls for orcish entertainment. His first fight in the ring was
 against his eldest brother. The bloody pit echoed from the shouts of orc crowd,
 slave masters were scourging humans to fight, his sword clashed with Leonidas'.
 Fear and pain triggered something in Achiles, he vaguely remembers the fight,
-but he clearly remembers his brothers last words, as he bled in his grasp:
-"Live strong, Achiles, avenge our mother and sisters".
+but he clearly remembers his brothers last look, as he struck his sword to his
+chest.
 
 He fought for his life for the next few years, claiming victory after victory.
 Then he was noticed by a noble servant from the city of Silderbay. He was
@@ -34,4 +34,4 @@ terrain.
 Few years passed, until Achiles gathered courage to return to Ironfire. He
 visited the ruins of his birthplace, wept on his mothers grave, then turned his
 sight to Fort Horth. He knew nothing more than fighting, so he thought to live
-by the sword, and maybe in this way he could have his revenge.
+by the sword, and maybe in this way he could find redemption.
