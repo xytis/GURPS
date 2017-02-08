@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="396e131c-e43f-48f4-9272-82915a32e3af" version="3">
 	<created_date>Feb 4, 2017</created_date>
-	<modified_date>Feb 4, 2017 4:49 PM</modified_date>
+	<modified_date>Feb 8, 2017 8:03 PM</modified_date>
 	<profile>
 		<player_name>Simas</player_name>
 		<name>Hermy</name>
@@ -805,7 +805,7 @@
 				<contained_weight_prereq has="yes" compare="at most">3 lb</contained_weight_prereq>
 			</prereq_list>
 			<equipment version="4" state="equipped">
-				<quantity>1</quantity>
+				<quantity>45</quantity>
 				<description>Silver Coin</description>
 				<legality_class>4</legality_class>
 				<value>4</value>
