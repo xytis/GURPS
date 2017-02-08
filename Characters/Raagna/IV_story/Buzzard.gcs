@@ -612,17 +612,6 @@
 			</equipment_container>
 		</equipment_container>
 	</equipment_list>
-	<note_list>
-		<note_container version="1" open="yes">
-			<text>so Buzzard (Suopis) kaip as ji matau. 
-
-Vyrukas vyresnis, bardotas, nelabai prisiziurejes. Gerai pazista miska, ismano gyvunu sekima ir medziokle, gerai atskiria naudinga ir kenksminga misko flora. Moka spesti basic spastus ir zino pagrindinius isgyvenimo laukineje gamtoje principus. 
-
-Gyveba vienas miskuose, ilgai neuzsibuna vienoje vietoje, labai neprisirisa prie nieko. Gerasirdis, linkes padeti atsitikus nelaimei. 
-
-Backstory: buves kaimo medziotojas ir stalius. Kaima uzpuole, kol medziojo. Neteko seimos. Nuo to laiko klajoja. Del savo pareigu niekada net nepagalvojo ismokti skaityti ar rasyti. Tad be savo srities nieko daugiau ir nezino.</text>
-		</note_container>
-	</note_list>
 	<print_settings units="in">
 		<orientation>portrait</orientation>
 		<width>8.5</width>
