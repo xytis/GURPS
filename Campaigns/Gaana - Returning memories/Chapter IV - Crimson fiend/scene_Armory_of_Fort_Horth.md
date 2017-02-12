@@ -1,6 +1,6 @@
 #Obtaining the equipment
 
-Party follows the Chief or Guard to the Armory.
+Party follows the Chief of Guard to the Armory.
 
 -"Your equipment should be ready by now. Wait here, I'll find Timothy."
 
