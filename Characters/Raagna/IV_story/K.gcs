@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="99b812c0-a3d5-4cad-873b-9f901d1860eb" version="3">
 	<created_date>Feb 2, 2017</created_date>
-	<modified_date>Feb 8, 2017 8:03 PM</modified_date>
+	<modified_date>Feb 12, 2017 6:36 PM</modified_date>
 	<profile>
 		<player_name>Jonas</player_name>
 		<name>K</name>
@@ -23,7 +23,7 @@
 	</profile>
 	<HP>0</HP>
 	<FP>0</FP>
-	<total_points>75</total_points>
+	<total_points>78</total_points>
 	<ST>11</ST>
 	<DX>11</DX>
 	<IQ>11</IQ>
@@ -846,7 +846,7 @@
 				<contained_weight_prereq has="yes" compare="at most">3 lb</contained_weight_prereq>
 			</prereq_list>
 			<equipment version="4" state="equipped">
-				<quantity>20</quantity>
+				<quantity>40</quantity>
 				<description>Copper Farthing</description>
 				<legality_class>4</legality_class>
 				<value>1</value>

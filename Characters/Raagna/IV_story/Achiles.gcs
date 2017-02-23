@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="4001e24b-f91d-4e8a-bd4d-3e744c6ac524" version="3">
 	<created_date>Feb 1, 2017</created_date>
-	<modified_date>Feb 8, 2017 7:35 PM</modified_date>
+	<modified_date>Feb 12, 2017 6:36 PM</modified_date>
 	<profile>
 		<player_name>Valdas</player_name>
 		<name>Achiles</name>
-		<title>ex-gladiator</title>
+		<title>ex-gladiator, ex-human</title>
 		<age>29</age>
 		<birthday>July 29</birthday>
 		<eyes>Blue</eyes>
@@ -21,8 +21,9 @@
 		<tech_level>3</tech_level>
 	</profile>
 	<HP>2</HP>
+	<current_hp>4</current_hp>
 	<FP>0</FP>
-	<total_points>75</total_points>
+	<total_points>201</total_points>
 	<ST>13</ST>
 	<DX>11</DX>
 	<IQ>9</IQ>
@@ -128,6 +129,51 @@
 			<reference>B142</reference>
 			<categories>
 				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Doesn't Sleep</name>
+			<type>Physical, Exotic</type>
+			<base_points>20</base_points>
+			<reference>B50</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Fragile (Brittle)</name>
+			<type>Physical, Exotic</type>
+			<base_points>-15</base_points>
+			<reference>B136</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Fragile (Unnatural)</name>
+			<type>Physical, Exotic</type>
+			<base_points>-50</base_points>
+			<reference>B137</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Injury Tolerance (Unliving)</name>
+			<type>Physical, Exotic</type>
+			<base_points>20</base_points>
+			<reference>B61</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Supernatural Durability</name>
+			<type>Physical, Supernatural</type>
+			<base_points>150</base_points>
+			<reference>B89</reference>
+			<categories>
+				<category>Advantage</category>
 			</categories>
 		</advantage>
 	</advantage_list>
