@@ -94,11 +94,16 @@ pain. Yet you felt only a warm sensation.
 
 -"I don't think that's necessary. Yet can I feel the blow of an axe?"
 
--"No, well you will have a sensation of loss, in case an axe rips your lib away."
+-"No, well you will experience a sensation of loss, in case an axe rips your limb
+away."
 
 Brief silence stood as Achiles contemplated on his new body.
 
--"If I my arm falls off, can I put it back on?"
+-"If I... If one of my arms fall off, can I still move it?"
+
+-"No, ...?" - Bob was a little surprised by Achiles turn of thoughts.
+
+-"Then can I put it back on?"
 
 -"In general -- yes. If your arm is not brutally severed, shattered or
 evaporated. For example...", - Bob proceeds to talk as he quickly and seemingly
