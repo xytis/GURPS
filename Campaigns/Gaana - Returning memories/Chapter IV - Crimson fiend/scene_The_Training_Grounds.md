@@ -1,4 +1,5 @@
 #Day before departure
+_475-12-03_
 
 _NPC_
 
@@ -21,6 +22,7 @@ orders to the old trainer. He instructs all six characters (including Timmy) to
 get some rest and return with raising Su prepared to travel north.
 
 #Day of departure
+_475-12-04_
 
 Player characters assemble from their quarters with the first rays from Su.
 Timmy is missing. Chief of Guard is displeased by this disappearance, yet he

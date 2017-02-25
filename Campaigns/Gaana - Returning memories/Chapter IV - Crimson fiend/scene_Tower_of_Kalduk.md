@@ -8,6 +8,7 @@ Dark Tower of the Lich Kalduk.
   _players are given a quest for reaching out Lich Kalduk_
 
 #### Surrounding Forest
+_475-12-10_
 
 Adventurers had to turn away from traveled roads several days ago and journey
 in uncharted wilderness. Old forest, which kept their company for a while now,
