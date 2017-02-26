@@ -94,8 +94,8 @@ pain. Yet you felt only a warm sensation.
 
 -"I don't think that's necessary. Yet can I feel the blow of an axe?"
 
--"No, well you will experience a sensation of loss, in case an axe rips your limb
-away."
+-"No, but you will experience a sensation of loss, in case an axe rips your
+limb away."
 
 Brief silence stood as Achiles contemplated on his new body.
 
@@ -108,7 +108,7 @@ Brief silence stood as Achiles contemplated on his new body.
 -"In general -- yes. If your arm is not brutally severed, shattered or
 evaporated. For example...", - Bob proceeds to talk as he quickly and seemingly
 effortlessly rips your arm out of the shoulder, - "you may simply plug it
-in...", - you are given your arm to your remaining arm, - "since I did not
+in...", - you are given your arm to your remaining hand, - "since I did not
 break anything. Yet if I were to cut the bones in half, you could simply
 bolster them back with any materials, but you would feel less control over the
 limb below the fracture. Or in complete lack of craftiness, you would not have
@@ -126,7 +126,15 @@ totally up to you past that point."
 Bob looks at you with consideration.
 
 -"Sorry, I might have overcomplicated this a bit. Let me try again. Keep your
-head safe. If something falls off, put it back on. If it does not work -- find
-a mage to it for you. If there is no mage -- try glue or bandage, but your
-experience may wary. Got it?"
+head safe. If something falls off, put it back on. If that does not work --
+find a mage to do it for you. If there is no mage -- try glue or bandage, but
+your experience may wary. Got it?"
 
+-"Seems like a good deal. Got it."
+
+...
+
+First few weeks were strange for Achiles, as he no longer needed the mundane
+things he was used to, like eating, sleeping, peeing or breathing. Also, the
+numbness of his new body made him a bit clumsy. He spent the nights speaking
+with Bob or practicing to control his new body.
