@@ -2,7 +2,7 @@
 
 Just outside the old ramparts, close to Murken brook, a hut barely visible
 under thick verdure stands. Old Winstan the Shepherd and Granny Linnéa the
-Herbalist who both are well known to all, young and old, of Barhof have spent
+Herbalist who both are well known to all, young and old of Barhof, have spent
 most of their lives around the hut in question. Even though the couple have no
 kids of their own, childish giggling can be often heard from behind the hut.
 Every child in the town knows that Old Winstan tells the best tales and Granny
@@ -34,5 +34,5 @@ her herbs to local innkeepers, for Bardhof is one of the only places in all of
 Ironfire, where you could get a cup of hot tea in the afternoon. Naturally her
 herbs are in high demand by mages across Ironfire, so she always has a spare
 coin, which she mostly spend on sweets. Those delights end up in stomaches of
-youngest Bardhof, but her generosity is not forgotten as kids grow up.
+the youngest, but her generosity is not forgotten as kids grow up.
 
