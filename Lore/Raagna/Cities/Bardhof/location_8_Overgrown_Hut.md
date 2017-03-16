@@ -19,7 +19,7 @@ gray hair, long messy beard, two small eyes hiding behind thick eyebrows and a
 larger than average nose, which allows Old Winstan to snore with great acoustic
 power, about which legends are told. His snoring is so great and powerful, that
 all sheep of Bardhof seem to orient themselves around the snoring Winstan. When
-he wakes up in the afternoon, under his favourite old willow tree, all sheep in
+he wakes up in the afternoon, under his favorite old willow tree, all sheep in
 the surrounding pastures align for herding back to town. There were countless
 incidents of sheep returning to town on their own, just because Winstan was
 woken early by some unnatural event.
