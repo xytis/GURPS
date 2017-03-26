@@ -3,7 +3,7 @@ _475-12-03_
 ...
 
 Annoying rain was dripping from the gray sky for the second day when Ares
-finally reached Forth Horth. She dismounted at the stables, grabbed her bag and
+finally reached Fort Horth. She dismounted at the stables, grabbed her bag and
 rushed to the administration quarters. Inner gate guards saluted her. "At least
 this time they are expecting me", she thought to herself. Previous visits to
 this military fortification had not been without incidents, as University of

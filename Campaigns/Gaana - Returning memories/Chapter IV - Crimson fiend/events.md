@@ -4,7 +4,7 @@
 
 # begger
 
-A bagger approaches the party and asks for money or food
+A begger approaches the party and asks for money or food
 
 # conflict in the market place
 
@@ -24,7 +24,7 @@ Now the cart is blocking the entrance to the Bardhof.
 
 # crier
 
-a man in market square stands on a barrel and start shouting concerning things.
+A man in market square stands on a barrel and start shouting concerning things.
 About plague that will destroy everything and that foreigners will bring it to Bardhof.
 About skeletal mage that was hired by academy. And now theres undead'ish creature killing out soldiers.
 
