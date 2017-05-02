@@ -29,3 +29,6 @@ happen rarely due to the natural protection of Swaymist river. Governors rarely
 change and never in the written history there has been a bloody dispute between
 Bardhof and the closest neighbours. If we don't count the usual inn fights.
 
+Government in Bardhof is elected every five years. Highest power is given to
+representative, he is tasked with maintaining diplomatic conversations with
+neighbouring towns, solving disputes in town and appointing members of Great House.
