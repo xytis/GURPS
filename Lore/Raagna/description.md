@@ -7,7 +7,7 @@ Physics
 ---------
 
 Third planet in this solar system, with an obital period of 512 days.
-Slighlty bigger than earth, with stronger gravity. (G_Raagna = 1.1G_Earth)
+Slighlty larger than earth, with stronger gravity. (G_Raagna = 1.1G_Earth)
 Gravity change can be aclimatized to and completely ignored, unless dealing with
 precise calculations.
 
