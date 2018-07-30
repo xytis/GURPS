@@ -2,13 +2,13 @@
 
 ### low tension
 
-# begger
+# beggar
 
-A begger approaches the party and asks for money or food
+A beggar approaches the party and asks for money or food
 
 # conflict in the market place
 
-Its market day, and hamlet is full of villagers of surrounding farmlands.
+Market day: hamlet is full of villagers from surrounding farmlands.
 A conflict happens between villager selling turnips and soldier heading to war.
 
 # brawl in tavern

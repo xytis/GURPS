@@ -10,13 +10,13 @@
 ### Relatives:
   * Rupert Redwood - Uncle. He is veteran of numerous wars. He was not in
   Rivermeet for 20 years, but came back 3 years ago. He lost an left eye and
-  left palm in battle. Now he works in prison and spends evenings in Shaken
+  left palm in battle. Now he works in prison and spends evenings in Shaken Egg
   Inn drinking on the house.
   * Mona Redwood - Rupert's wife
   * Martin *Black* Redwood - Rupert's brother. He was soldier also, but he did
   not serve with Rupert. People speak that he served in secret police. He came
   back just recently but already manage to earn some reputation in shadier
-  levels of Shambles. He is reclusive and never comes to Shaken Inn, At least
+  levels of Shambles. He is reclusive and never comes to Shaken Egg Inn, At least
   nobody saw him using the front door.
 
 
@@ -28,12 +28,12 @@
   * Sunshine - the executioner of Rivermeet. She lives in Shambles, as she was
   heard saying herself, she prefers to live next to her customers. She weights
   160 pound and always wears guard uniform. No one can tell where she got her
-  name, but its definitely not because of her character. Most of inhabitance of
-  Shambles would rather hang then spend an evening drinking beer with her.
+  name, but its definitely not because of her character. Most inhabitants of
+  Shambles would rather be hung hang then spend an evening drinking beer with her.
   * Two Bolts - a veteran soldier who spends his old days in Shaken Egg Inn. He
   gets drink and eat for free, for Grandma likes him. He does not eat or drink
   a lot though. He gets a small salary from city guard as a stationary guard of
-  Shaken Eggs.
+  Shaken Egg Inn.
 
 ### Some Other folks:
   * Ulma, the witch - brews remedies of all sorts. People say that she is quite

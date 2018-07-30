@@ -49,15 +49,15 @@ You move your head closer...
 
 Your ear is at his shaking lips:
 
--"...traedare..."
+-"...treadare..."
 
--"...traedare..."
+-"...treadare..."
 
--"...traedare..."
+-"...treadare..."
 
--"...traedare..."
+-"...treadare..."
 
--"...traedare..."
+-"...treadare..."
 
 #### Chapter II
 
@@ -88,4 +88,72 @@ weapon.
   on one of the beds to rest. Depending on your answers you may be provided
   with a place to stay overnight. Neutral result - you have to pay for the
   stay, worst result - you get into a fight with the locals._
+
+As you mention the name "Traedare" a silent gasp rolls across the inn.
+
+-"Where did _you_ heard that word?" - an old man in leather jacket asks. - "It
+has been a while since I heard that name. An old tale speaks of a devil which
+lives in the depths of ancient tunnels that spread under this very town..."
+
+-"Ol'Two Bolt, don't you scare my customers with your stories today. The boy
+might have simply been attacked by Shamble Raiders or how those punks call
+themselves these days..." - a firmly standing old woman said from the doorway
+to the kitchen.
+
+-"Martha, these are not just stories. And if it realy is Traedare, we are all
+in danger. Remember you just this morning complained that someone stole your
+chickens? Shambles don't steal from Shambles! So under this town there are
+long severs that were built together with this town, I 'member high officers
+from Archipelago..."
+
+-"You mean Archmages?" - a young boy interupted
+
+-"Yeah, Archimages..." - Two Bolts spat out - "... where was I ... Ah, they
+once said that this town in built on ancient tunnel system that is even older
+than Ancients tunnels. So one part of severs connect to these Undersevers as we
+used to call them in my early days. Mages made multiple excavations down here,
+I had participated in several of them as a guard, but one day something
+went wrong and they sealed every exit and banned anyone from entering the lower
+levels of Undersever. But I still remember days when Undersever was common
+destination for adventurers and brave souls alike. Not many returned, but those
+who did, brought ancient relics and magic gemstones back."
+
+-"Why did people stop going to Undersevers?" - another young boy interupted
+
+-"Have you heard about common sense?" - Helena interupted - "I doubt that
+ancient relics from a shithole like that are worth as much as your lives!"
+
+-"Watch your language, young lady!" - Martha scolded.
+
+-"Sorry, Gran'ma" - Helena turned back to the injured boy she was caring after.
+
+-"But if I were you, I would stay away from whatever done this. Traedare or
+not" - she murmured.
+
+-"If I were younger I would go there myself and ..."
+
+Suddenly doors flung open again and a tall firmly built woman entered. She was
+dressed in leather armor, covered by a dark cloak, broadsword's hilt was peeking
+out from under it.
+
+-"Where is he?!"
+
+Helena gestured the woman to come over. Woman's name was Verona. She was the
+leader of the local gang.
+
+-"Who did this!?" - her stare flew across the room as everyone hid their eyes
+in their ale. Few outsiders stared back at her openly and she lashed out on
+them - "You there! Did you have anything to do with this?!" - she yelled as
+she unsheated her broadsword.
+
+-"Calm down Verona!" - a pale creature commanded from darkness of the wide
+open door - "This outsider brought your son in. He was attacked by something
+non human."
+
+Verona froze for a moment. She knew not to mess with the witch which just came
+in to the now silent inn. "Better ofter them some coin to go and investigate
+the creature... And if you succeed in finding and killing it -- I will pay
+a hefty price for it's remains." - the witch finished her sentence staring
+directly into your eyes.
+
 
