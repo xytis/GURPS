@@ -37,7 +37,7 @@
 								<category>Advantage</category>
 							</categories>
 							<attribute_bonus>
-								<attribute>taste_smell</attribute>
+								<attribute>taste smell</attribute>
 								<amount per_level="yes">1</amount>
 							</attribute_bonus>
 						</advantage>
@@ -153,7 +153,7 @@
 								<name>Super-Effort</name>
 								<cost type="percentage">300</cost>
 								<affects>total</affects>
-								<reference>Sup24</reference>
+								<reference>SU24</reference>
 							</modifier>
 							<reference>B14</reference>
 							<categories>
@@ -193,7 +193,7 @@
 							<amount>1</amount>
 						</attribute_bonus>
 						<attribute_bonus>
-							<attribute>fright_check</attribute>
+							<attribute>fright check</attribute>
 							<amount>2</amount>
 						</attribute_bonus>
 					</advantage>
@@ -292,7 +292,7 @@
 					<advantage_container version="2" open="yes">
 						<name>Lenses</name>
 						<reference>ACT1:4</reference>
-						<advantage_container version="2" open="yes" type="metatrait">
+						<advantage_container version="2" open="yes" type="meta trait">
 							<name>Criminal</name>
 							<advantage version="2">
 								<name>Contact (@Fence, fixer, smuggler@)</name>
@@ -459,7 +459,7 @@
 								</categories>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="2" open="yes" type="metatrait">
+						<advantage_container version="2" open="yes" type="meta trait">
 							<name>Intelligence</name>
 							<advantage version="2">
 								<name>Must take template's Duty</name>
@@ -479,13 +479,13 @@
 								<modifier version="1" enabled="no">
 									<name>Replaces Status</name>
 									<cost type="points">5</cost>
-									<affects>levels_only</affects>
+									<affects>levels only</affects>
 									<reference>B29</reference>
 								</modifier>
 								<modifier version="1" enabled="no">
 									<name>Courtesy</name>
 									<cost type="points">-4</cost>
-									<affects>levels_only</affects>
+									<affects>levels only</affects>
 									<reference>B29</reference>
 								</modifier>
 								<reference>B29</reference>
@@ -495,7 +495,7 @@
 								</categories>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="2" open="yes" type="metatrait">
+						<advantage_container version="2" open="yes" type="meta trait">
 							<name>Law Enforcement</name>
 							<advantage version="2">
 								<name>Legal Enforcement Powers (@FBI Agent@)</name>
@@ -533,13 +533,13 @@
 								<modifier version="1" enabled="no">
 									<name>Replaces Status</name>
 									<cost type="points">5</cost>
-									<affects>levels_only</affects>
+									<affects>levels only</affects>
 									<reference>B29</reference>
 								</modifier>
 								<modifier version="1" enabled="no">
 									<name>Courtesy</name>
 									<cost type="points">-4</cost>
-									<affects>levels_only</affects>
+									<affects>levels only</affects>
 									<reference>B29</reference>
 								</modifier>
 								<reference>B29</reference>
@@ -549,7 +549,7 @@
 								</categories>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="2" open="yes" type="metatrait">
+						<advantage_container version="2" open="yes" type="meta trait">
 							<name>Military</name>
 							<advantage version="2">
 								<name>Must take template's Duty</name>
@@ -569,13 +569,13 @@
 								<modifier version="1" enabled="no">
 									<name>Replaces Status</name>
 									<cost type="points">5</cost>
-									<affects>levels_only</affects>
+									<affects>levels only</affects>
 									<reference>B29</reference>
 								</modifier>
 								<modifier version="1" enabled="no">
 									<name>Courtesy</name>
 									<cost type="points">-4</cost>
-									<affects>levels_only</affects>
+									<affects>levels only</affects>
 									<reference>B29</reference>
 								</modifier>
 								<reference>B29</reference>
@@ -585,7 +585,7 @@
 								</categories>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="2" open="yes" type="metatrait">
+						<advantage_container version="2" open="yes" type="meta trait">
 							<name>Security</name>
 							<advantage version="2">
 								<name>Legal Enforcement Powers (@Federal or Secret Service@)</name>
@@ -604,13 +604,13 @@
 								<modifier version="1" enabled="no">
 									<name>Replaces Status</name>
 									<cost type="points">5</cost>
-									<affects>levels_only</affects>
+									<affects>levels only</affects>
 									<reference>B29</reference>
 								</modifier>
 								<modifier version="1" enabled="no">
 									<name>Courtesy</name>
 									<cost type="points">-4</cost>
-									<affects>levels_only</affects>
+									<affects>levels only</affects>
 									<reference>B29</reference>
 								</modifier>
 								<reference>B29</reference>
@@ -620,7 +620,7 @@
 								</categories>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="2" open="yes" type="metatrait">
+						<advantage_container version="2" open="yes" type="meta trait">
 							<name>Wise Master</name>
 							<reference>ACT3:4</reference>
 							<notes>Choose 20 points. You can add your template's IQ-, Will-, or Per-based skills.</notes>
@@ -867,7 +867,7 @@
 							<name>Super Effort</name>
 							<cost type="percentage">400</cost>
 							<affects>total</affects>
-							<reference>Sup24</reference>
+							<reference>SU24</reference>
 						</modifier>
 						<modifier version="1" enabled="no">
 							<name>One Attack Only</name>
@@ -894,7 +894,7 @@
 							<category>Advantage</category>
 						</categories>
 						<attribute_bonus>
-							<attribute limitation="striking_only">st</attribute>
+							<attribute limitation="striking only">st</attribute>
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 						<prereq_list all="no">
@@ -1158,7 +1158,7 @@
 						<affects>total</affects>
 						<reference>B99</reference>
 					</modifier>
-					<reference>B99, ACT3:14</reference>
+					<reference>B99,ACT3:14</reference>
 					<notes>Anything with an Asian name or Holdout 0 to -2.</notes>
 					<categories>
 						<category>Advantage</category>
@@ -1239,7 +1239,7 @@
 						<name>Super-Effort</name>
 						<cost type="percentage">300</cost>
 						<affects>total</affects>
-						<reference>Sup24</reference>
+						<reference>SU24</reference>
 					</modifier>
 					<reference>B14</reference>
 					<categories>
@@ -1454,7 +1454,7 @@
 							<name>Loner</name>
 							<type>Mental</type>
 							<base_points>-5</base_points>
-							<cr adj="reaction_penalty">12</cr>
+							<cr adj="reaction penalty">12</cr>
 							<reference>B142</reference>
 							<categories>
 								<category>Disadvantage</category>
@@ -1502,7 +1502,7 @@
 							<name>Vow (Use only muscle-powered attacks)</name>
 							<type>Physical</type>
 							<base_points>-10</base_points>
-							<reference>B161, ACT3:8</reference>
+							<reference>B161,ACT3:8</reference>
 							<categories>
 								<category>Disadvantage</category>
 							</categories>
@@ -1521,7 +1521,7 @@
 						<name>Obsession</name>
 						<type>Physical</type>
 						<base_points>-5</base_points>
-						<reference>B146, ACT3:7</reference>
+						<reference>B146,ACT3:7</reference>
 						<notes>@Assassinate a particular target@</notes>
 						<categories>
 							<category>Disadvantage</category>
@@ -1554,7 +1554,7 @@
 							<affects>total</affects>
 							<reference>B152</reference>
 						</modifier>
-						<reference>B152, ACT3:8</reference>
+						<reference>B152,ACT3:8</reference>
 						<categories>
 							<category>Disadvantage</category>
 						</categories>
@@ -1644,7 +1644,7 @@
 						<name>Loner</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
-						<cr adj="reaction_penalty">12</cr>
+						<cr adj="reaction penalty">12</cr>
 						<reference>B142</reference>
 						<categories>
 							<category>Disadvantage</category>
@@ -1705,7 +1705,7 @@
 					<name>High-Heeled Heroine</name>
 					<type>Physical</type>
 					<base_points>1</base_points>
-					<reference>PU2:14, ACT3:15</reference>
+					<reference>PU2:14,ACT3:15</reference>
 					<categories>
 						<category>Perk</category>
 					</categories>
@@ -1714,7 +1714,7 @@
 					<name>High-Heeled Hurt</name>
 					<type>Physical</type>
 					<base_points>1</base_points>
-					<reference>PU2:7, ACT3:15</reference>
+					<reference>PU2:7,ACT3:15</reference>
 					<categories>
 						<category>Perk</category>
 					</categories>
@@ -1795,7 +1795,7 @@
 								<weapon_bonus>
 									<name compare="is">Brawling</name>
 									<specialization compare="is anything"></specialization>
-									<level compare="at_least">2</level>
+									<level compare="at least">2</level>
 									<amount per_level="yes">1</amount>
 								</weapon_bonus>
 							</skill>
@@ -2361,7 +2361,7 @@
 								<tech_level/>
 								<difficulty>IQ/E</difficulty>
 								<points>1</points>
-								<reference>Sup35</reference>
+								<reference>SU35</reference>
 								<categories>
 									<category>Everyman</category>
 									<category>Knowledge</category>
@@ -2620,7 +2620,7 @@
 							</categories>
 							<prereq_list all="yes">
 								<prereq_list all="yes">
-									<when_tl compare="at_least">8</when_tl>
+									<when_tl compare="at least">8</when_tl>
 									<skill_prereq has="yes">
 										<name compare="is">Computer Operation</name>
 										<specialization compare="is anything"></specialization>
@@ -6026,12 +6026,12 @@
 							<skill_prereq has="yes">
 								<name compare="is">stealth</name>
 								<specialization compare="is"></specialization>
-								<level compare="at_least">14</level>
+								<level compare="at least">14</level>
 							</skill_prereq>
 							<skill_prereq has="yes">
 								<name compare="is">acrobatics</name>
 								<specialization compare="is"></specialization>
-								<level compare="at_least">14</level>
+								<level compare="at least">14</level>
 							</skill_prereq>
 						</prereq_list>
 					</skill>
@@ -6157,7 +6157,7 @@
 						<name>Back Kick</name>
 						<difficulty>H</difficulty>
 						<points>2</points>
-						<reference>B230, MA67, ACT3:16</reference>
+						<reference>B230,MA67,ACT3:16</reference>
 						<default>
 							<type>Skill</type>
 							<name>Acrobatics</name>
@@ -6179,7 +6179,7 @@
 						<name>Back Kick</name>
 						<difficulty>H</difficulty>
 						<points>2</points>
-						<reference>B230, MA67</reference>
+						<reference>B230,MA67</reference>
 						<default>
 							<type>Skill</type>
 							<name>Karate</name>
@@ -6253,7 +6253,7 @@
 						<name>Disarming</name>
 						<difficulty>H</difficulty>
 						<points>2</points>
-						<reference>B230, MA70</reference>
+						<reference>B230,MA70</reference>
 						<default>
 							<type>Skill</type>
 							<name>@Unarmed or Melee Weapon Skill@</name>
@@ -6275,7 +6275,7 @@
 						<name>Dual-Weapon Attack</name>
 						<difficulty>H</difficulty>
 						<points>2</points>
-						<reference>B230, MA83</reference>
+						<reference>B230,MA83</reference>
 						<default>
 							<type>Skill</type>
 							<name>Broadsword</name>
@@ -6291,7 +6291,7 @@
 						<name>Dual-Weapon Attack</name>
 						<difficulty>H</difficulty>
 						<points>2</points>
-						<reference>B230, MA83</reference>
+						<reference>B230,MA83</reference>
 						<default>
 							<type>Skill</type>
 							<name>Knife</name>
@@ -6307,7 +6307,7 @@
 						<name>Dual-Weapon Attack</name>
 						<difficulty>H</difficulty>
 						<points>2</points>
-						<reference>B230, MA83</reference>
+						<reference>B230,MA83</reference>
 						<default>
 							<type>Skill</type>
 							<name>Shortsword</name>
@@ -6323,7 +6323,7 @@
 						<name>Elbow Strike</name>
 						<difficulty>A</difficulty>
 						<points>1</points>
-						<reference>B230, MA71</reference>
+						<reference>B230,MA71</reference>
 						<default>
 							<type>Skill</type>
 							<name>Karate</name>
@@ -6389,7 +6389,7 @@
 						<name>Feint</name>
 						<difficulty>H</difficulty>
 						<points>2</points>
-						<reference>B231, MA73</reference>
+						<reference>B231,MA73</reference>
 						<default>
 							<type>Skill</type>
 							<name>@Unarmed or Melee Weapon Skill@</name>
@@ -6411,7 +6411,7 @@
 						<name>Kicking</name>
 						<difficulty>H</difficulty>
 						<points>2</points>
-						<reference>B231, MA75, ACT3:17</reference>
+						<reference>B231,MA75,ACT3:17</reference>
 						<default>
 							<type>Skill</type>
 							<name>Acrobatics</name>
@@ -6433,7 +6433,7 @@
 						<name>Kicking</name>
 						<difficulty>H</difficulty>
 						<points>2</points>
-						<reference>B231, MA75</reference>
+						<reference>B231,MA75</reference>
 						<default>
 							<type>Skill</type>
 							<name>Karate</name>
@@ -6465,7 +6465,7 @@
 						<name>Neck Snap</name>
 						<difficulty>H</difficulty>
 						<points>2</points>
-						<reference>B232, MA77</reference>
+						<reference>B232,MA77</reference>
 						<default>
 							<type>ST</type>
 							<modifier>-4</modifier>
@@ -6500,7 +6500,7 @@
 						<name>Retain Weapon</name>
 						<difficulty>H</difficulty>
 						<points>2</points>
-						<reference>B232, MA78</reference>
+						<reference>B232,MA78</reference>
 						<default>
 							<type>Skill</type>
 							<name>@Melee Weapon Skill@</name>
@@ -6516,7 +6516,7 @@
 						<name>Roll with Blow</name>
 						<difficulty>H</difficulty>
 						<points>2</points>
-						<reference>MA87, ACT3:18</reference>
+						<reference>MA87,ACT3:18</reference>
 						<default>
 							<type>Skill</type>
 							<name>@Unarmed Combat Skill@</name>
@@ -6542,7 +6542,7 @@
 						<name>Roll with Blow</name>
 						<difficulty>H</difficulty>
 						<points>2</points>
-						<reference>MA87, ACT3:18</reference>
+						<reference>MA87,ACT3:18</reference>
 						<default>
 							<type>Skill</type>
 							<name>Acrobatics</name>
@@ -7155,13 +7155,13 @@
 					<weapon_bonus>
 						<name compare="is">Karate</name>
 						<specialization compare="is anything"></specialization>
-						<level compare="at_least">0</level>
+						<level compare="at least">0</level>
 						<amount per_level="yes">1</amount>
 					</weapon_bonus>
 					<weapon_bonus>
 						<name compare="is">Karate</name>
 						<specialization compare="is anything"></specialization>
-						<level compare="at_least">1</level>
+						<level compare="at least">1</level>
 						<amount per_level="yes">1</amount>
 					</weapon_bonus>
 				</skill>

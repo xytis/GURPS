@@ -807,7 +807,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>6</amount>
 		</dr_bonus>
 	</equipment>
@@ -847,7 +847,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>4</amount>
 		</dr_bonus>
 	</equipment>
@@ -1001,8 +1001,6 @@
 	<equipment version="3">
 		<quantity>1</quantity>
 		<description>Adult Human</description>
-		<tech_level>-</tech_level>
-		<legality_class>-</legality_class>
 		<value>100000</value>
 		<weight>150 lb</weight>
 		<reference>UT204</reference>
@@ -1375,7 +1373,6 @@
 		<quantity>1</quantity>
 		<description>Antirad</description>
 		<tech_level>9</tech_level>
-		<legality_class>-</legality_class>
 		<value>150</value>
 		<reference>UT205</reference>
 		<categories>
@@ -2035,14 +2032,14 @@
 			<category>Deception and Intrusion</category>
 		</categories>
 		<prereq_list all="yes">
-			<contained_weight_prereq has="yes" compare="at_most">20 lb</contained_weight_prereq>
+			<contained_weight_prereq has="yes" compare="at most">20 lb</contained_weight_prereq>
 		</prereq_list>
 		<equipment_container version="3" open="yes">
 			<description>hidden compartment</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
 			<prereq_list all="yes">
-				<contained_weight_prereq has="yes" compare="at_most">2 lb</contained_weight_prereq>
+				<contained_weight_prereq has="yes" compare="at most">2 lb</contained_weight_prereq>
 			</prereq_list>
 		</equipment_container>
 	</equipment_container>
@@ -2303,7 +2300,6 @@
 		<quantity>1</quantity>
 		<description>Beam-Adaptive Armor (@Beam type@)</description>
 		<tech_level>10</tech_level>
-		<legality_class>-</legality_class>
 		<value>1000</value>
 		<reference>UT189</reference>
 		<notes>Per pound of armor weight.</notes>
@@ -2315,7 +2311,6 @@
 		<quantity>1</quantity>
 		<description>Beam-Adaptive Armor (@Four beam types@)</description>
 		<tech_level>10</tech_level>
-		<legality_class>-</legality_class>
 		<value>16000</value>
 		<reference>UT189</reference>
 		<notes>Per pound of armor weight.</notes>
@@ -2327,7 +2322,6 @@
 		<quantity>1</quantity>
 		<description>Beam-Adaptive Armor (@Two beam types@)</description>
 		<tech_level>10</tech_level>
-		<legality_class>-</legality_class>
 		<value>4000</value>
 		<reference>UT189</reference>
 		<notes>Per pound of armor weight.</notes>
@@ -2455,7 +2449,6 @@
 	<equipment_container version="3" open="no">
 		<description>Bionic Arm Mount</description>
 		<tech_level>9</tech_level>
-		<legality_class>-</legality_class>
 		<value>100</value>
 		<reference>UT212</reference>
 		<notes>Cost per pound of weapon weight. LC of weapon. Minor procedure.</notes>
@@ -2499,7 +2492,6 @@
 	<equipment_container version="3" open="no">
 		<description>Bionic Hand Mount</description>
 		<tech_level>9</tech_level>
-		<legality_class>-</legality_class>
 		<value>100</value>
 		<reference>UT212</reference>
 		<notes>Cost per pound of weapon weight. LC of weapon. Minor procedure.</notes>
@@ -2643,7 +2635,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>5</amount>
 		</dr_bonus>
 	</equipment>
@@ -2968,7 +2960,6 @@
 		<quantity>1</quantity>
 		<description>Bomb Implant</description>
 		<tech_level>9</tech_level>
-		<legality_class>-</legality_class>
 		<value>0</value>
 		<reference>UT210</reference>
 		<notes>Use the cost and LC of a smart grenade. Simple procedure.</notes>
@@ -3025,7 +3016,6 @@
 	<equipment_container version="3" open="no">
 		<description>Brain Case</description>
 		<tech_level>10</tech_level>
-		<legality_class>-</legality_class>
 		<value>40000</value>
 		<reference>UT219</reference>
 		<notes>Major procedure.</notes>
@@ -3033,7 +3023,6 @@
 	<equipment_container version="3" open="no">
 		<description>Brain Case</description>
 		<tech_level>9</tech_level>
-		<legality_class>-</legality_class>
 		<value>40000</value>
 		<reference>UT219</reference>
 		<notes>Radical procedure.</notes>
@@ -3429,7 +3418,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>6</amount>
 		</dr_bonus>
 	</equipment>
@@ -3700,7 +3689,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>30</amount>
 		</dr_bonus>
 		<dr_bonus>
@@ -3721,7 +3710,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>45</amount>
 		</dr_bonus>
 		<dr_bonus>
@@ -3742,7 +3731,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>60</amount>
 		</dr_bonus>
 		<dr_bonus>
@@ -3763,7 +3752,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>90</amount>
 		</dr_bonus>
 		<dr_bonus>
@@ -3889,7 +3878,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>120</amount>
 		</dr_bonus>
 		<dr_bonus>
@@ -3897,11 +3886,11 @@
 			<amount>80</amount>
 		</dr_bonus>
 		<attribute_bonus>
-			<attribute limitation="lifting_only">st</attribute>
+			<attribute limitation="lifting only">st</attribute>
 			<amount>20</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="striking_only">st</attribute>
+			<attribute limitation="striking only">st</attribute>
 			<amount>20</amount>
 		</attribute_bonus>
 		<attribute_bonus>
@@ -3927,7 +3916,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>100</amount>
 		</dr_bonus>
 		<dr_bonus>
@@ -3939,11 +3928,11 @@
 			<amount>1</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="striking_only">st</attribute>
+			<attribute limitation="striking only">st</attribute>
 			<amount>18</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="lifting_only">st</attribute>
+			<attribute limitation="lifting only">st</attribute>
 			<amount>18</amount>
 		</attribute_bonus>
 		<attribute_bonus>
@@ -3969,7 +3958,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>75</amount>
 		</dr_bonus>
 		<dr_bonus>
@@ -3977,11 +3966,11 @@
 			<amount>30</amount>
 		</dr_bonus>
 		<attribute_bonus>
-			<attribute limitation="striking_only">st</attribute>
+			<attribute limitation="striking only">st</attribute>
 			<amount>15</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="lifting_only">st</attribute>
+			<attribute limitation="lifting only">st</attribute>
 			<amount>15</amount>
 		</attribute_bonus>
 	</equipment>
@@ -4907,7 +4896,7 @@
 			<category>Expedition Gear</category>
 		</categories>
 		<prereq_list all="yes">
-			<contained_weight_prereq has="yes" compare="at_most">1000 lb</contained_weight_prereq>
+			<contained_weight_prereq has="yes" compare="at most">1000 lb</contained_weight_prereq>
 		</prereq_list>
 	</equipment_container>
 	<equipment_container version="3" open="yes">
@@ -4922,7 +4911,7 @@
 			<category>Expedition Gear</category>
 		</categories>
 		<prereq_list all="yes">
-			<contained_weight_prereq has="yes" compare="at_most">1000 lb</contained_weight_prereq>
+			<contained_weight_prereq has="yes" compare="at most">1000 lb</contained_weight_prereq>
 		</prereq_list>
 	</equipment_container>
 	<equipment version="3">
@@ -5096,15 +5085,15 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>40</amount>
 		</dr_bonus>
 		<attribute_bonus>
-			<attribute limitation="lifting_only">st</attribute>
+			<attribute limitation="lifting only">st</attribute>
 			<amount>5</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="striking_only">st</attribute>
+			<attribute limitation="striking only">st</attribute>
 			<amount>5</amount>
 		</attribute_bonus>
 	</equipment>
@@ -5122,15 +5111,15 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>40</amount>
 		</dr_bonus>
 		<attribute_bonus>
-			<attribute limitation="striking_only">st</attribute>
+			<attribute limitation="striking only">st</attribute>
 			<amount>8</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="lifting_only">st</attribute>
+			<attribute limitation="lifting only">st</attribute>
 			<amount>8</amount>
 		</attribute_bonus>
 		<attribute_bonus>
@@ -5657,7 +5646,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>2</amount>
 		</dr_bonus>
 	</equipment>
@@ -6302,7 +6291,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>150</amount>
 		</dr_bonus>
 		<dr_bonus>
@@ -6314,11 +6303,11 @@
 			<amount>1</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="lifting_only">st</attribute>
+			<attribute limitation="lifting only">st</attribute>
 			<amount>30</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="striking_only">st</attribute>
+			<attribute limitation="striking only">st</attribute>
 			<amount>30</amount>
 		</attribute_bonus>
 		<attribute_bonus>
@@ -6946,7 +6935,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>2</amount>
 		</dr_bonus>
 	</equipment>
@@ -7750,7 +7739,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>30</amount>
 		</dr_bonus>
 	</equipment>
@@ -7808,7 +7797,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>50</amount>
 		</dr_bonus>
 	</equipment>
@@ -7826,7 +7815,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>50</amount>
 		</dr_bonus>
 	</equipment>
@@ -8016,7 +8005,7 @@
 	<equipment version="3">
 		<quantity>1</quantity>
 		<description>Exofield Belt</description>
-		<tech_level>112^</tech_level>
+		<tech_level>12^</tech_level>
 		<legality_class>3</legality_class>
 		<value>100000</value>
 		<weight>1 lb</weight>
@@ -8027,7 +8016,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>50</amount>
 		</dr_bonus>
 	</equipment>
@@ -8058,7 +8047,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>5</amount>
 		</dr_bonus>
 	</equipment>
@@ -9224,7 +9213,7 @@
 			<strength>18M</strength>
 			<accuracy>18</accuracy>
 			<range>2,900/8,700</range>
-			<rate_of_fire>1</rate_of_fire>
+			<rate_of_fire>4</rate_of_fire>
 			<shots>100(5)</shots>
 			<bulk>-8</bulk>
 			<recoil>1</recoil>
@@ -9627,8 +9616,8 @@
 		<description>Gauss Pistol, 4mm</description>
 		<tech_level>10</tech_level>
 		<legality_class>3</legality_class>
-		<value>800</value>
-		<weight>0.1 lb</weight>
+		<value>1700</value>
+		<weight>2 lb</weight>
 		<reference>UT142</reference>
 		<ranged_weapon>
 			<damage>3d(3) pi-</damage>
@@ -9901,7 +9890,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>5</amount>
 		</dr_bonus>
 	</equipment>
@@ -9996,7 +9985,7 @@
 			<strength>5&#8224;</strength>
 			<accuracy>12</accuracy>
 			<range>80/240 mi.</range>
-			<rate_of_fire>1</rate_of_fire>
+			<rate_of_fire>10</rate_of_fire>
 			<shots>28(5)</shots>
 			<bulk>-3</bulk>
 			<recoil>1</recoil>
@@ -10110,7 +10099,7 @@
 			<strength>7&#8224;</strength>
 			<accuracy>12</accuracy>
 			<range>120/360 mi.</range>
-			<rate_of_fire>1</rate_of_fire>
+			<rate_of_fire>10</rate_of_fire>
 			<shots>83(5)</shots>
 			<bulk>-4</bulk>
 			<recoil>1</recoil>
@@ -10770,7 +10759,7 @@
 		<weapon_bonus>
 			<name compare="is">Kicking</name>
 			<specialization compare="is anything"></specialization>
-			<level compare="at_least">0</level>
+			<level compare="at least">0</level>
 			<amount per_level="yes">1</amount>
 		</weapon_bonus>
 	</equipment>
@@ -11034,7 +11023,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>2</amount>
 		</dr_bonus>
 	</equipment>
@@ -11052,7 +11041,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>100</amount>
 		</dr_bonus>
 		<dr_bonus>
@@ -11064,11 +11053,11 @@
 			<amount>1</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="striking_only">st</attribute>
+			<attribute limitation="striking only">st</attribute>
 			<amount>20</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="lifting_only">st</attribute>
+			<attribute limitation="lifting only">st</attribute>
 			<amount>20</amount>
 		</attribute_bonus>
 		<attribute_bonus>
@@ -11379,11 +11368,11 @@
 			<category>Defenses</category>
 		</categories>
 		<attribute_bonus>
-			<attribute limitation="lifting_only">st</attribute>
+			<attribute limitation="lifting only">st</attribute>
 			<amount>12</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="striking_only">st</attribute>
+			<attribute limitation="striking only">st</attribute>
 			<amount>8</amount>
 		</attribute_bonus>
 	</equipment>
@@ -12344,7 +12333,6 @@
 	<equipment_container version="3" open="no">
 		<description>Heavy Weapon Arm</description>
 		<tech_level>9</tech_level>
-		<legality_class>-</legality_class>
 		<value>100</value>
 		<reference>UT212</reference>
 		<notes>Cost per pound of weapon weight. LC of weapon. Minor procedure.</notes>
@@ -12460,7 +12448,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>140</amount>
 		</dr_bonus>
 		<attribute_bonus>
@@ -12468,11 +12456,11 @@
 			<amount>1</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="lifting_only">st</attribute>
+			<attribute limitation="lifting only">st</attribute>
 			<amount>8</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="striking_only">st</attribute>
+			<attribute limitation="striking only">st</attribute>
 			<amount>4</amount>
 		</attribute_bonus>
 	</equipment>
@@ -13302,7 +13290,7 @@
 			<category>Expedition Gear</category>
 		</categories>
 		<prereq_list all="yes">
-			<contained_weight_prereq has="yes" compare="at_most">500 lb</contained_weight_prereq>
+			<contained_weight_prereq has="yes" compare="at most">500 lb</contained_weight_prereq>
 		</prereq_list>
 	</equipment_container>
 	<equipment_container version="3" open="yes">
@@ -13317,14 +13305,12 @@
 			<category>Expedition Gear</category>
 		</categories>
 		<prereq_list all="yes">
-			<contained_weight_prereq has="yes" compare="at_most">500 lb</contained_weight_prereq>
+			<contained_weight_prereq has="yes" compare="at most">500 lb</contained_weight_prereq>
 		</prereq_list>
 	</equipment_container>
 	<equipment version="3">
 		<quantity>1</quantity>
 		<description>Human Embryo</description>
-		<tech_level>-</tech_level>
-		<legality_class>-</legality_class>
 		<value>25000</value>
 		<weight>0.001 lb</weight>
 		<reference>UT204</reference>
@@ -16051,7 +16037,7 @@
 			<strength>5&#8224;</strength>
 			<accuracy>12</accuracy>
 			<range>500/1,500</range>
-			<rate_of_fire>1</rate_of_fire>
+			<rate_of_fire>10</rate_of_fire>
 			<shots>28(3)</shots>
 			<bulk>-3</bulk>
 			<recoil>1</recoil>
@@ -16247,7 +16233,7 @@
 			<strength>7&#8224;</strength>
 			<accuracy>12</accuracy>
 			<range>500/1,500</range>
-			<rate_of_fire>1</rate_of_fire>
+			<rate_of_fire>10</rate_of_fire>
 			<shots>83(5)</shots>
 			<bulk>-4</bulk>
 			<recoil>1</recoil>
@@ -16530,11 +16516,11 @@
 			<category>Defenses</category>
 		</categories>
 		<attribute_bonus>
-			<attribute limitation="lifting_only">st</attribute>
+			<attribute limitation="lifting only">st</attribute>
 			<amount>10</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="lifting_only">st</attribute>
+			<attribute limitation="lifting only">st</attribute>
 			<amount>6</amount>
 		</attribute_bonus>
 	</equipment>
@@ -16997,7 +16983,7 @@
 			<category>Defenses</category>
 		</categories>
 		<prereq_list all="yes">
-			<contained_weight_prereq has="yes" compare="at_most">70 lb</contained_weight_prereq>
+			<contained_weight_prereq has="yes" compare="at most">70 lb</contained_weight_prereq>
 		</prereq_list>
 	</equipment_container>
 	<equipment version="3">
@@ -17180,7 +17166,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>120</amount>
 		</dr_bonus>
 		<dr_bonus>
@@ -17188,11 +17174,11 @@
 			<amount>80</amount>
 		</dr_bonus>
 		<attribute_bonus>
-			<attribute limitation="lifting_only">st</attribute>
+			<attribute limitation="lifting only">st</attribute>
 			<amount>20</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="striking_only">st</attribute>
+			<attribute limitation="striking only">st</attribute>
 			<amount>20</amount>
 		</attribute_bonus>
 		<attribute_bonus>
@@ -18754,15 +18740,15 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>80</amount>
 		</dr_bonus>
 		<attribute_bonus>
-			<attribute limitation="lifting_only">st</attribute>
+			<attribute limitation="lifting only">st</attribute>
 			<amount>10</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="striking_only">st</attribute>
+			<attribute limitation="striking only">st</attribute>
 			<amount>10</amount>
 		</attribute_bonus>
 		<attribute_bonus>
@@ -19418,7 +19404,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>8</amount>
 		</dr_bonus>
 	</equipment>
@@ -19436,7 +19422,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>20</amount>
 		</dr_bonus>
 	</equipment>
@@ -19496,7 +19482,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>20</amount>
 		</dr_bonus>
 	</equipment>
@@ -19722,7 +19708,6 @@
 		<quantity>1</quantity>
 		<description>Morphwear</description>
 		<tech_level>10</tech_level>
-		<legality_class>-</legality_class>
 		<value>1000</value>
 		<reference>UT189</reference>
 		<notes>For biosuits and nanosuits.</notes>
@@ -19734,7 +19719,6 @@
 		<quantity>1</quantity>
 		<description>Morphwear</description>
 		<tech_level>10</tech_level>
-		<legality_class>-</legality_class>
 		<value>5000</value>
 		<reference>UT189</reference>
 		<notes>For smartsuits and cybersuits.</notes>
@@ -19970,15 +19954,15 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>100</amount>
 		</dr_bonus>
 		<attribute_bonus>
-			<attribute limitation="striking_only">st</attribute>
+			<attribute limitation="striking only">st</attribute>
 			<amount>10</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="lifting_only">st</attribute>
+			<attribute limitation="lifting only">st</attribute>
 			<amount>10</amount>
 		</attribute_bonus>
 	</equipment>
@@ -20092,7 +20076,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>6</amount>
 		</dr_bonus>
 	</equipment>
@@ -20110,7 +20094,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>15</amount>
 		</dr_bonus>
 	</equipment>
@@ -20170,7 +20154,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>15</amount>
 		</dr_bonus>
 	</equipment>
@@ -21810,7 +21794,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>60</amount>
 		</dr_bonus>
 	</equipment>
@@ -23345,7 +23329,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>50</amount>
 		</dr_bonus>
 		<dr_bonus>
@@ -23353,11 +23337,11 @@
 			<amount>20</amount>
 		</dr_bonus>
 		<attribute_bonus>
-			<attribute limitation="lifting_only">st</attribute>
+			<attribute limitation="lifting only">st</attribute>
 			<amount>10</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="striking_only">st</attribute>
+			<attribute limitation="striking only">st</attribute>
 			<amount>10</amount>
 		</attribute_bonus>
 		<attribute_bonus>
@@ -23610,7 +23594,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>2</amount>
 		</dr_bonus>
 	</equipment>
@@ -23618,7 +23602,6 @@
 		<quantity>1</quantity>
 		<description>Provisions Dispenser</description>
 		<tech_level>9</tech_level>
-		<legality_class>-</legality_class>
 		<value>50</value>
 		<weight>1 lb</weight>
 		<reference>UT187</reference>
@@ -24150,7 +24133,7 @@
 			<strength>5&#8224;</strength>
 			<accuracy>12</accuracy>
 			<range>1,500/4,500</range>
-			<rate_of_fire>1</rate_of_fire>
+			<rate_of_fire>10</rate_of_fire>
 			<shots>28(3)</shots>
 			<bulk>-3</bulk>
 			<recoil>1</recoil>
@@ -24307,7 +24290,7 @@
 			<strength>7&#8224;</strength>
 			<accuracy>12</accuracy>
 			<range>2,000/6,000</range>
-			<rate_of_fire>1</rate_of_fire>
+			<rate_of_fire>10</rate_of_fire>
 			<shots>83(5)</shots>
 			<bulk>-4</bulk>
 			<recoil>1</recoil>
@@ -24397,7 +24380,7 @@
 			<strength>6&#8224;</strength>
 			<accuracy>12</accuracy>
 			<range>900/2,700</range>
-			<rate_of_fire>1</rate_of_fire>
+			<rate_of_fire>6</rate_of_fire>
 			<shots>56(3)</shots>
 			<bulk>-3</bulk>
 			<recoil>1</recoil>
@@ -24469,11 +24452,11 @@
 			<category>Defenses</category>
 		</categories>
 		<attribute_bonus>
-			<attribute limitation="lifting_only">st</attribute>
+			<attribute limitation="lifting only">st</attribute>
 			<amount>12</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="striking_only">st</attribute>
+			<attribute limitation="striking only">st</attribute>
 			<amount>12</amount>
 		</attribute_bonus>
 	</equipment>
@@ -24709,7 +24692,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>4</amount>
 		</dr_bonus>
 	</equipment>
@@ -24727,7 +24710,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>10</amount>
 		</dr_bonus>
 	</equipment>
@@ -24787,7 +24770,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>10</amount>
 		</dr_bonus>
 	</equipment>
@@ -25313,7 +25296,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>100</amount>
 		</dr_bonus>
 		<dr_bonus>
@@ -25325,11 +25308,11 @@
 			<amount>1</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="striking_only">st</attribute>
+			<attribute limitation="striking only">st</attribute>
 			<amount>16</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="lifting_only">st</attribute>
+			<attribute limitation="lifting only">st</attribute>
 			<amount>16</amount>
 		</attribute_bonus>
 		<attribute_bonus>
@@ -25546,7 +25529,7 @@
 			<strength>18M</strength>
 			<accuracy>15</accuracy>
 			<range>2,800/8,400</range>
-			<rate_of_fire>1</rate_of_fire>
+			<rate_of_fire>3</rate_of_fire>
 			<shots>20(5)</shots>
 			<bulk>-10</bulk>
 			<recoil>1</recoil>
@@ -25893,7 +25876,7 @@
 			<strength>18M</strength>
 			<accuracy>18</accuracy>
 			<range>1,400/4,300</range>
-			<rate_of_fire>1</rate_of_fire>
+			<rate_of_fire>10</rate_of_fire>
 			<shots>100(5)</shots>
 			<bulk>-8</bulk>
 			<recoil>1</recoil>
@@ -26010,7 +25993,7 @@
 			<strength>18M</strength>
 			<accuracy>18</accuracy>
 			<range>160/480 mi.</range>
-			<rate_of_fire>1</rate_of_fire>
+			<rate_of_fire>10</rate_of_fire>
 			<shots>100(5)</shots>
 			<bulk>-8</bulk>
 			<recoil>1</recoil>
@@ -26316,14 +26299,14 @@
 			<category>Deception and Intrusion</category>
 		</categories>
 		<prereq_list all="yes">
-			<contained_weight_prereq has="yes" compare="at_most">10000 lb</contained_weight_prereq>
+			<contained_weight_prereq has="yes" compare="at most">10000 lb</contained_weight_prereq>
 		</prereq_list>
 		<equipment_container version="3" open="yes">
 			<description>hidden compartment</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
 			<prereq_list all="yes">
-				<contained_weight_prereq has="yes" compare="at_most">1000 lb</contained_weight_prereq>
+				<contained_weight_prereq has="yes" compare="at most">1000 lb</contained_weight_prereq>
 			</prereq_list>
 		</equipment_container>
 	</equipment_container>
@@ -26518,7 +26501,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>2</amount>
 		</dr_bonus>
 	</equipment>
@@ -27800,7 +27783,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>6</amount>
 		</dr_bonus>
 	</equipment>
@@ -28276,7 +28259,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>30</amount>
 		</dr_bonus>
 		<dr_bonus>
@@ -28297,7 +28280,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>45</amount>
 		</dr_bonus>
 		<dr_bonus>
@@ -28318,7 +28301,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>60</amount>
 		</dr_bonus>
 		<dr_bonus>
@@ -28339,7 +28322,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>90</amount>
 		</dr_bonus>
 		<dr_bonus>
@@ -28361,7 +28344,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>3</amount>
 		</dr_bonus>
 	</equipment>
@@ -28479,7 +28462,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>120</amount>
 		</dr_bonus>
 		<dr_bonus>
@@ -28487,11 +28470,11 @@
 			<amount>80</amount>
 		</dr_bonus>
 		<attribute_bonus>
-			<attribute limitation="lifting_only">st</attribute>
+			<attribute limitation="lifting only">st</attribute>
 			<amount>20</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="striking_only">st</attribute>
+			<attribute limitation="striking only">st</attribute>
 			<amount>20</amount>
 		</attribute_bonus>
 		<attribute_bonus>
@@ -28746,7 +28729,7 @@
 			<category>Defenses</category>
 		</categories>
 		<prereq_list all="yes">
-			<contained_weight_prereq has="yes" compare="at_most">40 lb</contained_weight_prereq>
+			<contained_weight_prereq has="yes" compare="at most">40 lb</contained_weight_prereq>
 		</prereq_list>
 	</equipment_container>
 	<equipment version="3">
@@ -29147,7 +29130,6 @@
 		<quantity>1</quantity>
 		<description>Suit Patches</description>
 		<tech_level>9</tech_level>
-		<legality_class>-</legality_class>
 		<value>10</value>
 		<weight>0.1 lb</weight>
 		<reference>UT188</reference>
@@ -29448,7 +29430,7 @@
 			<strength>6&#8224;</strength>
 			<accuracy>12</accuracy>
 			<range>300/900</range>
-			<rate_of_fire>1</rate_of_fire>
+			<rate_of_fire>6</rate_of_fire>
 			<shots>56(3)</shots>
 			<bulk>-3</bulk>
 			<recoil>1</recoil>
@@ -29769,7 +29751,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>150</amount>
 		</dr_bonus>
 	</equipment>
@@ -30413,7 +30395,6 @@
 		<quantity>1</quantity>
 		<description>Telepathic Barrier</description>
 		<tech_level>9^</tech_level>
-		<legality_class>-</legality_class>
 		<value>1000</value>
 		<weight>0.5 lb</weight>
 		<reference>UT188</reference>
@@ -31062,14 +31043,14 @@
 			<category>Deception and Intrusion</category>
 		</categories>
 		<prereq_list all="yes">
-			<contained_weight_prereq has="yes" compare="at_most">100 lb</contained_weight_prereq>
+			<contained_weight_prereq has="yes" compare="at most">100 lb</contained_weight_prereq>
 		</prereq_list>
 		<equipment_container version="3" open="yes">
 			<description>hidden compartment</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
 			<prereq_list all="yes">
-				<contained_weight_prereq has="yes" compare="at_most">10 lb</contained_weight_prereq>
+				<contained_weight_prereq has="yes" compare="at most">10 lb</contained_weight_prereq>
 			</prereq_list>
 		</equipment_container>
 	</equipment_container>
@@ -31097,14 +31078,14 @@
 			<category>Deception and Intrusion</category>
 		</categories>
 		<prereq_list all="yes">
-			<contained_weight_prereq has="yes" compare="at_most">400 lb</contained_weight_prereq>
+			<contained_weight_prereq has="yes" compare="at most">400 lb</contained_weight_prereq>
 		</prereq_list>
 		<equipment_container version="3" open="yes">
 			<description>hidden compartment</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
 			<prereq_list all="yes">
-				<contained_weight_prereq has="yes" compare="at_most">40 lb</contained_weight_prereq>
+				<contained_weight_prereq has="yes" compare="at most">40 lb</contained_weight_prereq>
 			</prereq_list>
 		</equipment_container>
 	</equipment_container>
@@ -31590,7 +31571,6 @@
 		<quantity>1</quantity>
 		<description>Utility Fog</description>
 		<tech_level>12</tech_level>
-		<legality_class>-</legality_class>
 		<value>10000</value>
 		<reference>UT71</reference>
 		<notes>Per square yard.</notes>
@@ -33072,7 +33052,7 @@
 		<description>Vortex Pistol</description>
 		<tech_level>9</tech_level>
 		<legality_class>4</legality_class>
-		<value>10</value>
+		<value>100</value>
 		<weight>1.8 lb</weight>
 		<reference>UT134</reference>
 		<ranged_weapon>
@@ -33349,15 +33329,15 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>300</amount>
 		</dr_bonus>
 		<attribute_bonus>
-			<attribute limitation="lifting_only">st</attribute>
+			<attribute limitation="lifting only">st</attribute>
 			<amount>40</amount>
 		</attribute_bonus>
 		<attribute_bonus>
-			<attribute limitation="striking_only">st</attribute>
+			<attribute limitation="striking only">st</attribute>
 			<amount>40</amount>
 		</attribute_bonus>
 		<attribute_bonus>
@@ -33369,7 +33349,6 @@
 		<quantity>1</quantity>
 		<description>Waste-Relief System</description>
 		<tech_level>9</tech_level>
-		<legality_class>-</legality_class>
 		<value>1000</value>
 		<weight>2 lb</weight>
 		<reference>UT187</reference>
@@ -33653,7 +33632,7 @@
 			<strength>5&#8224;</strength>
 			<accuracy>12</accuracy>
 			<range>27/83 mi.</range>
-			<rate_of_fire>1</rate_of_fire>
+			<rate_of_fire>10</rate_of_fire>
 			<shots>28(3)</shots>
 			<bulk>-3</bulk>
 			<recoil>1</recoil>
@@ -33767,7 +33746,7 @@
 			<strength>7&#8224;</strength>
 			<accuracy>12</accuracy>
 			<range>40/120 mi.</range>
-			<rate_of_fire>1</rate_of_fire>
+			<rate_of_fire>10</rate_of_fire>
 			<shots>83(5)</shots>
 			<bulk>-4</bulk>
 			<recoil>1</recoil>
@@ -33946,7 +33925,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>40</amount>
 		</dr_bonus>
 	</equipment>
@@ -33964,7 +33943,7 @@
 			<category>Defenses</category>
 		</categories>
 		<dr_bonus>
-			<location>full_body</location>
+			<location>full body</location>
 			<amount>40</amount>
 		</dr_bonus>
 	</equipment>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<advantage_list unique_id="hv8svifx:89hualj8idij" version="1">
+<advantage_list id="06c2fa74-7fb0-4214-b482-4490352503c7" version="1">
 	<advantage version="2">
 		<name>Bard Talent</name>
 		<type>Mental</type>
@@ -11,7 +11,7 @@
 			<category>Power</category>
 		</categories>
 		<spell_bonus>
-			<college_name compare="is">Communication and Empathy</college_name>
+			<college_name compare="is">Communication &amp; Empathy</college_name>
 			<amount per_level="yes">1</amount>
 		</spell_bonus>
 		<spell_bonus>
@@ -22,12 +22,12 @@
 			<skill_prereq has="yes">
 				<name compare="is">Musical Instrument</name>
 				<specialization compare="is anything"></specialization>
-				<level compare="at_least">14</level>
+				<level compare="at least">14</level>
 			</skill_prereq>
 			<skill_prereq has="yes">
 				<name compare="is">Singing</name>
 				<specialization compare="is anything"></specialization>
-				<level compare="at_least">14</level>
+				<level compare="at least">14</level>
 			</skill_prereq>
 		</prereq_list>
 	</advantage>
@@ -37,7 +37,7 @@
 			<name>Power Modifier</name>
 			<cost type="percentage">-10</cost>
 			<affects>total</affects>
-			<reference>PW27</reference>
+			<reference>P27</reference>
 			<notes>Magical</notes>
 		</modifier>
 		<modifier version="1">
@@ -66,12 +66,12 @@
 			<skill_prereq has="yes">
 				<name compare="is">Musical Instrument</name>
 				<specialization compare="is anything"></specialization>
-				<level compare="at_least">14</level>
+				<level compare="at least">14</level>
 			</skill_prereq>
 			<skill_prereq has="yes">
 				<name compare="is">Singing</name>
 				<specialization compare="is anything"></specialization>
-				<level compare="at_least">14</level>
+				<level compare="at least">14</level>
 			</skill_prereq>
 		</prereq_list>
 	</advantage>
@@ -97,7 +97,7 @@
 			<amount per_level="yes">-1</amount>
 		</spell_bonus>
 		<spell_bonus>
-			<college_name compare="is">Druidic</college_name>
+			<college_name compare="is">Druid</college_name>
 			<amount per_level="yes">-1</amount>
 		</spell_bonus>
 		<spell_bonus>
@@ -117,7 +117,7 @@
 			<name>Power Modifier</name>
 			<cost type="percentage">-10</cost>
 			<affects>total</affects>
-			<reference>PW26</reference>
+			<reference>P26</reference>
 			<notes>Chi</notes>
 		</modifier>
 		<reference>DF1:21</reference>
@@ -126,6 +126,61 @@
 			<category>Power</category>
 		</categories>
 	</advantage_container>
+	<advantage version="2">
+		<name>Deathliness</name>
+		<type>Mental, Supernatural</type>
+		<levels>1</levels>
+		<points_per_level>8</points_per_level>
+		<modifier version="1" enabled="no">
+			<name>Dance</name>
+			<cost type="percentage">-40</cost>
+			<affects>levels only</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Dark-Aspected</name>
+			<cost type="percentage">-50</cost>
+			<affects>levels only</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Day-Aspected</name>
+			<cost type="percentage">-40</cost>
+			<affects>levels only</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Musical</name>
+			<cost type="percentage">-50</cost>
+			<affects>levels only</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Night-Aspected</name>
+			<cost type="percentage">-40</cost>
+			<affects>levels only</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>One College</name>
+			<cost type="percentage">-40</cost>
+			<affects>levels only</affects>
+			<notes>@College@</notes>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Solitary</name>
+			<cost type="percentage">-40</cost>
+			<affects>levels only</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Song</name>
+			<cost type="percentage">-40</cost>
+			<affects>levels only</affects>
+		</modifier>
+		<reference>DF9:15</reference>
+		<categories>
+			<category>Advantage</category>
+		</categories>
+		<spell_bonus>
+			<college_name compare="is">Deathly</college_name>
+			<amount per_level="yes">1</amount>
+		</spell_bonus>
+	</advantage>
 	<advantage version="2">
 		<name>Disciplines of Faith (Chi Rituals)</name>
 		<type>Mental</type>
@@ -195,6 +250,16 @@
 		</categories>
 	</advantage_container>
 	<advantage version="2">
+		<name>Licensed Exorcist (Ghosts)</name>
+		<type>Social</type>
+		<base_points>1</base_points>
+		<reference>DF9:5</reference>
+		<categories>
+			<category>Advantage</category>
+			<category>Perk</category>
+		</categories>
+	</advantage>
+	<advantage version="2">
 		<name>Magery</name>
 		<type>Mental, Supernatural</type>
 		<levels>1</levels>
@@ -203,43 +268,43 @@
 		<modifier version="1" enabled="no">
 			<name>Dance</name>
 			<cost type="percentage">-40</cost>
-			<affects>levels_only</affects>
+			<affects>levels only</affects>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Dark-Aspected</name>
 			<cost type="percentage">-50</cost>
-			<affects>levels_only</affects>
+			<affects>levels only</affects>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Day-Aspected</name>
 			<cost type="percentage">-40</cost>
-			<affects>levels_only</affects>
+			<affects>levels only</affects>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Musical</name>
 			<cost type="percentage">-50</cost>
-			<affects>levels_only</affects>
+			<affects>levels only</affects>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Night-Aspected</name>
 			<cost type="percentage">-40</cost>
-			<affects>levels_only</affects>
+			<affects>levels only</affects>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>One College</name>
 			<cost type="percentage">-40</cost>
-			<affects>levels_only</affects>
+			<affects>levels only</affects>
 			<notes>@College@</notes>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Solitary</name>
 			<cost type="percentage">-40</cost>
-			<affects>levels_only</affects>
+			<affects>levels only</affects>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Song</name>
 			<cost type="percentage">-40</cost>
-			<affects>levels_only</affects>
+			<affects>levels only</affects>
 		</modifier>
 		<reference>B66</reference>
 		<categories>
@@ -258,7 +323,7 @@
 			<amount per_level="yes">-1</amount>
 		</spell_bonus>
 		<spell_bonus>
-			<college_name compare="is">Druidic</college_name>
+			<college_name compare="is">Druid</college_name>
 			<amount per_level="yes">-1</amount>
 		</spell_bonus>
 		<spell_bonus>
@@ -276,7 +341,7 @@
 			<category>Advantage</category>
 		</categories>
 		<spell_bonus>
-			<college_name compare="is">druidic</college_name>
+			<college_name compare="is">Druid</college_name>
 			<amount>1</amount>
 		</spell_bonus>
 	</advantage>
@@ -331,7 +396,7 @@
 			<name>Power Modifier</name>
 			<cost type="percentage">-10</cost>
 			<affects>total</affects>
-			<reference>PW28</reference>
+			<reference>P28</reference>
 			<notes>Psionic</notes>
 		</modifier>
 		<reference>DF3:40</reference>
@@ -391,11 +456,31 @@
 		</categories>
 	</advantage>
 	<advantage version="2">
+		<name>Spirit Badge</name>
+		<type>Mental, Supernatural</type>
+		<base_points>1</base_points>
+		<reference>DF9:5</reference>
+		<categories>
+			<category>Advantage</category>
+			<category>Perk</category>
+		</categories>
+	</advantage>
+	<advantage version="2">
+		<name>Spirit Weapon</name>
+		<type>Supernatural</type>
+		<base_points>1</base_points>
+		<reference>DF9:5</reference>
+		<categories>
+			<category>Advantage</category>
+			<category>Perk</category>
+		</categories>
+	</advantage>
+	<advantage version="2">
 		<name>Talent (Born War Leader)</name>
 		<type>Physical</type>
 		<levels>1</levels>
 		<points_per_level>5</points_per_level>
-		<reference>DF1:14</reference>
+		<reference>DF1:14,PU3:12</reference>
 		<categories>
 			<category>Advantage</category>
 		</categories>
@@ -421,7 +506,7 @@
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">savoir-faire</name>
-			<specialization compare="is anything">military</specialization>
+			<specialization compare="is">military</specialization>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
@@ -433,9 +518,9 @@
 		<modifier version="1" enabled="no">
 			<name>Alternative Cost</name>
 			<cost type="points">5</cost>
-			<affects>levels_only</affects>
+			<affects>levels only</affects>
 		</modifier>
-		<reference>DF1,PU3:7</reference>
+		<reference>DF1:22,PU3:7</reference>
 		<categories>
 			<category>Advantage</category>
 			<category>Talent</category>
@@ -561,9 +646,9 @@
 		<modifier version="1" enabled="no">
 			<name>Alternative Cost</name>
 			<cost type="points">1</cost>
-			<affects>levels_only</affects>
+			<affects>levels only</affects>
 		</modifier>
-		<reference>DF11,PU3:8</reference>
+		<reference>DF11:22,PU3:8</reference>
 		<categories>
 			<category>Advantage</category>
 			<category>Talent</category>
@@ -613,9 +698,9 @@
 		<modifier version="1" enabled="no">
 			<name>Alternative Cost</name>
 			<cost type="points">1</cost>
-			<affects>levels_only</affects>
+			<affects>levels only</affects>
 		</modifier>
-		<reference>DF11,PU3:8</reference>
+		<reference>DF11:24,PU3:8</reference>
 		<categories>
 			<category>Advantage</category>
 			<category>Talent</category>
@@ -668,7 +753,7 @@
 			<affects>total</affects>
 			<notes>IQ-4+Level to notice disturbances in nature</notes>
 		</modifier>
-		<reference>DF11,PU3:8</reference>
+		<reference>DF11:25,PU3:8</reference>
 		<categories>
 			<category>Advantage</category>
 			<category>Talent</category>
@@ -729,9 +814,9 @@
 		<modifier version="1" enabled="no">
 			<name>Alternative Cost</name>
 			<cost type="points">1</cost>
-			<affects>levels_only</affects>
+			<affects>levels only</affects>
 		</modifier>
-		<reference>DF3,PU3:10</reference>
+		<reference>DF4:4,PU3:10</reference>
 		<categories>
 			<category>Advantage</category>
 			<category>Talent</category>
@@ -778,7 +863,7 @@
 			<affects>total</affects>
 			<notes>Elder Things</notes>
 		</modifier>
-		<reference>DF3,PU3:6</reference>
+		<reference>DF3:6,PU3:6</reference>
 		<categories>
 			<category>Advantage</category>
 			<category>Talent</category>
@@ -821,7 +906,7 @@
 			<affects>total</affects>
 			<notes>Bonus to notice intruders, etc in woodland where you've lived from 6-level months.</notes>
 		</modifier>
-		<reference>DF3,PU3:10</reference>
+		<reference>DF3:7,PU3:10</reference>
 		<categories>
 			<category>Advantage</category>
 			<category>Talent</category>
@@ -863,7 +948,7 @@
 		<type>Mental, Exotic</type>
 		<levels>1</levels>
 		<points_per_level>10</points_per_level>
-		<reference>DF11,PU3:11</reference>
+		<reference>DF11:28,PU3:11</reference>
 		<notes>Bonus to all defaults from attributes</notes>
 		<categories>
 			<category>Advantage</category>
@@ -881,7 +966,7 @@
 			<affects>total</affects>
 			<notes>Bonus to intimidate when victim at your mercy and you are threatening with a covered weapon</notes>
 		</modifier>
-		<reference>DF11,PU3:13</reference>
+		<reference>DF11:19,PU3:13</reference>
 		<notes>Covers Forced-Entry, but only when used with a swung Two Handed weapon.</notes>
 		<categories>
 			<category>Advantage</category>
@@ -926,10 +1011,10 @@
 		<modifier version="1" enabled="no">
 			<name>Power Talent</name>
 			<cost type="points">5</cost>
-			<affects>levels_only</affects>
-			<reference>DF12</reference>
+			<affects>levels only</affects>
+			<reference>DF12:4</reference>
 		</modifier>
-		<reference>DF12,PU3:7</reference>
+		<reference>DF12:4,PU3:7</reference>
 		<categories>
 			<category>Advantage</category>
 			<category>Talent</category>
@@ -980,9 +1065,9 @@
 		<modifier version="1" enabled="no">
 			<name>Alternative Cost</name>
 			<cost type="points">0</cost>
-			<affects>levels_only</affects>
+			<affects>levels only</affects>
 		</modifier>
-		<reference>DF3,PU3:14</reference>
+		<reference>DF3:6,PU3:14</reference>
 		<categories>
 			<category>Advantage</category>
 			<category>Talent</category>
@@ -1039,9 +1124,9 @@
 		<modifier version="1" enabled="no">
 			<name>Alternative Cost</name>
 			<cost type="points">1</cost>
-			<affects>levels_only</affects>
+			<affects>levels only</affects>
 		</modifier>
-		<reference>DF14,PU3:15</reference>
+		<reference>DF14:21,PU3:15</reference>
 		<categories>
 			<category>Advantage</category>
 			<category>Talent</category>
@@ -1102,9 +1187,9 @@
 		<modifier version="1" enabled="no">
 			<name>Alternative Cost</name>
 			<cost type="points">-1</cost>
-			<affects>levels_only</affects>
+			<affects>levels only</affects>
 		</modifier>
-		<reference>DF11,PU3:14</reference>
+		<reference>DF11:19,PU3:14</reference>
 		<categories>
 			<category>Advantage</category>
 			<category>Talent</category>
@@ -1184,9 +1269,9 @@
 		<modifier version="1" enabled="no">
 			<name>Alternative Cost</name>
 			<cost type="points">1</cost>
-			<affects>levels_only</affects>
+			<affects>levels only</affects>
 		</modifier>
-		<reference>DF11,PU3:15</reference>
+		<reference>DF11:34,PU3:15</reference>
 		<categories>
 			<category>Advantage</category>
 			<category>Talent</category>
@@ -1238,7 +1323,7 @@
 			<affects>total</affects>
 			<notes>Bonus to Per to notice people sneaking within arms reach of you</notes>
 		</modifier>
-		<reference>DFM1,PU3:15</reference>
+		<reference>DFM1:30,PU3:15</reference>
 		<categories>
 			<category>Advantage</category>
 			<category>Talent</category>
@@ -1300,9 +1385,9 @@
 		<modifier version="1" enabled="no">
 			<name>Alternative Cost</name>
 			<cost type="points">1</cost>
-			<affects>levels_only</affects>
+			<affects>levels only</affects>
 		</modifier>
-		<reference>DF11,PU3:16</reference>
+		<reference>DF11:35,PU3:16</reference>
 		<categories>
 			<category>Advantage</category>
 			<category>Talent</category>
@@ -1361,7 +1446,7 @@
 			<affects>total</affects>
 			<notes>Success at an appropriate covered skill lets you scround equipment for another skill and eliminates level of the penalty for improvised equipment. Shift rolls by level to avoid harm from tampering with mundane mechanisms.</notes>
 		</modifier>
-		<reference>DF3,PU3:16</reference>
+		<reference>DF3:10,PU3:16</reference>
 		<categories>
 			<category>Advantage</category>
 			<category>Talent</category>
@@ -1422,4 +1507,15 @@
 			<category>Advantage</category>
 		</categories>
 	</advantage_container>
+	<advantage version="2">
+		<name>Weapon Bond</name>
+		<type>Physical</type>
+		<base_points>1</base_points>
+		<reference>DF1:14</reference>
+		<notes>+1 to effective skill when using @a specific weapon@</notes>
+		<categories>
+			<category>Advantage</category>
+			<category>Perk</category>
+		</categories>
+	</advantage>
 </advantage_list>

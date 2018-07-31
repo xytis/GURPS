@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character unique_id="hrg3qxr3:1jh2kfpt324ij" version="2">
+<character id="2430af82-8405-4b5d-aa7f-c2ae6ca4a452" version="3">
 	<created_date>Feb 9, 2014</created_date>
-	<modified_date>Feb 16, 2014 10:45 PM</modified_date>
+	<modified_date>Mar 18, 2018 1:26 PM</modified_date>
 	<profile>
 		<name>Timber Wolf</name>
 		<age>0</age>
 		<weight>120 lb</weight>
 		<SM>0</SM>
 		<race>Wolf</race>
-		<notes>Timber Wolf (B458)
-These wild carnivores hunt in packs.  They can be domesticated, more or less, but never like a dog.</notes>
+		<body_type>quadruped</body_type>
 	</profile>
 	<HP>0</HP>
 	<FP>0</FP>
-	<total_points>100</total_points>
+	<total_points>5</total_points>
 	<ST>10</ST>
 	<DX>12</DX>
 	<IQ>4</IQ>
@@ -26,27 +25,6 @@ These wild carnivores hunt in packs.  They can be domesticated, more or less, bu
 	<include_kick>true</include_kick>
 	<include_kick_with_boots>true</include_kick_with_boots>
 	<advantage_list>
-		<advantage version="2">
-			<name>Discriminatory Smell</name>
-			<type>Physical, Exotic</type>
-			<base_points>15</base_points>
-			<modifier version="1" enabled="no">
-				<name>Emotion Sense</name>
-				<cost type="percentage">50</cost>
-				<affects>total</affects>
-				<reference>B49</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Profiling</name>
-				<cost type="percentage">50</cost>
-				<affects>total</affects>
-				<reference>P47</reference>
-			</modifier>
-			<reference>B49</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
 		<advantage version="2">
 			<name>Damage Resistance</name>
 			<type>Physical, Exotic</type>
@@ -165,10 +143,80 @@ These wild carnivores hunt in packs.  They can be domesticated, more or less, bu
 				<category>Mech</category>
 			</categories>
 			<dr_bonus>
-				<location>full_body</location>
+				<location>full body</location>
 				<amount per_level="yes">1</amount>
 			</dr_bonus>
 		</advantage>
+		<advantage version="2">
+			<name>Discriminatory Smell</name>
+			<type>Physical, Exotic</type>
+			<base_points>15</base_points>
+			<modifier version="1" enabled="no">
+				<name>Emotion Sense</name>
+				<cost type="percentage">50</cost>
+				<affects>total</affects>
+				<reference>B49</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Profiling</name>
+				<cost type="percentage">50</cost>
+				<affects>total</affects>
+				<reference>P47</reference>
+			</modifier>
+			<reference>B49</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage_container version="2" open="yes" type="meta trait">
+			<name>Meta-Trait: Quadruped</name>
+			<reference>B263</reference>
+			<advantage version="2">
+				<name>Extra Legs (4 legs)</name>
+				<type>Physical, Exotic</type>
+				<base_points>5</base_points>
+				<reference>B54</reference>
+			</advantage>
+			<advantage version="2">
+				<name>Horizontal</name>
+				<type>Physical, Exotic</type>
+				<base_points>-10</base_points>
+				<reference>B139</reference>
+			</advantage>
+			<advantage version="2">
+				<name>No Fine Manipulators</name>
+				<type>Physical</type>
+				<base_points>-30</base_points>
+				<reference>B145</reference>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="2" open="yes" type="meta trait">
+			<name>Meta-Trait: Wild Animal</name>
+			<reference>B263</reference>
+			<advantage version="2">
+				<name>Bestial</name>
+				<type>Mental, Exotic</type>
+				<base_points>-10</base_points>
+				<reference>B124</reference>
+			</advantage>
+			<advantage version="2">
+				<name>Cannot Speak</name>
+				<type>Physical</type>
+				<base_points>-15</base_points>
+				<reference>B125</reference>
+			</advantage>
+			<advantage version="2">
+				<name>Hidebound</name>
+				<type>Physical</type>
+				<base_points>-5</base_points>
+				<reference>B138</reference>
+			</advantage>
+			<advantage version="2">
+				<name>Taboo Trait (Fixed IQ)</name>
+				<type>Physical</type>
+				<reference>B263</reference>
+			</advantage>
+		</advantage_container>
 		<advantage version="2">
 			<name>Night Vision</name>
 			<type>Physical</type>
@@ -178,16 +226,6 @@ These wild carnivores hunt in packs.  They can be domesticated, more or less, bu
 			<categories>
 				<category>Advantage</category>
 				<category>Animal</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Horizontal</name>
-			<type>Physical, Exotic</type>
-			<base_points>-10</base_points>
-			<reference>B139</reference>
-			<categories>
-				<category>Animal</category>
-				<category>Disadvantage</category>
 			</categories>
 		</advantage>
 		<advantage version="2">
@@ -226,33 +264,6 @@ These wild carnivores hunt in packs.  They can be domesticated, more or less, bu
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage_container version="2" open="yes" type="metatrait">
-			<name>Meta-Trait: Wild Animal</name>
-			<reference>B263</reference>
-			<advantage version="2">
-				<name>Bestial</name>
-				<type>Mental, Exotic</type>
-				<base_points>-10</base_points>
-				<reference>B124</reference>
-			</advantage>
-			<advantage version="2">
-				<name>Cannot Speak</name>
-				<type>Physical</type>
-				<base_points>-15</base_points>
-				<reference>B125</reference>
-			</advantage>
-			<advantage version="2">
-				<name>Hidebound</name>
-				<type>Physical</type>
-				<base_points>-5</base_points>
-				<reference>B138</reference>
-			</advantage>
-			<advantage version="2">
-				<name>Taboo Trait (Fixed IQ)</name>
-				<type>Physical</type>
-				<reference>B263</reference>
-			</advantage>
-		</advantage_container>
 	</advantage_list>
 	<skill_list>
 		<skill version="2">
@@ -267,7 +278,7 @@ These wild carnivores hunt in packs.  They can be domesticated, more or less, bu
 			<weapon_bonus>
 				<name compare="is">Brawling</name>
 				<specialization compare="is anything"></specialization>
-				<level compare="at_least">2</level>
+				<level compare="at least">2</level>
 				<amount per_level="yes">1</amount>
 			</weapon_bonus>
 		</skill>
@@ -290,16 +301,22 @@ These wild carnivores hunt in packs.  They can be domesticated, more or less, bu
 			</default>
 		</skill>
 	</skill_list>
-	<print_settings printer="Canon MP980 series Printer" units="in">
-		<orientation>Portrait</orientation>
+	<note_list>
+		<note version="1">
+			<text>Timber Wolf (B458)
+These wild carnivores hunt in packs.  They can be domesticated, more or less, but never like a dog.</text>
+		</note>
+	</note_list>
+	<print_settings printer="HP Color LaserJet M452dw (4EB237)" units="in">
+		<orientation>portrait</orientation>
 		<width>8.267716407775879</width>
 		<height>11.692913055419922</height>
 		<top_margin>0.5</top_margin>
 		<left_margin>0.5</left_margin>
 		<bottom_margin>0.5</bottom_margin>
 		<right_margin>0.5</right_margin>
-		<ink_chromaticity>Monochrome</ink_chromaticity>
-		<sides>Duplex</sides>
-		<quality>Normal</quality>
+		<ink_chromaticity>monochrome</ink_chromaticity>
+		<sides>duplex</sides>
+		<quality>normal</quality>
 	</print_settings>
 </character>
