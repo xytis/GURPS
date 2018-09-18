@@ -1,0 +1,1566 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<character id="f39ef337-504f-4620-baed-bb8ce0036d0c" version="3">
+	<created_date>Sep 16, 2018</created_date>
+	<modified_date>Sep 18, 2018, 8:36 PM</modified_date>
+	<profile>
+		<name>Lars Von Trier</name>
+		<title>Lord</title>
+		<age>30</age>
+		<birthday>October 11</birthday>
+		<eyes>Blue</eyes>
+		<hair>Black, Straight, Medium</hair>
+		<skin>Brown</skin>
+		<handedness>Left</handedness>
+		<height>1.74 m</height>
+		<weight>66 kg</weight>
+		<SM>0</SM>
+		<gender>Male</gender>
+		<race>Human</race>
+		<body_type>humanoid</body_type>
+		<tech_level>3</tech_level>
+	</profile>
+	<HP>0</HP>
+	<FP>8</FP>
+	<total_points>175</total_points>
+	<ST>9</ST>
+	<DX>11</DX>
+	<IQ>13</IQ>
+	<HT>10</HT>
+	<will>0</will>
+	<perception>0</perception>
+	<speed>0</speed>
+	<move>0</move>
+	<include_punch>true</include_punch>
+	<include_kick>true</include_kick>
+	<include_kick_with_boots>true</include_kick_with_boots>
+	<advantage_list>
+		<advantage version="2">
+			<name>Magery</name>
+			<type>Mental, Supernatural</type>
+			<levels>3</levels>
+			<base_points>5</base_points>
+			<points_per_level>10</points_per_level>
+			<modifier version="1" enabled="no">
+				<name>Dance</name>
+				<cost type="percentage">-40</cost>
+				<affects>levels only</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Dark-Aspected</name>
+				<cost type="percentage">-50</cost>
+				<affects>levels only</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Day-Aspected</name>
+				<cost type="percentage">-40</cost>
+				<affects>levels only</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Musical</name>
+				<cost type="percentage">-50</cost>
+				<affects>levels only</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Night-Aspected</name>
+				<cost type="percentage">-40</cost>
+				<affects>levels only</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>One College</name>
+				<cost type="percentage">-40</cost>
+				<affects>levels only</affects>
+				<notes>@College@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Solitary</name>
+				<cost type="percentage">-40</cost>
+				<affects>levels only</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Song</name>
+				<cost type="percentage">-40</cost>
+				<affects>levels only</affects>
+			</modifier>
+			<reference>B66</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<spell_bonus all_colleges="yes">
+				<amount per_level="yes">1</amount>
+			</spell_bonus>
+			<skill_bonus>
+				<name compare="is">thaumatology</name>
+				<specialization compare="is anything"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Wealth</name>
+			<type>Social</type>
+			<modifier version="1" enabled="no">
+				<name>Dead Broke</name>
+				<cost type="points">-25</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+				<notes>Starting wealth is $0</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Poor</name>
+				<cost type="points">-15</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+				<notes>Starting wealth is 1/5 average</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Struggling</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+				<notes>Starting wealth is 1/2 average</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Average</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Comfortable</name>
+				<cost type="points">10</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+				<notes>Starting wealth is 2x average</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Wealthy</name>
+				<cost type="points">20</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+				<notes>Starting wealth is 5x average</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Very Wealthy</name>
+				<cost type="points">30</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+				<notes>Starting wealth is 20x average</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Filthy Rich</name>
+				<cost type="points">50</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+				<notes>Starting wealth is 100x average</notes>
+			</modifier>
+			<reference>B25</reference>
+			<categories>
+				<category>Advantage</category>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Appearance</name>
+			<type>Physical</type>
+			<modifier version="1" enabled="no">
+				<name>Universal</name>
+				<cost type="percentage">25</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Off-the-Shelf Looks</name>
+				<cost type="percentage">-50</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Androgynous</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Impressive</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1">
+				<name>Attractive</name>
+				<cost type="points">4</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Average</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Horrific</name>
+				<cost type="points">-24</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Monstrous</name>
+				<cost type="points">-20</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Hideous</name>
+				<cost type="points">-16</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Ugly</name>
+				<cost type="points">-8</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Unattractive</name>
+				<cost type="points">-4</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Handsome</name>
+				<cost type="points">12</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Beautiful</name>
+				<cost type="points">12</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Very Handsome</name>
+				<cost type="points">16</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Very Beautiful</name>
+				<cost type="points">16</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Transcendent</name>
+				<cost type="points">20</cost>
+				<affects>total</affects>
+			</modifier>
+			<reference>B21</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Status</name>
+			<type>Social</type>
+			<levels>2</levels>
+			<points_per_level>5</points_per_level>
+			<reference>B28</reference>
+			<notes>Nobility</notes>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2" round_down="yes">
+			<name>Reputation</name>
+			<type>Social</type>
+			<levels>2</levels>
+			<points_per_level>5</points_per_level>
+			<modifier version="1" enabled="no">
+				<name>People Affected</name>
+				<cost type="multiplier">1</cost>
+				<reference>B27</reference>
+				<notes>Almost everyone</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>People Affected</name>
+				<cost type="multiplier">0.67</cost>
+				<reference>B27</reference>
+				<notes>Almost everyone except @large class of people@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>People Affected</name>
+				<cost type="multiplier">0.5</cost>
+				<reference>B27</reference>
+				<notes>@Large class of people@</notes>
+			</modifier>
+			<modifier version="1">
+				<name>People Affected</name>
+				<cost type="multiplier">0.33</cost>
+				<reference>B27</reference>
+				<notes>Elite</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Recognized all the time</name>
+				<cost type="multiplier">1</cost>
+				<reference>B28</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Recognized sometimes</name>
+				<cost type="multiplier">0.5</cost>
+				<reference>B28</reference>
+				<notes>10-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Recognized occasionally</name>
+				<cost type="multiplier">0.33</cost>
+				<reference>B28</reference>
+				<notes>7-</notes>
+			</modifier>
+			<reference>B26</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Addiction (Tobacco)</name>
+			<type>Mental/Physical</type>
+			<modifier version="1">
+				<name>Cost: Cheap</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B122</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Cost: Expensive</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B122</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Cost: Very Expensive</name>
+				<cost type="points">-20</cost>
+				<affects>total</affects>
+				<reference>B122</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Effects: Hallucinogenic</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B122</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Effects: Highly Addictive (-5 on withdrawal roll)</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B122</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Effects: Incapacitating</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B122</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Effects: Totally Addictive (-10 on withdrawal roll)</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B122</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Illegal</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+				<reference>B122</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Legal</name>
+				<cost type="points">5</cost>
+				<affects>total</affects>
+				<reference>B122</reference>
+			</modifier>
+			<reference>B122</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Lecherousness</name>
+			<type>Mental</type>
+			<base_points>-15</base_points>
+			<cr>12</cr>
+			<reference>B142</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Alcoholism</name>
+			<type>Physical</type>
+			<base_points>-15</base_points>
+			<modifier version="1" enabled="no">
+				<name>Illegal</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B122</reference>
+			</modifier>
+			<reference>B122</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Pacifism: Reluctant Killer</name>
+			<type>Mental</type>
+			<base_points>-5</base_points>
+			<modifier version="1" enabled="no">
+				<name>Species-Specific</name>
+				<cost type="percentage">-80</cost>
+				<affects>total</affects>
+				<reference>UT32</reference>
+			</modifier>
+			<reference>B148</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Hemophobia (Blood)</name>
+			<type>Mental</type>
+			<base_points>-10</base_points>
+			<cr>12</cr>
+			<reference>B149</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Proud</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+	</advantage_list>
+	<skill_list>
+		<skill version="2">
+			<name>Acrobatics</name>
+			<difficulty>DX/H</difficulty>
+			<points>1</points>
+			<reference>B174</reference>
+			<categories>
+				<category>Athletic</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Aerobatics</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Aquabatics</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Climbing</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B183</reference>
+			<categories>
+				<category>Athletic</category>
+				<category>Criminal/Street</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Disguise</name>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B187</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Makeup</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Holdout</name>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B200</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Sleight of Hand</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Stealth</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>8</points>
+			<reference>B222</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Lockpicking</name>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B206</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
+				<category>Technical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Knife</name>
+			<difficulty>DX/E</difficulty>
+			<points>2</points>
+			<reference>B208</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Rapier</name>
+			<difficulty>DX/A</difficulty>
+			<points>4</points>
+			<reference>B208</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Broadsword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Saber</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Smallsword</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Savoir-Faire</name>
+			<specialization>High Society</specialization>
+			<difficulty>IQ/E</difficulty>
+			<points>2</points>
+			<reference>B218</reference>
+			<categories>
+				<category>Business</category>
+				<category>Knowledge</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Savoir-Faire</name>
+				<specialization>Servant</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Current Affairs</name>
+			<specialization>High Culture</specialization>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B186</reference>
+			<categories>
+				<category>Arts/Entertainment</category>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Research</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Current Affairs</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Current Affairs</name>
+			<specialization>Science &amp; Technology</specialization>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>2</points>
+			<reference>B186</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Research</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Current Affairs</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Streetwise</name>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B223</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Mount</name>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B210</reference>
+			<categories>
+				<category>Animal</category>
+				<category>Athletic</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+	</skill_list>
+	<spell_list>
+		<spell version="2">
+			<name>Lend Energy</name>
+			<college>Healing</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>1/pt</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Permanent</duration>
+			<reference>M89</reference>
+			<categories>
+				<category>Healing</category>
+			</categories>
+			<prereq_list all="no">
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="contains">one college (healing)</notes>
+						<level compare="at least">1</level>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="does not contain">one college</notes>
+						<level compare="at least">1</level>
+					</advantage_prereq>
+				</prereq_list>
+				<advantage_prereq has="yes">
+					<name compare="is">empathy</name>
+					<notes compare="is anything"></notes>
+				</advantage_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Recover Energy</name>
+			<college>Healing</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Special</spell_class>
+			<casting_cost>0</casting_cost>
+			<maintenance_cost>0</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Special</duration>
+			<points>2</points>
+			<reference>M89</reference>
+			<categories>
+				<category>Healing</category>
+			</categories>
+			<prereq_list all="yes">
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="contains">one college (healing)</notes>
+						<level compare="at least">1</level>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="does not contain">one college</notes>
+						<level compare="at least">1</level>
+					</advantage_prereq>
+				</prereq_list>
+				<spell_prereq has="yes">
+					<name compare="is">lend energy</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Detect Magic</name>
+			<college>Knowledge</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>2</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>5 sec</casting_time>
+			<duration>Instant</duration>
+			<reference>M101</reference>
+			<categories>
+				<category>Knowledge</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">magery</name>
+					<notes compare="contains">one college (knowledge)</notes>
+					<level compare="at least">1</level>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">magery</name>
+					<notes compare="is anything"></notes>
+					<level compare="at least">1</level>
+				</advantage_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Identify Spell</name>
+			<college>Knowledge</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Info</spell_class>
+			<casting_cost>2</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Instant</duration>
+			<reference>M102</reference>
+			<categories>
+				<category>Knowledge</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">detect magic</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Mage Sight</name>
+			<college>Knowledge</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>3</casting_cost>
+			<maintenance_cost>2</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M102</reference>
+			<categories>
+				<category>Knowledge</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">detect magic</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Blur</name>
+			<college>Light &amp; Darkness</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>1-5</casting_cost>
+			<maintenance_cost>Same</maintenance_cost>
+			<casting_time>2 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M113</reference>
+			<categories>
+				<category>Light</category>
+			</categories>
+			<prereq_list all="no">
+				<spell_prereq has="yes">
+					<name compare="is">darkness</name>
+				</spell_prereq>
+				<spell_prereq has="yes">
+					<name compare="is">gloom</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Continual Light</name>
+			<college>Light &amp; Darkness</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>2 moon, 4 torch, 6 day</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>2d days</duration>
+			<reference>M110</reference>
+			<categories>
+				<category>Light</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">light</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Darkness</name>
+			<college>Light &amp; Darkness</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Area</spell_class>
+			<casting_cost>2</casting_cost>
+			<maintenance_cost>1</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M111</reference>
+			<categories>
+				<category>Light</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">continual light</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Flash</name>
+			<college>Light &amp; Darkness</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>4</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>2 sec</casting_time>
+			<duration>Instant</duration>
+			<melee_weapon>
+				<damage>Blinds</damage>
+				<usage>Area</usage>
+				<reach>Special</reach>
+				<parry>No</parry>
+			</melee_weapon>
+			<reference>M112</reference>
+			<notes>HT roll to resist blinding</notes>
+			<categories>
+				<category>Light</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">continual light</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Gloom</name>
+			<college>Light &amp; Darkness</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Area</spell_class>
+			<casting_cost>Varies</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>Varies</casting_time>
+			<duration>2d days</duration>
+			<reference>M112</reference>
+			<categories>
+				<category>Light</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">continual light</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Light</name>
+			<college>Light &amp; Darkness</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>1</casting_cost>
+			<maintenance_cost>1</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M110</reference>
+			<categories>
+				<category>Light</category>
+			</categories>
+		</spell>
+		<spell version="2">
+			<name>Mage Light</name>
+			<college>Light &amp; Darkness</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>1 candle, 2 torch, 3 day</casting_cost>
+			<maintenance_cost>Same</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M113</reference>
+			<categories>
+				<category>Light</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">mage sight</name>
+				</spell_prereq>
+				<spell_prereq has="yes">
+					<name compare="is">light</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Remove Shadow</name>
+			<college>Light &amp; Darkness</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular/R-Will</spell_class>
+			<casting_cost>2</casting_cost>
+			<maintenance_cost>1</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M110</reference>
+			<categories>
+				<category>Light</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">light</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Daze</name>
+			<college>Mind Control</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>3</casting_cost>
+			<maintenance_cost>2</maintenance_cost>
+			<casting_time>2 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M134</reference>
+			<categories>
+				<category>Mind Control</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">foolishness</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Emotion Control</name>
+			<college>Mind Control</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Area</spell_class>
+			<casting_cost>2</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 hr</duration>
+			<points>4</points>
+			<reference>M137</reference>
+			<categories>
+				<category>Mind Control</category>
+			</categories>
+			<prereq_list all="no">
+				<spell_prereq has="yes">
+					<name compare="is">mental stun</name>
+				</spell_prereq>
+				<spell_prereq has="yes">
+					<name compare="is">loyalty</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Foolishness</name>
+			<college>Mind Control</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>1-5</casting_cost>
+			<maintenance_cost>Half</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M134</reference>
+			<categories>
+				<category>Mind Control</category>
+			</categories>
+			<prereq_list all="yes">
+				<attribute_prereq has="yes" which="iq" compare="at least">12</attribute_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Mass Sleep</name>
+			<college>Mind Control</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Area</spell_class>
+			<casting_cost>3</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>sec=cost</casting_time>
+			<duration>Until awakened</duration>
+			<reference>M137</reference>
+			<categories>
+				<category>Mind Control</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">sleep</name>
+				</spell_prereq>
+				<attribute_prereq has="yes" which="iq" compare="at least">13</attribute_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Mental Stun</name>
+			<college>Mind Control</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>2</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Until recovery roll made</duration>
+			<reference>M135</reference>
+			<categories>
+				<category>Mind Control</category>
+			</categories>
+			<prereq_list all="no">
+				<spell_prereq has="yes">
+					<name compare="is">daze</name>
+				</spell_prereq>
+				<spell_prereq has="yes">
+					<name compare="is">stun</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Sleep</name>
+			<college>Mind Control</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>4</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>3 sec</casting_time>
+			<duration>Until awakened</duration>
+			<points>4</points>
+			<reference>M135</reference>
+			<categories>
+				<category>Mind Control</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">daze</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Apportation</name>
+			<college>Movement</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>Varies</casting_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M142</reference>
+			<categories>
+				<category>Movement</category>
+			</categories>
+			<prereq_list all="yes">
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="contains">one college (movement)</notes>
+						<level compare="at least">1</level>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="does not contain">one college</notes>
+						<level compare="at least">1</level>
+					</advantage_prereq>
+				</prereq_list>
+			</prereq_list>
+		</spell>
+		<spell version="2" very_hard="yes">
+			<name>Flight</name>
+			<college>Movement</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>5</casting_cost>
+			<maintenance_cost>3</maintenance_cost>
+			<casting_time>2 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M145</reference>
+			<categories>
+				<category>Movement</category>
+			</categories>
+			<prereq_list all="yes">
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="contains">one college (movement)</notes>
+						<level compare="at least">2</level>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="does not contain">one college</notes>
+						<level compare="at least">2</level>
+					</advantage_prereq>
+				</prereq_list>
+				<spell_prereq has="yes">
+					<name compare="is">levitation</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Levitation</name>
+			<college>Movement</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>1 per 80 lbs</casting_cost>
+			<maintenance_cost>Half</maintenance_cost>
+			<casting_time>2 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M143</reference>
+			<categories>
+				<category>Movement</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">apportation</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Locksmith</name>
+			<college>Movement</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>2</casting_cost>
+			<maintenance_cost>2</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M143</reference>
+			<categories>
+				<category>Movement</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">apportation</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Magelock</name>
+			<college>Protection</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>3</casting_cost>
+			<maintenance_cost>2</maintenance_cost>
+			<casting_time>4 sec</casting_time>
+			<duration>6 hrs</duration>
+			<reference>M166</reference>
+			<categories>
+				<category>Protection</category>
+			</categories>
+			<prereq_list all="yes">
+				<advantage_prereq has="yes">
+					<name compare="contains">magery</name>
+					<notes compare="is anything"></notes>
+					<level compare="at least">1</level>
+				</advantage_prereq>
+			</prereq_list>
+		</spell>
+	</spell_list>
+	<equipment_list>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Light Cloak</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>20</value>
+			<weight>2 lb</weight>
+			<reference>B287</reference>
+			<melee_weapon>
+				<damage>-</damage>
+				<strength>-</strength>
+				<reach>-</reach>
+				<parry>No</parry>
+				<block>+0</block>
+				<default>
+					<type>Block</type>
+					<name>Cloak</name>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<ranged_weapon>
+				<damage>Special</damage>
+				<strength>5</strength>
+				<usage>Thrown</usage>
+				<accuracy>+1</accuracy>
+				<range>2</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>T(1)</shots>
+				<bulk>-4</bulk>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Cloak</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Net</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shield</name>
+					<modifier>-4</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Clothing</category>
+			</categories>
+			<attribute_bonus>
+				<attribute>dodge</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>parry</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>block</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+		</equipment>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Dagger</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>20</value>
+			<weight>0.25 lb</weight>
+			<reference>B272</reference>
+			<melee_weapon>
+				<damage>thr-1 imp</damage>
+				<strength>5</strength>
+				<usage>Thrust</usage>
+				<reach>C</reach>
+				<parry>-1</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Knife</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Force Sword</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Main-Gauche</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shortsword</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Sword!</name>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<ranged_weapon>
+				<damage>thr-1 imp</damage>
+				<strength>5</strength>
+				<usage>Thrown</usage>
+				<accuracy>+0</accuracy>
+				<range>x0.5/x1</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>T(1)</shots>
+				<bulk>-1</bulk>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Thrown Weapon</name>
+					<specialization>Knife</specialization>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Melee Weapon</category>
+				<category>Missile Weapon</category>
+			</categories>
+		</equipment>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Leather Gloves</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>30</value>
+			<reference>B284</reference>
+			<categories>
+				<category>Gloves</category>
+			</categories>
+			<dr_bonus>
+				<location>hands</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Boots</description>
+			<tech_level>2</tech_level>
+			<legality_class>4</legality_class>
+			<value>80</value>
+			<weight>3 lb</weight>
+			<reference>B284</reference>
+			<categories>
+				<category>Footwear</category>
+			</categories>
+			<dr_bonus>
+				<location>feet</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Disguise Kit</description>
+			<tech_level>5</tech_level>
+			<legality_class>4</legality_class>
+			<value>200</value>
+			<weight>10 lb</weight>
+			<reference>B289</reference>
+			<categories>
+				<category>Law-Enforcement</category>
+				<category>Spy Gear</category>
+				<category>Thief</category>
+			</categories>
+			<skill_bonus>
+				<name compare="is">Disguise</name>
+				<specialization compare="is anything"></specialization>
+				<amount>1</amount>
+			</skill_bonus>
+		</equipment>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Lantern</description>
+			<tech_level>2</tech_level>
+			<legality_class>4</legality_class>
+			<value>20</value>
+			<weight>2 lb</weight>
+			<reference>B288</reference>
+			<notes>Uses 1 pint of oil per 24 hours</notes>
+			<categories>
+				<category>Camping and Survival Gear</category>
+			</categories>
+		</equipment>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Oil, Lantern, 1 Pint</description>
+			<tech_level>2</tech_level>
+			<legality_class>4</legality_class>
+			<value>2</value>
+			<weight>1 lb</weight>
+			<reference>B288</reference>
+			<categories>
+				<category>Camping and Survival Gear</category>
+			</categories>
+		</equipment>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Rope, 3/4", 20 yards</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>50</value>
+			<weight>10 lb</weight>
+			<reference>B288</reference>
+			<notes>Supports 1,100 lbs.</notes>
+			<categories>
+				<category>Camping and Survival Gear</category>
+			</categories>
+		</equipment>
+		<equipment_container version="4" open="no" state="equipped">
+			<description>Pouch, Small</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>10</value>
+			<weight>0.5 lb</weight>
+			<reference>B288</reference>
+			<categories>
+				<category>Camping and Survival Gear</category>
+			</categories>
+			<prereq_list all="yes">
+				<contained_weight_prereq has="yes" compare="at most">3 lb</contained_weight_prereq>
+			</prereq_list>
+			<equipment version="4" state="equipped">
+				<quantity>1</quantity>
+				<description>Lockpicks</description>
+				<tech_level>3</tech_level>
+				<legality_class>4</legality_class>
+				<value>50</value>
+				<reference>B289</reference>
+				<notes>Basic equipment for Lockpicking skill</notes>
+				<categories>
+					<category>Law-Enforcement</category>
+					<category>Spy Gear</category>
+					<category>Thief</category>
+				</categories>
+			</equipment>
+		</equipment_container>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Rapier</description>
+			<tech_level>4</tech_level>
+			<legality_class>4</legality_class>
+			<value>500</value>
+			<weight>2.75 lb</weight>
+			<reference>B273</reference>
+			<melee_weapon>
+				<damage>thr+1 imp</damage>
+				<strength>9</strength>
+				<usage>Thrust</usage>
+				<reach>1,2</reach>
+				<parry>0F</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Rapier</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Broadsword</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Main-Gauche</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Saber</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Smallsword</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Sword!</name>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<categories>
+				<category>Melee Weapon</category>
+			</categories>
+		</equipment>
+	</equipment_list>
+	<print_settings printer="EPSON L365 Series" units="in">
+		<orientation>portrait</orientation>
+		<width>8.5</width>
+		<height>11</height>
+		<top_margin>0.5</top_margin>
+		<left_margin>0.5</left_margin>
+		<bottom_margin>0.5</bottom_margin>
+		<right_margin>0.5</right_margin>
+		<ink_chromaticity>monochrome</ink_chromaticity>
+		<sides>single</sides>
+		<quality>normal</quality>
+	</print_settings>
+</character>
