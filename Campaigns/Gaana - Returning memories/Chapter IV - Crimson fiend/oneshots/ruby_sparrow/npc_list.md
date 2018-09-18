@@ -1,9 +1,13 @@
 # Known NPC's
 
+
+ - Lord Bartolomew Whytton: Current head of Whytton Irons and Smokes. The
+    family owns few iron rich deposits near Ironfire and large smelter in
+    industrial area of the city.
  - Hannah Whytton: Youngest dougther of Whytton family. Smart, Clumsy, Awkward in Social Situations
  - Martin Whytton: Second son of Whytton family. Gullible, Large of built, Gambles
  - Walter "Hamfist" Brownflet: Contact in the thieves guild
- -
+ - Marion Stokes: An old lady running the local hostel "Godess Sanctuary"
 
 # Names
 ## Female
@@ -24,7 +28,6 @@ Ruth Jay
 Christabell Draper
 Amphillis Leventhorpe
 Wynnefreede Stanbury
-Marion Stokes
 Cybil Launceleyn
 Eale Brownflet
 
