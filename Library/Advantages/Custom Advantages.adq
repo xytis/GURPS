@@ -6,4 +6,12 @@
 		<base_points>-15</base_points>
 		<cr>12</cr>
 	</advantage>
+	<advantage version="2">
+		<name>Hiccups when ducks are in vision</name>
+		<type>Mental</type>
+		<base_points>-1</base_points>
+		<categories>
+			<category>Quirk</category>
+		</categories>
+	</advantage>
 </advantage_list>

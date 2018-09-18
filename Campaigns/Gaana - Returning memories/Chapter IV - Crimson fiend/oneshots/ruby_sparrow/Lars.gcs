@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="f39ef337-504f-4620-baed-bb8ce0036d0c" version="3">
 	<created_date>Sep 16, 2018</created_date>
-	<modified_date>Sep 18, 2018, 8:36 PM</modified_date>
+	<modified_date>Sep 18, 2018, 10:52 PM</modified_date>
 	<profile>
 		<name>Lars Von Trier</name>
 		<title>Lord</title>
@@ -35,127 +35,226 @@
 	<include_kick_with_boots>true</include_kick_with_boots>
 	<advantage_list>
 		<advantage version="2">
-			<name>Magery</name>
-			<type>Mental, Supernatural</type>
-			<levels>3</levels>
-			<base_points>5</base_points>
-			<points_per_level>10</points_per_level>
+			<name>Alcoholism</name>
+			<type>Physical</type>
+			<base_points>-15</base_points>
 			<modifier version="1" enabled="no">
-				<name>Dance</name>
-				<cost type="percentage">-40</cost>
-				<affects>levels only</affects>
+				<name>Illegal</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B122</reference>
 			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Dark-Aspected</name>
-				<cost type="percentage">-50</cost>
-				<affects>levels only</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Day-Aspected</name>
-				<cost type="percentage">-40</cost>
-				<affects>levels only</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Musical</name>
-				<cost type="percentage">-50</cost>
-				<affects>levels only</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Night-Aspected</name>
-				<cost type="percentage">-40</cost>
-				<affects>levels only</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>One College</name>
-				<cost type="percentage">-40</cost>
-				<affects>levels only</affects>
-				<notes>@College@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Solitary</name>
-				<cost type="percentage">-40</cost>
-				<affects>levels only</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Song</name>
-				<cost type="percentage">-40</cost>
-				<affects>levels only</affects>
-			</modifier>
-			<reference>B66</reference>
+			<reference>B122</reference>
 			<categories>
-				<category>Advantage</category>
+				<category>Disadvantage</category>
 			</categories>
-			<spell_bonus all_colleges="yes">
-				<amount per_level="yes">1</amount>
-			</spell_bonus>
-			<skill_bonus>
-				<name compare="is">thaumatology</name>
-				<specialization compare="is anything"></specialization>
-				<amount per_level="yes">1</amount>
-			</skill_bonus>
 		</advantage>
 		<advantage version="2">
-			<name>Wealth</name>
-			<type>Social</type>
-			<modifier version="1" enabled="no">
-				<name>Dead Broke</name>
-				<cost type="points">-25</cost>
+			<name>Lecherousness</name>
+			<type>Mental</type>
+			<base_points>-15</base_points>
+			<cr>12</cr>
+			<reference>B142</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Hemophobia (Blood)</name>
+			<type>Mental</type>
+			<base_points>-10</base_points>
+			<cr>12</cr>
+			<reference>B149</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Addiction (Tobacco)</name>
+			<type>Mental/Physical</type>
+			<modifier version="1">
+				<name>Cost: Cheap</name>
+				<cost type="points">-5</cost>
 				<affects>total</affects>
-				<reference>B25</reference>
-				<notes>Starting wealth is $0</notes>
+				<reference>B122</reference>
 			</modifier>
 			<modifier version="1" enabled="no">
-				<name>Poor</name>
-				<cost type="points">-15</cost>
-				<affects>total</affects>
-				<reference>B25</reference>
-				<notes>Starting wealth is 1/5 average</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Struggling</name>
+				<name>Cost: Expensive</name>
 				<cost type="points">-10</cost>
 				<affects>total</affects>
-				<reference>B25</reference>
-				<notes>Starting wealth is 1/2 average</notes>
+				<reference>B122</reference>
 			</modifier>
 			<modifier version="1" enabled="no">
-				<name>Average</name>
-				<cost type="points">0</cost>
+				<name>Cost: Very Expensive</name>
+				<cost type="points">-20</cost>
 				<affects>total</affects>
-				<reference>B25</reference>
+				<reference>B122</reference>
 			</modifier>
 			<modifier version="1" enabled="no">
-				<name>Comfortable</name>
-				<cost type="points">10</cost>
+				<name>Effects: Hallucinogenic</name>
+				<cost type="points">-10</cost>
 				<affects>total</affects>
-				<reference>B25</reference>
-				<notes>Starting wealth is 2x average</notes>
+				<reference>B122</reference>
 			</modifier>
 			<modifier version="1">
-				<name>Wealthy</name>
-				<cost type="points">20</cost>
+				<name>Effects: Highly Addictive (-5 on withdrawal roll)</name>
+				<cost type="points">-5</cost>
 				<affects>total</affects>
-				<reference>B25</reference>
-				<notes>Starting wealth is 5x average</notes>
+				<reference>B122</reference>
 			</modifier>
 			<modifier version="1" enabled="no">
-				<name>Very Wealthy</name>
-				<cost type="points">30</cost>
+				<name>Effects: Incapacitating</name>
+				<cost type="points">-10</cost>
 				<affects>total</affects>
-				<reference>B25</reference>
-				<notes>Starting wealth is 20x average</notes>
+				<reference>B122</reference>
 			</modifier>
 			<modifier version="1" enabled="no">
-				<name>Filthy Rich</name>
-				<cost type="points">50</cost>
+				<name>Effects: Totally Addictive (-10 on withdrawal roll)</name>
+				<cost type="points">-10</cost>
 				<affects>total</affects>
-				<reference>B25</reference>
-				<notes>Starting wealth is 100x average</notes>
+				<reference>B122</reference>
 			</modifier>
-			<reference>B25</reference>
+			<modifier version="1" enabled="no">
+				<name>Illegal</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+				<reference>B122</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Legal</name>
+				<cost type="points">5</cost>
+				<affects>total</affects>
+				<reference>B122</reference>
+			</modifier>
+			<reference>B122</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Pacifism: Reluctant Killer</name>
+			<type>Mental</type>
+			<base_points>-5</base_points>
+			<modifier version="1" enabled="no">
+				<name>Species-Specific</name>
+				<cost type="percentage">-80</cost>
+				<affects>total</affects>
+				<reference>UT32</reference>
+			</modifier>
+			<reference>B148</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2" round_down="yes">
+			<name>Reputation</name>
+			<type>Social</type>
+			<levels>2</levels>
+			<points_per_level>-5</points_per_level>
+			<modifier version="1" enabled="no">
+				<name>People Affected</name>
+				<cost type="multiplier">1</cost>
+				<reference>B27</reference>
+				<notes>Almost everyone</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>People Affected</name>
+				<cost type="multiplier">0.67</cost>
+				<reference>B27</reference>
+				<notes>Almost everyone except @large class of people@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>People Affected</name>
+				<cost type="multiplier">0.5</cost>
+				<reference>B27</reference>
+				<notes>@Large class of people@</notes>
+			</modifier>
+			<modifier version="1">
+				<name>People Affected</name>
+				<cost type="multiplier">0.33</cost>
+				<reference>B27</reference>
+				<notes>Elite</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Recognized all the time</name>
+				<cost type="multiplier">1</cost>
+				<reference>B28</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Recognized sometimes</name>
+				<cost type="multiplier">0.5</cost>
+				<reference>B28</reference>
+				<notes>10-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Recognized occasionally</name>
+				<cost type="multiplier">0.33</cost>
+				<reference>B28</reference>
+				<notes>7-</notes>
+			</modifier>
+			<reference>B26</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Proud</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+		<advantage version="2" round_down="yes">
+			<name>Reputation</name>
+			<type>Social</type>
+			<levels>2</levels>
+			<points_per_level>5</points_per_level>
+			<modifier version="1" enabled="no">
+				<name>People Affected</name>
+				<cost type="multiplier">1</cost>
+				<reference>B27</reference>
+				<notes>Almost everyone</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>People Affected</name>
+				<cost type="multiplier">0.67</cost>
+				<reference>B27</reference>
+				<notes>Almost everyone except @large class of people@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>People Affected</name>
+				<cost type="multiplier">0.5</cost>
+				<reference>B27</reference>
+				<notes>@Large class of people@</notes>
+			</modifier>
+			<modifier version="1">
+				<name>People Affected</name>
+				<cost type="multiplier">0.33</cost>
+				<reference>B27</reference>
+				<notes>Rich collectors and thieves</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Recognized all the time</name>
+				<cost type="multiplier">1</cost>
+				<reference>B28</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Recognized sometimes</name>
+				<cost type="multiplier">0.5</cost>
+				<reference>B28</reference>
+				<notes>10-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Recognized occasionally</name>
+				<cost type="multiplier">0.33</cost>
+				<reference>B28</reference>
+				<notes>7-</notes>
+			</modifier>
+			<reference>B26</reference>
 			<categories>
 				<category>Advantage</category>
-				<category>Disadvantage</category>
 			</categories>
 		</advantage>
 		<advantage version="2">
@@ -257,177 +356,129 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2" round_down="yes">
-			<name>Reputation</name>
+		<advantage version="2">
+			<name>Wealth</name>
 			<type>Social</type>
-			<levels>2</levels>
-			<points_per_level>5</points_per_level>
 			<modifier version="1" enabled="no">
-				<name>People Affected</name>
-				<cost type="multiplier">1</cost>
-				<reference>B27</reference>
-				<notes>Almost everyone</notes>
+				<name>Dead Broke</name>
+				<cost type="points">-25</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+				<notes>Starting wealth is $0</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
-				<name>People Affected</name>
-				<cost type="multiplier">0.67</cost>
-				<reference>B27</reference>
-				<notes>Almost everyone except @large class of people@</notes>
+				<name>Poor</name>
+				<cost type="points">-15</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+				<notes>Starting wealth is 1/5 average</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
-				<name>People Affected</name>
-				<cost type="multiplier">0.5</cost>
-				<reference>B27</reference>
-				<notes>@Large class of people@</notes>
+				<name>Struggling</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+				<notes>Starting wealth is 1/2 average</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Average</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Comfortable</name>
+				<cost type="points">10</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+				<notes>Starting wealth is 2x average</notes>
 			</modifier>
 			<modifier version="1">
-				<name>People Affected</name>
-				<cost type="multiplier">0.33</cost>
-				<reference>B27</reference>
-				<notes>Elite</notes>
+				<name>Wealthy</name>
+				<cost type="points">20</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+				<notes>Starting wealth is 5x average</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
-				<name>Recognized all the time</name>
-				<cost type="multiplier">1</cost>
-				<reference>B28</reference>
+				<name>Very Wealthy</name>
+				<cost type="points">30</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+				<notes>Starting wealth is 20x average</notes>
 			</modifier>
 			<modifier version="1" enabled="no">
-				<name>Recognized sometimes</name>
-				<cost type="multiplier">0.5</cost>
-				<reference>B28</reference>
-				<notes>10-</notes>
+				<name>Filthy Rich</name>
+				<cost type="points">50</cost>
+				<affects>total</affects>
+				<reference>B25</reference>
+				<notes>Starting wealth is 100x average</notes>
+			</modifier>
+			<reference>B25</reference>
+			<categories>
+				<category>Advantage</category>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Magery</name>
+			<type>Mental, Supernatural</type>
+			<levels>3</levels>
+			<base_points>5</base_points>
+			<points_per_level>10</points_per_level>
+			<modifier version="1" enabled="no">
+				<name>Dance</name>
+				<cost type="percentage">-40</cost>
+				<affects>levels only</affects>
 			</modifier>
 			<modifier version="1" enabled="no">
-				<name>Recognized occasionally</name>
-				<cost type="multiplier">0.33</cost>
-				<reference>B28</reference>
-				<notes>7-</notes>
+				<name>Dark-Aspected</name>
+				<cost type="percentage">-50</cost>
+				<affects>levels only</affects>
 			</modifier>
-			<reference>B26</reference>
+			<modifier version="1" enabled="no">
+				<name>Day-Aspected</name>
+				<cost type="percentage">-40</cost>
+				<affects>levels only</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Musical</name>
+				<cost type="percentage">-50</cost>
+				<affects>levels only</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Night-Aspected</name>
+				<cost type="percentage">-40</cost>
+				<affects>levels only</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>One College</name>
+				<cost type="percentage">-40</cost>
+				<affects>levels only</affects>
+				<notes>@College@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Solitary</name>
+				<cost type="percentage">-40</cost>
+				<affects>levels only</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Song</name>
+				<cost type="percentage">-40</cost>
+				<affects>levels only</affects>
+			</modifier>
+			<reference>B66</reference>
 			<categories>
 				<category>Advantage</category>
 			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Addiction (Tobacco)</name>
-			<type>Mental/Physical</type>
-			<modifier version="1">
-				<name>Cost: Cheap</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B122</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Cost: Expensive</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B122</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Cost: Very Expensive</name>
-				<cost type="points">-20</cost>
-				<affects>total</affects>
-				<reference>B122</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Effects: Hallucinogenic</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B122</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Effects: Highly Addictive (-5 on withdrawal roll)</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B122</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Effects: Incapacitating</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B122</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Effects: Totally Addictive (-10 on withdrawal roll)</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B122</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Illegal</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B122</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Legal</name>
-				<cost type="points">5</cost>
-				<affects>total</affects>
-				<reference>B122</reference>
-			</modifier>
-			<reference>B122</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Lecherousness</name>
-			<type>Mental</type>
-			<base_points>-15</base_points>
-			<cr>12</cr>
-			<reference>B142</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Alcoholism</name>
-			<type>Physical</type>
-			<base_points>-15</base_points>
-			<modifier version="1" enabled="no">
-				<name>Illegal</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B122</reference>
-			</modifier>
-			<reference>B122</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Pacifism: Reluctant Killer</name>
-			<type>Mental</type>
-			<base_points>-5</base_points>
-			<modifier version="1" enabled="no">
-				<name>Species-Specific</name>
-				<cost type="percentage">-80</cost>
-				<affects>total</affects>
-				<reference>UT32</reference>
-			</modifier>
-			<reference>B148</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Hemophobia (Blood)</name>
-			<type>Mental</type>
-			<base_points>-10</base_points>
-			<cr>12</cr>
-			<reference>B149</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Proud</name>
-			<type>Mental</type>
-			<base_points>-1</base_points>
-			<reference>B164</reference>
-			<categories>
-				<category>Quirk</category>
-			</categories>
+			<spell_bonus all_colleges="yes">
+				<amount per_level="yes">1</amount>
+			</spell_bonus>
+			<skill_bonus>
+				<name compare="is">thaumatology</name>
+				<specialization compare="is anything"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
 		</advantage>
 	</advantage_list>
 	<skill_list>
@@ -717,6 +768,39 @@
 		</skill>
 	</skill_list>
 	<spell_list>
+		<spell version="2">
+			<name>Sense Emotion</name>
+			<college>Communication &amp; Empathy</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>2</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Instant</duration>
+			<reference>M45</reference>
+			<categories>
+				<category>Communication</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">sense foes</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Sense Foes</name>
+			<college>Communication &amp; Empathy</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Info/Area</spell_class>
+			<casting_cost>1/area, min 2</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Instant</duration>
+			<reference>M44</reference>
+			<categories>
+				<category>Communication</category>
+			</categories>
+		</spell>
 		<spell version="2">
 			<name>Lend Energy</name>
 			<college>Healing</college>
@@ -1024,6 +1108,37 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
+		<spell version="2" very_hard="yes">
+			<name>Ecstasy</name>
+			<college>Mind Control</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>6</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>3 sec</casting_time>
+			<duration>10 sec</duration>
+			<reference>M139</reference>
+			<categories>
+				<category>Mind Control</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">emotion control</name>
+				</spell_prereq>
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="contains">one college (mind control)</notes>
+						<level compare="at least">2</level>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="does not contain">one college</notes>
+						<level compare="at least">2</level>
+					</advantage_prereq>
+				</prereq_list>
+			</prereq_list>
+		</spell>
 		<spell version="2">
 			<name>Emotion Control</name>
 			<college>Mind Control</college>
@@ -1033,7 +1148,7 @@
 			<maintenance_cost>-</maintenance_cost>
 			<casting_time>1 sec</casting_time>
 			<duration>1 hr</duration>
-			<points>4</points>
+			<points>2</points>
 			<reference>M137</reference>
 			<categories>
 				<category>Mind Control</category>
@@ -1045,6 +1160,29 @@
 				<spell_prereq has="yes">
 					<name compare="is">loyalty</name>
 				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Fear</name>
+			<college>Mind Control</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Area</spell_class>
+			<casting_cost>1</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>10 min</duration>
+			<reference>M134</reference>
+			<categories>
+				<category>Mind Control</category>
+			</categories>
+			<prereq_list all="no">
+				<spell_prereq has="yes">
+					<name compare="is">sense emotion</name>
+				</spell_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">empathy</name>
+					<notes compare="is anything"></notes>
+				</advantage_prereq>
 			</prereq_list>
 		</spell>
 		<spell version="2">
@@ -1107,6 +1245,25 @@
 			</prereq_list>
 		</spell>
 		<spell version="2">
+			<name>Panic</name>
+			<college>Mind Control</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Area</spell_class>
+			<casting_cost>4</casting_cost>
+			<maintenance_cost>2</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M134</reference>
+			<categories>
+				<category>Mind Control</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">fear</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
 			<name>Sleep</name>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
@@ -1123,6 +1280,25 @@
 			<prereq_list all="yes">
 				<spell_prereq has="yes">
 					<name compare="is">daze</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Terror</name>
+			<college>Mind Control</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Area</spell_class>
+			<casting_cost>4</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 sec</duration>
+			<reference>M134</reference>
+			<categories>
+				<category>Mind Control</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">fear</name>
 				</spell_prereq>
 			</prereq_list>
 		</spell>
