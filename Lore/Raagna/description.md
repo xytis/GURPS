@@ -44,37 +44,59 @@ Currently only one continent is created, so many others may exist.
 ### Continent of Talmir ###
 
 Created regions:
- * __Bargore tundra__ Lies on Valgart north bank, between Iron mountains and Kagar lake,
-home of several human nomad tribes. Ancient 'Ghost gate' is positioned in the middle of
-this particular nowhere.
- * __Valgart river valey__ Fertile valey, which is inhabited by orcs and humans. The river starts
-high in Iron mountains and flows all the way to the Shardtooth sea. Powerfull strams at the base
-of this river with several tributaries bringing waters from nearby valeys makes Valgart nearly
-incrossable downstream from lake Kagar. Fort Horth is the last place where one can cross this
-river by bridge. River is sailable from Capital of Ironfire, and is (or at least was before the war)
-the main route to Shardtooth sea and beond.
- * __Shardtooth sea__ Inland sea which connects to ocean in the east by Strait of Pugrrgar (Splatered Gold)
- * __Grasslands of Graze__ Soft hills lying between two tributaries of Valgart. Perfect place for animal
-husbandry.
- * __Bungarth Hills__ splatter of hills near the lake Kagar. Fort Horth -- human stronghold --
-is built on one of them.
- * __Hiassing swamps__ misterious and deadly marshland placed south from silver bay, where
-Valgart gives its waters to the sea.
- * __Nordic/Freezing wastes__ north of Bargore tundra, where climate becomes arid and cold,
-lies unwelcoming wastes, which have brought end to many unwary adventurers.
- * __Death valey__ lush valey in the south, surrounded by mountains in all directions,
-with a huge circular ash filled scar of mysterious origin.
- * __The Dark (Kagar) woods__ magical forest just around the lake Kagar (both of which were
-named by orcs. Hence 'Dark Lake', 'Dark River', 'Dark Forest', 'Town Near the Dark'. Orcs
-are not the most creative species around...)
- * __Moarri Desert__ large sand sea south of Ironfire, behind the mountains of Death valey. Inhabited by goblins, giant worms and other desert creatures. Main trade route to Moarri goes through it.
- * ... consult the map for others ...
+ * __Bargore tundra__
+    Lies on Valgart north bank, between Iron mountains and Kagar lake, home of
+    several human nomad tribes. Ancient 'Ghost gate' is positioned in the
+    middle of this particular nowhere. Northwards lies the Frozen Wastes which
+    are inhabited by Northern Wanders, a collection of barbaric human tribes,
+    which occasionally come south for raids.
+ * __Valgart river valley__
+    Fertile valley, which is inhabited by orcs and humans. The river starts
+    high in Iron mountains and flows all the way to the Shardtooth sea.
+    Powerful streams at the base of this river with several tributaries
+    bringing waters from nearby valleys makes Valgart nearly uncrossable
+    downstream from lake Kagar.  Fort Horth is the last place where one can
+    cross this river by bridge. River is navigable from Capital of Ironfire,
+    and is (or at least was before the war) the main route to Shardtooth sea
+    and beyond.
+ * __Shardtooth sea__
+    Inland sea which connects to ocean in the east by Strait of Pugrrgar
+    (Splatered Gold)
+ * __Grasslands of Graze__
+    Soft hills lying between two tributaries of Valgart. Perfect place for
+    animal husbandry.
+ * __Bungarth Hills__
+    splatter of hills near the lake Kagar. Fort Horth -- human stronghold -- is
+    built on one of them.
+ * __Hiassing swamps__
+    mysterious and deadly marshland placed south from silver bay, where Valgart
+    gives its waters to the sea.
+ * __Nordic/Freezing wastes__
+    north of Bargore tundra, where climate becomes arid and cold, lies
+    unwelcoming wastes, which have brought end to many unwary adventurers.
+ * __Death valley__
+    lush valley in the south, surrounded by mountains in all directions, with a
+    huge circular ash filled scar of mysterious origin.
+ * __The Dark (Kagar) woods__
+    magical forest just around the lake Kagar (both of which were named by
+    orcs. Hence 'Dark Lake', 'Dark River', 'Dark Forest', 'Town Near the Dark'.
+    Orcs are not the most creative species around...)
+ * __Moarri Desert__
+    large sand sea south of Ironfire, behind the mountains of Death valley.
+    Inhabited by goblins, giant worms and other desert creatures. Main trade
+    route to Moarri goes through it.
+ * ... Consult the map for others ...
 
 This continent spans weather from freezing to rainforests, with high mountains
-verticaly aligned near west coast. Shardtooth sea in intercontinental sea similar
-to Mediteranian sea. It joins the ocean in the east over some astonishing natural
-wonder, which is not yet created. (Proposal for this wonder: Strait of Pugrrgar, something
-between a fiord and a strait and an astounding view when the Su and Un rises.)
+vertically aligned near west coast. Shardtooth sea in intercontinental sea similar
+to Mediterranean sea.
+It joins the ocean in the east over the Strait of Pugrrgar, a narrow passageway
+enclosed by sharp cliffs. During sunrise golden light from both Su and Un dances
+in the water, reflecting from shards of obsidian in the cliffs, making a breathtaking
+view which orcs straightforwardly named "Splatered Gold"
+
+something
+between a fiord and a strait and an astounding view when the Su and Un rises.
 
 Cultural specifics
 ----------
