@@ -14,4 +14,11 @@
 			<category>Quirk</category>
 		</categories>
 	</advantage>
+	<advantage version="2">
+		<name>Week Arm</name>
+		<type>Physical</type>
+		<levels>1</levels>
+		<points_per_level>-5</points_per_level>
+		<notes>@Side@</notes>
+	</advantage>
 </advantage_list>
