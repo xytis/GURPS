@@ -568,23 +568,58 @@
 			</default>
 		</skill>
 		<skill version="2">
-			<name>Gambling</name>
-			<difficulty>IQ/A</difficulty>
-			<points>2</points>
-			<reference>B197</reference>
+			<name>Current Affairs</name>
+			<specialization>High Culture</specialization>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B186</reference>
 			<categories>
-				<category>Criminal/Street</category>
+				<category>Arts/Entertainment</category>
+				<category>Everyman</category>
+				<category>Knowledge</category>
 				<category>Social</category>
 			</categories>
 			<default>
 				<type>IQ</type>
-				<modifier>-5</modifier>
+				<modifier>-4</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Mathematics</name>
-				<specialization>Statistics</specialization>
-				<modifier>-5</modifier>
+				<name>Research</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Current Affairs</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Current Affairs</name>
+			<specialization>Science &amp; Technology</specialization>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>2</points>
+			<reference>B186</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Research</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Current Affairs</name>
+				<modifier>-4</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -608,6 +643,26 @@
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Gambling</name>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B197</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Mathematics</name>
+				<specialization>Statistics</specialization>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Holdout</name>
 			<difficulty>IQ/A</difficulty>
 			<points>2</points>
@@ -624,43 +679,6 @@
 				<type>Skill</type>
 				<name>Sleight of Hand</name>
 				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Stealth</name>
-			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
-			<difficulty>DX/A</difficulty>
-			<points>8</points>
-			<reference>B222</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Police</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Lockpicking</name>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>2</points>
-			<reference>B206</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Police</category>
-				<category>Spy</category>
-				<category>Technical</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -690,6 +708,37 @@
 			<default>
 				<type>DX</type>
 				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Lockpicking</name>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B206</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
+				<category>Technical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Mount</name>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B210</reference>
+			<categories>
+				<category>Animal</category>
+				<category>Athletic</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -749,58 +798,23 @@
 			</default>
 		</skill>
 		<skill version="2">
-			<name>Current Affairs</name>
-			<specialization>High Culture</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B186</reference>
+			<name>Stealth</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>8</points>
+			<reference>B222</reference>
 			<categories>
-				<category>Arts/Entertainment</category>
-				<category>Everyman</category>
-				<category>Knowledge</category>
-				<category>Social</category>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
 			</categories>
 			<default>
 				<type>IQ</type>
-				<modifier>-4</modifier>
+				<modifier>-5</modifier>
 			</default>
 			<default>
-				<type>Skill</type>
-				<name>Research</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Current Affairs</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Current Affairs</name>
-			<specialization>Science &amp; Technology</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/E</difficulty>
-			<points>2</points>
-			<reference>B186</reference>
-			<categories>
-				<category>Everyman</category>
-				<category>Knowledge</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Research</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Current Affairs</name>
-				<modifier>-4</modifier>
+				<type>DX</type>
+				<modifier>-5</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -815,20 +829,6 @@
 			</categories>
 			<default>
 				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Mount</name>
-			<difficulty>DX/A</difficulty>
-			<points>1</points>
-			<reference>B210</reference>
-			<categories>
-				<category>Animal</category>
-				<category>Athletic</category>
-			</categories>
-			<default>
-				<type>DX</type>
 				<modifier>-5</modifier>
 			</default>
 		</skill>
