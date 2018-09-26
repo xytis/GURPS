@@ -7,7 +7,7 @@
  - Hannah Whytton: Youngest dougther of Whytton family. Smart, Clumsy, Awkward in Social Situations
  - Martin Whytton: Second son of Whytton family. Gullible, Large of built, Gambles
  - Walter "Hamfist" Brownflet: Contact in the thieves guild
- - Marion Stokes: An old lady running the local hostel "Godess Sanctuary"
+ - Marion Stokes: An old lady running the local hostel "Goddess Sanctuary" in Ironfire
 
 # Names
 ## Female

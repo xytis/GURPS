@@ -1,4 +1,4 @@
 Random notes
 ============
 
-Yestreen Inn -- "Take a dring for the yesterday evening"
+Yestreen Inn -- "Take a drink for the yesterday evening"
