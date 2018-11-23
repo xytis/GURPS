@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<character id="287e528b-594b-429f-a700-97b0e65e3b9b" version="3">
+	<created_date>Nov 23, 2018</created_date>
+	<modified_date>Nov 23, 2018, 1:21 PM</modified_date>
+	<profile>
+		<player_name>xytis</player_name>
+		<name>Aufrag Heishbar</name>
+		<age>18</age>
+		<birthday>August 17</birthday>
+		<eyes>Blue</eyes>
+		<hair>Blonde, Straight, Long</hair>
+		<skin>Pale</skin>
+		<handedness>Right</handedness>
+		<height>186 cm</height>
+		<weight>97 kg</weight>
+		<SM>0</SM>
+		<gender>Male</gender>
+		<race>Human</race>
+		<body_type>humanoid</body_type>
+		<tech_level>3</tech_level>
+		<religion>Order of the Sacred Shroud</religion>
+	</profile>
+	<HP>4</HP>
+	<FP>3</FP>
+	<total_points>120</total_points>
+	<ST>13</ST>
+	<DX>11</DX>
+	<IQ>10</IQ>
+	<HT>11</HT>
+	<will>0</will>
+	<perception>0</perception>
+	<speed>0</speed>
+	<move>-5</move>
+	<include_punch>true</include_punch>
+	<include_kick>true</include_kick>
+	<include_kick_with_boots>true</include_kick_with_boots>
+	<advantage_list>
+		<advantage version="2">
+			<name>Combat Reflexes</name>
+			<type>Mental</type>
+			<base_points>15</base_points>
+			<reference>B43</reference>
+			<notes>Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)</notes>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<skill_bonus>
+				<name compare="starts with">fast-draw</name>
+				<specialization compare="is anything"></specialization>
+				<amount>1</amount>
+			</skill_bonus>
+			<attribute_bonus>
+				<attribute>dodge</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>parry</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>block</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>fright check</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+			<prereq_list all="yes">
+				<advantage_prereq has="no">
+					<name compare="is">Enhanced Time Sense</name>
+					<notes compare="is anything"></notes>
+				</advantage_prereq>
+			</prereq_list>
+		</advantage>
+		<advantage version="2">
+			<name>Blessed</name>
+			<type>Mental, Supernatural</type>
+			<base_points>10</base_points>
+			<modifier version="1" enabled="no">
+				<name>Very</name>
+				<cost type="points">10</cost>
+				<affects>total</affects>
+				<reference>B40</reference>
+			</modifier>
+			<reference>B40</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Clerical Investment</name>
+			<type>Social</type>
+			<base_points>5</base_points>
+			<reference>B43</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Power Investiture</name>
+			<type>Mental, Supernatural</type>
+			<levels>1</levels>
+			<points_per_level>10</points_per_level>
+			<reference>B77</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Fanaticism (Hephaistus)</name>
+			<type>Mental</type>
+			<base_points>-15</base_points>
+			<modifier version="1" enabled="no">
+				<name>Extreme</name>
+				<cost type="percentage">0</cost>
+				<affects>total</affects>
+				<reference>B136</reference>
+			</modifier>
+			<reference>B136</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Intolerance (Heathens)</name>
+			<type>Mental</type>
+			<modifier version="1" enabled="no">
+				<name>Scope: Common</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B140</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Scope: Occasional</name>
+				<cost type="points">-2</cost>
+				<affects>total</affects>
+				<reference>B140</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Scope: Rare</name>
+				<cost type="points">-1</cost>
+				<affects>total</affects>
+				<reference>B140</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Scope: Anyone unlike you</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B140</reference>
+			</modifier>
+			<reference>B140</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Vow (Avenge the Death of his Brother)</name>
+			<type>Physical</type>
+			<modifier version="1">
+				<name>Minor</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B161</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Major</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B161</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Great</name>
+				<cost type="points">-15</cost>
+				<affects>total</affects>
+				<reference>B161</reference>
+			</modifier>
+			<reference>B161</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+	</advantage_list>
+	<skill_list>
+		<skill version="2">
+			<name>Shield</name>
+			<specialization>Buckler</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>4</points>
+			<reference>B220</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Axe/Mace</name>
+			<difficulty>DX/A</difficulty>
+			<points>12</points>
+			<reference>B208</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Two-Handed Axe/Mace</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Flail</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<technique version="2" limit="4">
+			<name>Feint</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>B231,MA73</reference>
+			<default>
+				<type>Skill</type>
+				<name>Axe/Mace</name>
+				<modifier>0</modifier>
+			</default>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Axe/Mace</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<skill version="2">
+			<name>Area Knowledge</name>
+			<specialization>Hillsbrook; Lived there</specialization>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B176</reference>
+			<notes>All important citizens and businesses, and most unimportant ones; all public buildings and most houses</notes>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Geography</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Animal Handling</name>
+			<specialization>Equines</specialization>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B175</reference>
+			<categories>
+				<category>Animal</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Brawling</name>
+			<difficulty>DX/E</difficulty>
+			<points>2</points>
+			<reference>B182</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<weapon_bonus>
+				<name compare="is">Brawling</name>
+				<specialization compare="is anything"></specialization>
+				<level compare="at least">2</level>
+				<amount per_level="yes">1</amount>
+			</weapon_bonus>
+		</skill>
+	</skill_list>
+	<spell_list>
+		<spell version="2">
+			<name>Might (The Hand of Justice)</name>
+			<college>Body Control</college>
+			<power_source>Sanctity</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>2/+ST</casting_cost>
+			<maintenance_cost>Same</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min</duration>
+			<points>12</points>
+			<reference>M37</reference>
+			<categories>
+				<category>Body Control</category>
+			</categories>
+		</spell>
+		<spell version="2" very_hard="yes">
+			<name>Burning Death (Consumed by Everlasting Fire)</name>
+			<college>Fire/Necromancy</college>
+			<power_source>Sanctity</power_source>
+			<spell_class>Melee</spell_class>
+			<casting_cost>3</casting_cost>
+			<maintenance_cost>2</maintenance_cost>
+			<casting_time>3 sec</casting_time>
+			<duration>1 sec</duration>
+			<points>12</points>
+			<melee_weapon>
+				<damage>thr-1 cr +1d-1 burn/second</damage>
+				<usage>Punch</usage>
+				<reach>C</reach>
+				<parry>0</parry>
+				<default>
+					<type>DX</type>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Boxing</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Brawling</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Karate</name>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<reference>M76</reference>
+			<categories>
+				<category>Fire</category>
+				<category>Necromancy</category>
+			</categories>
+		</spell>
+		<spell version="2">
+			<name>Rooted Feet (Holding Shroud)</name>
+			<college>Body Control</college>
+			<power_source>Sactity</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>3</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min or until free</duration>
+			<points>4</points>
+			<reference>M36</reference>
+			<categories>
+				<category>Body Control</category>
+			</categories>
+		</spell>
+	</spell_list>
+	<equipment_list>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Boots</description>
+			<tech_level>2</tech_level>
+			<legality_class>4</legality_class>
+			<value>80</value>
+			<weight>3 lb</weight>
+			<reference>B284</reference>
+			<categories>
+				<category>Footwear</category>
+			</categories>
+			<dr_bonus>
+				<location>feet</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Heavy Cloak</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>50</value>
+			<weight>5 lb</weight>
+			<reference>B287</reference>
+			<melee_weapon>
+				<damage>-</damage>
+				<strength>-</strength>
+				<reach>-</reach>
+				<parry>No</parry>
+				<block>+0</block>
+				<default>
+					<type>Block</type>
+					<name>Cloak</name>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<ranged_weapon>
+				<damage>Special</damage>
+				<strength>8</strength>
+				<usage>Thrown</usage>
+				<accuracy>+1</accuracy>
+				<range>2</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>T(1)</shots>
+				<bulk>-6</bulk>
+				<default>
+					<type>Skill</type>
+					<name>Cloak</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Net</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shield</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Clothing</category>
+			</categories>
+			<attribute_bonus>
+				<attribute>dodge</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>parry</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>block</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+		</equipment>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Leather Gloves</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>30</value>
+			<reference>B284</reference>
+			<categories>
+				<category>Gloves</category>
+			</categories>
+			<dr_bonus>
+				<location>hands</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Legionary Helmet</description>
+			<tech_level>2</tech_level>
+			<legality_class>3</legality_class>
+			<value>150</value>
+			<weight>6 lb</weight>
+			<reference>B284</reference>
+			<categories>
+				<category>Headgear</category>
+			</categories>
+			<dr_bonus>
+				<location>skull</location>
+				<amount>4</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>face</location>
+				<amount>4</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Mace</description>
+			<tech_level>2</tech_level>
+			<legality_class>4</legality_class>
+			<value>50</value>
+			<weight>5 lb</weight>
+			<reference>B271</reference>
+			<melee_weapon>
+				<damage>sw+3 cr</damage>
+				<strength>12</strength>
+				<usage>Swung</usage>
+				<reach>1</reach>
+				<parry>0U</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Axe/Mace</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Flail</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Two-Handed Axe/Mace</name>
+					<modifier>-3</modifier>
+				</default>
+			</melee_weapon>
+			<ranged_weapon>
+				<damage>sw+3 cr</damage>
+				<strength>12</strength>
+				<accuracy>1</accuracy>
+				<range>x0.5/x1</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>T(1)</shots>
+				<bulk>-4</bulk>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Thrown Weapon</name>
+					<specialization>Axe/Mace</specialization>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Melee Weapon</category>
+				<category>Missile Weapon</category>
+			</categories>
+		</equipment>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Medium Buckler</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>60</value>
+			<weight>15 lb</weight>
+			<reference>B287</reference>
+			<melee_weapon>
+				<damage>thr cr</damage>
+				<strength>0</strength>
+				<reach>1</reach>
+				<parry>No</parry>
+				<block>+0</block>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shield</name>
+					<specialization>Shield</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shield</name>
+					<specialization>Force Shield</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shield</name>
+					<specialization>Buckler</specialization>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<categories>
+				<category>Shield</category>
+			</categories>
+			<attribute_bonus>
+				<attribute>dodge</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>parry</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>block</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+		</equipment>
+	</equipment_list>
+	<print_settings printer="Office printer" units="in">
+		<orientation>portrait</orientation>
+		<width>8.267716407775879</width>
+		<height>11.692913055419922</height>
+		<top_margin>0.20000000298023224</top_margin>
+		<left_margin>0.20000000298023224</left_margin>
+		<bottom_margin>0.1999996155500412</bottom_margin>
+		<right_margin>0.2000000923871994</right_margin>
+		<ink_chromaticity>color</ink_chromaticity>
+		<sides>duplex</sides>
+		<number_up>1</number_up>
+		<quality>normal</quality>
+	</print_settings>
+</character>
