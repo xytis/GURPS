@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<character id="840c3450-e1bb-4ffc-bb76-13ffc809def4" version="3">
+	<created_date>Nov 25, 2018</created_date>
+	<modified_date>Nov 25, 2018, 5:21 PM</modified_date>
+	<profile>
+		<player_name>chib</player_name>
+		<name>Haman Kishi</name>
+		<title>Father</title>
+		<age>26</age>
+		<birthday>June 7</birthday>
+		<eyes>Brown-Orange</eyes>
+		<hair>Brown, Straight, Long</hair>
+		<skin>Light Brown</skin>
+		<handedness>Right</handedness>
+		<height>172 cm</height>
+		<weight>66 kg</weight>
+		<SM>0</SM>
+		<gender>Male</gender>
+		<race>Human</race>
+		<body_type>humanoid</body_type>
+		<tech_level>3</tech_level>
+		<religion>Order of the Sacred Shroud</religion>
+	</profile>
+	<HP>0</HP>
+	<FP>10</FP>
+	<total_points>120</total_points>
+	<ST>8</ST>
+	<DX>10</DX>
+	<IQ>13</IQ>
+	<HT>10</HT>
+	<will>0</will>
+	<perception>0</perception>
+	<speed>0</speed>
+	<move>0</move>
+	<include_punch>true</include_punch>
+	<include_kick>true</include_kick>
+	<include_kick_with_boots>true</include_kick_with_boots>
+	<advantage_list>
+		<advantage version="2">
+			<name>Blessed</name>
+			<type>Mental, Supernatural</type>
+			<base_points>10</base_points>
+			<modifier version="1" enabled="no">
+				<name>Very</name>
+				<cost type="points">10</cost>
+				<affects>total</affects>
+				<reference>B40</reference>
+			</modifier>
+			<reference>B40</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Clerical Investment</name>
+			<type>Social</type>
+			<base_points>5</base_points>
+			<reference>B43</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Power Investiture</name>
+			<type>Mental, Supernatural</type>
+			<levels>1</levels>
+			<points_per_level>10</points_per_level>
+			<reference>B77</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Megalomania</name>
+			<type>Mental</type>
+			<base_points>-10</base_points>
+			<reference>B144</reference>
+			<notes>Is the chosen one to resurrect Hephaistus</notes>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Duty (Order of the Sacred Shroud)</name>
+			<type>Social</type>
+			<modifier version="1" enabled="no">
+				<name>FR: 6</name>
+				<cost type="points">-2</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>FR: 9</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1">
+				<name>FR: 12</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>FR: 15</name>
+				<cost type="points">-15</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Extremely Hazardous</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Involuntary</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Nonhazardous</name>
+				<cost type="points">5</cost>
+				<affects>total</affects>
+			</modifier>
+			<reference>B133</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Phantom Voices</name>
+			<type>Mental</type>
+			<modifier version="1">
+				<name>Annoying</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B148</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Disturbing</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B148</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Diabolical</name>
+				<cost type="points">-15</cost>
+				<affects>total</affects>
+				<reference>B148</reference>
+			</modifier>
+			<reference>B148</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Intolerance (Heathens)</name>
+			<type>Mental</type>
+			<modifier version="1" enabled="no">
+				<name>Scope: Common</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B140</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Scope: Occasional</name>
+				<cost type="points">-2</cost>
+				<affects>total</affects>
+				<reference>B140</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Scope: Rare</name>
+				<cost type="points">-1</cost>
+				<affects>total</affects>
+				<reference>B140</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Scope: Anyone unlike you</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B140</reference>
+			</modifier>
+			<reference>B140</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Rank</name>
+			<type>Physical</type>
+			<levels>1</levels>
+			<points_per_level>5</points_per_level>
+			<modifier version="1" enabled="no">
+				<name>Replaces Status</name>
+				<cost type="points">5</cost>
+				<affects>levels only</affects>
+				<reference>B29</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Courtesy</name>
+				<cost type="points">-4</cost>
+				<affects>levels only</affects>
+				<reference>B29</reference>
+			</modifier>
+			<reference>B29</reference>
+			<notes>Religous Rank: Priest</notes>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+	</advantage_list>
+	<skill_list>
+		<skill version="2">
+			<name>Brawling</name>
+			<difficulty>DX/E</difficulty>
+			<points>2</points>
+			<reference>B182</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<weapon_bonus>
+				<name compare="is">Brawling</name>
+				<specialization compare="is anything"></specialization>
+				<level compare="at least">2</level>
+				<amount per_level="yes">1</amount>
+			</weapon_bonus>
+		</skill>
+		<skill version="2">
+			<name>Leadership</name>
+			<difficulty>IQ/A</difficulty>
+			<points>8</points>
+			<reference>B204</reference>
+			<categories>
+				<category>Military</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Current Affairs</name>
+			<specialization>Regional</specialization>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B186</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Research</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Current Affairs</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Diplomacy</name>
+			<difficulty>IQ/H</difficulty>
+			<points>4</points>
+			<reference>B187</reference>
+			<categories>
+				<category>Business</category>
+				<category>Police</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Politics</name>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Fast-Talk</name>
+			<difficulty>IQ/A</difficulty>
+			<points>8</points>
+			<reference>B195</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Social</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Acting</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Teaching</name>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B224</reference>
+			<categories>
+				<category>Scholarly</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Riding</name>
+			<specialization>Equine</specialization>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B217</reference>
+			<categories>
+				<category>Animal</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Animal Handling</name>
+				<specialization>Equine</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Public Speaking</name>
+			<difficulty>IQ/A</difficulty>
+			<points>4</points>
+			<reference>B216</reference>
+			<categories>
+				<category>Business</category>
+				<category>Scholarly</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Acting</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Performance</name>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Politics</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>First Aid</name>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B195</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Medical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Esoteric Medicine</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physician</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Veterinary</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Physician</name>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>4</points>
+			<reference>B213</reference>
+			<categories>
+				<category>Medical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-7</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>First Aid</name>
+				<modifier>-11</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Veterinary</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Surgery</name>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/VH</difficulty>
+			<points>1</points>
+			<reference>B223</reference>
+			<categories>
+				<category>Medical</category>
+			</categories>
+			<prereq_list all="no">
+				<skill_prereq has="yes">
+					<name compare="is">first aid</name>
+					<specialization compare="is"></specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">physician</name>
+					<specialization compare="is"></specialization>
+				</skill_prereq>
+			</prereq_list>
+			<default>
+				<type>Skill</type>
+				<name>First Aid</name>
+				<modifier>-12</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physician</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physiology</name>
+				<modifier>-8</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Veterinary</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+	</skill_list>
+	<spell_list>
+		<spell version="2" very_hard="yes">
+			<name>Body of Flames</name>
+			<college>Fire</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>12</casting_cost>
+			<maintenance_cost>4</maintenance_cost>
+			<casting_time>5 sec</casting_time>
+			<duration>1 min</duration>
+			<points>8</points>
+			<melee_weapon>
+				<damage>1d burn</damage>
+				<usage>Punch</usage>
+				<reach>C</reach>
+				<parry>0</parry>
+				<default>
+					<type>DX</type>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Boxing</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Brawling</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Karate</name>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<reference>M76</reference>
+			<categories>
+				<category>Fire</category>
+			</categories>
+		</spell>
+		<spell version="2">
+			<name>Choke</name>
+			<college>Body Control</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>4</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>30 sec</duration>
+			<points>2</points>
+			<reference>M40</reference>
+			<categories>
+				<category>Body Control</category>
+			</categories>
+		</spell>
+		<spell version="2">
+			<name>Flaming Weapon</name>
+			<college>Fire</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>4</casting_cost>
+			<maintenance_cost>1</maintenance_cost>
+			<casting_time>2 sec</casting_time>
+			<duration>1 min</duration>
+			<points>2</points>
+			<reference>M75</reference>
+			<notes>+2 points burn damage from attacks with melee weapon</notes>
+			<categories>
+				<category>Fire</category>
+			</categories>
+		</spell>
+	</spell_list>
+	<equipment_list>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Cloth Gloves</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>15</value>
+			<reference>B284</reference>
+			<categories>
+				<category>Gloves</category>
+			</categories>
+			<dr_bonus>
+				<location>hands</location>
+				<amount>1</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Cloth Armor</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>30</value>
+			<weight>6 lb</weight>
+			<reference>B283</reference>
+			<categories>
+				<category>Body Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>groin</location>
+				<amount>1</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>torso</location>
+				<amount>1</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Heavy Cloak</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>50</value>
+			<weight>5 lb</weight>
+			<reference>B287</reference>
+			<melee_weapon>
+				<damage>-</damage>
+				<strength>-</strength>
+				<reach>-</reach>
+				<parry>No</parry>
+				<block>+0</block>
+				<default>
+					<type>Block</type>
+					<name>Cloak</name>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<ranged_weapon>
+				<damage>Special</damage>
+				<strength>8</strength>
+				<usage>Thrown</usage>
+				<accuracy>+1</accuracy>
+				<range>2</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>T(1)</shots>
+				<bulk>-6</bulk>
+				<default>
+					<type>Skill</type>
+					<name>Cloak</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Net</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shield</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Clothing</category>
+			</categories>
+			<attribute_bonus>
+				<attribute>dodge</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>parry</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>block</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+		</equipment>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>First Aid Kit</description>
+			<legality_class>4</legality_class>
+			<value>50</value>
+			<weight>2 lb</weight>
+			<reference>B289</reference>
+			<notes>A complete kit for treating wounds, with bandages, ointments, etc.</notes>
+			<categories>
+				<category>Medical Gear</category>
+			</categories>
+			<skill_bonus>
+				<name compare="is">First Aid</name>
+				<specialization compare="is anything"></specialization>
+				<amount>1</amount>
+			</skill_bonus>
+		</equipment>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Surgical Instruments</description>
+			<legality_class>4</legality_class>
+			<value>300</value>
+			<weight>15 lb</weight>
+			<reference>B289</reference>
+			<notes>Includes scalpels, forceps, etc. Basic equipment f&#252;r Surgery skill.</notes>
+			<categories>
+				<category>Medical Gear</category>
+			</categories>
+		</equipment>
+	</equipment_list>
+	<print_settings printer="Office printer" units="in">
+		<orientation>portrait</orientation>
+		<width>8.267716407775879</width>
+		<height>11.692913055419922</height>
+		<top_margin>0.20000000298023224</top_margin>
+		<left_margin>0.20000000298023224</left_margin>
+		<bottom_margin>0.1999996155500412</bottom_margin>
+		<right_margin>0.2000000923871994</right_margin>
+		<ink_chromaticity>color</ink_chromaticity>
+		<sides>duplex</sides>
+		<number_up>1</number_up>
+		<quality>normal</quality>
+	</print_settings>
+</character>

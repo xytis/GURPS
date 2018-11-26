@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="287e528b-594b-429f-a700-97b0e65e3b9b" version="3">
 	<created_date>Nov 23, 2018</created_date>
-	<modified_date>Nov 24, 2018, 6:56 PM</modified_date>
+	<modified_date>Nov 25, 2018, 5:19 PM</modified_date>
 	<profile>
 		<player_name>xytis</player_name>
 		<name>Aufrag Heishbar</name>
@@ -366,6 +366,26 @@
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Riding</name>
+			<specialization>Equine</specialization>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B217</reference>
+			<categories>
+				<category>Animal</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Animal Handling</name>
+				<specialization>Equine</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Carousing</name>
 			<difficulty>HT/E</difficulty>
 			<points>1</points>
@@ -395,43 +415,8 @@
 				<amount per_level="yes">1</amount>
 			</weapon_bonus>
 		</skill>
-		<skill version="2">
-			<name>Throwing</name>
-			<difficulty>DX/A</difficulty>
-			<points>1</points>
-			<reference>B226</reference>
-			<categories>
-				<category>Athletic</category>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Dropping</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
 	</skill_list>
 	<spell_list>
-		<spell version="2">
-			<name>Might (The Hand of Justice)</name>
-			<college>Body Control</college>
-			<power_source>Sanctity</power_source>
-			<spell_class>Regular</spell_class>
-			<casting_cost>2/+ST</casting_cost>
-			<maintenance_cost>Same</maintenance_cost>
-			<casting_time>1 sec</casting_time>
-			<duration>1 min</duration>
-			<points>8</points>
-			<reference>M37</reference>
-			<categories>
-				<category>Body Control</category>
-			</categories>
-		</spell>
 		<spell version="2" very_hard="yes">
 			<name>Burning Death (Consumed by Everlasting Fire)</name>
 			<college>Fire/Necromancy</college>
@@ -471,6 +456,21 @@
 			<categories>
 				<category>Fire</category>
 				<category>Necromancy</category>
+			</categories>
+		</spell>
+		<spell version="2">
+			<name>Might (The Hand of Justice)</name>
+			<college>Body Control</college>
+			<power_source>Sanctity</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>2/+ST</casting_cost>
+			<maintenance_cost>Same</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min</duration>
+			<points>8</points>
+			<reference>M37</reference>
+			<categories>
+				<category>Body Control</category>
 			</categories>
 		</spell>
 		<spell version="2">
