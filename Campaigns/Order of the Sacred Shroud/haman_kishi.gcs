@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="840c3450-e1bb-4ffc-bb76-13ffc809def4" version="3">
 	<created_date>Nov 25, 2018</created_date>
-	<modified_date>Nov 27, 2018, 1:58 PM</modified_date>
+	<modified_date>Nov 27, 2018, 9:36 PM</modified_date>
 	<profile>
 		<player_name>chib</player_name>
 		<name>Haman Kishi</name>
@@ -659,13 +659,13 @@
 			<value>300</value>
 			<weight>15 lb</weight>
 			<reference>B289</reference>
-			<notes>Includes scalpels, forceps, etc. Basic equipment f&#252;r Surgery skill.</notes>
+			<notes>Includes scalpels, forceps, etc. Basic equipment for Surgery skill.</notes>
 			<categories>
 				<category>Medical Gear</category>
 			</categories>
 		</equipment>
 	</equipment_list>
-	<print_settings units="in">
+	<print_settings printer="Office printer" units="in">
 		<orientation>portrait</orientation>
 		<width>8.267716407775879</width>
 		<height>11.692913055419922</height>
@@ -675,6 +675,7 @@
 		<right_margin>0.2000000923871994</right_margin>
 		<ink_chromaticity>color</ink_chromaticity>
 		<sides>duplex</sides>
+		<number_up>1</number_up>
 		<quality>normal</quality>
 	</print_settings>
 </character>
