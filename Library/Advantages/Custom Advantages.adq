@@ -15,6 +15,14 @@
 		</categories>
 	</advantage>
 	<advantage version="2">
+		<name>Can not sleep if frogs croaks nearby</name>
+		<type>Mental</type>
+		<base_points>-1</base_points>
+		<categories>
+			<category>Quirk</category>
+		</categories>
+	</advantage>
+	<advantage version="2">
 		<name>Week Arm</name>
 		<type>Physical</type>
 		<levels>1</levels>
