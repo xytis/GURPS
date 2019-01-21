@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="659dc1d6-ab32-4f77-bfee-ff75a0128935" version="3">
 	<created_date>Nov 26, 2018</created_date>
-	<modified_date>Nov 27, 2018, 10:54 AM</modified_date>
+	<modified_date>Nov 27, 2018, 9:29 PM</modified_date>
 	<profile>
 		<player_name>GM</player_name>
 		<name>Lesser Demon of Blood Binding</name>
@@ -18,7 +18,7 @@
 	<HP>8</HP>
 	<FP>0</FP>
 	<total_points>100</total_points>
-	<ST>12</ST>
+	<ST>13</ST>
 	<DX>13</DX>
 	<IQ>8</IQ>
 	<HT>12</HT>
@@ -136,6 +136,33 @@
 			<categories>
 				<category>Advantage</category>
 			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Enhanced Parry (Bare hands)</name>
+			<type>Mental</type>
+			<levels>2</levels>
+			<points_per_level>5</points_per_level>
+			<reference>B51</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<attribute_bonus>
+				<attribute>parry</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Enhanced Dodge</name>
+			<type>Mental</type>
+			<base_points>15</base_points>
+			<reference>B51</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<attribute_bonus>
+				<attribute>dodge</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
 		</advantage>
 	</advantage_list>
 	<skill_list>
