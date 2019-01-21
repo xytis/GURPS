@@ -18,3 +18,16 @@ Sacred Shroud and continued to devote himself to the deeds of Hephaistus.
 At the age of 18 grim news reached him. His older brother has fallen in battle.
 He took the bloodstained helmet from his brothers corpse and woved to avenge
 the untimely death of his brother.
+
+# Vision
+Aufrag sat in front of burning funeral pyre. He looked into the flames and prayed
+to Hephaistus: as this fire carries away the remains of a brother of another man,
+may it also bring the sign of Aufrags brother death.
+
+He stared for what seems hours. And he was about to lose hope, but then, in fading
+embers of the pyre he saw a vision.
+A city of weird architecture. Sun that scorched the cities streets so much
+that air shimmered. Temples for the false god. And then he saw it. A strangely
+curved sword at the hips of wealthy man. He couldnt see the face. But the sigil,
+decorating clothes and the handle of a sword, burned into Aufrags memory rekindling
+the desire for vengeance.
