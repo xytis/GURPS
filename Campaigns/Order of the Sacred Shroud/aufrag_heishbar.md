@@ -19,15 +19,28 @@ At the age of 18 grim news reached him. His older brother has fallen in battle.
 He took the bloodstained helmet from his brothers corpse and woved to avenge
 the untimely death of his brother.
 
-# Vision
-Aufrag sat in front of burning funeral pyre. He looked into the flames and prayed
-to Hephaistus: as this fire carries away the remains of a brother of another man,
-may it also bring the sign of Aufrags brother death.
+# Plot
 
-He stared for what seems hours. And he was about to lose hope, but then, in fading
-embers of the pyre he saw a vision.
-A city of weird architecture. Sun that scorched the cities streets so much
-that air shimmered. Temples for the false god. And then he saw it. A strangely
-curved sword at the hips of wealthy man. He couldnt see the face. But the sigil,
-decorating clothes and the handle of a sword, burned into Aufrags memory rekindling
-the desire for vengeance.
+## Vision: Prayer for the lost brother
+
+Aufrag sat in front of burning funeral pyre. He looked into the flames and
+prayed to Hephaistus: as this fire carries away the remains of a brother of
+another man, may it also bring the sign of Aufrags brother death.
+
+He stared for what seems hours. And he was about to lose hope, but then, in
+fading embers of the pyre he saw a vision.  A city of weird architecture. Sun
+that scorched the cities streets so much that air shimmered. Temples for the
+false god. And then he saw it. A strangely curved sword at the hips of wealthy
+man. He couldnt see the face. But the sigil, decorating clothes and the handle
+of a sword, burned into Aufrags memory rekindling the desire for vengeance.
+
+## Nightmare: The calling
+
+Aufrag is quietly meditating next to a huge bonfire, when a song reaches his
+ears. He opens his eyes and sees a figure in the distance. Figure is floating
+tranquilly with four arms clasped for prayer. Her face is serene and her lips
+are moving with the tune of the song. She is calling Aufrag. Aufrag tries to
+walk around the fire, yet the flames are never-ending, figure is always behind
+the hottest flames. Aufrag steps into the flame, yet the pain is unbearable, he
+stumbles back. The song is getting louder the more Aufrag tries to reach this
+creature, but he is unable to do so.
