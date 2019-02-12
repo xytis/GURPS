@@ -9,10 +9,10 @@
 > Filip the traveling drunkard, on the beers in Bardhof.
 
 Bardhof is a town in the middle between Rivermeet and Twinkle, standing on the
-western bank of Swaymist river around the inflow of Murken brook. South west
-huge whey and barley fields lay in the valey upstream the Murken brook. North
-east across the river of Swaymist dense forests cover hills that raise up into
-sky touching mountains. Recently the townsfolk rebuilt the wooden ramparts to
+western bank of Swaymist river around the inflow of Murken brook. Vast whey
+and barley filled valley lay southwest along the Murken brook. North east
+across the river of Swaymist dense forests cover hills that raise up into sky
+touching mountains. Recently the townsfolk rebuilt the wooden ramparts to
 envelop the growing town. Remnants of old wooden wall are still standing in the
 inner perimeter here and there.
 
@@ -31,4 +31,5 @@ Bardhof and the closest neighbours. If we don't count the usual inn fights.
 
 Government in Bardhof is elected every five years. Highest power is given to
 representative, he is tasked with maintaining diplomatic conversations with
-neighbouring towns, solving disputes in town and appointing members of Great House.
+neighbouring towns, solving disputes in town and appointing members of Great
+House.
