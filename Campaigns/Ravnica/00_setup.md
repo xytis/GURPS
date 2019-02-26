@@ -13,8 +13,8 @@ Izzet experiment and the location of the Neirius lab deep in Precinct Five.
 Neirius begs to meet him before the sun sets today, in the lab.
 
     Dear friend,
-    I am in great need of your help. Please meet me at my laboratory in Fifth
-    [address follows] before sun sets tonight.
+    Please meet me at my laboratory in The Blistercoils, between Sullemand's
+    and Sunnix's before sun sets tonight.
     I beg for your help, Neirius
 
 # NPC: Neirius
