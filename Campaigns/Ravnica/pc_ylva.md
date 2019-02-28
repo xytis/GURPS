@@ -80,3 +80,24 @@ individuals.
 But among her items there was only one that she really valued - the wolf
 dagger. She used it rarely, but efficiently and it took as many lives as was
 necesary to keep her own life and secrets.
+
+
+## Interlude Nai and Neirius
+
+Two years ago Nai got into a shady deal with Izzet Machinist Zirzet. Zirzet was
+dealin' in "decomisioned" Izzet equipment and he needed reliable partner to
+acquire a particular Circular Energy Bleed Shaft. Nai took the job for the zibs
+and flawlesly executed her part of the deal, stealing it, along with few other
+gizmos from an Izzet caravan. Deal was done, zibs crossed hands and Nai thought
+this will be the last time she saw Zirzet. But the goblin remembered her skills
+soon after. So he reached out again. And again. And again. This was a
+lucrative partnership for both, the shady goblin and the discreet girl. One
+time Zirzet called to meet him in the Ismeri Library. Nai came to the agreed
+shelf and found Zirzet talking with a tall and slender human. He introduced
+her to one of his clients, a researcher named Neirius, and asked her to aquire
+yet another gizmo for him. It took a few weeks of carefull planning and
+tracking until Nai managed to snatch it from a working private laboratory in
+the depths of Izzet underground works. The complexity of the job was rewarded
+with hefty sum of platinum Orzhov minted zinos. Which, naturaly, sparked an
+interest in whatever Neirius was doing with that amount of money on hand.
+
