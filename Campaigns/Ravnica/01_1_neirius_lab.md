@@ -19,3 +19,8 @@ If party spends too much time and the night sets, a spirit approaches them. It
 is a wailing spirit. It does not speak properly, but it manages to show the
 path to Orzhov church by appearing on general direction of the church.
 
+# Scene 2: Matilda's Shade
+
+Large house with courtyard and a huge oak in the back.
+
+Jack and Mary. Told about the church.
