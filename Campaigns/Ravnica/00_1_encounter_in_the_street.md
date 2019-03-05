@@ -1,7 +1,3 @@
-# Setup:
-
-
-
 # Scene 1: Walking to Neirius lab
 
 Walking through an alley between two busy streets you hear something

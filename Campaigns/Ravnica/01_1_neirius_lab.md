@@ -21,6 +21,11 @@ path to Orzhov church by appearing on general direction of the church.
 
 # Scene 2: Matilda's Shade
 
-Large house with courtyard and a huge oak in the back.
+Orphanage in a large house with courtyard and a huge oak in the back. Kids are
+playing in the yard, bigger kids are working around in the garden. You can feel
+slight influence of Selesnia culture. Most probably matron is connected to that
+guild.
 
-Jack and Mary. Told about the church.
+Two orphan kids are from this orphanage. Their names are Jack and Mary. They
+seems to be interested in whatever the adventurers have. They have seen the
+human dragged into Orzhov church.
