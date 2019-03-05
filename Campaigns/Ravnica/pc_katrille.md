@@ -37,8 +37,9 @@ He slammed the book shut and looked me straight in to the eye.
 
 -- "You are new here, aren't you?", - he asked with noticible irritation.
 
-His eyes scanned my composture and the remnants of my failed experiments all
-over my skin. His gaze softened.
+His eyes scanned my composture and the marks of my experiments all over my
+skin. I unconciously dragged my sleve down covering one of the latest tatoos
+with formula for chemical I recently combined. His gaze softened.
 
 -- "Yes I am new... Would you like to show me around? And maybe get some rest
 while you are at it?", - I pressed on.
@@ -82,7 +83,7 @@ glowing vial in my left hand.
 --"Can I help you?"
 
 --"Please miss, a letter for you", - a young pale boy was standing wet in the
-coridor. His clothing was driping with some sort of liquid. He handed me a
+coridor. His clothes were driping with some sort of liquid. He handed me a
 paper leter, shimering with resistance magic.
 
 --"Where did you manage to get this wet?", - I curiously inclined.
