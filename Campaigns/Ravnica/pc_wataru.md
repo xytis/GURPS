@@ -63,4 +63,58 @@ faith at the chapel of Boros?
 
 Maybe I am "the great beast who masters the thunder clouds" after all?
 
+# Interlude Wyn Zumro
+
+Wataru in his early childhood roamed the forests of Selesnya. He was active and
+pettish for an elephant. One morning while striding down the eastern forests
+young loxodon found an injured brushstrider. It's wounds were severe, it had
+multiple arrows sticking out of it's large neck and few nasty cuts on it's
+elegant body. Wataru ran to the nearest forest keeper's hut, slammed through the
+door and in gabbled:
+
+--"Brushstrider!... Arrows!... Blood!... Help!..."
+
+An elder elf was kneeling next to a small crib and feeding something from a
+small milk bottle. He stood up, and quite surprised by the anxiety shown by a
+loxodon calmly asked:
+
+--"Speak slower, child. What happened?"
+
+--"I was walking in the forest, ... a brushstrider, next to a large pine, ...
+blood and arrrows!"
+
+Seeing that little elephants eyes were filling with tears, elf took his healing
+kit, his staff and pointed to the door:
+
+--"Show me, child."
+
+Wataru scuddled out through the door and without looking back charged straight
+through the forest. Elf had to jog to keep up with the flurried loxodon.
+
+***
+
+--"Can we name it?"- Wataru asked.
+
+--"I doubt he will need names, child, but you can give him some leaves to eat."
+
+A large brushstrider was lying on hay, all bandaged up and resting.
+
+--"Mister, what is your name?"
+
+--"Zumro, but you can call me Wyn. How should I call you, little elephant?"
+
+***
+
+Zumro's place became one of the favourite spots to spend time for young Wataru.
+Mister Wyn, as Wataru called him, was a talented healer, who took care of the
+animals in the eastern forests. Lately there were more and more raids as the
+Gruul became agitated for some reason, thus there were a lot of injured animals
+and plants that needed Wyn's attention. Wataru was not the only child who found
+Zumro's place attractive. There were at least a dozen other Selesnyan children
+helping to take care after the animals and nurturing saplings in the little
+garden behind foresters hut.
+
+Wataru made many acquaintances during his time in Zumro's hut, most notable of
+which was a young elven girl, named Neia, and two human twins Martin and
+Sebastian.
 
