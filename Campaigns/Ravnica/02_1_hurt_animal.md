@@ -6,17 +6,21 @@ Selesnya who can help them. His name is Wyn Zumro.
 Players encounter a pack of goblins that have surrounded a Dire Wolf. A lone
 ranger shoots an arrow to confront them.
 
-## NPC Wyn Zumro
+There is a large half-ogre standing tall in front of the wolf. He shouts his
+name:
 
-Elf, slightly shorter than an average elf, with long black hair, tightly bound
-into a bun behind his head. Only few straight strands of hair are falling on
-his smooth elvish face. His eyes are showing age, but his composure is firm. He
-is a bit naive and welcoming. He is caring for all living and sometimes even
-the dead. His major flaw is his love for his niece Neia.
+--"Breegork take hide! Breegork kill wolf!"
+
+--"Fight! Fight! Fight! Fight!"- surrounding goblins chant.
+
+When fight turns sour goblins will scramble. Breegork will shout:
+
+--"Breegork not afraid! WRRAAARGHHHH!!!" and charge closest PC.
 
 # Scene
 
 Forest :D
 
-https://www.dndbeyond.com/monsters/goblin-gang-member
+https://www.dndbeyond.com/monsters/half-ogre
 https://www.dndbeyond.com/monsters/dire-wolf
+https://www.dndbeyond.com/monsters/anarch
