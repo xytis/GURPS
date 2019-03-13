@@ -93,12 +93,12 @@ She picked up her flute and played a travel tune which kept her company while
 the sun was slowly rising above the horizon. Suddenly she heard a commotion
 behind a ruined chapel:
 
---"Man goes crey?"- something shouted. -"Speak po not det kahl!"
+--"Duun huun daagaan?"- something shouted. -"Taash or daan mech o!"
 
 --"Wis'd zlyxuk. Xy likx as jxulx."- she replied in Abbysal, having no idea
 what was told to her.
 
---"Caatal? Nie, nie, nie caatal!"- another phrase echoed from
+--"Draalkuuc? Khruun, khruun, khruun draalkuuc!"- another phrase echoed from
 the large broken walls.
 
 Three goblins appeared from behind the corner:
@@ -123,7 +123,7 @@ of the trio barked in accented common tongue.
 --"Lead me where they killed Breegork."- she pressed the goblins on, swinging
 her scythe around.
 
---"No hurt us Caatal, we show."- goblins just turned around and scampered
+--"No hurt us Draalkuuc, we show."- goblins just turned around and scampered
 back into dark woods behind the ruins, leaving Rakdos performer no other choice
 but to follow them.
 
@@ -137,7 +137,7 @@ his pouch.
 --"You have done your job, now scramble."- Shinigami ordered watching as
 goblins scavenged through their fallen comrades.
 
---"Fier ehn kastos!"- they barked and scrambled away from the angry looking girl.
+--"Rhor ac maach!"- they barked and scrambled away from the angry looking girl.
 
 Shinigami investigated the bodies of Breegork and the goblin. Found a piece of
 jerky in the undergarment of the ogre. Driven by her desire to mutilate and
