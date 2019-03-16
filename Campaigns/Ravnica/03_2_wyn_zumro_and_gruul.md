@@ -13,3 +13,7 @@ He stops for a second and pours three cups of warm over bright yellow flower pet
 
 --"Since you asked me for shelter and a safe haven for your friend, I see only fair
 you would do something about my forest."
+
+Wyn stays silent for a moment.
+
+--"Also, what kind of trouble your friend has gotten himself into?"

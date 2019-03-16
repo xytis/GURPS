@@ -1,4 +1,4 @@
-#Scene Mister Elion Norberos, the legendary bowyer
+#Scene: Mister Elion Norberos, the legendary bowyer
 
 Within a small clearing in the thick woods, a long livewood house, with an old
 mossy roof stands in the morning mist. A tall elf with white curly hair and a
