@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="287e528b-594b-429f-a700-97b0e65e3b9b" version="3">
 	<created_date>Nov 23, 2018</created_date>
-	<modified_date>Mar 19, 2019, 8:29 PM</modified_date>
+	<modified_date>Mar 19, 2019, 9:04 PM</modified_date>
 	<profile>
 		<player_name>xytis</player_name>
 		<name>Aufrag Heishbar</name>
@@ -23,7 +23,7 @@
 	</profile>
 	<HP>5</HP>
 	<FP>4</FP>
-	<total_points>120</total_points>
+	<total_points>130</total_points>
 	<ST>13</ST>
 	<DX>11</DX>
 	<IQ>9</IQ>
@@ -736,6 +736,19 @@
 				<amount>2</amount>
 			</attribute_bonus>
 		</equipment>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Mysterious Tome</description>
+			<legality_class>4</legality_class>
+			<value>0</value>
+			<notes>Taken from the body of Cicero</notes>
+		</equipment>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Amulet of the Old God</description>
+			<legality_class>4</legality_class>
+			<value>0</value>
+		</equipment>
 		<equipment_container version="4" open="yes" state="equipped">
 			<description>Apparel</description>
 			<legality_class>4</legality_class>
@@ -915,7 +928,7 @@
 			<text>Derangement: 4</text>
 		</note>
 	</note_list>
-	<print_settings units="in">
+	<print_settings printer="Office printer" units="in">
 		<orientation>portrait</orientation>
 		<width>8.267716407775879</width>
 		<height>11.692913055419922</height>
@@ -925,6 +938,7 @@
 		<right_margin>0.2000000923871994</right_margin>
 		<ink_chromaticity>color</ink_chromaticity>
 		<sides>duplex</sides>
+		<number_up>1</number_up>
 		<quality>normal</quality>
 	</print_settings>
 </character>
