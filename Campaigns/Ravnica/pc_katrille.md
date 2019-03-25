@@ -100,7 +100,7 @@ I took a closer look at the letter. Izzet seal. Familiar handwriting:
 
     Dear friend,
     Please meet me at my laboratory in The Blistercoils, between
-    Sullemand's and Sunnix's before sun sets tonight.
+    Sullemand's and Sunnix's before the sun sets tonight.
     I beg for your help, Neirius
 
 ***
