@@ -29,6 +29,46 @@ attacked by released Simic experiments.
 
 https://www.dndbeyond.com/monsters/category-1-krasis
 
+Speciment #74:
+  Flying blob of various colors, steadily shifting among the shapeless carapace.
+  It apears to have some sort of skin, but no distinguishable apendages. A wurm like
+  mouth is placed in front of the crature, no visible eyes.
+  [Flying]
+  [Amorphous Structure]
+
+Speciment #113:
+  A five legged muscle patch, with a bird like beak menacing on a strong neck.
+  Two eyes are placed on either side of the beak, forcing the head to tilt
+  from side to side in order to see properly. Legs are boneless, slurping
+  around but have sharp looking claws at the end of each.
+  [Regeneration]
+  [Stabilizing Legs]
+
+Speciment #7:
+  A small rodent like creature, with bald chameleon skin and five skiny
+  tails, has small lizard like head and drake like legs.
+  [Hypnotic Display]
+  [Cryptic Skin]
+
+Speciment #67:
+  Frog and crab hibrid, with two strong claws, chitinous skin and muscular
+  back legs. It's black bead eyes are standing on small antenna.
+  [Armored Hide]
+  [Leaping Legs]
+
+Speciment N-11:
+  A four legged shark like creature, with multiple eyes on flexible stems and
+  a strong jaw. It's scales are covered in colorful markings which glow in the dark.
+  [Aquatic]
+  [Heightened Awareness]
+  [Bioluminescent Markings]
+
+Iosif jumps through the door, gasps in anger, his all creations are running
+amok. He notices one particular speciment and dives after him into the pool
+leading away.
+
+--"Don't let them escape, I need these speciments!"
+
 ...
 
 After the battle Iosif is more likely to grant their request. He also asks to
@@ -82,6 +122,4 @@ tell their stories.
 - Ok, ok, Ana speaks. But give Annabelle some food! No, not the vile Golgari shit!
 I want cherries!
 - He was tall and Vedalken. His blue hand had a number written on it. 17.
-
-
 
