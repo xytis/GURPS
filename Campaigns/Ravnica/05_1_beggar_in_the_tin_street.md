@@ -5,6 +5,8 @@ multiple identical pickaxes. The stall-keeper is a young human boy, Jaxon, aroun
 16 years old. He is not very helpful, unless he is given a hefty sum, or
 interrogated in other means.
 
+He say that his father Obediah, a fine smith works in the X district.
+
 Clues that can be given:
 
 - A young woman came over today, and bought two pickaxes. She looked stunning,
