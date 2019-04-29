@@ -5,12 +5,13 @@ multiple identical pickaxes. The stall-keeper is a young human boy, Jaxon, aroun
 16 years old. He is not very helpful, unless he is given a hefty sum, or
 interrogated in other means.
 
-He say that his father Obediah, a fine smith works in the X district.
+He say that his father Obediah, a fine smith works in the Sixth district, close
+to the Foundry street.
 
 Clues that can be given:
 
 - A young woman came over today, and bought two pickaxes. She looked stunning,
-    with a dark long dress and pale skin. Her arms were quite long. She picked two
+    with a long dark dress and pale skin. Her arms were quite long. She picked two
     identical pickaxes and ordered her thrull to carry them. Then she paid in gold
     and left.
 - Large looking Rakdos Cultist bought a replacement for his pickaxe, he chose
