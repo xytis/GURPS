@@ -128,22 +128,22 @@ resides.
 
 Players remember the cistern where Neirius had led them before. They can backtrack to surface without incident.
 
-![Scheme](https://g.gravizo.com/svg?
-graph G {
-  R1 -- R2 [label="doorway"];
-  R1 -- R3 [label="stairway"];
-  R1 -- RS [label="breach in wall"];
-  R2 -- R4 [label="iron door"];
-  R3 -- R5 [label="wooden door"];
-  R4 -- R6 [label="locked door"];
-  R4 -- R7 [label="rusty door"];
-  R5 -- R8 [label="fall via crumbled opening"];
-  R7 -- R9 [label="hole in the ceiling"];
-  RS -- R8 [label="breach in wall"];
-  R8 -- Cistern [label="downstream"];
-  R9 -- Cistern [label="downstream"];
-}
-)
+![Scheme](https://g.gravizo.com/svg?%20%20graph%20G%20%7B%0A%20%20%20%20R1%20--%20R2%20%5Blabel%3D%22doorway%22%5D%3B%0A%20%20%20%20R1%20--%20R3%20%5Blabel%3D%22stairway%22%5D%3B%0A%20%20%20%20R1%20--%20RS%20%5Blabel%3D%22breach%20in%20wall%22%5D%3B%0A%0A%20%20%20%20R2%20--%20R4%20%5Blabel%3D%22iron%20door%22%5D%3B%0A%0A%20%20%20%20R3%20--%20R5%20%5Blabel%3D%22wooden%20door%22%5D%3B%0A%0A%20%20%20%20R4%20--%20R6%20%5Blabel%3D%22locked%20door%22%5D%3B%0A%20%20%20%20R4%20--%20R7%20%5Blabel%3D%22rusty%20door%22%5D%3B%0A%0A%20%20%20%20R5%20--%20R8%20%5Blabel%3D%22fall%20via%20crumbled%20opening%22%5D%3B%0A%0A%20%20%20%20R7%20--%20R9%20%5Blabel%3D%22hole%20in%20the%20ceiling%22%5D%3B%0A%0A%20%20%20%20RS%20--%20R8%20%5Blabel%3D%22breach%20in%20wall%22%5D%3B%0A%0A%20%20%20%20R8%20--%20Cistern%20%5Blabel%3D%22downstream%22%5D%3B%0A%20%20%20%20R9%20--%20Cistern%20%5Blabel%3D%22downstream%22%5D%3B%0A%20%20%7D%0A)
+
+    graph G {
+      R1 -- R2 [label="doorway"];
+      R1 -- R3 [label="stairway"];
+      R1 -- RS [label="breach in wall"];
+      R2 -- R4 [label="iron door"];
+      R3 -- R5 [label="wooden door"];
+      R4 -- R6 [label="locked door"];
+      R4 -- R7 [label="rusty door"];
+      R5 -- R8 [label="fall via crumbled opening"];
+      R7 -- R9 [label="hole in the ceiling"];
+      RS -- R8 [label="breach in wall"];
+      R8 -- Cistern [label="downstream"];
+      R9 -- Cistern [label="downstream"];
+    }
 
 
 ```mermaid
