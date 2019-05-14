@@ -132,7 +132,7 @@ Players remember the cistern where Neirius had led them before. They can backtra
 <details>
 <summary></summary>
 scheme
-graph {
+graph G {
 R1 -- R2 [label=doorway]
 R1 -- R3 [label=stairway]
 R1 -- RS [label="breach in wall"]
