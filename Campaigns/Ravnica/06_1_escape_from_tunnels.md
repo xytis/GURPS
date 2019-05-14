@@ -1,4 +1,4 @@
-#Scene
+# Scene
 
 On taking out the device from the earth a low grumble is heard.
 
@@ -15,14 +15,14 @@ Tunnel collapses in front, opening an alternative path, which they have not yet 
 Path takes them slightly downward, before opening up in a chamber. Threat the following encounter as
 a proper dungeon.
 
-###R1
+### R1
 
 Small square room covered in darkness. Floor is covered in fungii and moss.
 Walls are made from rough stone brick. Visible exits are: stair leading upward,
 dark doorway and a careful adventurer can discover weak wall which can be taken
 out with a kick.
 
-###R2
+### R2
 
 Hall with strong collumns in the center, going further than anyone can see in the dark.
 Walls are covered in small irregular holes and openings, which on inspection seem to lead
@@ -37,7 +37,7 @@ attacks the party for destroying the webs.
 
 Hall ends with an iron door.
 
-###R3
+### R3
 
 Stairwell goes up in a spiral. Stairs are old and crumbled in places. Every
 full circle a small landing is carved in the same stone. At the third landing
@@ -46,7 +46,7 @@ metallic snap and a whirling of a chain in a mechanism behind the wall. No other
 effects are visible. Fifth landing leads into another room through a wooden door.
 Door crumbles on opening.
 
-###R4
+### R4
 
 Behind a metal door a damp circular shaped corridor resides. Goes around some
 big cylinder shaped stone structure which is cold and damp to the touch. Every
@@ -57,14 +57,13 @@ remaining two doors are locked. Another is thickly covered in rust and needs to 
 forcefully opened, because of growth behind it.
 Rust can be DC 15 Intelligence(Nature) or Wisdom(Survival) checked to actually
 be Russet Mold. Any creature within 5 feet of the door must make DC 13
-Constitution saving throw. See [Russet
-Mold](https://www.dndbeyond.com/monsters/vegepygmy).
+Constitution saving throw. See [Russet Mold](https://www.dndbeyond.com/monsters/vegepygmy).
 
 Final fourth door is hidden by illusion magic. It can only be detected by
 casting detect magic. All other senses are blocked. Fourth door leads to the
 surface via narrow passage which ends up behind a Ogre Café "Strongbrew".
 
-###R5
+### R5
 
 Wooden door crumbles on touch and opens up to a study. Walls are covered in
 tall charred wood shelves full of burned books. A strong smell of smoke
@@ -77,14 +76,14 @@ ceiling.
 
 Corner of the room is crumbled down, opening to a fall to a bellow cavern.
 
-###R6
+### R6
 
 Locked door opens to a small study, which is clean and appears to have some
 sort of magical enchantment runes above the door frame. Study seems unused for at least a while,
 it is neat and orderly. There is mizzium equipment to be looted, no coin. Notes for a hybrid mechanic
 water elemental can be found.
 
-###R7
+### R7
 
 Iron door opens by great effort into a lush underworld garden. There is a sickly sweet smell in the air.
 Movement between the large mushrooms is clear. A tribe of Vegepygmys attacks the trespassing party.
@@ -97,7 +96,7 @@ in the ceiling.
 
 Only exit is the hole in the roof.
 
-###R8
+### R8
 
 Party drops into a cavern with a small river below. A nest made from slightly melted stone sits on the bank.
 Nest contains three red chitinous larva.
@@ -108,14 +107,14 @@ If players are not careful they are ferociously attacked by Ankheg.
 
 After combat players can follow downstream. Upstream is blocked by a freshly installed metal gate.
 
-###R9
+### R9
 
 A large cathedral like building with a broken ceiling and mostly crumbled
 walls. Strong echo. Behind the altar a stream of water is gushing out into a
 small brook which is directed through a broken grate. All other exits are
 covered in debris. Players following downstream ends up in the Cistern.
 
-###Secret
+### Secret
 
 Broken wall opens up to a muddy tunnel. It seems like a tunnel made by a small
 wurm. It is high enough to stand. One side of the tunnel ends up in a dead
@@ -125,7 +124,7 @@ has cracks in it from the wurm touch. Broken wall opens up to a utility tunnel
 with a stream flowing downward. Slightly uphill a freshly installed metal gate
 resides.
 
-###Cistern
+### Cistern
 
 Players remember the cistern where Neirius had led them before. They can backtrack to surface without incident.
 
