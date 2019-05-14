@@ -128,6 +128,36 @@ resides.
 
 Players remember the cistern where Neirius had led them before. They can backtrack to surface without incident.
 
+![Scheme](https://g.gravizo.com/source/scheme?https%3A%2F%2Fraw.githubusercontent.com%2Fxytis%2FGURPS%2Fravnica%2FCampaigns%2FRavnica%2F06_1_escape_from_tunnels.md)
+<details>
+<summary></summary>
+scheme
+graph {
+R1 -- R2 [label=doorway]
+R1 -- R3 [label=stairway]
+R1 -- RS [label="breach in wall"]
+
+R2 -- R4 [label="iron door"]
+
+R3 -- R5 [label="wooden door"]
+
+R4 -- R6 [label="locked door"]
+R4 -- R7 [label="rusty door"]
+
+R5 -- R8 [label="fall via crumbled opening"]
+
+R7 -- R9 [label="hole in the ceiling"]
+
+RS -- R8 [label="breach in wall"]
+
+R8 -- Cistern [label="downstream"]
+R9 -- Cistern [label="downstream"]
+
+}
+scheme
+</details>
+
+
 ```mermaid
 graph LR
 
