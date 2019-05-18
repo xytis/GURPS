@@ -2,7 +2,7 @@
 
 On taking out the device from the earth a low grumble is heard.
 
-A deadbridge goliath beetle is charging towards the party. It appears unstopable.
+A deadbridge goliath beetle is charging towards the party. It appears unstoppable.
 
 1 deadbridge goliath beetle
 [sheet](https://www.dndbeyond.com/monsters/triceratops)
@@ -17,14 +17,14 @@ a proper dungeon.
 
 ### R1
 
-Small square room covered in darkness. Floor is covered in fungii and moss.
+Small square room covered in darkness. Floor is covered in fungi and moss.
 Walls are made from rough stone brick. Visible exits are: stair leading upward,
 dark doorway and a careful adventurer can discover weak wall which can be taken
 out with a kick.
 
 ### R2
 
-Hall with strong collumns in the center, going further than anyone can see in the dark.
+Hall with strong columns in the center, going further than anyone can see in the dark.
 Walls are covered in small irregular holes and openings, which on inspection seem to lead
 to some sort of tiny tunnel system, suitable for rodent sized creatures. A silky thread
 can be seen here and there.
