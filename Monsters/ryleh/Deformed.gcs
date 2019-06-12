@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="14186c88-bf22-407c-a80d-9a72e6694792" version="3">
 	<created_date>Nov 26, 2018</created_date>
-	<modified_date>Nov 26, 2018, 5:07 PM</modified_date>
+	<modified_date>May 28, 2019, 4:55 PM</modified_date>
 	<profile>
 		<player_name>GM</player_name>
 		<name>Deformed</name>
@@ -133,40 +133,6 @@
 			</default>
 		</skill>
 		<skill version="2">
-			<name>Smallsword</name>
-			<difficulty>DX/A</difficulty>
-			<points>4</points>
-			<reference>B208</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Main-Gauche</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Rapier</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
 			<name>Spear</name>
 			<difficulty>DX/A</difficulty>
 			<points>4</points>
@@ -217,6 +183,55 @@
 				<type>Skill</type>
 				<name>Two-Handed Flail</name>
 				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Shortsword</name>
+			<difficulty>DX/A</difficulty>
+			<points>4</points>
+			<reference>B209</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>Skill</type>
+				<name>Broadsword</name>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Jitte/Sai</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Saber</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Smallsword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Tonfa</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
 			</default>
 		</skill>
 	</skill_list>
