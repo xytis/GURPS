@@ -9,7 +9,7 @@ escaped the church, only a verbal testimony from the pontiff. The enforcers
 that presumably brought the debtor are missing too.
 
 Church of Orzhov is organising a tournament to praise the generosity of
-Orzhova. Price for the winner of 3 hand to hand combats 5 Orzhov platinum
+Orzhova. Price for the winner of 5 hand to hand combats 5 Orzhov platinum
 mints. Tournament will continue for as long as there are contesters during the
 next few weeks. Entry fee only one zino!
 
@@ -36,3 +36,11 @@ corner of the leaflet.
 Old human with threatening scar going through his face sits alone in the
 corner. He is flipping a platinum coin in the air. He has an offer which he
 would presumably disclose in private, outside. Party gets ambushed and robbed.
+
+Swarms of waspcrabs are ravaging Golgari Rot Farms, Simic anounced they will
+solve this problem, if they do not, Golgari promised to poison the Zonot.
+
+"We raised eelhawks to control the squidflies, then waspcrabs to prey on the
+eelhawks. Now what do we do with all these waspcrabs?" --Gulistan, Simic
+biomancer
+
