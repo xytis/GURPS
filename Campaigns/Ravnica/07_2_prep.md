@@ -13,6 +13,8 @@ Orzhova. Price for the winner of 5 hand to hand combats 5 Orzhov platinum
 mints. Tournament will continue for as long as there are contesters during the
 next few weeks. Entry fee only one zino!
 
+Johana is an ogre fighter, which has a lot of bets on her.
+
 There is an upcoming festival in the Gore House, they say a pack of succubi
 will be running wild there this year.
 

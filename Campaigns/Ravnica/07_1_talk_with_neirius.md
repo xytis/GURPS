@@ -1,3 +1,10 @@
+# Inn: Water and some Fire
+
+Innkeeper: Large ogre female, with sweet voice
+
+
+# Neirius
+
 Neirius sends the party to a nearby inn to have a pint on his tab, then joins
 them after an hour or so.
 
