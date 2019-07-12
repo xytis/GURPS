@@ -1,13 +1,5 @@
 # Character hooks, secrets and rumors.
 
-Najwa is approached by a well dressed male, Nikolaiev Spasov, he has Orzhov
-brooch on his cloak. He is followed by two large bodyguards. He proposes a
-contract to investigate recent interuption in a nearby church. By his knowledge
-a debtor had escaped his due. It would be an easy task, but there are ends
-missing in this case. There are no records of the name of the person who
-escaped the church, only a verbal testimony from the pontiff. The enforcers
-that presumably brought the debtor are missing too.
-
 Church of Orzhov is organising a tournament to praise the generosity of
 Orzhova. Price for the winner of 5 hand to hand combats 5 Orzhov platinum
 mints. Tournament will continue for as long as there are contesters during the
