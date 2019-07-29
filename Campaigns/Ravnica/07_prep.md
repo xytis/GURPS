@@ -5,7 +5,7 @@ Orzhova. Price for the winner of 5 hand to hand combats 5 Orzhov platinum
 mints. Tournament will continue for as long as there are contesters during the
 next few weeks. Entry fee only one zino!
 
-Johana is an ogre fighter, which has a lot of bets on her.
+J'okhana is a minotaur fighter, which has a lot of bets on her.
 
 There is an upcoming festival in the Gore House, they say a pack of succubi
 will be running wild there this year.
@@ -31,7 +31,7 @@ Old human with threatening scar going through his face sits alone in the
 corner. He is flipping a platinum coin in the air. He has an offer which he
 would presumably disclose in private, outside. Party gets ambushed and robbed.
 
-Swarms of waspcrabs are ravaging Golgari Rot Farms, Simic anounced they will
+Swarms of waspcrabs are ravaging Golgari rotfrms, Simic anounced they will
 solve this problem, if they do not, Golgari promised to poison the Zonot.
 
 "We raised eelhawks to control the squidflies, then waspcrabs to prey on the
