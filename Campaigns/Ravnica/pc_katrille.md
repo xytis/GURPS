@@ -62,7 +62,7 @@ I tried to calm her over the years I worked there. I tried to show her the
 beauty of change. The beauty of this new world. I tried to bring joy back to
 her emerald eyes. I created new species just for her. I named new islands and
 underwater groves after her eyes, her lips, her hands. I tried everything in
-my power. I gave her everything I have had or will have.
+my power. I gave her everything I have, had or will have.
 
 But in the end, she took her own life.
 
