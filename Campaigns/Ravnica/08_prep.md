@@ -26,58 +26,69 @@ A group of spirits had broken free from Orzhov Basilica during an earthquake
 and a collapse in Whitestone. Investigation is on the way by Wojek Tiernan
 Dunphy.
 
+A note is put into Katrille's hand by a shaded figure
+[https://www.dndbeyond.com/monsters/thought-spy]:
+
+    I know who unleashed the plague in 10065. Meet me at the
+    Quicksliver Bat Bridge.
+
 # Locations
 
 ## The Oathkeeper Emporium
 
-Conveniently built on intersection between the Blistercoils, the Bulwark and
-the Smelting quarter. This place is bustling most of the time, filled with
-after work Boros legionnaires, passing through Gruul demolishers, scientists
-from Izzet and Simmic, and a whole lot of Orzhov higher members, who come here
-for good food and a fine show. You can always find someone who is interested in
-a bet on the next fight or a quarrel for one. Cutthroats and enforcers are kept
-at relative peace outside the arena, as one of the house rule states that
-fighting without a proper betting round is heavily punished by Orzhov
-overlords.
+Conveniently built on intersection between the Blistercoils, the
+Bulwark and the Smelting quarter. This place is bustling most of the
+time, filled with after work Boros legionnaires, passing through
+Gruul demolishers, scientists from Izzet and Simmic, and a whole lot
+of Orzhov higher members, who come here for good food and a fine
+show. You can always find someone who is interested in a bet on the
+next fight or a quarrel for one. Cutthroats and enforcers are kept at
+relative peace outside the arena, as one of the house rule states
+that fighting without a proper betting round is heavily punished by
+Orzhov overlords.
 
-Dark stone building, with a curved facade decorated in pillars. There is a
-large porthole to allow unrestricted entry through dark wood gate. On the sides
-of main passageway there are two small doors, used by security and other
-personnel. There is an alley leading around the building and separating it from
-every other structure in the vicinity. Above the alley some fancier buildings
-have stone and glass bridges connecting them with upper floors of the arena.
-You can stop and observe various statues in the arches throughout the curving
-wall. Most of the statues depict previous champions of the arena. Large ogres,
-human sized shapes and tiny goblins stand in stone with their weapons of choice
-raised to the outside world.
+Dark stone building, with a curved facade decorated in pillars. There
+is a large porthole to allow unrestricted entry through dark wood
+gate. On the sides of main passageway there are two small doors, used
+by security and other personnel. There is an alley leading around the
+building and separating it from every other structure in the
+vicinity. Above the alley some fancier buildings have stone and glass
+bridges connecting them with upper floors of the arena.  You can stop
+and observe various statues in the arches throughout the curving
+wall. Most of the statues depict previous champions of the arena.
+Large ogres, human sized shapes and tiny goblins stand in stone with
+their weapons of choice raised to the outside world.
 
-Inside a maze of tunnels and stairs lead to the small podiums built from the
-same stone, housing one or more tables, overlooking the arena. There are more
-private rooms that open up tho the main arena, mostly used by the wealthy.
-Below the bloody arena a series of chambers lie. In there fighters prepare for
-combat. Even below that a huge kitchen is located, with passageways through the
-Undercity to Golgari and Rakdos territories. Both of those are necessary allies
+Inside a maze of tunnels and stairs lead to the small podiums built
+from the same stone, housing one or more tables, overlooking the
+arena. There are more private rooms that open up tho the main arena,
+mostly used by the wealthy.  Below the bloody arena a series of
+chambers lie. In there fighters prepare for combat. Even below that a
+huge kitchen is located, with passageways through the Undercity to
+Golgari and Rakdos territories. Both of those are necessary allies
 when providing food and organising daily fights and performances.
 
-When no fights are organised the Emporium serves as imp controlled restaurant.
+When no fights are organised the Emporium serves as imp controlled
+restaurant.
 
 ## The Quicksilver Bat Bridge over The Chasm
 
-The lowest of the three bridges that are still outside Golgari territory that
-connect The Blistercoils with The Bulwark. A good spot to get someone killed
-without a trace. Also a good spot to have someone listen to you with utmost
-attention, because of the first reason this bridge is famous for. Both ends
-disappear in a maze of underground passages that sprout under every building in
-Ravnica.
+The lowest of the three bridges that are still outside Golgari
+territory that connect The Blistercoils with The Bulwark. A good spot
+to get someone killed without a trace. Also a good spot to have
+someone listen to you with utmost attention, because of the first
+reason this bridge is famous for. Both ends disappear in a maze of
+underground passages that sprout under every building in Ravnica.
 
-It got the name from an incident few hundred years back when a scientist tried
-to ship a significant load of said metal to the foundry using the shortest and
-least inspected path. Obviously the Quicksliver was "liberated" from a rival
-laboratory and was meant to be forged into a golem. By sheer accident a pack of
-Bloodhunter Bats had chosen this bridge as their resting place and attacked the
-caravan. In the end the quicksilver was spilled all over the pavement and
-dripped down on remaining hanging bats. Now those bats are permanently encased
-in magical shimmering casing, which repels most of wildlife from coming
-anywhere close.
+It got the name from an incident few hundred years back when a
+scientist tried to ship a significant load of said metal to the
+foundry using the shortest and least inspected path. Obviously the
+Quicksliver was "liberated" from a rival laboratory and was meant to
+be forged into a golem. By sheer accident a pack of Bloodhunter Bats
+had chosen this bridge as their resting place and attacked the
+caravan. In the end the quicksilver was spilled all over the pavement
+and dripped down on remaining hanging bats. Now those bats are
+permanently encased in magical shimmering casing, which repels most
+of wildlife from coming anywhere close.
 
 ## 
