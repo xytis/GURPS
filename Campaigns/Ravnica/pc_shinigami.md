@@ -2,38 +2,92 @@
 
 Real name: Unknown
 
-After being repeatedly abused by father, once was good girl turned her abuser
-insides out ripped of his genitalia with her bare hands and made him choke by
-it. Mother was shocked by such view when she found a girl laying in the bath of
-blood near crusified father. In fact mother didn't knew her husband's
-wrongdoings. Catrina, devastated by her loss of loved one, blamed demons who
-possessed her young daughter. Few years later mother found herself a new men -
-local drunk which appeared more interested in Catrina's growing up teenage
-daughters body than herself. Being strongly detached from all the world girl
-enjoyed the peace playing her flute. It calmed her but creeped everyone else
-out because of the tones she played. So, they lived quite peaceful life until
-one day stepfather came back home wasted, mother was taking a night shift in
-local pub. He found girl playing her flute and decided to take advantage of
-her. He didn't know past events... Next day morning Catrina came back home and
-found her man crusified on the kitchen wall upside down... His arms and legs
-were fasten using kitchen tools, insides all around the place, genitalia ripped
-of and fed to stepfather. His belly was full of paper notes "It's all his
-fault". The girl was missing. Few months later. Living as a stray dog in harsh
-streets of Ravnica she learned the ways of inflicting pain and suffering no one
-could imagine.
+After being repeatedly abused by her own father, once silent and obedient girl
+snapped. One day, when her father was advancing on her, she grabbed a nearby
+mace and knocked the old man out. She did not stop there, as if something
+bloodthirsty had awakened in her. She took out her fathers carpentry kit and
+bolted the old man to the floor. She ripped his cock and slammed it deep into
+his crying mouth, forcing it down with a wooden spike. Then she collapsed in
+the puddle of blood and laughed with bloodthirsty delight.
 
-One day The Rakdos himself stumbled on her in his demonic dreams. She was
-torturing a pontif of Orzhov, his screams and prayers managed to breach the
-demon's conciousness and peak his interest. The lord of defiling found
-amusement and artistry in her work, so he decided to shelter the promising
-girl. Through the hands of current Bloodwitch, he entrusted the girl with gift
-of dark arts and she devoted her life to him by making a blood sealed pact.
-Rakdos named her Loviatar, after the godly mistress of physical and
-psychological pain and torture.
+That was how her mother, Catrina, found her. Curled up to a mutilated dead
+man's corpse, with her clothes ripped off, covered in blood head to toe.
+
+The girl barely spoke about what happened, she could not stop crying and
+Catrina, not knowing about any of the nasty and vile things father was doing
+with their daughter, assumed that some sort of demonic force was involved with
+her family. She contacted Orzhov and got her husband buried and her child
+blessed by the pontiff.
+
+Few days after her father incident she came across a beggar playing a banged up
+flute. The sharp notes resonated with the girls soul so she sat down on the
+ground next to the dirty toothless man. Catrina could not persuade the girl to
+leave that place on any other condition, than by buying off the flute from the
+beggar. From that day onward, the girl and the flute would be inseparable.
+
+Few years later Catrina found herself a new man - a local mason. Jakson
+appeared decent at first, but later on his crippling alcoholism surfaced.
+Countless times Jakson and Catrina got into fights over the girls music. To
+Jakson, the music was creepy and borderline insane, to Catrina, it was the only
+thing that placed a smile on her beloved daughters face. One faithful night,
+Jakson returned home wasted. He barged into the room and found the girl playing
+her flute with her bare teenage legs crossed on a warm fur. He licked his dry
+lips and imagined all the nasty things he wants to do to the girl. He swirled
+forward and ripped the flute out of her young lips. The old flute snapped in
+his palm. He tossed the shards away and pushed the girl down on the fur with
+his drunken body. She screamed and scratched at his strong arms to no avail. He
+leaned back to unfasten his pants. Last thing he saw was a demonic flame
+burning in girls eyes as she leaped forward and gouged his eyes with her bare
+fingers.
+
+Next morning Catrina came back home from her night shift and found her man
+crucified on the kitchen wall upside down... His arms and legs were fasten
+using kitchen tools, intestines were all over the place, genitalia were ripped
+off and forced into stepfathers throat. His cut belly was full of paper notes
+"It's all his fault". The girl was missing.
+
+Living as a stray dog in harsh streets of Ravnica the girl succumbed to
+murderous rage and feasting on the flesh of the dead. She was a natural in the
+ways of inflicting pain and suffering no one could imagine. One day The Rakdos
+himself stumbled on her in his demonic dreams. She was torturing a pontiff of
+Orzhov, his screams and prayers managed to breach the demon's conciousness and
+peak his interest. The lord of defiling found amusement and artistry in her
+work, so he decided to shelter the promising girl. Through the hands of current
+Bloodwitch, he entrusted the girl with gift of dark arts and she devoted her
+life to him by making a blood sealed pact. Rakdos named her Loviatar, after the
+godly mistress of physical and psychological pain and torture.
 
 The girl is finally at peace with her desires, she is two sided as Rakdos
 himself, happy to entertain others by playing her flute anywhere and anytime
-she wants, or indulging in pain of others when she seems this fit.
+she wants, or indulging in pain of others when she sees fit.
+
+## Inner demons that have pointy horns
+
+1. Since my mother was secretly visiting Rakdos trying to find my because she
+   had a suspicion I might be there, and I was secretly stalking her at nights
+   though the window of our small house, leaving some money by the door step
+   whenever I had a penny or two, one day my old house became empty. No more
+   lights at night, no more tasty supper smells in the evening. Nothing. After
+   a month I tried to break into my house and found nothing but the cobwebs. It
+   seemed like there was no life inside at least for a year. Was Rakdos himself
+   was playing my mind to give some "meaning" to my pathetic life? Or maybe I
+   actually had a mother and my whole story is true but Rakdos himself or
+   someone high ranked killed her?
+
+2. I've been bullied a lot. Especially by a Rakdos Witch - Karnataka. She
+   always whispered me some bullshit about a woman by the entrance looking for
+   a lost daughter, few times I ran outside but there was nothing but the dead
+   homeless with his insides all around ( that was my art, ha ha). Anyway,
+   Rakdos has dozens of girls. All of them has a similar story to mine. I
+   wonder can it be some how related?
+
+0. Žodžiu, mano char pagrindinis tikslas yra išsiaiškinti kas iš tiesų nutiko
+   su jos motina - ar tai tai buvo tik iliuzija sukurta Rakdos, ar motina iš
+   tiesų egzistavo, bet dėl kažkokių kerų, mergaitei buvo susuktos smegenys ir
+   dėl to ji užpjovė savo tėvą, bei patėvį, nors iš tiesų jie nieko blogo
+   nedarė (a. k. a. Rakdos tokiu būdu supisa jaunoms mergaitėms psichiką ir
+   tuomet užverbuoja jas pas save į klaną), ar viskas kas vyko buvo realu. It's
+   up to you to decide which one is more interesting and suitable.
 
 ## Interlude with Neirius
 
