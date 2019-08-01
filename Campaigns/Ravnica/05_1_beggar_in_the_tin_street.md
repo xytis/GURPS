@@ -35,5 +35,5 @@ mumbles something out of the context.
 - Why should I tell you anything? You are standing on my favourite stone!
 - Ok, ok, Ana speaks. But give Annabelle some food! No, not the vile Golgari shit!
     I want cherries!
-- He was tall and Vedalken. His blue hand had a number written on it. 17.
+- He was tall and Vedalken. His right blue hand had a number written on it. 17.
 

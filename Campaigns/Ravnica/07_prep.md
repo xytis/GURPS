@@ -12,9 +12,9 @@ will be running wild there this year.
 
 I've heard Gruul marauders have a new leader, a fierce warrior named Bren.
 
-It had been the third incident like this! This time a scientist going by name
-Coronos was found dead in the alley here in Blistercoils. He had drowned, just
-as the other two victims.
+It had been the second incident like this! This time a scientist going by name
+Cuktula was found dead in the alley here in Blistercoils. He had drowned, just
+as the other victim.
 [https://www.dndbeyond.com/monsters/slithering-tracker]
 
 An old hag is selling carpets in the Tin Street. I've heard her clients have
@@ -30,6 +30,8 @@ corner of the leaflet.
 Old human with threatening scar going through his face sits alone in the
 corner. He is flipping a platinum coin in the air. He has an offer which he
 would presumably disclose in private, outside. Party gets ambushed and robbed.
+  Leaders: Janush(dead), Borek, Nikolas.
+  Thugs: Steve, Arkady, Sozox (goblin), Lucas
 
 Swarms of waspcrabs are ravaging Golgari rotfrms, Simic anounced they will
 solve this problem, if they do not, Golgari promised to poison the Zonot.
@@ -40,3 +42,10 @@ biomancer
 
 Two kids kissing in a tree were ambushed by Nai. Hope and her boy from Azorius
 shared that there is a little spy network between the other kids.
+
+# Locations
+## Inn: Water and some Fire
+
+Innkeeper: Large ogre female, with sweet voice. Her name is Jura.
+She has a wide variety of strong alcohol and treats everything as "water".
+

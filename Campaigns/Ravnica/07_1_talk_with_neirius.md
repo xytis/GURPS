@@ -1,7 +1,3 @@
-# Inn: Water and some Fire
-
-Innkeeper: Large ogre female, with sweet voice
-
 
 # Neirius
 

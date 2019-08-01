@@ -5,7 +5,7 @@ Name: Rozhe Enroris
 Born in the chaotic times after the decamillenial celebration, she was raised
 in a loving family of a decent status. During the relatively calm years of
 10065 family decided to move away from the corrupt center of intrigue that
-the Tenth District had became to Jerezu, a calm far away region, where their
+the Tenth District had became to Jezeru, a calm far away region, where their
 family had a distant relative. Unfortunately on the road their caravan was
 ambushed and all passengers were either killed either taken into slavery.
 Rozhe, just 7 at that time was separated from her parents and the bandits kept
@@ -17,7 +17,7 @@ them and lived with them as equal, entertaining and stealing, singing and
 carousing.
 
 It was autumn of 10071 when she finally caught the news about her lost family.
-She wrote to the relatives living in Jerezu only to receive grim news that all
+She wrote to the relatives living in Jezeru only to receive grim news that all
 elves in the household had fallen gravely ill and died, including her father
 who had just recently found his way back to civilisation. Together with the
 letter she received her fathers Azorius signet and directions back to New Prahv
