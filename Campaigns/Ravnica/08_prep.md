@@ -26,6 +26,7 @@ A group of spirits had broken free from Orzhov Basilica during an earthquake
 and a collapse in Whitestone. Investigation is on the way by Wojek Tiernan
 Dunphy.
 
+
 A note is put into Katrille's hand by a shaded figure
 [https://www.dndbeyond.com/monsters/thought-spy]:
 
@@ -33,6 +34,10 @@ A note is put into Katrille's hand by a shaded figure
     Quicksliver Bat Bridge.
 
 # Locations
+
+## Slashed Rose tavern
+
+A shack with semi broken tavern sign. You are greeted by a small sharp eared goblin.
 
 ## The Oathkeeper Emporium
 

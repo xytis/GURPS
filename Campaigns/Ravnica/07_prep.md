@@ -38,3 +38,5 @@ solve this problem, if they do not, Golgari promised to poison the Zonot.
 eelhawks. Now what do we do with all these waspcrabs?" --Gulistan, Simic
 biomancer
 
+Two kids kissing in a tree were ambushed by Nai. Hope and her boy from Azorius
+shared that there is a little spy network between the other kids.

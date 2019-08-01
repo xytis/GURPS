@@ -1,6 +1,39 @@
 # Backstory
 
-...
+Real name: Unknown
+
+After being repeatedly abused by father, once was good girl turned her abuser
+insides out ripped of his genitalia with her bare hands and made him choke by
+it. Mother was shocked by such view when she found a girl laying in the bath of
+blood near crusified father. In fact mother didn't knew her husband's
+wrongdoings. Catrina, devastated by her loss of loved one, blamed demons who
+possessed her young daughter. Few years later mother found herself a new men -
+local drunk which appeared more interested in Catrina's growing up teenage
+daughters body than herself. Being strongly detached from all the world girl
+enjoyed the peace playing her flute. It calmed her but creeped everyone else
+out because of the tones she played. So, they lived quite peaceful life until
+one day stepfather came back home wasted, mother was taking a night shift in
+local pub. He found girl playing her flute and decided to take advantage of
+her. He didn't know past events... Next day morning Catrina came back home and
+found her man crusified on the kitchen wall upside down... His arms and legs
+were fasten using kitchen tools, insides all around the place, genitalia ripped
+of and fed to stepfather. His belly was full of paper notes "It's all his
+fault". The girl was missing. Few months later. Living as a stray dog in harsh
+streets of Ravnica she learned the ways of inflicting pain and suffering no one
+could imagine.
+
+One day The Rakdos himself stumbled on her in his demonic dreams. She was
+torturing a pontif of Orzhov, his screams and prayers managed to breach the
+demon's conciousness and peak his interest. The lord of defiling found
+amusement and artistry in her work, so he decided to shelter the promising
+girl. Through the hands of current Bloodwitch, he entrusted the girl with gift
+of dark arts and she devoted her life to him by making a blood sealed pact.
+Rakdos named her Loviatar, after the godly mistress of physical and
+psychological pain and torture.
+
+The girl is finally at peace with her desires, she is two sided as Rakdos
+himself, happy to entertain others by playing her flute anywhere and anytime
+she wants, or indulging in pain of others when she seems this fit.
 
 ## Interlude with Neirius
 
