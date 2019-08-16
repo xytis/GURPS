@@ -1,0 +1,35 @@
+# Encounter
+
+3x https://www.dndbeyond.com/monsters/grick
+http://themonstersknow.com/grick-tactics/
+
+You drag your victim into one of the undercity passageways. Slightly mossy path
+opens up into a cavern, made from old shrine with crumbled dome roof. Streaks
+of daylight illuminate bright patches of stone floor, leaving corners of the
+room in impenetrable darkness. There are three exits out of this underground
+building, Nai came here before through the one directly in front before. Dirt
+and piles of rock lie on the edges of the cavern-like-room. Windows have
+shattered eons ago, leaving only rough stone and brick visible through them,
+
+# Hooks, secrets and rumours
+ (11th of Mokosh)
+
+Banners announcing festival in the Gore House on 12th of Mokosh are everywhere.
+Red cloth with dark strokes and a painting of current Blood Witch Exava
+caressing a demon skull. Banner reads "Unleash your bodily desires! Enjoy the
+thrill of love and pain!". Some of the banners have a warning from Azorius that
+festivity including succubi and incubi is breaking the law as of 10th of
+Mokosh. To which some of Azorius banners are violated with insulting remarks or
+undignifying paintings.
+
+Black cloth banners with symbolism of Orzhov announce fighting competition
+which takes place through all Mokosh. Next match is on Mokosh 11 at the
+Oathkeeper Emporium. Tickets are starting from 5 zibs.
+
+Today people are talking about riot and clenching of it near Seventh Zonot.
+There are rumours that a water dragon came flying over the city and drenching
+the crowd in water. There is also a rumour that a cult is planning to
+release all Simic creatures into the wild where they belong.
+
+Golgari had created bug eating plants to combat the parasites from Simic combine.
+https://www.dndbeyond.com/monsters/440031-spitting-greyflower

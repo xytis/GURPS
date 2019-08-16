@@ -1,3 +1,11 @@
+# Brief
+
+Real name: Ylva
+Aliases: Nai, Najwa, Nadja...
+Family:
+  Gulbrand (father figure, captured)
+  Brenda (sister, joined Gruul)
+
 # Backstory
 
 Decades ago Gulbrand, a vagabond blacksmith from eastern Rubblebelt, came

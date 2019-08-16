@@ -1,6 +1,15 @@
-# Backstory
+# Brief
 
 Real name: Unknown
+Aliases: Shinigami, Loviatar
+Race: Human
+Age: 17 (13 Zuun 10059)
+Family:
+  Catrina (mother, unsure about existance)
+  Ricardo (father, deceased)
+  Jakson (step-dad, deceased)
+
+# Backstory
 
 After being repeatedly abused by her own father, once silent and obedient girl
 snapped. One day, when her father was advancing on her, she grabbed a nearby

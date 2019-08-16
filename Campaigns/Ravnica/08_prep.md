@@ -8,7 +8,7 @@ dissatisfaction among the people who were waiting for the next Rakdos festival.
 Oathkeeper Emporium is busting full tonight. First fights of Orzhov tournament
 are taking place.
 
-Third victim fell dead to the wet assasin. A courier boy from Izmeri library.
+Third victim fell dead to the wet assassin. A courier boy from Izmeri library.
 His name or connection to other two victims is unknown. [PLOT HOOK: First
 victim was an Dimir infiltrator in Izzet. Assassin was sent by Bertan] Azorius
 issued open bounty on the "Wet slayer of Blistercoils". Current bounty is 15
@@ -97,4 +97,3 @@ dripped down on remaining hanging bats. Now those bats are permanently encased
 in magical shimmering casing, which repels most of wildlife from coming
 anywhere close.
 
-## 

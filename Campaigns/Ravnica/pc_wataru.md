@@ -1,3 +1,12 @@
+# Brief
+
+Name: Wataru Manchiki
+Age: 180 (26 Xivaskir 9896)
+Race: Loxodon
+
+
+# Backstory
+
 At my youth I was a drifter. While I was born and raised in Selesnya, I was not
 the standard Selesnya material. My desire for knowledge drove me further into
 the dangerous zone and out of calm and communal groves of Enclave.

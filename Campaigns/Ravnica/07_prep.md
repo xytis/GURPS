@@ -47,5 +47,5 @@ shared that there is a little spy network between the other kids.
 ## Inn: Water and some Fire
 
 Innkeeper: Large ogre female, with sweet voice. Her name is Jura.
-She has a wide variety of strong alcohol and treats everything as "water".
+She has a wide variety of strong alcohol and treats everything else as "water".
 
