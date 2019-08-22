@@ -11,6 +11,13 @@ building, Nai came here before through the one directly in front before. Dirt
 and piles of rock lie on the edges of the cavern-like-room. Windows have
 shattered eons ago, leaving only rough stone and brick visible through them,
 
+One of the dorways lead to a nest of gricks, which has piles of bones lying
+around. Scavenging through the bone piles you may find:
+ - DC 10 https://www.dndbeyond.com/magic-items/876728-belt-of-clumsy-retreat
+ - DC 15 https://www.dndbeyond.com/magic-items/876710-ring-of-borrowed-tongue
+ - DC 20 100gp worth of rough https://en.wikipedia.org/wiki/Lapis_lazuli
+   (marble sized rough blue rock) [lazuritas]
+
 # Hooks, secrets and rumours
  (11th of Mokosh)
 
