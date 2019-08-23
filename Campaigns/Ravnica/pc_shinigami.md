@@ -261,5 +261,30 @@ in the thickness of the forest.
 
 Feeling well hidden she decides to take a well deserved rest.
 
+# Dream: The headless
 
+You open your eyes. You are sitting in a bright kitchen. Widows open up to a
+beautiful city scape of Ravnica, blue domes and spires as far as eye can see. A
+gorgeous long straight black haired woman with pale skin is holding out a spoon
+with food in it. You turn your gaze, a man sits next to you. His shoulders are
+broad, he has a wide bright smile, his hair is milk white, his skin is light
+brown. His muscular hands are holding a small plush bear, your tiny arms extend
+towards the bear, you hug it. You lift your gaze back up, you are sitting on
+the floor. Woman is sitting next to a window and is playing with a flute. Her
+eyes are closed and her head is slightly tilted. The music is soft and dreamy.
+You get on all fours and crawl under a table. You turn around. White light
+changed to red tint. There is a pool of blood in the middle of the room. On
+the left, a headless corpse wearing a blood soaked white dress sits with back
+pressed to a wall. There is a huge smear of blood above it on light paint. You
+watch high heeled red leather boots with black buckles walk slowly in front of
+you. A thud. A womans head with two gouged eyes drops in front of you. You
+wake up. Your scythe is in both hands, your arms are slightly trembling.
+You hear a soft growl in your head "child...".
 
+Explanation: A Rakdos assassin was sent to kill the wife of Arthur Nirthagan. He had
+stepped over few unhappy heads in Orzhov by seizing and stopping a lucrative human
+trafficking operation. When he returned home that evening, he found his wife beheaded
+and his daughter gone. He quit Azorius the very next day and became infamously known
+as The Blue Exile. He hunted down Rakdos assassins and slayed them with his mighty
+two handed sword. He was slain in a duel by the Massacre Girl. It is unknown if
+he ever found the assassin that killed his wife.
