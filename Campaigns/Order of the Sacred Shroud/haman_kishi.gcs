@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="840c3450-e1bb-4ffc-bb76-13ffc809def4" version="3">
 	<created_date>Nov 25, 2018</created_date>
-	<modified_date>May 28, 2019, 3:15 PM</modified_date>
+	<modified_date>Aug 19, 2019, 3:46 PM</modified_date>
 	<profile>
 		<player_name>chib</player_name>
 		<name>Haman Kishi</name>
@@ -23,7 +23,7 @@
 	</profile>
 	<HP>0</HP>
 	<FP>10</FP>
-	<total_points>120</total_points>
+	<total_points>130</total_points>
 	<ST>8</ST>
 	<DX>10</DX>
 	<IQ>13</IQ>
