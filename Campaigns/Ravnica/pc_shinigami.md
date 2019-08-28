@@ -284,29 +284,32 @@ front of you. You wake up. Your scythe is in both hands, your arms are slightly
 trembling. You hear a low growl in your head. You make out a single word in
 Abyssal "child" then the growling fades into morning chill.
 
-Explanation: A Rakdos assassin was sent to kill the wife of Arthur Nirthagan. He had
-stepped over few unhappy heads in Orzhov by seizing and stopping a lucrative human
-trafficking operation. When he returned home that evening, he found his wife beheaded
-and his daughter gone. He quit Azorius the very next day and became infamously known
-as The Blue Exile. He hunted down Rakdos assassins and slayed them with his mighty
-two handed sword. He was slain in a duel by the Massacre Girl. It is unknown if
-he ever found the assassin that killed his wife.
+Explanation: A Rakdos assassin was sent to kill the wife of Arthur Nirthagan.
+He had stepped over few unhappy heads in Orzhov by seizing and stopping a
+lucrative human trafficking operation. When he returned home that evening, he
+found his wife beheaded and his daughter gone. He quit Azorius the very next
+day and became infamously known as The Blue Exile. He hunted down Rakdos
+assassins and slayed them with his mighty two handed sword. He was slain in a
+duel by the Massacre Girl. It is unknown if he ever found the assassin that
+killed his wife.
 
 ## The witch
 
-You are sitting in a bright room under a table. You are playing with a plush bear.
-You wiggle his arms as if he wants to hug you, you lift him up for an embrace.
-Music is playing somewhere in the distance. Suddenly it stops. Everything turns
-red. A decapitated head with both eyes gouged fills the space. It's lips start moving
-but you hear no voice. Pale skin morphs into red scarred flesh, black straight
-hair spins into braids, then curves up and becomes a pair of horns. Black shiny
-eyes reflect fire from no longer empty sockets. World around you is shaking.
-You hear a voice, low and growling. You do not understand what it says. World goes dark.
-There are stars in the darkness. A door opens. You see your mom. She picks you
-up and brushes your hair from your face. You feel tears flowing down your cheeks.
-You wake up, your face is wet with tears. You hear the familiar low growl that
-keeps you company for a while now. Abyssal words are slowly repeated "closer,
-closer, closer" you feel inner heat build up in your chest.
+You are sitting in a bright room under a table. You are playing with a plush
+bear. You wiggle his arms as if he wants to hug you, you lift him up for an
+embrace. Music is playing somewhere in the distance. Suddenly it stops.
+Everything turns red. A decapitated female's head with both eyes gouged fills
+the view. It's lips start moving but you hear no voice. Pale skin morphs into
+red scarred flesh, black straight hair spins into braids, then curves up and
+becomes a pair of horns. Black shiny eyes reflect fire from no longer empty
+sockets. World around you is shaking. You hear a voice, low and growling. You
+do not understand what it says. World goes dark and cold, you feel your cheeks
+freezing. There are stars far away in the darkness. A door opens. You see your
+mom. She picks you up and brushes your hair from your face. You feel tears
+flowing down your cheeks. You wake up, your face is wet with tears. You hear
+the familiar low growl that keeps you company for a while now. Abyssal words
+are slowly repeated "closer, closer, closer" you feel inner heat build up in
+your chest.
 
 Explanation: Demon accompanying the assassin was given the child to dispose of.
 Instead he left the child at a random door, where Catrina and Ricardo lived.
@@ -316,18 +319,21 @@ They took the small girl in and never told her about her this.
 
 You are sitting in a dimly lit room. You hear door slam open and a large figure
 stumbling into the room. You hear a voice, you feel lust and anger in it, but
-you can't make out what it say. You are sitting with your back turned to the
-sounds. You dare not to look. You stare blankly into the wall in front. Groves on
-wooden planks begin to shift into shapes. You feel a dull pain in your back and head.
-Shapes start moving in front of your eyes. World shifts and turns crimson. You feel
-pain and something is forcing into you. You wake up curled up into a ball. Memory
-of pain makes you sob and tears are flowing down your cheeks. You are lying on a wooden
-floor. You look at the shifting grooves in the planks. You raise yourself against the
-cold ground. You hear a voice in your head. "Feed it to him". You look around the room.
-A hot feeling blazes inside you. "Feed it to him". You take a club and brush your
-pale fingers against the metal rod. Feeling of warm fire engulfs your cold hands.
-You wake up. Your palms are burning hot. You look at them, there are two small
-flames coming out from them. A clear demonic voice in your head speaks "performer".
+you can't make out what does it say. You are sitting with your back turned to
+him. You dare not to look. You stare blankly into the wall in front. He touches
+your hair. You shiver, your body tenses up. He whispers something to your ear.
+You shake your head. He stands back up. Thud. You feel a dull pain in your back
+and head. Groves on wooden planks begin to shift and twist. Shapes start
+forming in front of your eyes. World shifts and turns crimson. You feel
+something painfully forcing into you. Darkness. You wake up curled up into a
+ball. Memory of pain makes you sob and tears are flowing down your cheeks. You
+are lying on a wooden floor. You look at the shifting grooves in the planks.
+You raise yourself against the cold ground. You hear a voice in your head.
+"Feed it to him". You look around the room. A hot feeling blazes inside you.
+"Feed it to him". You take a club and brush your pale fingers against the metal
+rod. Feeling of warm fire engulfs your cold hands. You wake up. Your palms are
+burning hot. You look at them, there are two small flames coming out from them.
+A clear demonic voice in your head says "performer".
 
 Explanation: Hatred possessed the broken girl and she took justice in her own
 hands. Read initial backstory for details.

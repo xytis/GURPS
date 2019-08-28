@@ -1,6 +1,12 @@
-# Backstory
+# Brief
 
 Name: Rozhe Enroris
+Age: 17 (11 Cizarm 10058)
+Hair: Long straight, white. Reaches waist.
+Eyes: Green
+Race: High Elf
+
+# Backstory
 
 Born in the chaotic times after the decamillenial celebration, she was raised
 in a loving family of a decent status. During the relatively calm years of
@@ -34,4 +40,24 @@ employed Rozhe as his field agent, providing her a roof over her quite-nicely
 matured young elven head.
 
 Rozhe is now 17 years old, she is determined to find her mother Ashera.
+
+# Clues for her mother whereabouts
+
+## About
+
+Name: Ashera Enroris
+Hair: Long white hair, 
+Eyes: Green
+
+## Working in Orzhova
+
+Oligarch Leszek Perun has purchased an high elf entertainer 10 years ago.
+She is part of his menagerie and only rarely is allowed to accompany
+Leszek to public events. His son Jaromir has taken a liking to that elf
+and usually takes her with him on daily basis. He finds the elf caring
+and warm, so he expects her to fill his needs for a mother.
+
+Jaromir is a human child birthed to Leszek only ten years prior. He is spoiled
+and obtrusive.
+
 
