@@ -70,7 +70,7 @@ And then it was morning. The brother's memento was placed near your bed.
 I climbed out of my bed, took the helmet into my hands and prayed to Hephaistus.
 
 "I am your soldier. I am your tool. But I need guidance. Without the words of
-father Haman I feel directionless. My thoughts are scrambled. I see things that
+father Haman I feel direction-less. My thoughts are scrambled. I see things that
 make me feel alone and forgotten. I want to repent for the sins of my kin. I
 want to purge the land of heathens. But I see sinners and heathens among true
 folk. And I don't know how to separate the lot. I often think that your fire
@@ -96,7 +96,7 @@ I wipe my tears away.
 whatever it takes. I now know things that before seemed like nonsense to me. I
 know that you have your own kin. God-kin. And I think I can imagine how that
 feels. Just like I have my battle-brothers. But I know that you are the only one
-worth beeing called the true god. And I will stand by your will against anything
+worth being called the true god. And I will stand by your will against anything
 that other gods throw at us. Even if it takes sacrifices. But I can no longer
-jugde folk for their faith. I think I should leave this to others. Like father
+judge folk for their faith. I think I should leave this to others. Like father
 Haman. He seems more suited for such thing. Please save him from his illness."
