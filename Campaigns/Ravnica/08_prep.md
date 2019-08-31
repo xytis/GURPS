@@ -78,7 +78,7 @@ when providing food and organising daily fights and performances.
 
 When no fights are organised the Emporium serves as imp controlled restaurant.
 
-## The Quicksilver Bat Bridge over The Chasm
+## The Quicksilver Bat Bridge over The Death Chasm
 
 The lowest of the three bridges that are still outside Golgari territory that
 connect The Blistercoils with The Bulwark. A good spot to get someone killed

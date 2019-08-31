@@ -1,3 +1,9 @@
+---
+
+date: 10076 Mokosh 11
+
+---
+
 # Character hooks, secrets and rumors.
 
 Church of Orzhov is organising a tournament to praise the generosity of
@@ -16,11 +22,6 @@ It had been the second incident like this! This time a scientist going by name
 Cuktula was found dead in the alley here in Blistercoils. He had drowned, just
 as the other victim.
 [https://www.dndbeyond.com/monsters/slithering-tracker]
-
-An old hag is selling carpets in the Tin Street. I've heard her clients have
-ended up dead if they threated her poorly and others found gemstones on their
-new carpets if they were pleasant.
-[https://www.dndbeyond.com/monsters/rug-of-smothering]
 
 A young elf is distributing leaflets urging to choose natural products and
 reject Simic experiments and augmentations. The text is signed by The Gift Of
