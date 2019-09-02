@@ -6,6 +6,10 @@ due to interference from other guilds and Neirius had been pressed in a corner
 by Orzhov enforcers. He sent out a cry for help to all his acquaintances hoping
 that someone would lend a hand.
 
+# Calendar
+
+https://fantasy-calendar.com/calendar.php?action=view&id=f49eb75e02ff5341f15d822f8ab260bc
+
 # Note
 
 Note which falls into each players hands gives out the information about failed

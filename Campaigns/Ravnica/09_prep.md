@@ -19,9 +19,9 @@ around. Scavenging through the bone piles you may find:
    (marble sized rough blue rock) [lazuritas]
 
 # Hooks, secrets and rumours
- (11th of Mokosh)
+ (7th of Mokosh)
 
-Banners announcing festival in the Gore House on 12th of Mokosh are everywhere.
+Banners announcing festival in the Gore House on 9th of Mokosh are everywhere.
 Red cloth with dark strokes and a painting of current Blood Witch Exava
 caressing a demon skull. Banner reads "Unleash your bodily desires! Enjoy the
 thrill of love and pain!". Some of the banners have a warning from Azorius that
@@ -30,7 +30,7 @@ Mokosh. To which some of Azorius banners are violated with insulting remarks or
 undignifying paintings.
 
 Black cloth banners with symbolism of Orzhov announce fighting competition
-which takes place through all Mokosh. Next match is on Mokosh 11 at the
+which takes place through all Mokosh. Next match is on 8th Mokosh at the
 Oathkeeper Emporium. Tickets are starting from 5 zibs.
 
 Today people are talking about riot and clenching of it near Seventh Zonot.
