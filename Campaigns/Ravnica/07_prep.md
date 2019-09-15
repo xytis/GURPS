@@ -31,7 +31,7 @@ corner of the leaflet.
 Old human with threatening scar going through his face sits alone in the
 corner. He is flipping a platinum coin in the air. He has an offer which he
 would presumably disclose in private, outside. Party gets ambushed and robbed.
-  Leaders: Janush(dead), Borek, Nikolas.
+  Leaders: Joseph(dead), Borek, Nikolas.
   Thugs: Steve, Arkady, Sozox (goblin), Lucas
 
 Swarms of waspcrabs are ravaging Golgari rotfrms, Simic anounced they will

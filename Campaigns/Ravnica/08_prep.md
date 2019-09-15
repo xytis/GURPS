@@ -45,38 +45,6 @@ A note is put into a player's hand by a shaded figure
 A shack with semi broken tavern sign. You are greeted by a small sharp eared
 goblin.
 
-## The Oathkeeper Emporium
-
-Conveniently built on intersection between the Blistercoils, the Bulwark and
-the Smelting quarter. This place is bustling most of the time, filled with
-after work Boros legionnaires, passing through Gruul demolishers, scientists
-from Izzet and Simmic, and a whole lot of Orzhov higher members, who come here
-for good food and a fine show. You can always find someone who is interested in
-a bet on the next fight or a quarrel for one. Cutthroats and enforcers are kept
-at relative peace outside the arena, as one of the house rule states that
-fighting without a proper betting round is heavily punished by Orzhov
-overlords.
-
-Dark stone building, with a curved facade decorated in pillars. There is a
-large porthole to allow unrestricted entry through dark wood gate. On the sides
-of main passageway there are two small doors, used by security and other
-personnel. There is an alley leading around the building and separating it from
-every other structure in the vicinity. Above the alley some fancier buildings
-have stone and glass bridges connecting them with upper floors of the arena.
-You can stop and observe various statues in the arches throughout the curving
-wall. Most of the statues depict previous champions of the arena. Large ogres,
-human sized shapes and tiny goblins stand in stone with their weapons of choice
-raised to the outside world.
-
-Inside a maze of tunnels and stairs lead to the small podiums built from the
-same stone, housing one or more tables, overlooking the arena. There are more
-private rooms that open up tho the main arena, mostly used by the wealthy.
-Below the bloody arena a series of chambers lie. In there fighters prepare for
-combat. Even below that a huge kitchen is located, with passageways through the
-Undercity to Golgari and Rakdos territories. Both of those are necessary allies
-when providing food and organising daily fights and performances.
-
-When no fights are organised the Emporium serves as imp controlled restaurant.
 
 ## The Quicksilver Bat Bridge over The Death Chasm
 
