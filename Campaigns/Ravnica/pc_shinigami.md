@@ -265,7 +265,7 @@ Feeling well hidden she decides to take a well deserved rest.
 
 ## The beginning
 
-You open your eyes. You are sitting in a bright kitchen. Widows open up to a
+You open your eyes. You are sitting in a bright kitchen. Windows open up to a
 beautiful city scape of Ravnica, blue domes and spires as far as eye can see. A
 gorgeous long straight black haired woman with pale skin is holding out a spoon
 with some porridge in it. You turn your gaze, a man sits next to you. His

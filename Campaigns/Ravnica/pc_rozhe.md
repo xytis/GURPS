@@ -46,7 +46,7 @@ Rozhe is now 17 years old, she is determined to find her mother Ashera.
 ## About
 
 Name: Ashera Enroris
-Hair: Long white hair, 
+Hair: Long white hair
 Eyes: Green
 
 ## Working in Orzhova
@@ -58,6 +58,7 @@ and usually takes her with him on daily basis. He finds the elf caring
 and warm, so he expects her to fill his needs for a mother.
 
 Jaromir is a human child birthed to Leszek only ten years prior. He is spoiled
-and obtrusive.
+and obtrusive. He has a large birthmark on his neck which he exposes as a sign
+of a relation to Orzhov blood. In truth he has no Orzhov blood in his veins.
 
 

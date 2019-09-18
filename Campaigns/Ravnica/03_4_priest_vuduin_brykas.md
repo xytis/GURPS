@@ -19,7 +19,3 @@ Goal of the priest is to extract as much information about Neirius and other
 members of the party as possible. Priest introduces himself as Vuduin Brykas,
 Priest of Mat'Selesnya.
 
-Vuduin is a humanoid, with pale skin and weirdly slim palms. He talks in high
-pitch voice stressing the vowels. His head is covered under white Selesnyan
-hood.
-
