@@ -34,7 +34,43 @@ There are two enraged giant boars fighting for the teritory. A pack of direwolve
 2x https://www.dndbeyond.com/monsters/giant-boar
 5x https://www.dndbeyond.com/monsters/dire-wolf
 
-## The Oathkeeper
+## Entering The Oathkeeper Emporium
+
+Oathkeeper Emporium is bustling with people tonight. A small line of two humans
+with a female demon, few devcarin with a handful of kraul and an ogre stand in
+front of the entrance. They are rather quickly let in and go through different
+paths inside.
+
+Greeted by an imp with a bright red tie with grey stripes. He is standing
+behind a table with a list of entries and a metal box with an open lock on it.
+Standing ehing him, a large ogre in black plate adorments is leaning on a
+greataxe.
+
+"Hello and welcome to The Oathkeeper Emporium! What will be your choice
+tonight? You came to watch or to fight?"
+
+"If I may suggest you the best seats in the third floor, 15 zinos each, plus
+any refreshments that you partake."
+
+"If you wish to spare some coin, you can get get a table on the second floor,
+that will be 5 zinos per table, plus anything you order."
+
+"It's a shame you can't spare some coin for fabulous entertainment, but fret
+not, only five zibs each and you can watch the fight from the ground floor."
+
+## The Oathkeeper, the fights
+
+J'oknana vs the Wild Twins (Gruul Fighter Xodanas and Barbarian Hezase)
+After first few rounds a feral maka is released into the pit.
+https://scryfall.com/card/rna/100/feral-maaka
+https://www.dndbeyond.com/monsters/saber-toothed-tiger
+
+Solind (Boros Cleric) vs Ulruned (Rakdos Champion)
+After first few rounds a deathmist raptor is released into the pit.
+https://deckmaster.info/card.php?multiverseid=394533
+https://www.dndbeyond.com/monsters/giant-scorpion
+
+## The Oathkeeper, leaving with your hides
 
 After the fight, if J'okhana wins, same thugs as previously ambush the party
 and try to reason at least half of their money back. They reason that she
@@ -94,29 +130,6 @@ when providing food and organising daily fights and performances.
 When no fights are organised the Emporium serves as imp controlled restaurant.
 
 # Scenes
-
-## Entrance to Oathkeeper
-
-Oathkeeper Emporium is bustling with people tonight. A small line of two humans
-with a female demon, few devcarin with a handful of kraul and an ogre stand in
-front of the entrance. They are rather quickly let in and go through different
-paths inside.
-
-Entrance is guarded by a large ogre with fine cloth bracers noting his
-allegiance to Orzhov and a book-keeping imp in a tie. He has only a tie.
-
-"Welcome welcome, to tonight's fights. Do you have attendance pass?" - imp
-shows all of his teeth in a welcoming grin.
-
-"No? Then why don't you buy them right here? For such an esteemed group, I
-would propose a table on the second floor, 1 zino for the table and you get the
-luxury of watching the fight in comfort end delight of our reward-winning
-kitchen!"
-
-If players want they may bargain or simply state that they would prefer less
-luxurious seating, which can go as low as 5 zibs per person, but then they will
-be standing in the crowd on the first level, trying to see anything through
-shoulders of others.
 
 # Hooks
 
