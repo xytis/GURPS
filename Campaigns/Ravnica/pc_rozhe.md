@@ -51,14 +51,23 @@ Eyes: Green
 
 ## Working in Orzhova
 
-Oligarch Leszek Perun has purchased an high elf entertainer 10 years ago.
-She is part of his menagerie and only rarely is allowed to accompany
-Leszek to public events. His son Jaromir has taken a liking to that elf
-and usually takes her with him on daily basis. He finds the elf caring
-and warm, so he expects her to fill his needs for a mother.
+Oligarch Leszek Perun has purchased an high elf entertainer 10 years ago. She
+is part of his menagerie and only rarely is allowed to accompany Leszek to
+public events. His son Jaromir has taken a liking to that elf and usually takes
+her with him on daily basis. He finds the elf caring and warm, so he expects
+her to fill his needs for a mother.
 
 Jaromir is a human child birthed to Leszek only ten years prior. He is spoiled
 and obtrusive. He has a large birthmark on his neck which he exposes as a sign
 of a relation to Orzhov blood. In truth he has no Orzhov blood in his veins.
 
+# Dream of lost past
 
+## Teaser: Moms face
+
+A face of beautiful elven female comes into focus. Her eyes are emerald green
+and her thin lips are smiling. She has a birthmark below her right eye. Her
+silver hair is flowing straight down. You feel the softness of it with your
+hands. She turns her head, hair wave from the gentle motion. You feel a tickle
+on your nose. You sneeze and sit down in the middle of the night. The room is
+empty. A cool nights breeze is moving the curtains.
