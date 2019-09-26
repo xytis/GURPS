@@ -163,3 +163,50 @@ I took a closer look at the letter. Izzet seal. Familiar handwriting:
 When I hastily finished my research and walked up to Blistercoils it was
 already past sunset. Empty streets were quiet. I made a turn into a dark alley
 to shortern the walk and nearly slamed into a large loxodon.
+
+# Communication with Iosif
+
+## Message from Iosif (Mokosh 07)
+
+The cytoplast communicator buzzed in your pouch. It made a soft clinking sound
+between the coins. Without anyone noticing you touched the vibrating blob of
+transparent artificial flesh. A clear message manifested in your head.
+
+    I am in need of a neutral hand in a few matters. First, may I entrust
+    supervision of your risen friend into your acute scientific eyes? Please
+    report any abnormalities in his behaviour and appearance if you see any.
+    Secondly, I want to know more about the cult that had taken the mind of my
+    accomplice. They call themselves "The Gift of Life". I am interested in any
+    information you can amass on this topic. I will reward you for it.
+
+Blob stopped moving in your palm and became dormant again.
+
+## Reply to Iosif (Mokosh 08)
+
+Dear Iosif,
+
+I will gladly help, but as you could imagine, I can't do that without my
+companions. And they are really interested in reward part of this deal. So,
+about what kind of reward we are taking about?
+
+Moreover, I will gladly keep my eye on Wataru behavior. Nothing strange arouse
+yet. He was annoyed and exhausted, as would be expected after such an
+unpleasant event. Also he is very anxious about the debt we had put him in.
+But it is quite strange favor for you to ask. Maybe there is some signs I
+should specifically look for?  As you know, I wasn't really interested in
+resurrection magic, so I could be missing something. Please share your
+scientific viewpoint on this topic.
+
+## Reply to Katrille (Mokosh 09)
+
+You may bring your companions along. I am willing to pay 200 gold for
+information that would help me to put an end to the cult or I would part with
+2000 gold if you solved overall cult problem forever. It is anoying to have a
+thorn in my research. Without a doubt, I will deny any involvement in your
+actions against the cult.
+
+Regarding your risen friend, observe any physical transformations that he might
+experience. I seldom have a chance to experiment on loxodons, so I would be
+intrigued to hear about changes that his body will overtake.
+
+
