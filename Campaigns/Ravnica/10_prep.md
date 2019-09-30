@@ -43,8 +43,8 @@ paths inside.
 
 Greeted by an imp with a bright red tie with grey stripes. He is standing
 behind a table with a list of entries and a metal box with an open lock on it.
-Standing ehing him, a large ogre in black plate adorments is leaning on a
-greataxe.
+Standing behind him, a large ogre in black plate adornments is leaning on a
+great axe.
 
 "Hello and welcome to The Oathkeeper Emporium! What will be your choice
 tonight? You came to watch or to fight?"
@@ -60,41 +60,94 @@ not, only five zibs each and you can watch the fight from the ground floor."
 
 ## The Oathkeeper, the fights
 
-J'oknana vs the Wild Twins (Gruul Fighter Xodanas and Barbarian Hezase)
-After first few rounds a feral maka is released into the pit.
+Announcer is an imp from the entrance. He flaps his wings and raises above the arena.
+"Tonight we have five contenders, who will fight for your excitement. They will risk
+their lives in the name of the Champion of the Sun. All fights tonight are arbitrated by
+our noble patron, mister Leszek Perun!"
+
+A round of ovations and applause go through the crowd.
+
+"Place your bets on the first fight of the night. Mighty minotaur versus two centaurs!
+J'okhana the unbreakable, last week's champion, vs the Wild Twins, Xodanas and Hezase,
+who will win and raise in the ranks towards the title of Champion of the Sun?"
+
+Crowd cheers for their favourite fighter. Imp flies to both sides of the arena, checking
+something with both fighters, then he looks up expectantly to a figure standing in a balcony
+above the pit. After the figure nods, imp raises his hands and shouts:
+
+"May the Sun shine upon you and may your blood be spilled! FIGHT!"
+
+J'okhana vs the Wild Twins (Gruul Fighter Xodanas and Barbarian Hezase)
+
+If the fight seems boring or stale, the patron (mister Perun) can show a hand
+signal and a feral maaka is released into the pit.
 https://scryfall.com/card/rna/100/feral-maaka
 https://www.dndbeyond.com/monsters/saber-toothed-tiger
 
+"Over the bodies of hoofed adversaries, J'okhana raises towards the sun!
+Cheer for her and your winnings, drink for the good fight that centaurs
+brought!"
+
+After some time, imp returns to the pit.
+
+"Are you ready for the second fight of the evening? Have you placed your bets?"
+
+Crowd goes wild.
+
+"Our contender from last year, mighty soldier from the fronts of Boros, Solind!"
+
+There cheers and some boos from the tribunes.
+
+"He has been challenged to a duel by a skilled contender from the Slaughter games, Ulruned!"
+
+Again, crowd is not united on the support of this fighter.
+
+"Will the iron will or the bloody spectacle win this fight? Take your drinks and come closer
+as this fight will bring an inferno. Remember, we are not responsible for injuries in the crowd."
+
+Crowed is agitated and start taking better places to watch the duel.
+
+"Well this was one hell of a fight. Cheer for the victor, we will see him next week!"
+
 Solind (Boros Cleric) vs Ulruned (Rakdos Champion)
-After first few rounds a deathmist raptor is released into the pit.
+After first few rounds a deathmist raptor may be released into the pit.
 https://deckmaster.info/card.php?multiverseid=394533
 https://www.dndbeyond.com/monsters/giant-scorpion
 
 ## The Oathkeeper, leaving with your hides
 
-After the fight, if J'okhana wins, same thugs as previously ambush the party
-and try to reason at least half of their money back. They reason that she
+After the first fight, if J'okhana wins, same thugs as previously approach the
+party and try to reason at least half of their money back. They reason that she
 is part of the group and all of them raised money to bet on her.
 Thugs are as follows:
- - Borek (11 AC, 1d8+2 slashing)
- - Nikolas (13 AC, 1d6+2 slashing) (two human brothers, have fresh scars on their bodies. One holds a longsword and another a shortsword and a buckler.)
- - Steve (13 AC, 1d4+2 bludgeoning) (A blond medium sized human, has a fine shield in his hands and a club)
- - Arkady (11 AC, 1d8+2 bludgeoning) (Larger male, simple face, slightly wide eyes. Looks a bit to both sides. Has a huge club)
- - Sozox (11 AC, 1d6+2 piercing) (Goblin with a wide gap between his front teeth. Most probably few are missing from a fight. Has a spear.)
- - Lucas (11 AC, 1d6+2 bludgeoning/1d8 piercing) (Slim and pale human with dark hair, has a mace and a crossbow)
+ - Borek (22HP, 11 AC, 1d8+2 slashing) (Human, has a fresh scar on his neck and upper torso. Holds a longsword.)
+ - Nikolas (28HP, 13 AC, 1d6+2 slashing) (Borek's brother. Has a fresh scar on his face. Holds shortsword and a buckler.)
+ - Steve (22HP, 15 AC, 1d4+2 bludgeoning) (A blond medium sized human, has a fine shield in his hands and a club)
+ - Arkady (32HP, 11 AC, 1d8+2 bludgeoning) (Larger male, simple face, slightly wide eyes. Looks a bit to both sides. Has a huge club)
+ - Sozox (26HP, 11 AC, 1d6+2 piercing) (Goblin with a wide gap between his front teeth. Most probably few are missing from a fight. Has a spear.)
+ - Lucas (22HP, 11 AC, 1d6+2 bludgeoning/1d8 piercing) (Slim and pale human with dark hair, has a mace and a crossbow)
 
 https://www.dndbeyond.com/monsters/thug
+
+If the party seems not interested in the fight, Borek shouts out loud (with
+slavic accent): "We will fight you in the pit! May the better group win!"
+
+This is overheard by the imp, Lampertino, and he flies to the edge of the
+arena.
+
+"Do we have another fight tonight? Cheer for these fighters and bring them down
+on the sand!"
 
 # Locations
 
 ## Church of All Gifts
 
-Three white arcs stand a bit further down the road. Trees and wines surround the
-road and cast a warm shadow on the smooth cobblestones. Two large trees grow and
-nearly merge with the white arcs. Wines and other plants crawl up the stone and
-reemoves the strict boundary between man made structures and nature. A simple
-grass opening with stone benches circling a round altas lie behind the entrance.
-Large trees cast rays of light through foliage.
+Three white arcs stand a bit further down the road. Trees and wines surround
+the road and cast a warm shadow on the smooth cobblestones. Two large trees
+grow and nearly merge with the white arcs. Wines and other plants crawl up the
+stone and reemoves the strict boundary between man made structures and nature.
+A simple grass opening with stone benches circling a round altas lie behind the
+entrance.  Large trees cast rays of light through foliage.
 
 ## The Oathkeeper Emporium
 
