@@ -11,3 +11,9 @@ He is muscular for a Izzet goblin, with large ears covered in holes from
 earings, only one small mizzium earing remains in his left ear which signals
 that he is part of The Mizzium Goblins hirelings. He is wearing simple textile
 jumpsuit, his arms are covered in animal tatoos.
+
+# The Mizzium Goblins
+
+Xoi
+Frakz
+
