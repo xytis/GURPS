@@ -4,29 +4,9 @@ date: 9th of Mokosh
 
 ---
 
-# Name cache
+# Used names
 
-Male:
-  Erik Dolca
-  Oto Balan - Azorius Guard from Blistercoils post
-  Kvido Otvos
-
-Female:
-  Vendula Dragan
-  Linda Moisuc
-  Ivana Gilca
-
-Demon:
-  Sogdrodis
-  Dagal
-  Eshiroth
-  Najneth
-  Syltyz
-
-Goblin:
-  Irx (f)
-  Ceghelk
-  Klylx (f)
+Oto Balan - Azorius Guard from Blistercoils post
 
 # Intro
 ## Rainbucket Inn
@@ -74,8 +54,4 @@ I suggest we go under."
 
 [https://www.dndbeyond.com/monsters/ogre] (2x)
 [https://www.dndbeyond.com/monsters/cult-fanatic] (1x)
-
-## Leaving the underpits
-
-[https://www.dndbeyond.com/monsters/succubus]
 

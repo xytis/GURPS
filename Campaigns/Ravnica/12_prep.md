@@ -4,28 +4,9 @@ date: 9th of Mokosh
 
 ---
 
-# Name cache
+# Used names
 
-Male:
-  Erik Dolca
-  Kvido Otvos
-
-Female:
-  Vendula Dragan
-  Linda Moisuc
-  Ivana Gilca
-
-Demon:
-  Sogdrodis
-  Dagal
-  Eshiroth
-  Najneth (Incubus)
-  Syltyz
-
-Goblin:
-  Irx (f)
-  Ceghelk
-  Klylx (f)
+Najneth (Incubus)
 
 # Intro
 ## Raising into the Gore House Arena
