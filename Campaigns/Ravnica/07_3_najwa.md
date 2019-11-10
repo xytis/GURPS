@@ -5,7 +5,7 @@ to you and shows a sign that he needs to talk with you. You know better than to
 reject a generous hand of Orzhov, so you say goodbyes to your party and dart
 into nearby alley.
 
---"Najwa, mr. Spasov requests your assistance. Come",- his voice is rough and
+--"Najwa, Mr. Spasov requests your assistance. Come",- his voice is rough and
 matches his tough appearance.
 
 Gregor leads you through a better part of Blistercoils to a fancy looking house

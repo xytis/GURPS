@@ -16,8 +16,6 @@ J'okhana is a minotaur fighter, which has a lot of bets on her.
 There is an upcoming festival in the Gore House, they say a pack of succubi
 will be running wild there this year.
 
-I've heard Gruul marauders have a new leader, a fierce warrior named Bren.
-
 It had been the second incident like this! This time a scientist going by name
 Cuktula was found dead in the alley here in Blistercoils. He had drowned, just
 as the other victim.
@@ -47,6 +45,4 @@ shared that there is a little spy network between the other kids.
 # Locations
 ## Inn: Water and some Fire
 
-Innkeeper: Large ogre female, with sweet voice. Her name is Jura.
-She has a wide variety of strong alcohol and treats everything else as "water".
-
+see [./loc_inn_water_and_some_fire.md]

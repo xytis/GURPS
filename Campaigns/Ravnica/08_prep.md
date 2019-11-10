@@ -24,9 +24,6 @@ to peacefully disperse the crowd.
 Waspcrabs are still at large. They come in large swarms at night and buzz above
 the Golgari rotfarms.
 
-Goblin raiders had been seen riding through The Foundry Street. Some say Gruul
-became involved with local thugs in The Foundry Street.
-
 A group of spirits had broken free from Orzhov Basilica during an earthquake
 and a collapse in Whitestone. Investigation is on the way by Wojek Tiernan
 Dunphy.

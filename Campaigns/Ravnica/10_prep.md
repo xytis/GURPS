@@ -24,16 +24,6 @@ What are you going to do?
 
 # Encounter
 
-## Selesnya
-
-You see freshly broken tree across the road. You hear loud grunting and rustling behind
-thick vegetation.
-
-There are two enraged giant boars fighting for the teritory. A pack of direwolves stalk them.
-
-2x https://www.dndbeyond.com/monsters/giant-boar
-5x https://www.dndbeyond.com/monsters/dire-wolf
-
 ## Entering The Oathkeeper Emporium
 
 Oathkeeper Emporium is bustling with people tonight. A small line of two humans
@@ -140,15 +130,6 @@ on the sand!"
 
 # Locations
 
-## Church of All Gifts
-
-Three white arcs stand a bit further down the road. Trees and wines surround
-the road and cast a warm shadow on the smooth cobblestones. Two large trees
-grow and nearly merge with the white arcs. Wines and other plants crawl up the
-stone and reemoves the strict boundary between man made structures and nature.
-A simple grass opening with stone benches circling a round altas lie behind the
-entrance.  Large trees cast rays of light through foliage.
-
 ## The Oathkeeper Emporium
 
 Conveniently built on intersection between the Blistercoils, the Bulwark and
@@ -181,14 +162,3 @@ Undercity to Golgari and Rakdos territories. Both of those are necessary allies
 when providing food and organising daily fights and performances.
 
 When no fights are organised the Emporium serves as imp controlled restaurant.
-
-# Scenes
-
-# Hooks
-
-An old hag is selling carpets in the Tin Street. I've heard her clients have
-ended up dead if they threated her poorly and others found gemstones on their
-new carpets if they were pleasant.
-
-[https://www.dndbeyond.com/monsters/rug-of-smothering]
-
