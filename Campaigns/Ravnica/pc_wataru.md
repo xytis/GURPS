@@ -139,3 +139,69 @@ Wataru made many acquaintances during his time in Zumro's hut, most notable of
 which was a young elven girl, named Neia, and two human twins Martin and
 Sebastian.
 
+# Dream: The journey to the Angel
+
+You see sandstone tiles under your feet. You are standing on a bridge hanging
+afloat in a sea of grey clouds. Bridge goes forward over this never ending sea.
+Far in the distance you can barely see a dark figure. Behind that figure, dark
+tumbling clouds are forming. Lightning flashes. Figure's silhouette takes shape
+in the blue light. Two large wings are spread out. Tunic, or maybe a cloak, is
+flapping in the raising wind. You think you saw a glimpse of her face.
+
+"Angel!", you hear yourself shout over the rumbling thunder.
+
+You start running.
+
+Suddenly the world shifts sideways. You slip from the bridge and fall into the
+clouds. Grey clouds go past you faster and faster. You hit something solid.
+Your body locks up for a brief moment. You exhale in pain. Your breath escapes
+your mouth as a stream of bubbles. You are underwater. There is no light. You
+sense no direction. Suddenly something starts pulling you. You fight against it.
+
+> Athletics check DC 15:
+
+> Failure: You are trying to swim away. Tugging continues and gets stronger.
+> Your lungs start burning. +1 DC on Constitution
+
+> Success: You plow against the force that pulls you down. You feel like you
+> are raising. Your chest aches from lack of air. -1 DC on Constitution.
+
+> Constitution saving throw DC 15:
+
+> Failure: You give up and breathe in water. Burning stops. There is a cold
+> feeling in your lungs. Your vision clarifies. You look down. There is a
+> pack of ghosts grasping at you. With newfound strength you fight against
+> the pull. -2 DC on Athletics.
+
+> Success: You kick and struggle. Your lungs are aflame. You look down and see
+> a pack of ghosts grasping you and pulling you down. +2 DC on Athletics.
+
+> Athletics check DC 15:
+
+> Success -> Success: You fight against the ghostly hands. They give way.
+> Failure -> Success: You fight against the ghostly embrace. It seems you need
+> just a little more to break free. +1 DC on Constitution
+
+> Success -> Failure: Your plows seem futile against the horde of undead.
+> Failure -> Failure: Ghosts tug you down among them. You scream in despair.
+> Water fills your lungs.
+
+> To raise above water, you need 2 success rolls of Athletics. After first
+> Constitution failure you no longer need to make any of those. After each
+> Athletics check, you need too make Constitution saving throw.
+
+> 2 Athletics failures means the ghosts pulled you down. You wake up soaked
+> in sweat. Simic transformation will take place. In addition to that you are
+> visited by undead tax collector this evening.
+
+You break the surface. You wake up.
+
+ * Failure on Con save:
+     You sit down, there is a burning sensation in your lungs. You feel blood in your mouth.
+     Simic transformation will take place fully over the next three days.
+
+ * Success on Con save:
+     You sit down. You feel an itch on your neck. Something feels like stuck in your throat.
+     You try to clear it and start coughing. You spit out a wet blob of some sort.
+     Simic transformation will not proceed.
+

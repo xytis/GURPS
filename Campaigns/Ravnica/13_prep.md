@@ -145,9 +145,16 @@ entrance. Large trees cast rays of light through foliage.
 
 ## Sunhome
 
+https://mtg.gamepedia.com/Sunhome
+https://www.deviantart.com/noahbradley/art/Boros-Guildgate-361497096
+https://2eu.funnyjunk.com/pictures/Magic+the+gathering+art+vol+42+boros+guildgate+1_778208_6736859.jpg
+
+
 TODO
 
 ## Parhelion II
+
+https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=460951
 
 TODO
 
@@ -181,13 +188,13 @@ see why I should."
 watch for any fatal injuries. We are splitting into three groups. Group A will
 be the enforcers, group B will be the radicals, group C will be civilians.
 Group A task is to secure the perimeter and withstand the attack. Group B is
-tasked to touch the flag in the middle of the field. Group A will be penalised
-for any civilian injuries."
+tasked to take the flag and carry it back from the middle of the field. Group A
+will be penalised for any civilian injuries."
 
 Group A:
 https://www.dndbeyond.com/monsters/veteran 0x
-https://www.dndbeyond.com/monsters/soldier 4x
-https://www.dndbeyond.com/monsters/scout 2x
+https://www.dndbeyond.com/monsters/soldier 5x
+https://www.dndbeyond.com/monsters/scout 3x
 
 Group B: Party members
 
@@ -202,8 +209,8 @@ rustling behind thick vegetation.
 There are two enraged giant boars fighting for the teritory. A pack of
 direwolves stalk them.
 
-2x https://www.dndbeyond.com/monsters/giant-boar 5x
-https://www.dndbeyond.com/monsters/dire-wolf
+https://www.dndbeyond.com/monsters/giant-boar 2x
+https://www.dndbeyond.com/monsters/dire-wolf 5x
 
 ## Orzhov
 
