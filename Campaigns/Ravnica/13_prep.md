@@ -1,31 +1,33 @@
 ---
 
 date: 10th of Mokosh
+---# Used names
 
----
+- Kido Salrander
+  Example usage: Traveler from far south. He comes from a village close to Mount Hebpar.
+  His village is known for egzotic pelts and sparkling wine. Use an accent reminescing
+  italian or spanish.
 
 # Name cache
 
 Male:
+
 - Erik Dolca
-- Kido Salrander
-    Example usage: Traveler from far south. He comes from a village close to Mount Hebpar.
-    His village is known for egzotic pelts and sparkling wine. Use an accent reminescing
-    italian of spanish.
-- Tamid Luade
 
 Female:
+
 - Vendula Dragan
-- Linda Moisuz
 - Ivana Gilsa
 
 Demon:
+
 - Sogdrodis
 - Dagal
 - Eshiroth
 - Syltyz
 
 Goblin:
+
 - Irx (f)
 - Ceghelk
 - Klylx (f)
@@ -89,9 +91,9 @@ power were using the Black Lotus as their mana source. In one book, called The
 Saga of Zak Dolan, extremely powerful mage used the artifact and
 conquered most of Ravnica. The book ended with a mystery. According to it the
 mage had dissapeared from Ravnica after he found no more challenge among the
-mages of this planet."
+mages of this plane."
 
-Neirius siped his cup of tea.
+Neirius siped his cup.
 
 "Actualy, that book is the last one I found that mentioned Black Lotus. It
 would take a great historian to figure out the mystery of the real artifact and
@@ -132,6 +134,10 @@ their wings and strength."
 excercise. And it would be perfect if a large number of troops would
 participate. Can I entrust you with organising this?"
 
+"Sure, lets talk bussiness."
+
+"Does 50 gold total sound well?"
+
 # Locations
 
 ## Church of All Gifts
@@ -149,7 +155,6 @@ https://mtg.gamepedia.com/Sunhome
 https://www.deviantart.com/noahbradley/art/Boros-Guildgate-361497096
 https://2eu.funnyjunk.com/pictures/Magic+the+gathering+art+vol+42+boros+guildgate+1_778208_6736859.jpg
 
-
 TODO
 
 ## Parhelion II
@@ -157,7 +162,6 @@ TODO
 https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=460951
 
 TODO
-
 
 # Encounter
 
@@ -169,8 +173,6 @@ TODO
 > clawed at his face long ago. Stands firmly, with his sword at the ready. His
 > eyebrows are usualy sternly lovered. Speaks with rough low voice. There is
 > a hint of authority in his demenor.
-
-
 
 Field Sergent Gimbel Otto eyes the party suspiciously as they approach.
 
@@ -248,19 +250,6 @@ new carpets if they were pleasant.
 
 [https://www.dndbeyond.com/monsters/rug-of-smothering]
 
-## Trizz wants to make a stronger brew
-
-A small paper note hangs on the metal door to the Fire and Water inn.
-
-> Will buy fresh or pre-fermented Trickle Fruit in large amounts. Price negotiable.
-
-If inquired, Jura points that Trizz, her love and co-owner of this inn, is searching
-for these fruits that are known to grow in the South. But for the last few months
-no fruit had came to the Tin Street markets.
-
-"Si, I come from far south myself, and I know the chorrito is suited for my needs.
-But something has gotten wrong with the trade. No fruits came during this season."
-
 ## Rumble among Gruul
 
 ### Rumours
@@ -292,4 +281,3 @@ clan or to wander away.
 
 "But you get hungry for meat in these parts. The pitch they give for free
 is just an insult. So, you want a tattoo or no?"
-

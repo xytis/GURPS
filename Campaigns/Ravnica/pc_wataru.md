@@ -205,3 +205,14 @@ You break the surface. You wake up.
      You try to clear it and start coughing. You spit out a wet blob of some sort.
      Simic transformation will not proceed.
 
+Actual results:
+
+Athletics: Failure
+Constitution: Critical Success
+Athletics: Failure
+
+You are taken between ghostly figures. They claw at you. You scream wihtout a voice.
+Water fills your lungs. Pain in your chest stops. You wake up covered in sweat.
+You feel someone watching you. There is a hint of blood in your mouth.
+
+

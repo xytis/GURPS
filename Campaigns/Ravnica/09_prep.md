@@ -13,13 +13,15 @@ shattered eons ago, leaving only rough stone and brick visible through them,
 
 One of the dorways lead to a nest of gricks, which has piles of bones lying
 around. Scavenging through the bone piles you may find:
- - DC 10 https://www.dndbeyond.com/magic-items/876728-belt-of-clumsy-retreat
- - DC 15 https://www.dndbeyond.com/magic-items/876710-ring-of-borrowed-tongue
- - DC 20 100gp worth of rough https://en.wikipedia.org/wiki/Lapis_lazuli
-   (marble sized rough blue rock) [lazuritas]
+
+- DC 10 https://www.dndbeyond.com/magic-items/876728-belt-of-clumsy-retreat
+- DC 15 https://www.dndbeyond.com/magic-items/876710-ring-of-borrowed-tongue
+- DC 20 100gp worth of rough https://en.wikipedia.org/wiki/Lapis_lazuli
+  (marble sized rough blue rock) [lazuritas]
 
 # Hooks, secrets and rumours
- (7th of Mokosh)
+
+(7th of Mokosh)
 
 Banners announcing festival in the Gore House on 9th of Mokosh are everywhere.
 Red cloth with dark strokes and a painting of current Blood Witch Exava
@@ -37,6 +39,3 @@ Today people are talking about riot and clenching of it near Seventh Zonot.
 There are rumours that a water dragon came flying over the city and drenching
 the crowd in water. There is also a rumour that a cult is planning to
 release all Simic creatures into the wild where they belong.
-
-Golgari had created bug eating plants to combat the parasites from Simic combine.
-https://www.dndbeyond.com/monsters/440031-spitting-greyflower

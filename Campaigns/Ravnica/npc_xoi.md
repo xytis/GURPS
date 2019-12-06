@@ -14,6 +14,6 @@ jumpsuit, his arms are covered in animal tatoos.
 
 # The Mizzium Goblins
 
-Xoi
+Xoi - ex Gruul
 Frakz
-
+Yrtrzx - son of Grxtract
