@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <advantage_list id="460e13ec-e9ec-4264-ad08-1337a279a945" version="1">
-	<advantage version="2">
+	<advantage version="3">
 		<name>Compulsion Killing</name>
 		<type>Mental</type>
 		<base_points>-15</base_points>
 		<cr>12</cr>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Hiccups when ducks are in vision</name>
 		<type>Mental</type>
 		<base_points>-1</base_points>
@@ -14,7 +14,7 @@
 			<category>Quirk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Can not sleep if frogs croaks nearby</name>
 		<type>Mental</type>
 		<base_points>-1</base_points>
@@ -22,19 +22,27 @@
 			<category>Quirk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Week Arm</name>
 		<type>Physical</type>
 		<levels>1</levels>
 		<points_per_level>-5</points_per_level>
 		<notes>@Side@</notes>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Fear of sudden and mystereous lack of spiders</name>
 		<type>Mental</type>
 		<base_points>-1</base_points>
 		<categories>
 			<category>Quirk</category>
 		</categories>
+	</advantage>
+	<advantage version="3">
+		<name>Scale-down carry load</name>
+		<type>Physical</type>
+		<attribute_bonus>
+			<attribute limitation="lifting only">st</attribute>
+			<amount>-9</amount>
+		</attribute_bonus>
 	</advantage>
 </advantage_list>

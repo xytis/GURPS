@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="225dca57-995b-4fdc-96ff-59e79afbb926" version="3">
 	<created_date>Dec 6, 2018</created_date>
-	<modified_date>Jul 11, 2019, 9:28 PM</modified_date>
+	<modified_date>Jan 14, 2020, 10:23 AM</modified_date>
 	<profile>
 		<player_name>Jonas</player_name>
 		<name>Galdramenn Gudlausir</name>
 		<title>Lad</title>
-		<age>30</age>
+		<age>31</age>
 		<birthday>October 15</birthday>
 		<eyes>Brown</eyes>
 		<hair>Brown, Curly, Short</hair>
@@ -22,7 +22,7 @@
 	</profile>
 	<HP>0</HP>
 	<FP>0</FP>
-	<total_points>120</total_points>
+	<total_points>121</total_points>
 	<ST>12</ST>
 	<DX>11</DX>
 	<IQ>10</IQ>
@@ -544,30 +544,28 @@
 			</default>
 		</skill>
 		<skill version="2">
-			<name>Hiking</name>
-			<difficulty>HT/A</difficulty>
-			<points>2</points>
-			<reference>B200</reference>
-			<categories>
-				<category>Athletic</category>
-				<category>Outdoor/Exploration</category>
-			</categories>
-			<default>
-				<type>HT</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Judo</name>
-			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
-			<difficulty>DX/H</difficulty>
-			<points>2</points>
-			<reference>B203</reference>
-			<notes>Allows parrying two different attacks per turn, one with each hand.</notes>
+			<name>Axe/Mace</name>
+			<difficulty>DX/A</difficulty>
+			<points>5</points>
+			<reference>B208</reference>
 			<categories>
 				<category>Combat/Weapon</category>
 				<category>Melee Combat</category>
 			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Two-Handed Axe/Mace</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Flail</name>
+				<modifier>-4</modifier>
+			</default>
 		</skill>
 		<skill version="2">
 			<name>Brawling</name>
@@ -617,6 +615,65 @@
 				<category>Technique</category>
 			</categories>
 		</technique>
+		<skill version="2">
+			<name>Fishing</name>
+			<difficulty>Per/E</difficulty>
+			<points>1</points>
+			<reference>B195</reference>
+			<categories>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Hiking</name>
+			<difficulty>HT/A</difficulty>
+			<points>2</points>
+			<reference>B200</reference>
+			<categories>
+				<category>Athletic</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>HT</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Intimidation</name>
+			<difficulty>Will/A</difficulty>
+			<points>2</points>
+			<reference>B202</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Acting</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Judo</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/H</difficulty>
+			<points>2</points>
+			<reference>B203</reference>
+			<notes>Allows parrying two different attacks per turn, one with each hand.</notes>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+		</skill>
 		<technique version="2" limit="0">
 			<name>Kicking</name>
 			<difficulty>H</difficulty>
@@ -638,22 +695,6 @@
 			<difficulty>A</difficulty>
 			<points>1</points>
 			<reference>B232,MA76</reference>
-			<default>
-				<type>Skill</type>
-				<name>Brawling</name>
-				<modifier>-1</modifier>
-			</default>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-				<category>Technique</category>
-			</categories>
-		</technique>
-		<technique version="2" limit="0">
-			<name>Uppercut</name>
-			<difficulty>A</difficulty>
-			<points>1</points>
-			<reference>MA81</reference>
 			<default>
 				<type>Skill</type>
 				<name>Brawling</name>
@@ -695,79 +736,6 @@
 			</default>
 		</skill>
 		<skill version="2">
-			<name>Axe/Mace</name>
-			<difficulty>DX/A</difficulty>
-			<points>5</points>
-			<reference>B208</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Two-Handed Axe/Mace</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Flail</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Two-Handed Axe/Mace</name>
-			<difficulty>DX/A</difficulty>
-			<points>5</points>
-			<reference>B208</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Axe/Mace</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Polearm</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Two-Handed Flail</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Intimidation</name>
-			<difficulty>Will/A</difficulty>
-			<points>2</points>
-			<reference>B202</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Police</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>Per</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Acting</name>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
 			<name>Lifting</name>
 			<difficulty>HT/A</difficulty>
 			<points>2</points>
@@ -777,63 +745,22 @@
 			</categories>
 		</skill>
 		<skill version="2">
-			<name>Survival</name>
-			<specialization>Woodlands</specialization>
-			<difficulty>Per/A</difficulty>
-			<points>2</points>
-			<reference>B223</reference>
+			<name>Riding</name>
+			<specialization>Equine</specialization>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B217</reference>
 			<categories>
-				<category>Outdoor/Exploration</category>
+				<category>Animal</category>
 			</categories>
 			<default>
-				<type>Per</type>
+				<type>DX</type>
 				<modifier>-5</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Naturalist</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Arctic</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Desert</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Island/Beach</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Jungle</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Mountain</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Plains</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Swampland</specialization>
+				<name>Animal Handling</name>
+				<specialization>Equine</specialization>
 				<modifier>-3</modifier>
 			</default>
 		</skill>
@@ -905,22 +832,63 @@
 			</default>
 		</skill>
 		<skill version="2">
-			<name>Traps</name>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>4</points>
-			<reference>B226</reference>
+			<name>Survival</name>
+			<specialization>Woodlands</specialization>
+			<difficulty>Per/A</difficulty>
+			<points>2</points>
+			<reference>B223</reference>
 			<categories>
-				<category>Criminal/Street</category>
-				<category>Military</category>
+				<category>Outdoor/Exploration</category>
 			</categories>
 			<default>
-				<type>IQ</type>
+				<type>Per</type>
 				<modifier>-5</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Lockpicking</name>
+				<name>Naturalist</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Arctic</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Desert</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Island/Beach</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Jungle</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Mountain</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Plains</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Swampland</specialization>
 				<modifier>-3</modifier>
 			</default>
 		</skill>
@@ -945,18 +913,70 @@
 			</default>
 		</skill>
 		<skill version="2">
-			<name>Fishing</name>
-			<difficulty>Per/E</difficulty>
-			<points>1</points>
-			<reference>B195</reference>
+			<name>Traps</name>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>4</points>
+			<reference>B226</reference>
 			<categories>
-				<category>Outdoor/Exploration</category>
+				<category>Criminal/Street</category>
+				<category>Military</category>
 			</categories>
 			<default>
-				<type>Per</type>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Lockpicking</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Two-Handed Axe/Mace</name>
+			<difficulty>DX/A</difficulty>
+			<points>5</points>
+			<reference>B208</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Axe/Mace</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Polearm</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Two-Handed Flail</name>
 				<modifier>-4</modifier>
 			</default>
 		</skill>
+		<technique version="2" limit="0">
+			<name>Uppercut</name>
+			<difficulty>A</difficulty>
+			<points>1</points>
+			<reference>MA81</reference>
+			<default>
+				<type>Skill</type>
+				<name>Brawling</name>
+				<modifier>-1</modifier>
+			</default>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+				<category>Technique</category>
+			</categories>
+		</technique>
 	</skill_list>
 	<equipment_list>
 		<equipment version="4" state="equipped">

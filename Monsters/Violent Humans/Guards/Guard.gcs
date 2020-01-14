@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="2fe9cdc4-5845-4e31-89b1-db5b657b1c20" version="3">
 	<created_date>Jan 22, 2019</created_date>
-	<modified_date>Mar 12, 2019, 9:47 PM</modified_date>
+	<modified_date>Aug 27, 2019, 8:34 PM</modified_date>
 	<profile>
 		<player_name>GM</player_name>
 		<name>Guard</name>
@@ -498,11 +498,11 @@
 				</categories>
 			</equipment>
 		</equipment_container>
-		<equipment_container version="4" open="no" state="not carried">
+		<equipment_container version="4" open="no" state="equipped">
 			<description>Spear and shield</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
-			<equipment version="4" state="not carried">
+			<equipment version="4" state="equipped">
 				<quantity>1</quantity>
 				<description>Spear</description>
 				<tech_level>0</tech_level>
@@ -600,7 +600,7 @@
 					<category>Missile Weapon</category>
 				</categories>
 			</equipment>
-			<equipment version="4" state="not carried">
+			<equipment version="4" state="equipped">
 				<quantity>1</quantity>
 				<description>Medium Shield</description>
 				<tech_level>1</tech_level>
@@ -655,11 +655,11 @@
 				</attribute_bonus>
 			</equipment>
 		</equipment_container>
-		<equipment_container version="4" open="no" state="equipped">
+		<equipment_container version="4" open="no" state="not carried">
 			<description>Sword and Shield</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
-			<equipment version="4" state="equipped">
+			<equipment version="4" state="not carried">
 				<quantity>1</quantity>
 				<description>Broadsword</description>
 				<tech_level>2</tech_level>
@@ -765,7 +765,7 @@
 					<category>Melee Weapon</category>
 				</categories>
 			</equipment>
-			<equipment version="4" state="equipped">
+			<equipment version="4" state="not carried">
 				<quantity>1</quantity>
 				<description>Medium Shield</description>
 				<tech_level>1</tech_level>
