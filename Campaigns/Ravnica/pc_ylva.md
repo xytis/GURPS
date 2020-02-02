@@ -3,8 +3,9 @@
 Real name: Ylva
 Aliases: Nai, Najwa, Nadja...
 Family:
-  Gulbrand (father figure, captured)
-  Brenda (sister, joined Gruul)
+
+- Gulbrand (father figure, captured)
+- Brenna (sister, joined Gruul)
 
 # Backstory
 
@@ -16,7 +17,7 @@ Gulbrands char-black eyes sitting behind a lush beard and the tenderness in his
 large muscular build. So she told ol' Gul that these two girls will be his
 lifeblood and his legacy.
 
-***
+---
 
 Girls grew up helping Gul with hunting, smithing and material collection.
 Brenna was strong and virile, loved to swordplay and was straightforward as her
@@ -89,7 +90,6 @@ But among her items there was only one that she really valued - the wolf
 dagger. She used it rarely, but efficiently and it took as many lives as was
 necessary to keep her own life and secrets.
 
-
 ## Interlude Nai and Neirius
 
 Two years ago Nai got into a shady deal with Izzet Machinist Zirzet. Zirzet was
@@ -108,4 +108,3 @@ managed to snatch it from a working private laboratory in the depths of Izzet
 underground works. The complexity of the job was rewarded with hefty sum of
 platinum Orzhov minted zinos. Which, naturally, sparked an interest in whatever
 Neirius was doing with that amount of money on hand.
-
