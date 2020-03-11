@@ -6,7 +6,7 @@ date: 10th of Mokosh, evening
 
 Male:
 
-- Erik Dolca
+- Erik - fat kid from the Orhpanage
 
 Female:
 
@@ -33,6 +33,10 @@ has a plate of meats, bread and cheese. A large jug with local
 ale has a bit of condensate on it. You have a free weekend from
 your duties and from your contract with Neirius. There are a number of
 notes on the notice board.
+
+Suddenly Shinigami stops playing her flute. There is a wide smile on her face.
+"I rememebered I have a music lesson tonight. I will see you tommorow."
+She leaves with a spring to her step.
 
 # Notice board
 
@@ -62,7 +66,7 @@ He places three more bounties.
 > rewarded with 5 zino bounty per head.
 
 > Public trial of Linda Moisuz, evidence of her guilt regarding Guildpact violations
-> are rewarded. Please contract officer Tamid Luade for further details.
+> are rewarded. Please contact officer Tamid Luade for further details.
 
 ### Murderous ghost
 
@@ -164,6 +168,8 @@ You see a single viashino climbing the rubble and tracing his path in the high g
   "If this case lands on the desk of Chamber of the Guildpact, I am willing to part with 15
   platinum.", he chuckles, "And a bottle of fine wine."
 
+  - party declared that this case will be rewarded with 80 platinum.
+
 - Linda Moisuz
   Necromantic bioengineer, last one in the chain of released Simic experiments. Her creation,
   Spitting greyflower was deployed across Golgari farms is causing more trouble than solving.
@@ -200,7 +206,7 @@ You see a single viashino climbing the rubble and tracing his path in the high g
   my neither my family name. You could help me by eradicating the infestation.
   Or at least reducing the impact, so I could fill a negotiation claim with
   Golgari. The cursed plants have been planted in southern part of Death Chasm.
-  You can start there. If you manage to weed all of them out I can pay 300
+  You can start there. If you manage to weed all of them out I can pay 1000
   zinos in addition to my deepest gratitude."
 
   inf x [Spitting Greyflower](https://www.dndbeyond.com/monsters/440031-spitting-greyflower)

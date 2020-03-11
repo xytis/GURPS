@@ -5,9 +5,9 @@ Aliases: Shinigami, Loviatar
 Race: Human
 Age: 17 (13 Zuun 10059)
 Family:
-  Catrina (mother, unsure about whereabouts)
-  Ricardo (father, deceased)
-  Jakson (step-dad, deceased)
+Catrina (mother, unsure about whereabouts)
+Ricardo (father, deceased)
+Jakson (step-dad, deceased)
 
 # Backstory
 
@@ -90,7 +90,7 @@ she wants, or indulging in pain of others when she sees fit.
    Rakdos has dozens of girls. All of them has a similar story to mine. I
    wonder can it be some how related?
 
-0. Žodžiu, mano char pagrindinis tikslas yra išsiaiškinti kas iš tiesų nutiko
+3. Žodžiu, mano char pagrindinis tikslas yra išsiaiškinti kas iš tiesų nutiko
    su jos motina - ar tai tai buvo tik iliuzija sukurta Rakdos, ar motina iš
    tiesų egzistavo, bet dėl kažkokių kerų, mergaitei buvo susuktos smegenys ir
    dėl to ji užpjovė savo tėvą, bei patėvį, nors iš tiesų jie nieko blogo
@@ -124,7 +124,7 @@ Izzet sign.
     between Sullemand's and Sunnix's before the sun sets tonight.
     I beg for your help, Neirius
 
-***
+---
 
 As I rushed to Blistercoils the sun was already down. I had no clear
 understanding what time it was. Long shadows extended creepily from the light
@@ -145,7 +145,6 @@ He made a sharp turn and disappeared in the shadows.
 
 Now this will be interesting. I moved to the shadows and started trailing the
 'phant.
-
 
 # Interlude Lost in Rubblebelt
 
@@ -338,3 +337,22 @@ A clear demonic voice in your head says "performer".
 Explanation: Hatred possessed the broken girl and she took justice in her own
 hands. Read initial backstory for details.
 
+# Music in the hands of the performer
+
+<date>10076 Mokosh 10, Raziday</date>
+
+You like the evening practices in your ring. They usualy end up in a thrilling
+adventure which sometimes result in blood spilling. Unfortunately this time
+your ring leader, a demon Xarzollak gave a quick summary on last feast, where
+you and your "friends" participated. He gave you a praise because it was
+exciting to see a fight erupt in the middle of the crowd. He also pointed out
+that he never felt so much energy in a gathering before and he was mighty
+curious about the device that you brought.
+
+"I never seen a crowd to go mad like that. At least not that early in the
+performance. Whatever you did there, was a resounding success. If you could,
+bring that thing more often. It would be nice to have it in smaller gatherings
+too."
+
+You practiced a bit on the stage for the next act and went to sleep
+intoxicated.
