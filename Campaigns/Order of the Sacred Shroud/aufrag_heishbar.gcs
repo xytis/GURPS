@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character id="287e528b-594b-429f-a700-97b0e65e3b9b" version="3">
+<character id="287e528b-594b-429f-a700-97b0e65e3b9b" version="4">
 	<created_date>Nov 23, 2018</created_date>
-	<modified_date>Jan 14, 2020, 10:23 AM</modified_date>
+	<modified_date>Jan 14, 2020, 7:10 PM</modified_date>
 	<profile>
 		<player_name>xytis</player_name>
 		<name>Aufrag Heishbar</name>
@@ -36,7 +36,7 @@
 	<include_kick>true</include_kick>
 	<include_kick_with_boots>true</include_kick_with_boots>
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Blessed</name>
 			<type>Mental, Supernatural</type>
 			<base_points>10</base_points>
@@ -51,7 +51,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Clerical Investment</name>
 			<type>Social</type>
 			<base_points>5</base_points>
@@ -60,7 +60,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Combat Reflexes</name>
 			<type>Mental</type>
 			<base_points>15</base_points>
@@ -72,6 +72,7 @@
 			<skill_bonus>
 				<name compare="starts with">fast-draw</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>1</amount>
 			</skill_bonus>
 			<attribute_bonus>
@@ -97,7 +98,7 @@
 				</advantage_prereq>
 			</prereq_list>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Fanaticism (Hephaistus)</name>
 			<type>Mental</type>
 			<base_points>-15</base_points>
@@ -112,7 +113,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Intolerance (Heathens)</name>
 			<type>Mental</type>
 			<modifier version="1" enabled="no">
@@ -144,7 +145,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Language: Common tongue</name>
 			<type>Mental</type>
 			<modifier version="1">
@@ -215,7 +216,7 @@
 				<category>Language</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Nightmares</name>
 			<type>Mental</type>
 			<base_points>-5</base_points>
@@ -225,7 +226,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Power Investiture</name>
 			<type>Mental, Supernatural</type>
 			<levels>1</levels>
@@ -235,7 +236,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Rank</name>
 			<type>Physical</type>
 			<levels>0</levels>
@@ -258,7 +259,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Vow</name>
 			<type>Mental</type>
 			<levels>0</levels>
@@ -269,7 +270,7 @@
 				<category>Quirk</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Vow (Avenge the Death of his Brother)</name>
 			<type>Physical</type>
 			<modifier version="1">
@@ -297,7 +298,7 @@
 		</advantage>
 	</advantage_list>
 	<skill_list>
-		<skill version="2">
+		<skill version="3">
 			<name>Animal Handling</name>
 			<specialization>Equines</specialization>
 			<difficulty>IQ/A</difficulty>
@@ -311,7 +312,7 @@
 				<modifier>-5</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Area Knowledge</name>
 			<specialization>Hillsbrook; Lived there</specialization>
 			<difficulty>IQ/E</difficulty>
@@ -332,7 +333,7 @@
 				<modifier>-3</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Axe/Mace</name>
 			<difficulty>DX/A</difficulty>
 			<points>12</points>
@@ -356,7 +357,7 @@
 				<modifier>-4</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Brawling</name>
 			<difficulty>DX/E</difficulty>
 			<points>2</points>
@@ -369,10 +370,11 @@
 				<name compare="is">Brawling</name>
 				<specialization compare="is anything"></specialization>
 				<level compare="at least">2</level>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</weapon_bonus>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Carousing</name>
 			<difficulty>HT/E</difficulty>
 			<points>1</points>
@@ -386,7 +388,7 @@
 				<modifier>-4</modifier>
 			</default>
 		</skill>
-		<technique version="2" limit="4">
+		<technique version="3" limit="4">
 			<name>Feint</name>
 			<difficulty>H</difficulty>
 			<points>4</points>
@@ -408,7 +410,7 @@
 				</skill_prereq>
 			</prereq_list>
 		</technique>
-		<skill version="2">
+		<skill version="3">
 			<name>Riding</name>
 			<specialization>Equine</specialization>
 			<difficulty>DX/A</difficulty>
@@ -428,7 +430,7 @@
 				<modifier>-3</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Shield</name>
 			<specialization>Buckler</specialization>
 			<difficulty>DX/E</difficulty>
@@ -449,7 +451,7 @@
 				<modifier>-2</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Survival</name>
 			<specialization>Mountain</specialization>
 			<difficulty>Per/A</difficulty>
@@ -510,7 +512,7 @@
 				<modifier>-3</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Streetwise</name>
 			<difficulty>IQ/A</difficulty>
 			<points>1</points>
@@ -527,7 +529,7 @@
 		</skill>
 	</skill_list>
 	<spell_list>
-		<spell version="2" very_hard="yes">
+		<spell version="3" very_hard="yes">
 			<name>Burning Death (Consumed by Everlasting Fire)</name>
 			<college>Fire/Necromancy</college>
 			<power_source>Sanctity</power_source>
@@ -538,7 +540,7 @@
 			<duration>1 sec</duration>
 			<points>8</points>
 			<melee_weapon>
-				<damage>thr-1 cr +1d-1 burn/second</damage>
+				<damage type="cr +1d-1 burn/second" st="thr" base="-1"/>
 				<usage>Punch</usage>
 				<reach>C</reach>
 				<parry>0</parry>
@@ -568,7 +570,7 @@
 				<category>Necromancy</category>
 			</categories>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Might (The Hand of Justice)</name>
 			<college>Body Control</college>
 			<power_source>Sanctity</power_source>
@@ -583,7 +585,7 @@
 				<category>Body Control</category>
 			</categories>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Rooted Feet (Holding Shroud)</name>
 			<college>Body Control</college>
 			<power_source>Sactity</power_source>
@@ -600,7 +602,7 @@
 		</spell>
 	</spell_list>
 	<equipment_list>
-		<equipment version="4" state="equipped">
+		<equipment version="6" equipped="yes">
 			<quantity>1</quantity>
 			<description>Mace</description>
 			<tech_level>2</tech_level>
@@ -609,7 +611,7 @@
 			<weight>5 lb</weight>
 			<reference>B271</reference>
 			<melee_weapon>
-				<damage>sw+3 cr</damage>
+				<damage type="cr" st="sw" base="+3"/>
 				<strength>12</strength>
 				<usage>Swung</usage>
 				<reach>1</reach>
@@ -636,7 +638,7 @@
 				</default>
 			</melee_weapon>
 			<ranged_weapon>
-				<damage>sw+3 cr</damage>
+				<damage type="cr" st="sw" base="+3"/>
 				<strength>12</strength>
 				<accuracy>1</accuracy>
 				<range>x0.5/x1</range>
@@ -659,7 +661,7 @@
 				<category>Missile Weapon</category>
 			</categories>
 		</equipment>
-		<equipment version="4" state="equipped">
+		<equipment version="6" equipped="yes">
 			<quantity>1</quantity>
 			<description>Axe</description>
 			<tech_level>0</tech_level>
@@ -668,7 +670,7 @@
 			<weight>4 lb</weight>
 			<reference>B271</reference>
 			<melee_weapon>
-				<damage>sw+2 cut</damage>
+				<damage type="cut" st="sw" base="+2"/>
 				<strength>11</strength>
 				<usage>Swung</usage>
 				<reach>1</reach>
@@ -698,7 +700,7 @@
 				<category>Melee Weapon</category>
 			</categories>
 		</equipment>
-		<equipment version="4" state="equipped">
+		<equipment version="6" equipped="yes">
 			<quantity>1</quantity>
 			<description>Medium Buckler</description>
 			<tech_level>1</tech_level>
@@ -707,7 +709,7 @@
 			<weight>15 lb</weight>
 			<reference>B287</reference>
 			<melee_weapon>
-				<damage>thr cr</damage>
+				<damage type="cr" st="thr"/>
 				<strength>0</strength>
 				<reach>1</reach>
 				<parry>No</parry>
@@ -751,24 +753,24 @@
 				<amount>2</amount>
 			</attribute_bonus>
 		</equipment>
-		<equipment version="4" state="equipped">
+		<equipment version="6" equipped="yes">
 			<quantity>1</quantity>
 			<description>Mysterious Tome</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
 			<notes>Taken from the body of Cicero</notes>
 		</equipment>
-		<equipment version="4" state="equipped">
+		<equipment version="6" equipped="yes">
 			<quantity>1</quantity>
 			<description>Amulet of the Old God</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
 		</equipment>
-		<equipment_container version="4" open="yes" state="equipped">
+		<equipment_container version="6" open="yes" equipped="yes">
 			<description>Apparel</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
-			<equipment version="4" state="equipped">
+			<equipment version="6" equipped="yes">
 				<quantity>1</quantity>
 				<description>Legionary Helmet</description>
 				<tech_level>2</tech_level>
@@ -788,7 +790,7 @@
 					<amount>4</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment version="4" state="carried">
+			<equipment version="6" equipped="no">
 				<quantity>1</quantity>
 				<description>Heavy Cloak</description>
 				<tech_level>1</tech_level>
@@ -797,7 +799,7 @@
 				<weight>5 lb</weight>
 				<reference>B287</reference>
 				<melee_weapon>
-					<damage>-</damage>
+					<damage type="-"/>
 					<strength>-</strength>
 					<reach>-</reach>
 					<parry>No</parry>
@@ -809,7 +811,7 @@
 					</default>
 				</melee_weapon>
 				<ranged_weapon>
-					<damage>Special</damage>
+					<damage type="Special"/>
 					<strength>8</strength>
 					<usage>Thrown</usage>
 					<accuracy>+1</accuracy>
@@ -853,7 +855,7 @@
 					<amount>2</amount>
 				</attribute_bonus>
 			</equipment>
-			<equipment version="4" state="equipped">
+			<equipment version="6" equipped="yes">
 				<quantity>1</quantity>
 				<description>Leather Armor</description>
 				<tech_level>1</tech_level>
@@ -873,7 +875,7 @@
 					<amount>2</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment version="4" state="equipped">
+			<equipment version="6" equipped="yes">
 				<quantity>1</quantity>
 				<description>Heavy Leather Sleeves</description>
 				<tech_level>1</tech_level>
@@ -889,7 +891,7 @@
 					<amount>2</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment version="4" state="equipped">
+			<equipment version="6" equipped="yes">
 				<quantity>1</quantity>
 				<description>Leather Gloves</description>
 				<tech_level>1</tech_level>
@@ -904,7 +906,7 @@
 					<amount>2</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment version="4" state="equipped">
+			<equipment version="6" equipped="yes">
 				<quantity>1</quantity>
 				<description>Heavy Leather Leggings</description>
 				<tech_level>1</tech_level>
@@ -920,7 +922,7 @@
 					<amount>2</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment version="4" state="equipped">
+			<equipment version="6" equipped="yes">
 				<quantity>1</quantity>
 				<description>Boots</description>
 				<tech_level>2</tech_level>
