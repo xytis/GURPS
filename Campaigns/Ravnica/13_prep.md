@@ -1,7 +1,8 @@
 ---
-
 date: 10th of Mokosh
----# Used names
+---
+
+# Used names
 
 - Kido Salrander
   Example usage: Traveler from far south. He comes from a village close to Mount Hebpar.

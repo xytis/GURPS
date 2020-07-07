@@ -209,4 +209,14 @@ Regarding your risen friend, observe any physical transformations that he might
 experience. I seldom have a chance to experiment on loxodons, so I would be
 intrigued to hear about changes that his body will overtake.
 
+## Iosif to Katrille (Mokosh 12)
 
+I take you have no new information on the cult. They are growing more and more
+annoying. My offer on cult problem still stands.
+
+According to my calculations your friend should have shown signs of change
+if there are to be any. Could you perform a thorough external investigation
+and document abnormalities? You can send me the report via couriers.
+
+Alternatively you can send the loxodon to visit me. But if you save my time,
+you can expect a decent reward.

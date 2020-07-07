@@ -30,19 +30,18 @@ A spy in Izzet was investigating Neirius work, but slipped and his identity was
 found out by another Dimir agent. Agent who goes by Bertan figured out that it
 is necessary to stop any further information leak, so he disposed of the agent
 in "an accident" and made the Orzhov to move against their debtors in turn
-efectivelly ending Neirius research.
+effectively ending Neirius research.
 
 # Location: Jezeru District
 
-Previousely inhabited region spanning multiple regions after a tremendous effort
-made by Simic became covered in shallow water. The valey became home to thousands of
-interconnecting lakes. Few mysteries about the previous inhabitants are still unsolved.
+Previously inhabited region spanning multiple regions after a tremendous effort
+made by Simic became covered in shallow water. The valley became home to
+thousands of interconnecting lakes. Few mysteries about the previous
+inhabitants are still unsolved.
 
 # Location: Bane Alley
 
 A street just above the Old Rav were all that is "illegal" is sold and bought.
-Assasinations, high scale sabotage, extortions or graft of highest impact can
-be aranged here if you have the payment for it.  Gold and platinum does not
+Assassinations, high scale sabotage, extortions or graft of highest impact can
+be arranged here if you have the payment for it. Gold and platinum does not
 always suffice.
-
-
