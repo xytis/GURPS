@@ -1,32 +1,51 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character id="968f00da-4bc9-48f3-b42e-84e78bed7cc2" version="3">
-	<created_date>Feb 12, 2019</created_date>
-	<modified_date>Feb 12, 2019, 3:01 PM</modified_date>
+<character id="968f00da-4bc9-48f3-b42e-84e78bed7cc2" version="5">
+	<settings version="1">
+		<default_length_units>ft in</default_length_units>
+		<default_weight_units>lb</default_weight_units>
+		<block_layout>reactions
+melee
+ranged
+advantages skills
+spells
+equipment
+other_equipment
+notes</block_layout>
+		<user_description_display>tooltip</user_description_display>
+		<modifiers_display>inline</modifiers_display>
+		<notes_display>inline</notes_display>
+		<base_will_and_per_on_10>false</base_will_and_per_on_10>
+		<use_multiplicative_modifiers>false</use_multiplicative_modifiers>
+		<use_modifying_dice_plus_adds>false</use_modifying_dice_plus_adds>
+		<use_know_your_own_strength>false</use_know_your_own_strength>
+		<use_reduced_swing>false</use_reduced_swing>
+		<use_thrust_equals_swing_minus_2>false</use_thrust_equals_swing_minus_2>
+		<use_simple_metric_conversions>true</use_simple_metric_conversions>
+		<show_college_in_sheet_spells>false</show_college_in_sheet_spells>
+	</settings>
+	<created_date>Feb 12, 2019, 12:00 AM</created_date>
+	<modified_date>Jul 7, 2020, 9:44 PM</modified_date>
 	<profile>
 		<player_name>GM</player_name>
 		<name>Wildling</name>
 		<age>0</age>
 		<SM>0</SM>
-		<race>Human</race>
 		<body_type>humanoid</body_type>
 		<tech_level>3</tech_level>
 	</profile>
-	<HP>1</HP>
+	<HP>4</HP>
 	<FP>0</FP>
 	<total_points>100</total_points>
 	<ST>11</ST>
-	<DX>11</DX>
-	<IQ>8</IQ>
+	<DX>12</DX>
+	<IQ>9</IQ>
 	<HT>13</HT>
 	<will>0</will>
 	<perception>0</perception>
 	<speed>0</speed>
 	<move>0</move>
-	<include_punch>true</include_punch>
-	<include_kick>true</include_kick>
-	<include_kick_with_boots>true</include_kick_with_boots>
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="4">
 			<name>Alcohol Intolerance</name>
 			<type>Physical</type>
 			<base_points>-1</base_points>
@@ -35,7 +54,7 @@
 				<category>Quirk</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="4">
 			<name>Low TL</name>
 			<type>Social</type>
 			<levels>1</levels>
@@ -47,10 +66,17 @@
 		</advantage>
 	</advantage_list>
 	<skill_list>
-		<skill version="2">
+		<skill version="4">
 			<name>Spear</name>
 			<difficulty>DX/A</difficulty>
-			<points>8</points>
+			<points>4</points>
+			<defaulted_from>
+				<type>DX</type>
+				<modifier>-5</modifier>
+				<level>7</level>
+				<adjusted_level>7</adjusted_level>
+				<points>-7</points>
+			</defaulted_from>
 			<reference>B208</reference>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -71,10 +97,17 @@
 				<modifier>-2</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="4">
 			<name>Broadsword</name>
 			<difficulty>DX/A</difficulty>
-			<points>8</points>
+			<points>4</points>
+			<defaulted_from>
+				<type>DX</type>
+				<modifier>-5</modifier>
+				<level>7</level>
+				<adjusted_level>7</adjusted_level>
+				<points>-7</points>
+			</defaulted_from>
 			<reference>B208</reference>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -110,10 +143,17 @@
 				<modifier>-5</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="4">
 			<name>Bow</name>
 			<difficulty>DX/A</difficulty>
-			<points>8</points>
+			<points>4</points>
+			<defaulted_from>
+				<type>DX</type>
+				<modifier>-5</modifier>
+				<level>7</level>
+				<adjusted_level>7</adjusted_level>
+				<points>-7</points>
+			</defaulted_from>
 			<reference>B182</reference>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -124,10 +164,17 @@
 				<modifier>-5</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="4">
 			<name>Spear Thrower</name>
 			<difficulty>DX/A</difficulty>
-			<points>8</points>
+			<points>4</points>
+			<defaulted_from>
+				<type>DX</type>
+				<modifier>-5</modifier>
+				<level>7</level>
+				<adjusted_level>7</adjusted_level>
+				<points>-7</points>
+			</defaulted_from>
 			<reference>B222</reference>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -146,144 +193,11 @@
 		</skill>
 	</skill_list>
 	<equipment_list>
-		<equipment_container version="4" open="yes" state="equipped">
-			<description>Bow</description>
+		<equipment_container version="7" open="no" equipped="yes">
+			<description>Club and Shield</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
-			<equipment version="4" state="equipped">
-				<quantity>1</quantity>
-				<description>Short Bow (ST11)</description>
-				<tech_level>0</tech_level>
-				<legality_class>4</legality_class>
-				<value>70</value>
-				<weight>2 lb</weight>
-				<reference>B275</reference>
-				<ranged_weapon>
-					<damage>1d-1 imp</damage>
-					<strength>11&#8224;</strength>
-					<accuracy>2</accuracy>
-					<range>110/165</range>
-					<rate_of_fire>1</rate_of_fire>
-					<shots>1(2)</shots>
-					<bulk>-6</bulk>
-					<default>
-						<type>DX</type>
-						<modifier>-5</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Bow</name>
-						<modifier>0</modifier>
-					</default>
-				</ranged_weapon>
-				<categories>
-					<category>Missile Weapon</category>
-				</categories>
-			</equipment>
-		</equipment_container>
-		<equipment_container version="4" open="yes" state="equipped">
-			<description>Spear and shield</description>
-			<legality_class>4</legality_class>
-			<value>0</value>
-			<equipment version="4" state="equipped">
-				<quantity>1</quantity>
-				<description>Spear</description>
-				<tech_level>0</tech_level>
-				<legality_class>4</legality_class>
-				<value>40</value>
-				<weight>4 lb</weight>
-				<reference>B273</reference>
-				<melee_weapon>
-					<damage>thr+2 imp</damage>
-					<strength>9</strength>
-					<usage>Thrust</usage>
-					<reach>1*</reach>
-					<parry>0</parry>
-					<block>No</block>
-					<default>
-						<type>DX</type>
-						<modifier>-5</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Spear</name>
-						<modifier>0</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Polearm</name>
-						<modifier>-4</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Staff</name>
-						<modifier>-2</modifier>
-					</default>
-				</melee_weapon>
-				<melee_weapon>
-					<damage>thr+3 imp</damage>
-					<strength>9&#8224;</strength>
-					<usage>Thrust</usage>
-					<reach>1,2*</reach>
-					<parry>0</parry>
-					<block>No</block>
-					<default>
-						<type>DX</type>
-						<modifier>-5</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Spear</name>
-						<modifier>0</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Polearm</name>
-						<modifier>-4</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Staff</name>
-						<modifier>-2</modifier>
-					</default>
-				</melee_weapon>
-				<ranged_weapon>
-					<damage>thr+3 imp</damage>
-					<strength>9</strength>
-					<usage>Thrown</usage>
-					<accuracy>+2</accuracy>
-					<range>x1/x1.5</range>
-					<rate_of_fire>1</rate_of_fire>
-					<shots>T(1)</shots>
-					<bulk>-6</bulk>
-					<default>
-						<type>DX</type>
-						<modifier>-4</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Thrown Weapon</name>
-						<specialization>Spear</specialization>
-						<modifier>0</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Spear Thrower</name>
-						<modifier>-4</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Thrown Weapon</name>
-						<specialization>Harpoon</specialization>
-						<modifier>-2</modifier>
-					</default>
-				</ranged_weapon>
-				<categories>
-					<category>Melee Weapon</category>
-					<category>Missile Weapon</category>
-				</categories>
-			</equipment>
-			<equipment version="4" state="equipped">
+			<equipment version="7" equipped="yes">
 				<quantity>1</quantity>
 				<description>Small Shield</description>
 				<legality_class>4</legality_class>
@@ -291,7 +205,7 @@
 				<weight>8 lb</weight>
 				<reference>B287</reference>
 				<melee_weapon>
-					<damage>thr cr</damage>
+					<damage type="cr" st="thr"/>
 					<strength>0</strength>
 					<usage>Shield Bash</usage>
 					<reach>1</reach>
@@ -336,12 +250,7 @@
 					<amount>1</amount>
 				</attribute_bonus>
 			</equipment>
-		</equipment_container>
-		<equipment_container version="4" open="yes" state="not carried">
-			<description>Club and Shield</description>
-			<legality_class>4</legality_class>
-			<value>0</value>
-			<equipment version="4" state="not carried">
+			<equipment version="7" equipped="yes">
 				<quantity>1</quantity>
 				<description>Light Club</description>
 				<tech_level>0</tech_level>
@@ -350,7 +259,7 @@
 				<weight>3 lb</weight>
 				<reference>B271</reference>
 				<melee_weapon>
-					<damage>sw+1 cr</damage>
+					<damage type="cr" st="sw" base="+1"/>
 					<strength>10</strength>
 					<usage>Swung</usage>
 					<reach>1</reach>
@@ -397,7 +306,7 @@
 					</default>
 				</melee_weapon>
 				<melee_weapon>
-					<damage>thr+1 cr</damage>
+					<damage type="cr" st="thr" base="+1"/>
 					<strength>10</strength>
 					<usage>Thrust</usage>
 					<reach>1</reach>
@@ -447,7 +356,215 @@
 					<category>Melee Weapon</category>
 				</categories>
 			</equipment>
-			<equipment version="4" state="not carried">
+		</equipment_container>
+		<equipment_container version="7" open="no" equipped="yes">
+			<description>Armor</description>
+			<legality_class>4</legality_class>
+			<value>0</value>
+			<equipment version="7" equipped="yes">
+				<quantity>1</quantity>
+				<description>Cloth Armor</description>
+				<tech_level>1</tech_level>
+				<legality_class>4</legality_class>
+				<value>30</value>
+				<weight>6 lb</weight>
+				<reference>B283</reference>
+				<categories>
+					<category>Body Armor</category>
+				</categories>
+				<dr_bonus>
+					<location>groin</location>
+					<amount>1</amount>
+				</dr_bonus>
+				<dr_bonus>
+					<location>torso</location>
+					<amount>1</amount>
+				</dr_bonus>
+			</equipment>
+			<equipment version="7" equipped="yes">
+				<quantity>1</quantity>
+				<description>Cloth Cap</description>
+				<tech_level>1</tech_level>
+				<legality_class>4</legality_class>
+				<value>5</value>
+				<reference>B284</reference>
+				<categories>
+					<category>Headgear</category>
+				</categories>
+				<dr_bonus>
+					<location>skull</location>
+					<amount>1</amount>
+				</dr_bonus>
+			</equipment>
+			<equipment version="7" equipped="yes">
+				<quantity>1</quantity>
+				<description>Cloth Gloves</description>
+				<tech_level>1</tech_level>
+				<legality_class>4</legality_class>
+				<value>15</value>
+				<reference>B284</reference>
+				<categories>
+					<category>Gloves</category>
+				</categories>
+				<dr_bonus>
+					<location>hands</location>
+					<amount>1</amount>
+				</dr_bonus>
+			</equipment>
+			<equipment version="7" equipped="yes">
+				<quantity>1</quantity>
+				<description>Sandals</description>
+				<tech_level>0</tech_level>
+				<legality_class>4</legality_class>
+				<value>25</value>
+				<weight>0.5 lb</weight>
+				<reference>B284</reference>
+				<notes>Flexible; Concealable; Gives DR 1 to underside of foot</notes>
+				<categories>
+					<category>Footwear</category>
+				</categories>
+			</equipment>
+		</equipment_container>
+		<equipment_container version="7" open="no" equipped="yes">
+			<description>Bow</description>
+			<legality_class>4</legality_class>
+			<value>0</value>
+			<equipment version="7" equipped="yes">
+				<quantity>1</quantity>
+				<description>Short Bow (ST11)</description>
+				<tech_level>0</tech_level>
+				<legality_class>4</legality_class>
+				<value>70</value>
+				<weight>2 lb</weight>
+				<reference>B275</reference>
+				<ranged_weapon>
+					<damage type="imp" base="1d-1"/>
+					<strength>11&#8224;</strength>
+					<accuracy>2</accuracy>
+					<range>110/165</range>
+					<rate_of_fire>1</rate_of_fire>
+					<shots>1(2)</shots>
+					<bulk>-6</bulk>
+					<default>
+						<type>DX</type>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Bow</name>
+						<modifier>0</modifier>
+					</default>
+				</ranged_weapon>
+				<categories>
+					<category>Missile Weapon</category>
+				</categories>
+			</equipment>
+		</equipment_container>
+	</equipment_list>
+	<other_equipment_list>
+		<equipment_container version="7" open="no" equipped="yes">
+			<description>Spear and shield</description>
+			<legality_class>4</legality_class>
+			<value>0</value>
+			<equipment version="7" equipped="yes">
+				<quantity>1</quantity>
+				<description>Spear</description>
+				<tech_level>0</tech_level>
+				<legality_class>4</legality_class>
+				<value>40</value>
+				<weight>4 lb</weight>
+				<reference>B273</reference>
+				<melee_weapon>
+					<damage type="imp" st="thr" base="+2"/>
+					<strength>9</strength>
+					<usage>Thrust</usage>
+					<reach>1*</reach>
+					<parry>0</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Spear</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Polearm</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Staff</name>
+						<modifier>-2</modifier>
+					</default>
+				</melee_weapon>
+				<melee_weapon>
+					<damage type="imp" st="thr" base="+3"/>
+					<strength>9&#8224;</strength>
+					<usage>Thrust</usage>
+					<reach>1,2*</reach>
+					<parry>0</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Spear</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Polearm</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Staff</name>
+						<modifier>-2</modifier>
+					</default>
+				</melee_weapon>
+				<ranged_weapon>
+					<damage type="imp" st="thr" base="+3"/>
+					<strength>9</strength>
+					<usage>Thrown</usage>
+					<accuracy>+2</accuracy>
+					<range>x1/x1.5</range>
+					<rate_of_fire>1</rate_of_fire>
+					<shots>T(1)</shots>
+					<bulk>-6</bulk>
+					<default>
+						<type>DX</type>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Thrown Weapon</name>
+						<specialization>Spear</specialization>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Spear Thrower</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Thrown Weapon</name>
+						<specialization>Harpoon</specialization>
+						<modifier>-2</modifier>
+					</default>
+				</ranged_weapon>
+				<categories>
+					<category>Melee Weapon</category>
+					<category>Missile Weapon</category>
+				</categories>
+			</equipment>
+			<equipment version="7" equipped="yes">
 				<quantity>1</quantity>
 				<description>Small Shield</description>
 				<legality_class>4</legality_class>
@@ -455,7 +572,7 @@
 				<weight>8 lb</weight>
 				<reference>B287</reference>
 				<melee_weapon>
-					<damage>thr cr</damage>
+					<damage type="cr" st="thr"/>
 					<strength>0</strength>
 					<usage>Shield Bash</usage>
 					<reach>1</reach>
@@ -501,7 +618,7 @@
 				</attribute_bonus>
 			</equipment>
 		</equipment_container>
-	</equipment_list>
+	</other_equipment_list>
 	<print_settings units="in">
 		<orientation>portrait</orientation>
 		<width>8.5</width>
@@ -512,6 +629,7 @@
 		<right_margin>0.5</right_margin>
 		<ink_chromaticity>monochrome</ink_chromaticity>
 		<sides>single</sides>
+		<number_up>1</number_up>
 		<quality>normal</quality>
 	</print_settings>
 </character>
