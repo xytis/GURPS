@@ -24,11 +24,11 @@ notes</block_layout>
 		<show_college_in_sheet_spells>false</show_college_in_sheet_spells>
 	</settings>
 	<created_date>Jul 7, 2020, 7:05 PM</created_date>
-	<modified_date>Jul 7, 2020, 7:30 PM</modified_date>
+	<modified_date>Jul 21, 2020, 7:55 PM</modified_date>
 	<profile>
-		<player_name>xytis</player_name>
+		<player_name>Jonas</player_name>
 		<name>Jr. Junior</name>
-		<age>16</age>
+		<age>18</age>
 		<birthday>August 20</birthday>
 		<eyes>Brown</eyes>
 		<hair>Black, Straight, Medium</hair>
@@ -627,7 +627,7 @@ notes</block_layout>
 			</dr_bonus>
 		</equipment>
 	</equipment_list>
-	<print_settings printer="Office printer" units="in">
+	<print_settings units="in">
 		<orientation>portrait</orientation>
 		<width>8.5</width>
 		<height>11</height>
