@@ -1,421 +1,540 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<character id="b01576bc-f7d4-4cc3-bba4-72a519579945" version="5">
-	<settings version="1">
-		<default_length_units>ft in</default_length_units>
-		<default_weight_units>lb</default_weight_units>
-		<block_layout>reactions
-melee
-ranged
-advantages skills
-spells
-equipment
-other_equipment
-notes</block_layout>
-		<user_description_display>tooltip</user_description_display>
-		<modifiers_display>inline</modifiers_display>
-		<notes_display>inline</notes_display>
-		<base_will_and_per_on_10>false</base_will_and_per_on_10>
-		<use_multiplicative_modifiers>false</use_multiplicative_modifiers>
-		<use_modifying_dice_plus_adds>false</use_modifying_dice_plus_adds>
-		<use_know_your_own_strength>false</use_know_your_own_strength>
-		<use_reduced_swing>false</use_reduced_swing>
-		<use_thrust_equals_swing_minus_2>false</use_thrust_equals_swing_minus_2>
-		<use_simple_metric_conversions>true</use_simple_metric_conversions>
-	</settings>
-	<created_date>Jun 24, 2020, 1:23 PM</created_date>
-	<modified_date>Jun 25, 2020, 8:34 PM</modified_date>
-	<profile>
-		<player_name>Danielius</player_name>
-		<name>Gronk The Toothless</name>
-		<age>28</age>
-		<birthday>January 30</birthday>
-		<eyes>Brown</eyes>
-		<hair>Brown, Straight, Medium</hair>
-		<skin>Freckled</skin>
-		<handedness>Right</handedness>
-		<height>6'</height>
-		<weight>146 lb</weight>
-		<SM>0</SM>
-		<gender>Male</gender>
-		<body_type>humanoid</body_type>
-		<tech_level>3</tech_level>
-	</profile>
-	<HP>10</HP>
-	<FP>0</FP>
-	<total_points>100</total_points>
-	<ST>12</ST>
-	<DX>13</DX>
-	<IQ>8</IQ>
-	<HT>12</HT>
-	<will>0</will>
-	<perception>-2</perception>
-	<speed>0</speed>
-	<move>0</move>
-	<advantage_list>
-		<advantage version="4">
-			<name>Combat Reflexes</name>
-			<type>Mental</type>
-			<base_points>15</base_points>
-			<reference>B43</reference>
-			<notes>Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)</notes>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-			<skill_bonus>
-				<selection_type>skills with name</selection_type>
-				<name compare="starts with">fast-draw</name>
-				<specialization compare="is anything"></specialization>
-				<category compare="is anything"></category>
-				<amount>1</amount>
-			</skill_bonus>
-			<attribute_bonus>
-				<attribute>dodge</attribute>
-				<amount>1</amount>
-			</attribute_bonus>
-			<attribute_bonus>
-				<attribute>parry</attribute>
-				<amount>1</amount>
-			</attribute_bonus>
-			<attribute_bonus>
-				<attribute>block</attribute>
-				<amount>1</amount>
-			</attribute_bonus>
-			<attribute_bonus>
-				<attribute>fright check</attribute>
-				<amount>2</amount>
-			</attribute_bonus>
-			<prereq_list all="yes">
-				<advantage_prereq has="no">
-					<name compare="is">Enhanced Time Sense</name>
-					<notes compare="is anything"></notes>
-				</advantage_prereq>
-			</prereq_list>
-		</advantage>
-		<advantage version="4">
-			<name>High Pain Threshold</name>
-			<type>Physical</type>
-			<base_points>10</base_points>
-			<reference>B59</reference>
-			<notes>Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture</notes>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="4">
-			<name>Honesty</name>
-			<type>Mental</type>
-			<base_points>-10</base_points>
-			<cr>12</cr>
-			<reference>B138</reference>
-			<notes>Make a self-control roll when faced with the &#8220;need&#8221; to break unreasonable laws; if you fail, you must obey the law, whatever the consequences. If you manage to resist your urges and break the law, make a second self-control roll afterward. If you fail, you must turn yourself in to the authorities!</notes>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="4">
-			<name>Fearlessness</name>
-			<type>Mental</type>
-			<levels>3</levels>
-			<points_per_level>2</points_per_level>
-			<reference>B55</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-			<attribute_bonus>
-				<attribute>fright check</attribute>
-				<amount per_level="yes">1</amount>
-			</attribute_bonus>
-			<prereq_list all="yes">
-				<advantage_prereq has="no">
-					<name compare="is">Fearfulness</name>
-					<notes compare="is anything"></notes>
-				</advantage_prereq>
-			</prereq_list>
-		</advantage>
-		<advantage version="4">
-			<name>Vow</name>
-			<type>Physical</type>
-			<modifier version="2">
-				<name>Minor</name>
-				<reference>B161</reference>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="2" enabled="no">
-				<name>Major</name>
-				<reference>B161</reference>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="2" enabled="no">
-				<name>Great</name>
-				<reference>B161</reference>
-				<cost type="points">-15</cost>
-				<affects>total</affects>
-			</modifier>
-			<reference>B161</reference>
-			<notes>Vegetarianism</notes>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="4">
-			<name>Bloodlust</name>
-			<type>Mental</type>
-			<base_points>-10</base_points>
-			<cr>12</cr>
-			<reference>B125</reference>
-			<notes>You must make a self-control roll whenever you need to accept a surrender, evade a sentry, take a prisoner, etc.</notes>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-	</advantage_list>
-	<skill_list>
-		<skill version="4">
-			<name>Spear</name>
-			<difficulty>DX/A</difficulty>
-			<points>12</points>
-			<defaulted_from>
-				<type>DX</type>
-				<modifier>-5</modifier>
-				<level>8</level>
-				<adjusted_level>8</adjusted_level>
-				<points>-8</points>
-			</defaulted_from>
-			<reference>B208</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Polearm</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Staff</name>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="4">
-			<name>Shield</name>
-			<specialization>Buckler</specialization>
-			<difficulty>DX/E</difficulty>
-			<points>12</points>
-			<defaulted_from>
-				<type>DX</type>
-				<modifier>-4</modifier>
-				<level>9</level>
-				<adjusted_level>9</adjusted_level>
-				<points>-9</points>
-			</defaulted_from>
-			<reference>B220</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shield</name>
-				<specialization>Force</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-	</skill_list>
-	<equipment_list>
-		<equipment version="7" equipped="yes">
-			<quantity>1</quantity>
-			<description>Medium Buckler</description>
-			<tech_level>1</tech_level>
-			<legality_class>4</legality_class>
-			<value>60</value>
-			<weight>15 lb</weight>
-			<reference>B287</reference>
-			<melee_weapon>
-				<damage type="cr" st="thr"/>
-				<strength>0</strength>
-				<reach>1</reach>
-				<parry>No</parry>
-				<block>+0</block>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shield</name>
-					<specialization>Shield</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shield</name>
-					<specialization>Force Shield</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shield</name>
-					<specialization>Buckler</specialization>
-					<modifier>0</modifier>
-				</default>
-			</melee_weapon>
-			<categories>
-				<category>Shield</category>
-			</categories>
-			<attribute_bonus>
-				<attribute>dodge</attribute>
-				<amount>2</amount>
-			</attribute_bonus>
-			<attribute_bonus>
-				<attribute>parry</attribute>
-				<amount>2</amount>
-			</attribute_bonus>
-			<attribute_bonus>
-				<attribute>block</attribute>
-				<amount>2</amount>
-			</attribute_bonus>
-		</equipment>
-		<equipment version="7" equipped="yes">
-			<quantity>1</quantity>
-			<description>Spear</description>
-			<tech_level>0</tech_level>
-			<legality_class>4</legality_class>
-			<value>40</value>
-			<weight>4 lb</weight>
-			<reference>B273</reference>
-			<melee_weapon>
-				<damage type="imp" st="thr" base="+2"/>
-				<strength>9</strength>
-				<usage>Thrust</usage>
-				<reach>1*</reach>
-				<parry>0</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Spear</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Polearm</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Staff</name>
-					<modifier>-2</modifier>
-				</default>
-			</melee_weapon>
-			<melee_weapon>
-				<damage type="imp" st="thr" base="+3"/>
-				<strength>9&#8224;</strength>
-				<usage>Thrust</usage>
-				<reach>1,2*</reach>
-				<parry>0</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Spear</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Polearm</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Staff</name>
-					<modifier>-2</modifier>
-				</default>
-			</melee_weapon>
-			<ranged_weapon>
-				<damage type="imp" st="thr" base="+3"/>
-				<strength>9</strength>
-				<usage>Thrown</usage>
-				<accuracy>+2</accuracy>
-				<range>x1/x1.5</range>
-				<rate_of_fire>1</rate_of_fire>
-				<shots>T(1)</shots>
-				<bulk>-6</bulk>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Thrown Weapon</name>
-					<specialization>Spear</specialization>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Spear Thrower</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Thrown Weapon</name>
-					<specialization>Harpoon</specialization>
-					<modifier>-2</modifier>
-				</default>
-			</ranged_weapon>
-			<categories>
-				<category>Melee Weapon</category>
-				<category>Missile Weapon</category>
-			</categories>
-		</equipment>
-		<equipment version="7" equipped="yes">
-			<quantity>1</quantity>
-			<description>Leather Jacket</description>
-			<tech_level>1</tech_level>
-			<legality_class>4</legality_class>
-			<value>50</value>
-			<weight>4 lb</weight>
-			<reference>B283</reference>
-			<categories>
-				<category>Body Armor</category>
-			</categories>
-			<dr_bonus>
-				<location>torso</location>
-				<amount>1</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>arms</location>
-				<amount>1</amount>
-			</dr_bonus>
-		</equipment>
-	</equipment_list>
-	<print_settings printer="OneNote for Windows 10" units="in">
-		<orientation>portrait</orientation>
-		<width>8.5</width>
-		<height>11</height>
-		<top_margin>0.25</top_margin>
-		<left_margin>0.25</left_margin>
-		<bottom_margin>0.25</bottom_margin>
-		<right_margin>0.25</right_margin>
-		<ink_chromaticity>monochrome</ink_chromaticity>
-		<sides>single</sides>
-		<number_up>1</number_up>
-		<quality>normal</quality>
-	</print_settings>
-</character>
+{
+	"type": "character",
+	"version": 1,
+	"id": "b01576bc-f7d4-4cc3-bba4-72a519579945",
+	"settings": {
+		"version": 1,
+		"default_length_units": "ft_in",
+		"default_weight_units": "lb",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"base_will_and_per_on_10": false,
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": false,
+		"use_know_your_own_strength": false,
+		"use_reduced_swing": false,
+		"use_thrust_equals_swing_minus_2": false,
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"use_title_in_footer": false,
+		"block_layout": [
+			"reactions",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		]
+	},
+	"created_date": "Jun 24, 2020, 1:23 PM",
+	"modified_date": "Aug 17, 2020, 1:01 PM",
+	"profile": {
+		"player_name": "Danielius",
+		"name": "Gronk The Toothless",
+		"age": 28,
+		"birthday": "January 30",
+		"eyes": "Brown",
+		"hair": "Brown, Straight, Medium",
+		"skin": "Freckled",
+		"handedness": "Right",
+		"height": "6'",
+		"weight": "146 lb",
+		"gender": "Male",
+		"body_type": "humanoid",
+		"tech_level": "3"
+	},
+	"HP_adj": 10,
+	"total_points": 100,
+	"ST": 12,
+	"DX": 13,
+	"IQ": 8,
+	"HT": 12,
+	"per_adj": -2,
+	"advantages": [
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "8ed4ca82-1c35-4e37-bb32-4d85d9b054e4",
+			"name": "Combat Reflexes",
+			"mental": true,
+			"base_points": 15,
+			"reference": "B43",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "Enhanced Time Sense"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "starts_with",
+						"qualifier": "fast-draw"
+					}
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "dodge"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "parry"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "block"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 2,
+					"attribute": "fright_check"
+				}
+			],
+			"notes": "Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "cccf3749-98fe-4d0f-87a2-c83c6c8550be",
+			"name": "High Pain Threshold",
+			"physical": true,
+			"base_points": 10,
+			"reference": "B59",
+			"notes": "Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "00ea806f-ab99-4868-ae90-a4a866e5856c",
+			"name": "Honesty",
+			"mental": true,
+			"base_points": -10,
+			"cr": 12,
+			"reference": "B138",
+			"notes": "Make a self-control roll when faced with the “need” to break unreasonable laws; if you fail, you must obey the law, whatever the consequences. If you manage to resist your urges and break the law, make a second self-control roll afterward. If you fail, you must turn yourself in to the authorities!",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "9f9096a7-eefa-418d-addd-534e879482be",
+			"name": "Fearlessness",
+			"mental": true,
+			"levels": "3",
+			"points_per_level": 2,
+			"reference": "B55",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "Fearfulness"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"per_level": true,
+					"attribute": "fright_check"
+				}
+			],
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "bd2f8ce8-d039-441c-bb0d-c0a3682ddac3",
+			"name": "Vow",
+			"physical": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "502ca2c3-3cb3-4195-9ea9-f3f7610379ce",
+					"name": "Minor",
+					"reference": "B161",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0c1e9e68-c420-4d2a-a7c2-e9e05e2e4516",
+					"disabled": true,
+					"name": "Major",
+					"reference": "B161",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3e3de68c-a852-44a4-9056-f776e97030d1",
+					"disabled": true,
+					"name": "Great",
+					"reference": "B161",
+					"cost_type": "points",
+					"cost": -15,
+					"affects": "total"
+				}
+			],
+			"reference": "B161",
+			"notes": "Vegetarianism",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "1e71e2a9-9422-435b-9223-8f50479262b7",
+			"name": "Bloodlust",
+			"mental": true,
+			"base_points": -10,
+			"cr": 12,
+			"reference": "B125",
+			"notes": "You must make a self-control roll whenever you need to accept a surrender, evade a sentry, take a prisoner, etc.",
+			"categories": [
+				"Disadvantage"
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "62569743-fef4-4fd1-97f6-d5812e86097f",
+			"name": "Spear",
+			"reference": "B208",
+			"difficulty": "DX/A",
+			"points": 12,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -5,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Polearm",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Staff",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "855a6ee5-d601-4e73-be25-a091c635a97f",
+			"name": "Shield",
+			"reference": "B220",
+			"specialization": "Buckler",
+			"difficulty": "DX/E",
+			"points": 12,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -4,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Shield",
+					"specialization": "Force",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		}
+	],
+	"equipment": [
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "f50ce05f-bc46-4d19-b2b8-5c52ad6de30f",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Medium Buckler",
+			"tech_level": "1",
+			"value": "60",
+			"weight": "15 lb",
+			"reference": "B287",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "0",
+					"reach": "1",
+					"parry": "No",
+					"block": "+0",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Shield",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Force Shield",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Buckler"
+						}
+					]
+				}
+			],
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": 2,
+					"attribute": "dodge"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 2,
+					"attribute": "parry"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 2,
+					"attribute": "block"
+				}
+			],
+			"categories": [
+				"Shield"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "661c75f3-a0bf-49fc-af3c-efbddffb6403",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Spear",
+			"tech_level": "0",
+			"value": "40",
+			"weight": "4 lb",
+			"reference": "B273",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "+2"
+					},
+					"strength": "9",
+					"usage": "Thrust",
+					"reach": "1*",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Spear"
+						},
+						{
+							"type": "Skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Staff",
+							"modifier": -2
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "+3"
+					},
+					"strength": "9†",
+					"usage": "Thrust",
+					"reach": "1,2*",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Spear"
+						},
+						{
+							"type": "Skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Staff",
+							"modifier": -2
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "+3"
+					},
+					"strength": "9",
+					"usage": "Thrown",
+					"accuracy": "+2",
+					"range": "x1/x1.5",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Thrown Weapon",
+							"specialization": "Spear"
+						},
+						{
+							"type": "Skill",
+							"name": "Spear Thrower",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Thrown Weapon",
+							"specialization": "Harpoon",
+							"modifier": -2
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon",
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "429338fb-b57a-4f4a-b017-ece863c799bf",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Leather Jacket",
+			"tech_level": "1",
+			"value": "50",
+			"weight": "4 lb",
+			"reference": "B283",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "arms"
+				}
+			],
+			"categories": [
+				"Body Armor"
+			]
+		}
+	],
+	"print_settings": {
+		"units": "in",
+		"orientation": "portrait",
+		"width": 8.5,
+		"height": 11,
+		"top_margin": 0.25,
+		"left_margin": 0.25,
+		"bottom_margin": 0.25,
+		"right_margin": 0.25,
+		"ink_chromaticity": "monochrome",
+		"sides": "single",
+		"quality": "normal"
+	}
+}

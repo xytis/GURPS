@@ -1,0 +1,969 @@
+{
+	"type": "character",
+	"version": 1,
+	"id": "846001d1-a2ad-4674-9085-43d83250a8c2",
+	"settings": {
+		"version": 1,
+		"default_length_units": "m",
+		"default_weight_units": "kg",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"base_will_and_per_on_10": false,
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": true,
+		"use_know_your_own_strength": false,
+		"use_reduced_swing": false,
+		"use_thrust_equals_swing_minus_2": false,
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"use_title_in_footer": false,
+		"block_layout": [
+			"reactions",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		]
+	},
+	"created_date": "Aug 17, 2020, 1:03 PM",
+	"modified_date": "Aug 18, 2020, 8:34 PM",
+	"profile": {
+		"player_name": "kasparas",
+		"name": "Manikin",
+		"height": "2.1 m",
+		"weight": "60 kg",
+		"SM": 1,
+		"body_type": "humanoid"
+	},
+	"HP_adj": 14,
+	"FP_adj": 3,
+	"total_points": 100,
+	"ST": 16,
+	"DX": 11,
+	"IQ": 3,
+	"HT": 12,
+	"per_adj": 7,
+	"speed_adj": -1.75,
+	"advantages": [
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "609bf57b-2485-4bbf-9763-27ce9ed94345",
+			"based_on_id": "4aa17853-d14e-47f9-9347-962611522aea",
+			"based_on_hash": "L2sbyFLFjtvXC/D+nJ2Pfpc2HdLhjoJpXcRxJN8fCHg",
+			"name": "Ambidexterity",
+			"physical": true,
+			"base_points": 5,
+			"reference": "B39",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "42bd517c-4602-4e4c-af7f-74e198f0fb57",
+			"based_on_id": "4517dc4d-d831-4a7c-a4c3-8dfd15adbf66",
+			"based_on_hash": "CMEfow61zq8zGESVVExtNzDKexql9GHAgRwrz8atRTM",
+			"name": "Claws, Long Talons (Hands)",
+			"physical": true,
+			"base_points": 11,
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "thr",
+						"base": "-1",
+						"modifier_per_die": 1
+					},
+					"usage": "Slash",
+					"reach": "C",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX"
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "Skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "Skill",
+							"name": "Karate"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-1",
+						"modifier_per_die": 1
+					},
+					"usage": "Stab",
+					"reach": "C",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX"
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "Skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "Skill",
+							"name": "Karate"
+						}
+					]
+				}
+			],
+			"reference": "B43",
+			"notes": "Only pay for hands or feet, not both",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "c5ff3deb-f6f9-4f13-903e-f3a2922508ae",
+			"based_on_id": "9a9be9b6-f1f4-44c7-b7c6-53f432b1374f",
+			"based_on_hash": "T19IWaAsRFzjdRpL+XmL84Sl6HDukoGek2MvrzGeNmA",
+			"name": "Combat Reflexes",
+			"mental": true,
+			"base_points": 15,
+			"reference": "B43",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "Enhanced Time Sense"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "starts_with",
+						"qualifier": "fast-draw"
+					}
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "dodge"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "parry"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "block"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 2,
+					"attribute": "fright_check"
+				}
+			],
+			"notes": "Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "efe32b45-f8b5-4851-968c-861927b852a8",
+			"based_on_id": "28a7663f-c729-4915-99b6-93bbc645c257",
+			"based_on_hash": "7xqd5Kg9LlzUhZKMjiRQuuh+AzY3UxXVagsX8PWnok8",
+			"name": "Damage Resistance",
+			"physical": true,
+			"exotic": true,
+			"levels": "1",
+			"points_per_level": 5,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "36c222a8-da8f-4da3-9d21-d5fb148879f5",
+					"based_on_id": "dddca0d6-08c9-46fc-9cbc-abbba118fb58",
+					"based_on_hash": "k4Ffu5CBIhksmhU+Tlrp+5ARyo6BJ5+/x5oubIfRmKA",
+					"disabled": true,
+					"name": "Force Field",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": 20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "58beb0bc-9a32-4a08-9255-b7cc058c4bd6",
+					"based_on_id": "f7141bc2-6610-4b3e-b3b2-c3c81c1bf34d",
+					"based_on_hash": "Dc6vs4bFIpC6iFdNlwUEwfw5hYm0BC+wM8S3rnpcHdo",
+					"disabled": true,
+					"name": "Hardened",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": 20,
+					"affects": "total",
+					"levels": 1
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ccb6caa8-3021-4b64-8c5f-1ce68fd91f91",
+					"based_on_id": "b54b13c3-e75c-4492-9666-8865b755d966",
+					"based_on_hash": "jhuWbW1EDGHJMqVNG0BjfRpdctJ/4lzCjjYkQcEyvvc",
+					"disabled": true,
+					"name": "Absorption",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": 80,
+					"affects": "total",
+					"notes": "Enhances @Trait@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "691a9a10-00a5-4302-bc91-5600801bc6eb",
+					"based_on_id": "851d7a11-2575-4df7-aa82-b45d1d880c1b",
+					"based_on_hash": "ux3UmpveLzVitLJfFKmhsbdYFVQdc1hBZQaoODzy2Ew",
+					"disabled": true,
+					"name": "Absorption",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": 80,
+					"affects": "total",
+					"notes": "Healing only"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "82fb3f1e-0a63-43ed-9763-b43eaa8c0608",
+					"based_on_id": "23b544e5-dc2b-42c9-9e2b-9e40aaa1c9d4",
+					"based_on_hash": "cTHq4nVOa0h0/hWWw/T6j+bTKCbCFyKsQbLnrHqLfqM",
+					"disabled": true,
+					"name": "Absorption",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": 100,
+					"affects": "total",
+					"notes": "Enhances any trait"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "bdd04403-50dd-46f5-bed2-a147e066e483",
+					"based_on_id": "eb2e1fa6-afa7-4c80-8fbd-c1da85b2ab8b",
+					"based_on_hash": "U6PyGQ0dhdGnN8NpgECjjyTqwBhVyhaSQoOV8MLOK7Y",
+					"disabled": true,
+					"name": "Reflection",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": 100,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "050d4756-e6e1-4370-ae90-87735e7ec620",
+					"based_on_id": "4f8960bd-8eb3-4f23-a3a3-47007229d273",
+					"based_on_hash": "GdLO6cPsIBeA4fnItPNoZf4s95GtfxptrrjZahxGdpk",
+					"disabled": true,
+					"name": "Bane",
+					"reference": "H14",
+					"cost_type": "points",
+					"cost": -1,
+					"affects": "total",
+					"notes": "@Rare@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5bad86f9-3b9c-4b5d-9572-2c83e26cf9a9",
+					"based_on_id": "4a7dda88-1850-41ed-9cc1-93dbbe6cf4d4",
+					"based_on_hash": "+bSIub6rkwmzVAaea77DMIyh7KXt3/GVUYYsDHMC05M",
+					"disabled": true,
+					"name": "Bane",
+					"reference": "H14",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total",
+					"notes": "@Occasional@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2bf9c537-7e60-48b8-ba0f-dbf4244be7cb",
+					"based_on_id": "504f3707-b417-4e22-bdc1-734ea9b4c922",
+					"based_on_hash": "gXAb1cEJXuU9hfkI/06l7biPSCZT/cgmLl+JkAH3Vz4",
+					"disabled": true,
+					"name": "Bane",
+					"reference": "H14",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total",
+					"notes": "@Common@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "8c93215e-e486-46cc-ad9f-fedf68f8b277",
+					"based_on_id": "e769f700-b209-4c6b-b030-5dc9280e9e80",
+					"based_on_hash": "owu/fLZ28AOWNNzN5ub6mMRyEiwMeXxcuKM3K8MNLcc",
+					"disabled": true,
+					"name": "Bane",
+					"reference": "H14",
+					"cost_type": "percentage",
+					"cost": -15,
+					"affects": "total",
+					"notes": "@Very Common@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d78bcd3f-00fd-4f67-a23d-c02c4a4111b7",
+					"based_on_id": "5c715b1f-be08-4410-ba15-ade3287066b3",
+					"based_on_hash": "ZlMHuXkHZTzUsi4YHd00mZXZgFUigmevroUPC8oLd4Y",
+					"disabled": true,
+					"name": "Directional",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total",
+					"notes": "Front"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ce1131eb-0c13-4f0c-a76b-78b33bead18e",
+					"based_on_id": "884ec993-1c5c-4348-a1f4-4465c2dfe7d9",
+					"based_on_hash": "duFQKKUBee8UnKSH3tBW6zR3mqNoejQ97k/WUCdioOc",
+					"disabled": true,
+					"name": "Flexible",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "04efef45-e7c6-4686-9c80-899d063b6ab6",
+					"based_on_id": "c54071b6-8382-4a1e-95a9-179871b32f8c",
+					"based_on_hash": "/I9+/8ROKLQsFR52cLbuqlISS3oRiJuAjuuSaP1kxjc",
+					"disabled": true,
+					"name": "Limited",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total",
+					"notes": "@Very Common Attack Form@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "53dfd53d-4f91-404f-aa3c-47f16cc987c5",
+					"based_on_id": "51a1634c-0b9b-4596-9c8d-3e06af348561",
+					"based_on_hash": "fnw08/AN2sZogotkIZwGTktx6pjFqSnRjIXw/UC1gVU",
+					"disabled": true,
+					"name": "Semi-Ablative",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "cd4a478b-15bc-4d48-826f-bd7a1ca1d2b6",
+					"based_on_id": "ff2375b1-12bb-4f6b-b126-c0ee9aab37f5",
+					"based_on_hash": "x2NgErTIvPlDyAy9jTW6Ynhac9Sol5MpepHkWTMzsH4",
+					"disabled": true,
+					"name": "Can't wear armor",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c601b057-1040-41b0-b2c8-20b080e3ea7e",
+					"based_on_id": "2f792ee8-d576-4526-9f45-16100f82bfb6",
+					"based_on_hash": "5X1jFpAlHLZczTSvA4gVXzfmS+Xw5QJDGNjg8rQUw4c",
+					"disabled": true,
+					"name": "Directional",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total",
+					"notes": "@Direction: Back, Right, Left, Top or Underside@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d977be00-46b8-4600-900c-b09ec74421a2",
+					"based_on_id": "4745bd61-3920-46eb-9bd6-2d322fc70045",
+					"based_on_hash": "mUQ2axyF3VVlnYkRjGOgkhtSy8dIC+eS3KX9GOSBiD4",
+					"disabled": true,
+					"name": "Limited",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total",
+					"notes": "@Common Attack Form@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "204adad9-173a-4ae1-8a06-1eacdb90d0a9",
+					"based_on_id": "7ee2e4a6-560f-43c3-9774-7442352fae05",
+					"based_on_hash": "RYuEYBawMVdK7xWeU1H0UHtr/ZcwtirnG8YdobZfTUA",
+					"disabled": true,
+					"name": "Tough Skin",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total",
+					"notes": "Effects that just require skin contact or a scratch ignore this DR"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "45708473-dd75-42a1-acf2-4ba1de02bb5e",
+					"based_on_id": "d02ae565-a261-44f2-ba10-63f850afd13d",
+					"based_on_hash": "WoqyfTnIegRoTf2eEYhfSM5sP8TiK45mJQZ+Kpt+eSc",
+					"disabled": true,
+					"name": "Limited",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": -60,
+					"affects": "total",
+					"notes": "@Occasional Attack Form@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "12faa417-738e-4cc3-9727-4d31d40ee274",
+					"based_on_id": "377c6f3d-9e9a-4bfb-b969-b21a984fb4ae",
+					"based_on_hash": "qquvYGVufx7wzi0InjnLZvAbTpZgcANtzFE1Oz0ljPI",
+					"disabled": true,
+					"name": "Ablative",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -80,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "4e124d13-1625-4a93-9f0a-29b28e10fa3d",
+					"based_on_id": "4df39bb1-8029-406c-bb9c-8d0d2a412d1a",
+					"based_on_hash": "hfZ/PB+VHtXQ0D4eLbUERjLdVhMDwSiOEdY8r0aVLAg",
+					"disabled": true,
+					"name": "Limited",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": -80,
+					"affects": "total",
+					"notes": "@Rare Attack Form@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c7d5070c-3eab-4763-9319-b44505f42acd",
+					"based_on_id": "982dd27a-8149-45ce-a96f-b829240aa017",
+					"based_on_hash": "A29kId3O/TPEJGWQ25fqlPe6Kd33YdDFshPhBylGemQ",
+					"disabled": true,
+					"name": "Laminate",
+					"reference": "RSWL18",
+					"cost_type": "percentage",
+					"cost": 10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "55e39fc2-9b38-4c6c-badb-8543f48c9a76",
+					"based_on_id": "ca7611da-01e2-4c65-9a11-533433830fa2",
+					"based_on_hash": "A73x5dk/hRZvSZu92EeC8vLx7til5MJQvb8KzVlCBAs",
+					"disabled": true,
+					"name": "Malediction-Proof",
+					"reference": "PSI14",
+					"cost_type": "percentage",
+					"cost": 50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "06ce45f2-657d-4bc3-ae8c-6481957f592b",
+					"based_on_id": "ac8aaa80-b281-4c95-a5ee-491d9b3e1195",
+					"based_on_hash": "obAmtnSYEZFnspoesHMWQf6ItUXHpHQQVM2tssGDWio",
+					"disabled": true,
+					"name": "Maledictions Only",
+					"reference": "PSI14",
+					"cost_type": "percentage",
+					"cost": 0,
+					"affects": "total"
+				}
+			],
+			"reference": "B47",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"per_level": true,
+					"location": "full_body_except_eyes"
+				}
+			],
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "2f6535d9-aa92-4d65-816c-70378478aa95",
+			"based_on_id": "c82c2352-424c-44c5-84f4-02aca6f5d1a6",
+			"based_on_hash": "rvyPSfI1ibOB9DGxQVwwEivgrZJKKrNrz0u5Z/s6/RI",
+			"name": "Doesn't Breathe",
+			"physical": true,
+			"exotic": true,
+			"base_points": 20,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "283cf890-8631-4251-b695-bd28ef7ab21a",
+					"based_on_id": "d64d32cd-5d14-45f2-bf53-917676a8fb4e",
+					"based_on_hash": "zyLw0d0EzXfzAgcN/FNKMw3biZJcvWBQmLYsgGEwFd8",
+					"disabled": true,
+					"name": "Gills",
+					"reference": "B49",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e9c521ff-cf54-4ea8-9fa9-9b42c1457ab6",
+					"based_on_id": "c6ae6696-03ff-4e70-9655-875953cfc829",
+					"based_on_hash": "Lirwv7A0hWW4GhAgwYTpMICs1Mxa2gU5fiaayKWNA24",
+					"disabled": true,
+					"name": "Gills",
+					"reference": "B49",
+					"cost_type": "points",
+					"cost": -20,
+					"affects": "total",
+					"notes": "Suffocates in air"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a799fa70-1bcd-4358-be90-9831f534b5c1",
+					"based_on_id": "c15dbc38-eb68-4526-b66e-e1a95a44f744",
+					"based_on_hash": "fzIdeM/2pC0Q43BmiHB3S5U5V85Z4vHHQhmGjQd0lUs",
+					"disabled": true,
+					"name": "Oxygen Absorption",
+					"reference": "B49",
+					"cost_type": "percentage",
+					"cost": -25,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ff3f9c2a-8591-48aa-96a5-bc1b56f1af5d",
+					"based_on_id": "b9210fe1-a54b-44ff-a3f6-5d6133120de3",
+					"based_on_hash": "hrUVBXpXOZBmLw6mv0uRwSfpob1wBOWTl/7KuSG9YPM",
+					"disabled": true,
+					"name": "Oxygen Storage",
+					"reference": "B49",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total",
+					"notes": "Can hold breath 25 times as long as normal"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "94417c81-2bec-4d6a-a76c-2e6894bf3d51",
+					"based_on_id": "ef081e62-0838-4c59-85b8-0733bc533b7c",
+					"based_on_hash": "e9ouBg/6e7SIXWoDferwNl6BpNM9KRNfBDnDGL1IEi0",
+					"disabled": true,
+					"name": "Oxygen Storage",
+					"reference": "B49",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total",
+					"notes": "Can hold breath 50 times as long as normal"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "342475a2-ef53-496b-8833-126184445591",
+					"based_on_id": "51b6b4e7-5ca7-4afa-a13a-a698717821aa",
+					"based_on_hash": "PxY22MQtQS9h/qFYUz86X6mtohgxhNo5wdp3XZk0WeE",
+					"disabled": true,
+					"name": "Oxygen Storage",
+					"reference": "B49",
+					"cost_type": "percentage",
+					"cost": -30,
+					"affects": "total",
+					"notes": "Can hold breath 100 times as long as normal"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "580d588d-d4b7-4580-bc4b-de41865a689b",
+					"based_on_id": "edb94f24-e761-4cbe-bba6-e56e45175d67",
+					"based_on_hash": "RZDQF2qNGpInQPtYJzFLYo9lkScTeImWg5kskKEfS+o",
+					"disabled": true,
+					"name": "Oxygen Storage",
+					"reference": "B49",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total",
+					"notes": "Can hold breath 200 times as long as normal"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2a79404f-243d-41b8-9b3c-ba540b79af9c",
+					"based_on_id": "957f6767-fd17-4dd4-842a-64cb289c1e1f",
+					"based_on_hash": "vO83FYfAYiVT1cdxaKxCschVGOGyccIKsqlrTaNHSQ4",
+					"disabled": true,
+					"name": "Oxygen Storage",
+					"reference": "B49",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total",
+					"notes": "Can hold breath 300 times as long as normal"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "be1fe561-a232-4532-ac28-8d7ed4d4337d",
+					"based_on_id": "0c50258f-6607-4bb1-9900-15f7190536b3",
+					"based_on_hash": "B0sSo9uHnPDSCtpWYiGM0uBswbzIRIzSIaxk7Uj+AWA",
+					"disabled": true,
+					"name": "Oxygen Combustion",
+					"reference": "B49",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total"
+				}
+			],
+			"reference": "B49",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "0e90eb9c-1e61-4f35-98cc-acfdf0a02d90",
+			"based_on_id": "b8e31cb1-d641-4679-a868-6278b8d1a587",
+			"based_on_hash": "CKRcQc8cAcCdl5GHdC2myibRsAKJlryLwmYjBpQ/tV0",
+			"name": "Doesn't Eat or Drink",
+			"physical": true,
+			"exotic": true,
+			"base_points": 10,
+			"reference": "B50",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "aa28c7cf-5b6e-4f98-8580-d2b40ea14d3e",
+			"based_on_id": "69991096-f4b1-4e5f-83d0-e7439adb746e",
+			"based_on_hash": "STLACyTj+IhTMYvO6agUu0MxpgP1he37RpbSVEwkg9k",
+			"name": "Doesn't Sleep",
+			"physical": true,
+			"exotic": true,
+			"base_points": 20,
+			"reference": "B50",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "77fdfde0-b6d3-4bfd-9cb4-5f83a9858128",
+			"name": "Natural Attacks",
+			"physical": true,
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Bite",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX"
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "DX"
+						},
+						{
+							"type": "Skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "Skill",
+							"name": "Karate"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"usage": "Kick",
+					"reach": "C,1",
+					"parry": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Karate",
+							"modifier": -2
+						}
+					]
+				}
+			],
+			"reference": "B271"
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "c6d5632c-13e5-45e3-a43c-70c055d10d70",
+			"based_on_id": "cd96e21b-4a94-486e-b66a-8dd8956cf208",
+			"based_on_hash": "5j3gQf3q0MUWA8spFLg+9uuU8HcJV6JOE0KyFMRcSEo",
+			"name": "Slow Healing",
+			"physical": true,
+			"levels": "1",
+			"points_per_level": -5,
+			"reference": "B155",
+			"categories": [
+				"Disadvantage"
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "3893dcbd-c8a2-4859-a296-83e48e95d054",
+			"based_on_id": "4dff3f68-79cd-4eb7-bb4d-975dd3a3a729",
+			"based_on_hash": "8LOI4/Syezr7AVT4gmRmt9VmKZVfz+mgYIKOjM0JlkE",
+			"name": "Brawling",
+			"reference": "B182",
+			"difficulty": "DX/E",
+			"points": 8,
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Brawling"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 2
+					}
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "fb7c57c4-d90f-4c25-8e80-7e63b034881f",
+			"based_on_id": "60695988-5a05-437f-9936-ca0973a9d23d",
+			"based_on_hash": "Rpxj4V/BxqRCoVQGxlg6HFYmvOpbWt2xiIhiHCBLdsE",
+			"name": "Whip",
+			"reference": "B209",
+			"difficulty": "DX/A",
+			"points": 8,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -5,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Force Whip",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Kusari",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Monowire Whip",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		}
+	],
+	"equipment": [
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "604e9582-8904-4e4f-b7e4-9d8ce4ef7d04",
+			"based_on_id": "a85df341-efb1-44cf-892d-04217b28192f",
+			"based_on_hash": "AD1K/sNm2uzLo8vuR1asggqAWn7ehQlvo9S95efDQG4",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Whip, 4 yards long",
+			"tech_level": "1",
+			"value": "80",
+			"weight": "8 lb",
+			"reference": "B274",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "-2",
+						"armor_divisor": 0.5
+					},
+					"strength": "9",
+					"reach": "1-4*",
+					"parry": "-2U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Whip"
+						},
+						{
+							"type": "Skill",
+							"name": "Kusari",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Monowire Whip",
+							"modifier": -3
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon"
+			]
+		}
+	],
+	"print_settings": {
+		"units": "in",
+		"orientation": "portrait",
+		"width": 8.5,
+		"height": 11,
+		"top_margin": 0.25,
+		"left_margin": 0.25,
+		"bottom_margin": 0.25,
+		"right_margin": 0.25,
+		"ink_chromaticity": "monochrome",
+		"sides": "single",
+		"quality": "normal"
+	}
+}

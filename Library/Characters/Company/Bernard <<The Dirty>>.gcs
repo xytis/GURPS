@@ -1,880 +1,1106 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<character id="cf9684e7-a7b1-4c4e-8122-b2fe92a27457" version="5">
-	<settings version="1">
-		<default_length_units>ft in</default_length_units>
-		<default_weight_units>lb</default_weight_units>
-		<block_layout>reactions
-melee
-ranged
-advantages skills
-spells
-equipment
-other_equipment
-notes</block_layout>
-		<user_description_display>tooltip</user_description_display>
-		<modifiers_display>inline</modifiers_display>
-		<notes_display>inline</notes_display>
-		<base_will_and_per_on_10>false</base_will_and_per_on_10>
-		<use_multiplicative_modifiers>false</use_multiplicative_modifiers>
-		<use_modifying_dice_plus_adds>false</use_modifying_dice_plus_adds>
-		<use_know_your_own_strength>false</use_know_your_own_strength>
-		<use_reduced_swing>false</use_reduced_swing>
-		<use_thrust_equals_swing_minus_2>false</use_thrust_equals_swing_minus_2>
-		<use_simple_metric_conversions>true</use_simple_metric_conversions>
-		<show_college_in_sheet_spells>false</show_college_in_sheet_spells>
-	</settings>
-	<created_date>Jul 7, 2020, 6:51 PM</created_date>
-	<modified_date>Jul 7, 2020, 10:14 PM</modified_date>
-	<profile>
-		<player_name>xytis</player_name>
-		<name>Bernard &lt;&lt;The Dirty&gt;&gt;</name>
-		<age>32</age>
-		<birthday>April 5</birthday>
-		<eyes>Green</eyes>
-		<hair>Blond, Straight, Medium</hair>
-		<skin>Light Brown</skin>
-		<handedness>Right</handedness>
-		<height>5' 4"</height>
-		<weight>129 lb</weight>
-		<SM>0</SM>
-		<gender>Male</gender>
-		<body_type>humanoid</body_type>
-		<tech_level>3</tech_level>
-	</profile>
-	<HP>10</HP>
-	<FP>0</FP>
-	<total_points>100</total_points>
-	<ST>10</ST>
-	<DX>14</DX>
-	<IQ>10</IQ>
-	<HT>10</HT>
-	<will>0</will>
-	<perception>0</perception>
-	<speed>0</speed>
-	<move>0</move>
-	<advantage_list>
-		<advantage version="4">
-			<name>Natural Attacks</name>
-			<type>Physical</type>
-			<melee_weapon>
-				<damage type="cr" st="thr" base="-1"/>
-				<usage>Bite</usage>
-				<reach>C</reach>
-				<parry>No</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Brawling</name>
-					<modifier>0</modifier>
-				</default>
-			</melee_weapon>
-			<melee_weapon>
-				<damage type="cr" st="thr" base="-1"/>
-				<usage>Punch</usage>
-				<reach>C</reach>
-				<parry>0</parry>
-				<default>
-					<type>DX</type>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Boxing</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Brawling</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Karate</name>
-					<modifier>0</modifier>
-				</default>
-			</melee_weapon>
-			<melee_weapon>
-				<damage type="cr" st="thr"/>
-				<usage>Kick</usage>
-				<reach>C,1</reach>
-				<parry>No</parry>
-				<default>
-					<type>DX</type>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Brawling</name>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Karate</name>
-					<modifier>-2</modifier>
-				</default>
-			</melee_weapon>
-			<reference>B271</reference>
-		</advantage>
-		<advantage version="4">
-			<name>Enemy (Order of The Sacred Shroud)</name>
-			<type>Social</type>
-			<modifier version="2" enabled="no">
-				<name>Weak Individual</name>
-				<reference>B135</reference>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<notes>50% of your starting points</notes>
-			</modifier>
-			<modifier version="2" enabled="no">
-				<name>Equal Individual</name>
-				<reference>B135</reference>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<notes>100% of your starting points</notes>
-			</modifier>
-			<modifier version="2" enabled="no">
-				<name>Powerful Individual</name>
-				<reference>B135</reference>
-				<cost type="points">-20</cost>
-				<affects>total</affects>
-				<notes>&gt;150% of your starting points</notes>
-			</modifier>
-			<modifier version="2" enabled="no">
-				<name>Weak Group</name>
-				<reference>B135</reference>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="2" enabled="no">
-				<name>Medium Group</name>
-				<reference>B135</reference>
-				<cost type="points">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="2" enabled="no">
-				<name>Appears almost all the time</name>
-				<reference>B36</reference>
-				<cost type="multiplier">3</cost>
-				<notes>15-</notes>
-			</modifier>
-			<modifier version="2" enabled="no">
-				<name>Appears quite often</name>
-				<reference>B36</reference>
-				<cost type="multiplier">2</cost>
-				<notes>12-</notes>
-			</modifier>
-			<modifier version="2" enabled="no">
-				<name>Appears fairly often</name>
-				<reference>B36</reference>
-				<cost type="multiplier">1</cost>
-				<notes>9-</notes>
-			</modifier>
-			<modifier version="2">
-				<name>Appears quite rarely</name>
-				<reference>B36</reference>
-				<cost type="multiplier">0.5</cost>
-				<notes>6-</notes>
-			</modifier>
-			<modifier version="2">
-				<name>Large/Powerful Group</name>
-				<reference>B135</reference>
-				<cost type="points">-30</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="2" enabled="no">
-				<name>Utterly Formidable Group</name>
-				<reference>B135</reference>
-				<cost type="points">-40</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="2" enabled="no">
-				<name>Unknown</name>
-				<reference>B135</reference>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="2" enabled="no">
-				<name>Evil Twin</name>
-				<reference>B135</reference>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="2" enabled="no">
-				<name>Evil Twin</name>
-				<reference>B135</reference>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<notes>More skilled or extra abilities</notes>
-			</modifier>
-			<modifier version="2" enabled="no">
-				<name>Evil Twin</name>
-				<reference>B135</reference>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<notes>More skilled and extra abilities</notes>
-			</modifier>
-			<modifier version="2" enabled="no">
-				<name>Watcher</name>
-				<reference>B135</reference>
-				<cost type="multiplier">0.25</cost>
-			</modifier>
-			<modifier version="2" enabled="no">
-				<name>Rival</name>
-				<reference>B135</reference>
-				<cost type="multiplier">0.5</cost>
-			</modifier>
-			<modifier version="2" enabled="no">
-				<name>Hunter</name>
-				<reference>B135</reference>
-				<cost type="multiplier">1</cost>
-			</modifier>
-			<reference>B135</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-	</advantage_list>
-	<skill_list>
-		<skill version="4">
-			<name>Survival</name>
-			<specialization>Plains</specialization>
-			<difficulty>Per/A</difficulty>
-			<points>1</points>
-			<defaulted_from>
-				<type>Per</type>
-				<modifier>-5</modifier>
-				<level>5</level>
-				<adjusted_level>5</adjusted_level>
-				<points>-5</points>
-			</defaulted_from>
-			<reference>B223</reference>
-			<categories>
-				<category>Outdoor/Exploration</category>
-			</categories>
-			<default>
-				<type>Per</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Naturalist</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Arctic</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Desert</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Island/Beach</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Jungle</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Mountain</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Swampland</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Woodlands</specialization>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="4">
-			<name>Knife</name>
-			<difficulty>DX/E</difficulty>
-			<points>4</points>
-			<defaulted_from>
-				<type>DX</type>
-				<modifier>-4</modifier>
-				<level>10</level>
-				<adjusted_level>10</adjusted_level>
-				<points>-10</points>
-			</defaulted_from>
-			<reference>B208</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Main-Gauche</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="4">
-			<name>Stealth</name>
-			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
-			<difficulty>DX/A</difficulty>
-			<points>2</points>
-			<defaulted_from>
-				<type>DX</type>
-				<modifier>-5</modifier>
-				<level>9</level>
-				<adjusted_level>9</adjusted_level>
-				<points>-9</points>
-			</defaulted_from>
-			<reference>B222</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Police</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="4">
-			<name>Acrobatics</name>
-			<difficulty>DX/H</difficulty>
-			<points>4</points>
-			<defaulted_from>
-				<type>DX</type>
-				<modifier>-6</modifier>
-				<level>8</level>
-				<adjusted_level>8</adjusted_level>
-				<points>-8</points>
-			</defaulted_from>
-			<reference>B174</reference>
-			<categories>
-				<category>Athletic</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Aerobatics</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Aquabatics</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="4">
-			<name>Farming</name>
-			<tech_level>3</tech_level>
-			<difficulty>DX/A</difficulty>
-			<points>1</points>
-			<defaulted_from>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-				<level>5</level>
-				<adjusted_level>5</adjusted_level>
-				<points>-5</points>
-			</defaulted_from>
-			<reference>B194</reference>
-			<categories>
-				<category>Plant</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Biology</name>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Gardening</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<technique version="4" limit="4">
-			<name>Feint</name>
-			<difficulty>H</difficulty>
-			<points>2</points>
-			<reference>B231</reference>
-			<default>
-				<type>Skill</type>
-				<name>Knife</name>
-				<modifier>0</modifier>
-			</default>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-				<category>Technique</category>
-			</categories>
-		</technique>
-		<skill version="4">
-			<name>Shield</name>
-			<specialization>Buckler</specialization>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<defaulted_from>
-				<type>DX</type>
-				<modifier>-4</modifier>
-				<level>10</level>
-				<adjusted_level>10</adjusted_level>
-				<points>-10</points>
-			</defaulted_from>
-			<reference>B220</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shield</name>
-				<specialization>Force</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-	</skill_list>
-	<equipment_list>
-		<equipment version="7" equipped="yes">
-			<quantity>1</quantity>
-			<description>Light Buckler</description>
-			<legality_class>4</legality_class>
-			<value>25</value>
-			<weight>2 lb</weight>
-			<reference>B287</reference>
-			<melee_weapon>
-				<damage type="cr" st="thr"/>
-				<strength>0</strength>
-				<reach>1</reach>
-				<parry>No</parry>
-				<block>+0</block>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shield</name>
-					<specialization>Shield</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shield</name>
-					<specialization>Force Shield</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shield</name>
-					<specialization>Buckler</specialization>
-					<modifier>0</modifier>
-				</default>
-			</melee_weapon>
-			<categories>
-				<category>Shield</category>
-			</categories>
-			<attribute_bonus>
-				<attribute>dodge</attribute>
-				<amount>1</amount>
-			</attribute_bonus>
-			<attribute_bonus>
-				<attribute>parry</attribute>
-				<amount>1</amount>
-			</attribute_bonus>
-			<attribute_bonus>
-				<attribute>block</attribute>
-				<amount>1</amount>
-			</attribute_bonus>
-		</equipment>
-		<equipment version="7" equipped="yes">
-			<quantity>1</quantity>
-			<description>Large Knife</description>
-			<tech_level>0</tech_level>
-			<legality_class>4</legality_class>
-			<value>40</value>
-			<weight>1 lb</weight>
-			<reference>B272</reference>
-			<melee_weapon>
-				<damage type="cut" st="sw" base="-2"/>
-				<strength>6</strength>
-				<usage>Swung</usage>
-				<reach>C,1</reach>
-				<parry>-1</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Knife</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Force Sword</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Main-Gauche</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shortsword</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Sword!</name>
-					<modifier>0</modifier>
-				</default>
-			</melee_weapon>
-			<melee_weapon>
-				<damage type="imp" st="thr"/>
-				<strength>6</strength>
-				<usage>Thrust</usage>
-				<reach>C</reach>
-				<parry>-1</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Knife</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Force Sword</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Main-Gauche</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shortsword</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Sword!</name>
-					<modifier>0</modifier>
-				</default>
-			</melee_weapon>
-			<ranged_weapon>
-				<damage type="imp" st="thr"/>
-				<strength>6</strength>
-				<usage>Thrown</usage>
-				<accuracy>+0</accuracy>
-				<range>x0.8/x1.5</range>
-				<rate_of_fire>1</rate_of_fire>
-				<shots>T(1)</shots>
-				<bulk>-2</bulk>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Thrown Weapon</name>
-					<specialization>Knife</specialization>
-					<modifier>0</modifier>
-				</default>
-			</ranged_weapon>
-			<categories>
-				<category>Melee Weapon</category>
-				<category>Missile Weapon</category>
-			</categories>
-		</equipment>
-		<equipment version="7" equipped="yes">
-			<quantity>1</quantity>
-			<description>Cloth Armor</description>
-			<tech_level>1</tech_level>
-			<legality_class>4</legality_class>
-			<value>30</value>
-			<weight>6 lb</weight>
-			<reference>B283</reference>
-			<categories>
-				<category>Body Armor</category>
-			</categories>
-			<dr_bonus>
-				<location>groin</location>
-				<amount>1</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>torso</location>
-				<amount>1</amount>
-			</dr_bonus>
-		</equipment>
-		<equipment version="7" equipped="yes">
-			<quantity>1</quantity>
-			<description>Cloth Cap</description>
-			<tech_level>1</tech_level>
-			<legality_class>4</legality_class>
-			<value>5</value>
-			<reference>B284</reference>
-			<categories>
-				<category>Headgear</category>
-			</categories>
-			<dr_bonus>
-				<location>skull</location>
-				<amount>1</amount>
-			</dr_bonus>
-		</equipment>
-		<equipment version="7" equipped="yes">
-			<quantity>1</quantity>
-			<description>Light Club</description>
-			<tech_level>0</tech_level>
-			<legality_class>4</legality_class>
-			<value>5</value>
-			<weight>3 lb</weight>
-			<reference>LT58</reference>
-			<melee_weapon>
-				<damage type="cr" st="sw" base="+1"/>
-				<strength>10</strength>
-				<usage>Swing</usage>
-				<reach>1</reach>
-				<parry>0</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Broadsword</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Force Sword</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Rapier</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Saber</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shortsword</name>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Two-Handed Sword</name>
-					<modifier>-4</modifier>
-				</default>
-			</melee_weapon>
-			<melee_weapon>
-				<damage type="cr" st="thr" base="+1"/>
-				<strength>10</strength>
-				<usage>Thrust</usage>
-				<reach>1</reach>
-				<parry>0</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Broadsword</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Force Sword</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Rapier</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Saber</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shortsword</name>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Two-Handed Sword</name>
-					<modifier>-4</modifier>
-				</default>
-			</melee_weapon>
-			<categories>
-				<category>Melee Weapon</category>
-			</categories>
-		</equipment>
-		<equipment version="7" equipped="yes">
-			<quantity>1</quantity>
-			<description>Light Club</description>
-			<tech_level>0</tech_level>
-			<legality_class>4</legality_class>
-			<value>5</value>
-			<weight>3 lb</weight>
-			<reference>LT58</reference>
-			<melee_weapon>
-				<damage type="cr" st="sw" base="+1"/>
-				<strength>10</strength>
-				<usage>Swing</usage>
-				<reach>1</reach>
-				<parry>0</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Broadsword</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Force Sword</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Rapier</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Saber</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shortsword</name>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Two-Handed Sword</name>
-					<modifier>-4</modifier>
-				</default>
-			</melee_weapon>
-			<melee_weapon>
-				<damage type="cr" st="thr" base="+1"/>
-				<strength>10</strength>
-				<usage>Thrust</usage>
-				<reach>1</reach>
-				<parry>0</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Broadsword</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Force Sword</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Rapier</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Saber</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shortsword</name>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Two-Handed Sword</name>
-					<modifier>-4</modifier>
-				</default>
-			</melee_weapon>
-			<categories>
-				<category>Melee Weapon</category>
-			</categories>
-		</equipment>
-	</equipment_list>
-	<print_settings printer="Office printer" units="in">
-		<orientation>portrait</orientation>
-		<width>8.5</width>
-		<height>11</height>
-		<top_margin>0.25</top_margin>
-		<left_margin>0.25</left_margin>
-		<bottom_margin>0.25</bottom_margin>
-		<right_margin>0.25</right_margin>
-		<ink_chromaticity>monochrome</ink_chromaticity>
-		<sides>single</sides>
-		<number_up>1</number_up>
-		<quality>normal</quality>
-	</print_settings>
-</character>
+{
+	"type": "character",
+	"version": 1,
+	"id": "cf9684e7-a7b1-4c4e-8122-b2fe92a27457",
+	"settings": {
+		"version": 1,
+		"default_length_units": "ft_in",
+		"default_weight_units": "lb",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"base_will_and_per_on_10": false,
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": false,
+		"use_know_your_own_strength": false,
+		"use_reduced_swing": false,
+		"use_thrust_equals_swing_minus_2": false,
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"use_title_in_footer": false,
+		"block_layout": [
+			"reactions",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		]
+	},
+	"created_date": "Jul 7, 2020, 6:51 PM",
+	"modified_date": "Aug 17, 2020, 1:00 PM",
+	"profile": {
+		"player_name": "xytis",
+		"name": "Bernard <<The Dirty>>",
+		"age": 32,
+		"birthday": "April 5",
+		"eyes": "Green",
+		"hair": "Blond, Straight, Medium",
+		"skin": "Light Brown",
+		"handedness": "Right",
+		"height": "5' 4\"",
+		"weight": "129 lb",
+		"gender": "Male",
+		"body_type": "humanoid",
+		"tech_level": "3"
+	},
+	"HP_adj": 10,
+	"total_points": 100,
+	"ST": 10,
+	"DX": 14,
+	"IQ": 10,
+	"HT": 10,
+	"advantages": [
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "e212f732-7a3a-4697-9031-174fec0e2e17",
+			"name": "Natural Attacks",
+			"physical": true,
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Bite",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX"
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "DX"
+						},
+						{
+							"type": "Skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "Skill",
+							"name": "Karate"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"usage": "Kick",
+					"reach": "C,1",
+					"parry": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Karate",
+							"modifier": -2
+						}
+					]
+				}
+			],
+			"reference": "B271"
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "8b4cfad9-2dcf-456f-a7f3-6187ec51e6fa",
+			"name": "Enemy (Order of The Sacred Shroud)",
+			"social": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5fb7746f-0f98-4175-aaf8-755324e4eb21",
+					"disabled": true,
+					"name": "Weak Individual",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total",
+					"notes": "50% of your starting points"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9fc2b718-789d-40b3-9eec-ff7b23a47704",
+					"disabled": true,
+					"name": "Equal Individual",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total",
+					"notes": "100% of your starting points"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "6d097a4d-0fd5-4fdc-a94a-53dd254335bb",
+					"disabled": true,
+					"name": "Powerful Individual",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": -20,
+					"affects": "total",
+					"notes": ">150% of your starting points"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9393300a-e2a9-48a9-9e3a-51a11cb35e11",
+					"disabled": true,
+					"name": "Weak Group",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7a7c2461-8588-45e5-8fbf-6dedb5040319",
+					"disabled": true,
+					"name": "Medium Group",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9b2ce5b2-6b47-4d66-9e4e-3c5f4e441277",
+					"disabled": true,
+					"name": "Appears almost all the time",
+					"reference": "B36",
+					"cost_type": "multiplier",
+					"cost": 3,
+					"notes": "15-"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7e059351-c800-48e3-bba3-4584d9c51707",
+					"disabled": true,
+					"name": "Appears quite often",
+					"reference": "B36",
+					"cost_type": "multiplier",
+					"cost": 2,
+					"notes": "12-"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2880a091-cd77-45e3-b0ae-e17d070d181c",
+					"disabled": true,
+					"name": "Appears fairly often",
+					"reference": "B36",
+					"cost_type": "multiplier",
+					"cost": 1,
+					"notes": "9-"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c4196fcb-630b-4e08-b133-3bf360e0fca2",
+					"name": "Appears quite rarely",
+					"reference": "B36",
+					"cost_type": "multiplier",
+					"cost": 0.5,
+					"notes": "6-"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7cba3488-eb82-424e-a08a-1f9fcdc6387c",
+					"name": "Large/Powerful Group",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": -30,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "4bd99fc7-ab67-47d2-9d69-c76f9a6bf966",
+					"disabled": true,
+					"name": "Utterly Formidable Group",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": -40,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f7bd8223-23de-483d-a4ee-6adbcc828606",
+					"disabled": true,
+					"name": "Unknown",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9e6d4c08-839a-4440-a181-006935b22cb2",
+					"disabled": true,
+					"name": "Evil Twin",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7713d4de-759a-4ae5-943a-705c52d7f885",
+					"disabled": true,
+					"name": "Evil Twin",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total",
+					"notes": "More skilled or extra abilities"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9a706c15-deb3-4783-8621-62d3d7adda58",
+					"disabled": true,
+					"name": "Evil Twin",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total",
+					"notes": "More skilled and extra abilities"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a38f0a8b-097d-4999-add8-04e460406e95",
+					"disabled": true,
+					"name": "Watcher",
+					"reference": "B135",
+					"cost_type": "multiplier",
+					"cost": 0.25
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "8548f997-025c-41a5-ba0a-91bf68d77d89",
+					"disabled": true,
+					"name": "Rival",
+					"reference": "B135",
+					"cost_type": "multiplier",
+					"cost": 0.5
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e50af75a-5a9d-40d8-a064-664e4aafeb87",
+					"disabled": true,
+					"name": "Hunter",
+					"reference": "B135",
+					"cost_type": "multiplier",
+					"cost": 1
+				}
+			],
+			"reference": "B135",
+			"categories": [
+				"Disadvantage"
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "809cad81-29ce-498d-9861-358a7ce7f37e",
+			"name": "Survival",
+			"reference": "B223",
+			"specialization": "Plains",
+			"difficulty": "Per/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Per",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"defaults": [
+				{
+					"type": "Per",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Arctic",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Desert",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Jungle",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Mountain",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Swampland",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Woodlands",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Outdoor/Exploration"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "a9293fe9-27ae-45b6-a171-313e27753021",
+			"name": "Knife",
+			"reference": "B208",
+			"difficulty": "DX/E",
+			"points": 4,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -4,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "Skill",
+					"name": "Force Sword",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Main-Gauche",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Shortsword",
+					"modifier": -3
+				},
+				{
+					"type": "DX",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "9b214138-059d-49fe-8568-2e0ff002858b",
+			"name": "Stealth",
+			"reference": "B222",
+			"encumbrance_penalty_multiplier": 1,
+			"difficulty": "DX/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -5,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "DX",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "926d279a-65f3-4d67-a9b5-24405f5ce996",
+			"name": "Acrobatics",
+			"reference": "B174",
+			"difficulty": "DX/H",
+			"points": 4,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -6,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Aerobatics",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Aquabatics",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Athletic"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "a356bc50-6d2c-498f-8281-40c2ef59ee85",
+			"name": "Farming",
+			"reference": "B194",
+			"tech_level": "3",
+			"difficulty": "DX/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Biology",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Gardening",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Plant"
+			]
+		},
+		{
+			"type": "technique",
+			"version": 1,
+			"id": "c67c95a5-26ad-431e-8663-739255d2235a",
+			"name": "Feint",
+			"reference": "B231",
+			"difficulty": "H",
+			"points": 2,
+			"limit": 4,
+			"default": {
+				"type": "Skill",
+				"name": "Knife"
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "1280d2f9-3854-4699-bc26-ddc904e9090f",
+			"name": "Shield",
+			"reference": "B220",
+			"specialization": "Buckler",
+			"difficulty": "DX/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -4,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Shield",
+					"specialization": "Force",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		}
+	],
+	"equipment": [
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "7a00e955-b625-404b-86b4-d6d40286169c",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Light Buckler",
+			"value": "25",
+			"weight": "2 lb",
+			"reference": "B287",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "0",
+					"reach": "1",
+					"parry": "No",
+					"block": "+0",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Shield",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Force Shield",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Buckler"
+						}
+					]
+				}
+			],
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "dodge"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "parry"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "block"
+				}
+			],
+			"categories": [
+				"Shield"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "b811c7a6-3c0b-4ecf-873f-38e7c24e2da6",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Large Knife",
+			"tech_level": "0",
+			"value": "40",
+			"weight": "1 lb",
+			"reference": "B272",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-2"
+					},
+					"strength": "6",
+					"usage": "Swung",
+					"reach": "C,1",
+					"parry": "-1",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Knife"
+						},
+						{
+							"type": "Skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Shortsword",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Sword!"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "6",
+					"usage": "Thrust",
+					"reach": "C",
+					"parry": "-1",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Knife"
+						},
+						{
+							"type": "Skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Shortsword",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Sword!"
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "6",
+					"usage": "Thrown",
+					"accuracy": "+0",
+					"range": "x0.8/x1.5",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Thrown Weapon",
+							"specialization": "Knife"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon",
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "db4d88c1-1cc5-41aa-8437-d9d844dee912",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Cloth Armor",
+			"tech_level": "1",
+			"value": "30",
+			"weight": "6 lb",
+			"reference": "B283",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "groin"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "torso"
+				}
+			],
+			"categories": [
+				"Body Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "847e0ef4-0d47-42ba-821a-e10d1dae1ed0",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Cloth Cap",
+			"tech_level": "1",
+			"value": "5",
+			"reference": "B284",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "skull"
+				}
+			],
+			"categories": [
+				"Headgear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "6bd94bab-9ebb-4f93-9df1-edf1ffef3490",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Light Club",
+			"tech_level": "0",
+			"value": "5",
+			"weight": "3 lb",
+			"reference": "LT58",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "+1"
+					},
+					"strength": "10",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "Skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "+1"
+					},
+					"strength": "10",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "Skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "75a56269-e39a-4eb4-b51d-37b6a96f2810",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Light Club",
+			"tech_level": "0",
+			"value": "5",
+			"weight": "3 lb",
+			"reference": "LT58",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "+1"
+					},
+					"strength": "10",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "Skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "+1"
+					},
+					"strength": "10",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "Skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon"
+			]
+		}
+	],
+	"print_settings": {
+		"units": "in",
+		"orientation": "portrait",
+		"width": 8.5,
+		"height": 11,
+		"top_margin": 0.25,
+		"left_margin": 0.25,
+		"bottom_margin": 0.25,
+		"right_margin": 0.25,
+		"ink_chromaticity": "monochrome",
+		"sides": "single",
+		"quality": "normal"
+	}
+}

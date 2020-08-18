@@ -1,0 +1,578 @@
+{
+	"type": "character",
+	"version": 1,
+	"id": "44498f06-fd35-47de-8fc9-457acbd6622d",
+	"settings": {
+		"version": 1,
+		"default_length_units": "m",
+		"default_weight_units": "kg",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"base_will_and_per_on_10": false,
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": true,
+		"use_know_your_own_strength": false,
+		"use_reduced_swing": false,
+		"use_thrust_equals_swing_minus_2": false,
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"use_title_in_footer": false,
+		"block_layout": [
+			"reactions",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		]
+	},
+	"created_date": "Aug 18, 2020, 6:32 PM",
+	"modified_date": "Aug 19, 2020, 9:30 AM",
+	"profile": {
+		"player_name": "Indre",
+		"name": "Fernig",
+		"age": 25,
+		"birthday": "September 1",
+		"eyes": "Blue",
+		"hair": "Blond, Straight, Medium",
+		"skin": "Brown",
+		"handedness": "Right",
+		"height": "1.7 m",
+		"weight": "55 kg",
+		"gender": "Male",
+		"body_type": "humanoid",
+		"tech_level": "3"
+	},
+	"HP_adj": 8,
+	"hp_damage": 10,
+	"total_points": 100,
+	"ST": 12,
+	"DX": 12,
+	"IQ": 10,
+	"HT": 11,
+	"advantages": [
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "5bbe5384-d774-47f1-b743-6f17b2f107f2",
+			"name": "Natural Attacks",
+			"physical": true,
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Bite",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX"
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "DX"
+						},
+						{
+							"type": "Skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "Skill",
+							"name": "Karate"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"usage": "Kick",
+					"reach": "C,1",
+					"parry": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Karate",
+							"modifier": -2
+						}
+					]
+				}
+			],
+			"reference": "B271"
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "e1f07f8f-0660-471f-b769-a74f631e49b0",
+			"based_on_id": "6f29c9c9-3fee-456d-9098-e166f2133153",
+			"based_on_hash": "uuqr2MXJBndQVm8EXHhWdz/U1bqYp6O+oYdLKpxmvRM",
+			"name": "Social Stigma (Excommunicated)",
+			"social": true,
+			"base_points": -10,
+			"reference": "B155",
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": -3,
+					"situation": "from others"
+				}
+			],
+			"notes": "Branded forehead",
+			"categories": [
+				"Disadvantage"
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "06a6ec94-15b8-48ac-b04a-d83cdc71cfea",
+			"based_on_id": "6443e06d-d567-4c57-b8f4-5e2d01827c06",
+			"based_on_hash": "OxtSgwLcr6LXevVHsxV02Dl1yPtWXpczrUtcfl5TH5s",
+			"name": "Two-Handed Axe/Mace",
+			"reference": "B208",
+			"difficulty": "DX/A",
+			"points": 12,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -5,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Axe/Mace",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Polearm",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Two-Handed Flail",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "df52f681-71fd-4544-ba35-42585da41fc8",
+			"based_on_id": "47fb9534-c33b-458a-b6fe-96d9e5bff542",
+			"based_on_hash": "2O0l2HeLl2SUbjHU3aIJczSVZSjZBfciS2ArdkwOvNY",
+			"name": "Artist",
+			"reference": "B179",
+			"specialization": "Woodworking",
+			"difficulty": "IQ/H",
+			"points": 4,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 4,
+				"adjusted_level": 4,
+				"points": -4
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Carpentry",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Artist",
+					"specialization": "Interior Decorating",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Artist",
+					"specialization": "Scene Design",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Artist",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Arts/Entertainment",
+				"Craft"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "ce6b42cb-d817-4f85-a167-640683934dbd",
+			"based_on_id": "0f5f27ad-4c82-44be-bbe9-d761c9ed9c99",
+			"based_on_hash": "gXcs2gMu0PXAooqsp3Q6obpJpTWz1UHdjLgtzXGDl24",
+			"name": "Survival",
+			"reference": "B223",
+			"specialization": "Woodlands",
+			"difficulty": "Per/A",
+			"points": 4,
+			"defaulted_from": {
+				"type": "Per",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"defaults": [
+				{
+					"type": "Per",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Arctic",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Desert",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Jungle",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Mountain",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Plains",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Survival",
+					"specialization": "Swampland",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Outdoor/Exploration"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "ae6e93eb-b9fa-4ea5-88ef-f44162d2f97c",
+			"based_on_id": "62460913-75f1-494c-af00-6323db0e1400",
+			"based_on_hash": "yzl7z2n6Kqgt14t6hak8aTpm0/p1nGYkX90ijxg5Xc8",
+			"name": "Animal Handling",
+			"reference": "B175",
+			"specialization": "Equines",
+			"difficulty": "IQ/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Animal"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "77b2b7d4-6d85-4b2a-8014-d8ab36430d29",
+			"based_on_id": "98f56ee0-836f-4eea-9f07-41119539168e",
+			"based_on_hash": "e2m0PULPtzqdf1+Gtgk8thgBWXJTGzEaaKtAjAotntM",
+			"name": "Tracking",
+			"reference": "B226",
+			"difficulty": "Per/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Per",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"defaults": [
+				{
+					"type": "Per",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Naturalist",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Outdoor/Exploration"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "a5397bfb-ef75-41d6-abc7-b6694f729d90",
+			"based_on_id": "476f81db-ac89-4541-ae42-f4b524d15dca",
+			"based_on_hash": "eCGHMaWut0GhpAVgEfjSHLldmi9gg7/DOSUdJXr4zvk",
+			"name": "Mimicry",
+			"reference": "B210",
+			"specialization": "Animal Sounds",
+			"difficulty": "IQ/H",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 4,
+				"adjusted_level": 4,
+				"points": -4
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Naturalist",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Mimicry",
+					"specialization": "Bird Calls",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Animal",
+				"Arts/Entertainment",
+				"Outdoor/Exploration"
+			]
+		}
+	],
+	"equipment": [
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "9c9595fb-a9c3-47e4-8ad6-5889762bd0d7",
+			"based_on_id": "37344c58-6291-4363-b689-f9829071a6f1",
+			"based_on_hash": "BiuwXIYaTIf21UapAvf23HzJzhZ+SVZvnHV9Hg0uWm4",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Great Axe",
+			"tech_level": "1",
+			"value": "100",
+			"weight": "8 lb",
+			"reference": "B274",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "+3"
+					},
+					"strength": "12‡",
+					"usage": "Swung",
+					"reach": "1,2*",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "Skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "654a3c4d-99a1-49d1-aec2-72d1284d8d5c",
+			"based_on_id": "4a8e21aa-dfc8-4002-99cd-53c2e5a02ae1",
+			"based_on_hash": "w0l56zev/Awdco6h6W4khVMiohYGb7Rypdy4zKkAcHY",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Cloth Armor",
+			"tech_level": "1",
+			"value": "30",
+			"weight": "6 lb",
+			"reference": "B283",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "groin"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "torso"
+				}
+			],
+			"categories": [
+				"Body Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "3e862be7-7626-4b2d-a768-53570da3127f",
+			"based_on_id": "74cd3f72-9a82-4190-a1b7-5dadd5df7e29",
+			"based_on_hash": "6tTGyLlVooVY6fUb9CNnCU/DsPKJBm+Bt3U33J0F3HY",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Cloth Cap",
+			"tech_level": "1",
+			"value": "5",
+			"reference": "B284",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "skull"
+				}
+			],
+			"categories": [
+				"Headgear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "ad8502d9-9686-4dd5-be73-bbc472917ec9",
+			"based_on_id": "8081cb3d-a98d-4f23-8036-1483d5c5dfad",
+			"based_on_hash": "P/48YP1a3xqWk7vbLQjl+2KDBTpnOzckb4rWAT4a1Ug",
+			"equipped": true,
+			"quantity": 15,
+			"description": "Drachma",
+			"tech_level": "1",
+			"value": "1",
+			"weight": "0.008 lb",
+			"reference": "B264",
+			"categories": [
+				"Money: GURPS Standard Medieval Coins"
+			]
+		}
+	],
+	"print_settings": {
+		"units": "in",
+		"orientation": "portrait",
+		"width": 8.5,
+		"height": 11,
+		"top_margin": 0.25,
+		"left_margin": 0.25,
+		"bottom_margin": 0.25,
+		"right_margin": 0.25,
+		"ink_chromaticity": "monochrome",
+		"sides": "single",
+		"quality": "normal"
+	}
+}
