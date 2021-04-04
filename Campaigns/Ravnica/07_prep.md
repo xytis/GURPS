@@ -45,4 +45,4 @@ shared that there is a little spy network between the other kids.
 # Locations
 ## Inn: Water and some Fire
 
-see [./loc_inn_water_and_some_fire.md]
+see [[loc_inn_water_and_fire]]

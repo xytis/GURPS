@@ -13,7 +13,7 @@ His name or connection to other two victims is unknown. [PLOT HOOK: First
 victim was an Dimir infiltrator in Izzet. Assassin was sent by Bertan] Azorius
 issued open bounty on the "Wet slayer of Blistercoils". Current bounty is 15
 zinos.
-[https://www.dndbeyond.com/monsters/slithering-tracker]
+[slithering-tracker](https://www.dndbeyond.com/monsters/slithering-tracker)
 
 A large group of people are marching to protest near the Seventh Zonot. They
 are shouting something about "The Gift of Life". Azorius and Boros are trying
