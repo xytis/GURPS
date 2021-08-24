@@ -103,7 +103,7 @@ it a conspiracy. Any ideas what we can do?"
 
 Linda Moisuz is nowhere to be found. She has a bounty of 200 gold assigned.
 
-There is a wanted poster with all of their faces. They are assigned a 20 gold
+There is a wanted poster with all of their faces. They are assigned a 10 gold
 bounty each. They are blamed for helping Linda Moisuz escape from Azorius
 prison.
 
